@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Virelion-Biotech/Virelion-CardiBench/schema/benchmark_definition.schema.json",
+  "title": "CardiBench BenchmarkDefinition",
+  "type": "object",
+  "required": ["benchmark_id", "version", "task", "target", "split_policy", "group_key"],
+  "properties": {
+    "benchmark_id": {"type": "string"},
+    "version": {"type": "string"},
+    "task": {"type": "string", "enum": ["classification", "regression", "retrieval", "representation", "detection", "characterization", "generalization"]},
+    "target": {"type": "string"},
+    "modalities": {"type": "array", "items": {"type": "string"}},
+    "phenotype_ontology": {"type": "string"},
+    "split_policy": {"type": "string", "enum": ["subject", "donor", "animal", "study", "technical_group", "sample_with_warning"]},
+    "group_key": {"type": "string"},
+    "test_labels_private": {"type": "boolean"},
+    "source_datasets": {"type": "array", "items": {"type": "string"}},
+    "metrics": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}
