@@ -18,8 +18,18 @@ class ProvenanceRecord:
         return asdict(self)
 
 
-def canonical_metadata_hash(metadata: dict[str, Any]) -> str:
-    payload = json.dumps(metadata, sort_keys=True, separators=(",", ":"), ensure_ascii=True).encode()
+def _canonicalize(value: Any) -> Any:
+    """Normalize mappings and unordered record lists before hashing."""
+    if isinstance(value, dict):
+        return {key: _canonicalize(value[key]) for key in sorted(value)}
+    if isinstance(value, list):
+        normalized = [_canonicalize(item) for item in value]
+        return sorted(normalized, key=lambda item: json.dumps(item, sort_keys=True, separators=(",", ":"), ensure_ascii=True))
+    return value
+
+
+def canonical_metadata_hash(metadata: Any) -> str:
+    payload = json.dumps(_canonicalize(metadata), sort_keys=True, separators=(",", ":"), ensure_ascii=True).encode()
     return hashlib.sha256(payload).hexdigest()
 
 
