@@ -10,11 +10,13 @@ from .splits import plan_group_split
 from .policies import plan_policy_split
 from .benchmark import assert_benchmark_safe, label_counts
 
+
 @dataclass(frozen=True)
 class MaterializedBenchmark:
     benchmark_id: str
     version: str
     policy: str
+    seed: int
     assignments: dict[str, str]
     label_counts: dict[str, dict[str, int]]
     sample_count: int
@@ -42,6 +44,8 @@ def materialize(
     rows = list(samples)
     if not rows:
         raise ValueError("cannot materialize an empty benchmark")
+    if seed < 0:
+        raise ValueError("seed must be non-negative")
     test_values = test_values or set()
     validation_values = validation_values or set()
 
@@ -50,6 +54,7 @@ def materialize(
             rows,
             test_groups=test_values,
             validation_groups=validation_values,
+            seed=seed,
         ).assignments
     else:
         assignments = plan_policy_split(
@@ -69,11 +74,14 @@ def materialize(
         "labels": counts,
         "seed": seed,
     }
-    digest = sha256(json.dumps(canonical, sort_keys=True, separators=(",", ":")).encode()).hexdigest()
+    digest = sha256(
+        json.dumps(canonical, sort_keys=True, separators=(",", ":")).encode()
+    ).hexdigest()
     return MaterializedBenchmark(
         benchmark_id=benchmark_id,
         version=version,
         policy=policy,
+        seed=seed,
         assignments=assignments,
         label_counts=counts,
         sample_count=len(rows),
