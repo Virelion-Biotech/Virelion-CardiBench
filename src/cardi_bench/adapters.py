@@ -11,9 +11,9 @@ class AdapterResult:
     rejected: tuple[str, ...]
 
 _LABEL_PATTERNS = (
+    ("ischemia_reperfusion", re.compile(r"\b(i/?r|ischemia[-_ ]reperfusion|reperfusion)\b", re.I)),
     ("myocardial_injury", re.compile(r"\b(mi|myocardial\s+infarction|infarct|injury|ischemi[ac])\b", re.I)),
     ("reference", re.compile(r"\b(sham|control|ctl|healthy|normal|reference)\b", re.I)),
-    ("ischemia_reperfusion", re.compile(r"\b(i/?r|ischemia[-_ ]reperfusion|reperfusion)\b", re.I)),
 )
 
 
@@ -63,5 +63,9 @@ def adapt_geo_samples(records: list[dict[str, str]], *, study_id: str) -> Adapte
             study_id=study_id,
             label=label,
             technical_group=record.get("technical_group") or record.get("library_id"),
+            organism=record.get("organism") or record.get("species"),
+            timepoint=record.get("timepoint") or record.get("time_point") or record.get("harvest_timepoint"),
+            cell_context=record.get("cell_context") or record.get("cell_type"),
+            region=record.get("region") or record.get("tissue_region"),
         ))
     return AdapterResult(tuple(samples), tuple(warnings), tuple(rejected))
