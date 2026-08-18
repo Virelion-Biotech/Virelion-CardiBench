@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CardiBench Sample Record",
+  "type": "object",
+  "required": ["dataset_id","sample_id","study_id","organism","tissue","modality","raw_condition"],
+  "properties": {
+    "dataset_id": {"type":"string"},
+    "sample_id": {"type":"string"},
+    "study_id": {"type":"string"},
+    "subject_id": {"type":["string","null"]},
+    "biological_group": {"type":["string","null"]},
+    "technical_group": {"type":["string","null"]},
+    "organism": {"type":"string"},
+    "tissue": {"type":"string"},
+    "modality": {"type":"string"},
+    "raw_condition": {"type":"string"},
+    "normalized_label": {"type":["string","null"]},
+    "timepoint": {"type":["string","null"]},
+    "region": {"type":["string","null"]},
+    "cell_context": {"type":["string","null"]}
+  },
+  "additionalProperties": false
+}
