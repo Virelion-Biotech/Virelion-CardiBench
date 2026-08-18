@@ -1,22 +1,14 @@
 {
-  "benchmark_id": "cross-species-transfer",
-  "version": "1.0",
-  "status": "candidate",
-  "task": "cross_species_generalization",
-  "goal": "Measure whether cardiac representations learned in one species transfer to a completely held-out species.",
-  "modalities": ["single-cell RNA-seq", "single-nucleus RNA-seq"],
-  "split": {
-    "policy": "species_heldout",
-    "test_values": ["Homo sapiens", "Sus scrofa", "Mus musculus"],
-    "technical_replicates_together": true,
-    "biological_subjects_together": true
-  },
-  "quality_gates": {
-    "require_verified_condition": true,
-    "require_species": true,
-    "require_subject_identifier": true,
-    "reject_group_leakage": true
-  },
-  "evaluation": ["auroc", "auprc", "balanced_accuracy", "macro_f1", "calibration"],
-  "notes": "Instantiate only when sufficient compatible labels and cell contexts exist in at least two species."
+  "benchmark_id":"cross-species-transfer",
+  "version":"1.0",
+  "status":"candidate",
+  "task":"cross_species_generalization",
+  "dataset_ids":["litvinukova_2020_human_heart","gse153480_mi_sham","gse269054_multimodal_mi"],
+  "goal":"Measure whether cardiac representations learned in one species transfer to a completely held-out species.",
+  "modalities":["single-cell RNA-seq","single-nucleus RNA-seq"],
+  "split":{"primary_group_key":"species","secondary_group_key":"biological_subject","policy":"species_heldout","test_values":["Homo sapiens","Sus scrofa","Mus musculus"],"study_held_out_test":false,"technical_replicates_together":true,"biological_subjects_together":true},
+  "quality_gates":{"require_verified_condition":true,"require_species":true,"require_subject_identifier":true,"reject_group_leakage":true,"reject_technical_replicate_leakage":true},
+  "evaluation":["auroc","auprc","balanced_accuracy","macro_f1","calibration"],
+  "private_test_labels":true,
+  "notes":"Instantiate only when sufficient compatible labels and cell contexts exist in at least two species."
 }
