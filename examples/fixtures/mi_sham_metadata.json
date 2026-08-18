@@ -1,0 +1,6 @@
+[
+  {"sample_id":"S1","subject_id":"M1","study_id":"fixture_mi","title":"MI day 1","condition":"MI","tissue":"heart","organism":"Mus musculus","modality":"single-nucleus RNA-seq"},
+  {"sample_id":"S2","subject_id":"M2","study_id":"fixture_mi","title":"MI day 1","condition":"myocardial infarction","tissue":"heart","organism":"Mus musculus","modality":"single-nucleus RNA-seq"},
+  {"sample_id":"S3","subject_id":"M3","study_id":"fixture_mi","title":"Sham day 1","condition":"sham","tissue":"heart","organism":"Mus musculus","modality":"single-nucleus RNA-seq"},
+  {"sample_id":"S4","subject_id":"M4","study_id":"fixture_mi","title":"Sham day 1","condition":"control","tissue":"heart","organism":"Mus musculus","modality":"single-nucleus RNA-seq"}
+]
