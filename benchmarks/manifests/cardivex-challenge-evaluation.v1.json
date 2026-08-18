@@ -1,0 +1,15 @@
+{
+  "benchmark_id":"cardivex-challenge-evaluation",
+  "version":"1.0",
+  "status":"candidate",
+  "task":"blind_detection",
+  "source":"Virelion-CardiAgent",
+  "input_contract":"phenotype_level_blinded_challenge",
+  "ground_truth_visibility":"private",
+  "required_outputs":["detected","predicted_domain","confidence"],
+  "optional_outputs":["characterization","severity_estimate","uncertainty"],
+  "evaluation":["detection_rate","false_negative_rate","characterization_accuracy","calibration","selective_accuracy"],
+  "difficulty_strata":["baseline","moderate","hard","stress","edge"],
+  "quality_gates":{"require_unique_case_id":true,"require_hidden_truth":true,"reject_duplicate_cases":true},
+  "private_test_labels":true
+}
