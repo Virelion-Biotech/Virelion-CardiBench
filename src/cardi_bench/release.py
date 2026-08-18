@@ -39,7 +39,7 @@ def audit_repository_paths(paths: Iterable[str]) -> AuditResult:
     if not any(p.startswith("tests/") for p in available):
         errors.append("no test suite found")
     warnings: list[str] = []
-    if not any("workflow" in PurePosixPath(p).parts for p in available):
+    if not any(".github/workflows/" in p for p in available):
         warnings.append("continuous-integration workflow not detected")
     if not any(p.startswith("examples/fixtures/") for p in available):
         warnings.append("no end-to-end fixture metadata found")
