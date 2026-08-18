@@ -1,0 +1,36 @@
+{
+  "benchmark_id": "mi-vs-reference",
+  "version": "1.0",
+  "status": "metadata_ready_candidate",
+  "task": "binary_classification",
+  "positive_label": "myocardial_injury",
+  "negative_label": "reference",
+  "modalities": ["single-cell RNA-seq", "single-nucleus RNA-seq"],
+  "dataset_ids": [
+    "litvinukova_2020_human_heart",
+    "gse153480_mi_sham",
+    "gse135310_mi_sham",
+    "gse216211_mi_sham",
+    "gse106472_mi_reference",
+    "gse269054_multimodal_mi"
+  ],
+  "split": {
+    "primary_group_key": "biological_subject",
+    "fallback_group_keys": ["animal", "donor", "study"],
+    "technical_replicates_together": true,
+    "study_held_out_test": true,
+    "random_seed": 20260818
+  },
+  "quality_gates": {
+    "require_verified_condition": true,
+    "require_subject_identifier": true,
+    "require_modality": true,
+    "require_tissue": true,
+    "reject_ambiguous_labels": true,
+    "reject_group_leakage": true,
+    "reject_technical_replicate_leakage": true
+  },
+  "evaluation": ["auroc", "auprc", "balanced_accuracy", "sensitivity", "specificity", "brier_score"],
+  "public_input": "metadata_and_preprocessed_features_only",
+  "private_test_labels": true
+}
