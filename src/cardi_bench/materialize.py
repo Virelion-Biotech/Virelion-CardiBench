@@ -63,7 +63,7 @@ def materialize(
             validation_values=validation_values,
         )
 
-    assert_benchmark_safe(rows, assignments)
+    assert_benchmark_safe(rows, assignments, policy=policy)
     counts = label_counts(rows, assignments)
     canonical = {
         "benchmark_id": benchmark_id,
