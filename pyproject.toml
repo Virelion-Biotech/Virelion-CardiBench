@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "virelion-cardi-bench"
+version = "0.5.0"
+description = "Reproducible cardiac benchmark registry, ingestion, normalization, and leakage-aware split tooling"
+requires-python = ">=3.10"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [{name = "Virelion Biotech"}]
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+all = ["pytest>=8"]
+
+[project.scripts]
+cardibench = "cardi_bench.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
