@@ -1,7 +1,12 @@
-"""Deterministic leakage-aware splitting for CardiBench samples."""
+"""Backward-compatible aliases for the canonical deterministic splitter.
+
+New code should use :mod:`cardi_bench.splits` directly. This module remains so
+existing callers do not silently acquire a second, differently behaving split
+implementation.
+"""
 from __future__ import annotations
-import random
-from collections import defaultdict
+
+from .splits import make_group_split, split_summary
 from .samples import SampleRecord
 
 
@@ -25,34 +30,22 @@ def make_grouped_split(
     validation_fraction: float = 0.15,
     group_preference: str = "biological_subject",
 ) -> dict[str, str]:
-    """Assign samples to train/validation/test without splitting groups."""
-    if not 0.0 < train_fraction < 1.0:
-        raise ValueError("train_fraction must be within (0,1)")
-    if not 0.0 <= validation_fraction < 1.0:
-        raise ValueError("validation_fraction must be within [0,1)")
-    if train_fraction + validation_fraction >= 1.0:
+    """Compatibility wrapper around the canonical group splitter."""
+    remaining = max(0.0, 1.0 - train_fraction - validation_fraction)
+    if remaining <= 0.0:
         raise ValueError("train_fraction + validation_fraction must be < 1")
-
-    groups: dict[str, list[SampleRecord]] = defaultdict(list)
-    for sample in samples:
-        groups[group_key(sample, group_preference)].append(sample)
-
-    group_ids = list(groups)
-    random.Random(seed).shuffle(group_ids)
-    total = len(group_ids)
-    train_n = max(1, round(total * train_fraction))
-    val_n = round(total * validation_fraction)
-    if train_n + val_n >= total:
-        val_n = max(0, total - train_n - 1)
-
-    train_groups = set(group_ids[:train_n])
-    val_groups = set(group_ids[train_n:train_n + val_n])
-    assignments: dict[str, str] = {}
-    for gid, members in groups.items():
-        split = "train" if gid in train_groups else "validation" if gid in val_groups else "test"
-        for sample in members:
-            assignments[sample.sample_id] = split
-    return assignments
+    group_by = "study_id" if group_preference == "study" else "group_id"
+    return make_group_split(
+        [
+            _to_sample(sample)
+            for sample in samples
+        ],
+        seed=seed,
+        train_fraction=train_fraction,
+        validation_fraction=validation_fraction,
+        test_fraction=remaining,
+        group_by=group_by,
+    )
 
 
 def split_statistics(assignments: dict[str, str], samples: list[SampleRecord]) -> dict[str, dict[str, int]]:
@@ -66,3 +59,14 @@ def split_statistics(assignments: dict[str, str], samples: list[SampleRecord]) -
             "labels": len({s.normalized_label for s in subset if s.normalized_label}),
         }
     return result
+
+
+def _to_sample(sample: SampleRecord):
+    from .registry import Sample
+    return Sample(
+        sample_id=sample.sample_id,
+        group_id=sample.subject_id or sample.biological_group or sample.sample_id,
+        study_id=sample.study_id,
+        label=sample.normalized_label or sample.raw_condition,
+        technical_group=sample.technical_group,
+    )
