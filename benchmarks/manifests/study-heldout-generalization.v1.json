@@ -1,0 +1,24 @@
+{
+  "benchmark_id": "study-heldout-generalization",
+  "version": "1.0",
+  "status": "candidate",
+  "task": "binary_and_multiclass_generalization",
+  "goal": "Measure whether cardiac phenotype representations generalize beyond the study that produced the training data.",
+  "modalities": ["single-cell RNA-seq", "single-nucleus RNA-seq", "spatial transcriptomics"],
+  "split": {
+    "group_key": "study_id",
+    "secondary_group_key": "biological_subject",
+    "technical_replicates_together": true,
+    "test_studies_are_completely_unseen": true,
+    "random_seed": 20260818
+  },
+  "quality_gates": {
+    "require_verified_condition": true,
+    "require_study_id": true,
+    "require_subject_identifier": true,
+    "reject_group_leakage": true,
+    "reject_technical_replicate_leakage": true
+  },
+  "evaluation": ["auroc", "auprc", "balanced_accuracy", "macro_f1", "calibration"],
+  "interpretation": "A study-held-out result is intended as a stronger test of biological generalization than a random cell-level split."
+}
