@@ -54,7 +54,6 @@ def materialize(
             rows,
             test_groups=test_values,
             validation_groups=validation_values,
-            seed=seed,
         ).assignments
     else:
         assignments = plan_policy_split(
