@@ -9,6 +9,7 @@ from .policies import POLICIES, Policy, available_policies, plan_policy_split
 from .provenance import ProvenanceRecord, canonical_metadata_hash, make_provenance
 from .quality import QualityReport, assess_dataset
 from .readiness import ReadinessReport, assess_readiness
+from .release import AuditResult, audit_repository_paths
 from .registry import Sample, summarize_samples, validate_no_group_leakage
 from .samples import SampleRecord, attach_normalized_label, normalize_condition
 from .splits import make_group_split, split_summary
@@ -20,6 +21,7 @@ __all__ = [
     "validate_no_group_leakage", "summarize_samples", "group_key",
     "make_grouped_split", "split_summary", "split_statistics",
     "QualityReport", "assess_dataset", "ReadinessReport", "assess_readiness",
+    "AuditResult", "audit_repository_paths",
     "LABELS", "CELL_CONTEXTS", "REGIONS", "MODALITIES",
     "validate_manifest", "assert_valid_manifest",
     "BenchmarkFamily", "BENCHMARK_FAMILIES", "get_benchmark_family",
