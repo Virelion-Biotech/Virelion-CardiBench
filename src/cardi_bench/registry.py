@@ -10,6 +10,10 @@ class Sample:
     study_id: str
     label: str
     technical_group: str | None = None
+    organism: str | None = None
+    timepoint: str | None = None
+    cell_context: str | None = None
+    region: str | None = None
 
 
 def validate_no_group_leakage(assignments: dict[str, str], samples: Iterable[Sample]) -> list[str]:
