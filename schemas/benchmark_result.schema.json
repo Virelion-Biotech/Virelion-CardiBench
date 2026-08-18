@@ -1,0 +1,17 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"CardiBench Benchmark Result",
+  "type":"object",
+  "required":["benchmark_id","model_id","model_version","split","metrics","sample_count","provenance_sha256"],
+  "properties":{
+    "benchmark_id":{"type":"string"},
+    "model_id":{"type":"string"},
+    "model_version":{"type":"string"},
+    "split":{"enum":["validation","test"]},
+    "metrics":{"type":"object","additionalProperties":{"type":"number"}},
+    "sample_count":{"type":"integer","minimum":1},
+    "provenance_sha256":{"type":"string","pattern":"^[a-f0-9]{64}$"},
+    "notes":{"type":"string"}
+  },
+  "additionalProperties":false
+}
