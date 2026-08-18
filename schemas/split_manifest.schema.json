@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CardiBench Split Manifest",
+  "type": "object",
+  "required": ["benchmark_id", "split_policy", "groups", "assignments"],
+  "properties": {
+    "benchmark_id": {"type": "string"},
+    "split_policy": {"enum": ["subject", "donor", "animal", "study", "technical_replicate", "sample_with_warning"]},
+    "group_key": {"type": "string"},
+    "random_seed": {"type": "integer"},
+    "groups": {"type": "array", "items": {"type": "string"}},
+    "assignments": {
+      "type": "object",
+      "additionalProperties": {"enum": ["train", "validation", "test"]}
+    },
+    "leakage_checks": {
+      "type": "object",
+      "properties": {
+        "group_overlap": {"type": "boolean"},
+        "technical_replicate_overlap": {"type": "boolean"},
+        "status": {"enum": ["pass", "fail", "warning"]}
+      }
+    }
+  },
+  "additionalProperties": false
+}
