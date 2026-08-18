@@ -1,0 +1,49 @@
+version: "1.0"
+benchmarks:
+  - id: cardiac-state-classification
+    status: candidate
+    task: multiclass_classification
+    preferred_splits: [subject, study]
+    modalities: [single_cell, single_nucleus, bulk, spatial]
+    labels: [reference, myocardial_injury, remodeling, inflammatory, hypertrophic, metabolic, electrophysiologic, fibrotic, cell_state, pathogen_associated]
+  - id: mi-vs-reference
+    status: candidate
+    task: binary_classification
+    preferred_splits: [subject, study]
+    modalities: [single_cell, single_nucleus, spatial]
+    labels: [reference, myocardial_injury]
+  - id: study-heldout-generalization
+    status: candidate
+    task: cross_study_generalization
+    preferred_splits: [study]
+    modalities: [single_cell, single_nucleus, spatial]
+  - id: cell-context-transfer
+    status: candidate
+    task: cross_cell_context_generalization
+    preferred_splits: [cell_context, subject]
+    modalities: [single_cell, single_nucleus, spatial]
+  - id: temporal-injury-generalization
+    status: candidate
+    task: temporal_generalization
+    preferred_splits: [timepoint, subject]
+    modalities: [single_cell, single_nucleus, spatial]
+  - id: cross-species-transfer
+    status: candidate
+    task: cross_species_generalization
+    preferred_splits: [species, subject]
+    modalities: [single_cell, single_nucleus, spatial]
+  - id: multimodal-cardiac-state
+    status: candidate
+    task: multimodal_prediction
+    preferred_splits: [subject, study]
+    modalities: [single_nucleus, spatial, bulk, imaging]
+  - id: pathogen-associated-cardiac-state
+    status: candidate
+    task: phenotype_classification
+    preferred_splits: [study, subject]
+    modalities: [single_cell, single_nucleus, bulk, spatial]
+  - id: cardivex-challenge-evaluation
+    status: candidate
+    task: blinded_detection
+    preferred_splits: [challenge_seed, generation_version]
+    modalities: [phenotype_level]
