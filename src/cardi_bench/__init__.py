@@ -1,7 +1,7 @@
 """CardiBench: reproducible cardiac benchmark infrastructure."""
 
 from .adapters import AdapterResult, adapt_geo_samples
-from .benchmark import SplitPlan, assert_benchmark_safe, label_counts, plan_group_split
+from .benchmark import SplitPlan, assert_benchmark_safe, label_counts, plan_group_split, validate_policy_integrity
 from .catalog import BENCHMARK_FAMILIES, BenchmarkFamily, get_benchmark_family
 from .manifest import assert_valid_manifest, validate_manifest
 from .materialize import MaterializedBenchmark, materialize
@@ -27,6 +27,6 @@ __all__ = [
     "BenchmarkFamily", "BENCHMARK_FAMILIES", "get_benchmark_family",
     "ProvenanceRecord", "canonical_metadata_hash", "make_provenance",
     "Policy", "POLICIES", "available_policies", "plan_policy_split",
-    "SplitPlan", "plan_group_split", "assert_benchmark_safe", "label_counts",
+    "SplitPlan", "plan_group_split", "assert_benchmark_safe", "validate_policy_integrity", "label_counts",
     "MaterializedBenchmark", "materialize", "BenchmarkResult",
 ]
