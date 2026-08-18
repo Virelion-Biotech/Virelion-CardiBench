@@ -1,22 +1,14 @@
 {
-  "benchmark_id": "temporal-injury-generalization",
-  "version": "1.0",
-  "status": "candidate",
-  "task": "temporal_generalization",
-  "goal": "Test whether a model distinguishes cardiac injury states across unseen temporal stages rather than memorizing timepoint-specific signatures.",
-  "modalities": ["single-cell RNA-seq", "single-nucleus RNA-seq", "spatial transcriptomics"],
-  "split": {
-    "policy": "temporal_heldout",
-    "test_timepoints": ["late", "persistent", "recovery"],
-    "biological_subjects_together": true,
-    "technical_replicates_together": true
-  },
-  "quality_gates": {
-    "require_timepoint": true,
-    "require_verified_condition": true,
-    "reject_subject_leakage": true,
-    "reject_technical_replicate_leakage": true
-  },
-  "evaluation": ["auroc", "auprc", "balanced_accuracy", "macro_f1", "calibration"],
-  "notes": "Timepoint names must be normalized at ingestion; this benchmark requires sufficient representation of comparable temporal stages."
+  "benchmark_id":"temporal-injury-generalization",
+  "version":"1.0",
+  "status":"candidate",
+  "task":"temporal_generalization",
+  "dataset_ids":["gse153480_mi_sham","gse135310_mi_sham","gse269054_multimodal_mi"],
+  "goal":"Test whether a model distinguishes cardiac injury states across unseen temporal stages rather than memorizing timepoint-specific signatures.",
+  "modalities":["single-cell RNA-seq","single-nucleus RNA-seq","spatial transcriptomics"],
+  "split":{"primary_group_key":"biological_subject","policy":"temporal_heldout","test_timepoints":["late","persistent","recovery"],"study_held_out_test":false,"biological_subjects_together":true,"technical_replicates_together":true},
+  "quality_gates":{"require_timepoint":true,"require_verified_condition":true,"require_subject_identifier":true,"reject_group_leakage":true,"reject_technical_replicate_leakage":true},
+  "evaluation":["auroc","auprc","balanced_accuracy","macro_f1","calibration"],
+  "private_test_labels":true,
+  "notes":"Timepoint names must be normalized at ingestion; this benchmark requires sufficient representation of comparable temporal stages."
 }
