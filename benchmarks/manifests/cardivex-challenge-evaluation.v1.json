@@ -2,14 +2,16 @@
   "benchmark_id":"cardivex-challenge-evaluation",
   "version":"1.0",
   "status":"candidate",
-  "task":"blind_detection",
+  "task":"blinded_detection",
+  "dataset_ids":["cardivex-agent-challenges-v1"],
   "source":"Virelion-CardiAgent",
   "input_contract":"phenotype_level_blinded_challenge",
   "ground_truth_visibility":"private",
   "required_outputs":["detected","predicted_domain","confidence"],
   "optional_outputs":["characterization","severity_estimate","uncertainty"],
+  "split":{"primary_group_key":"challenge_case","study_held_out_test":true,"technical_replicates_together":true,"random_seed":20260818},
+  "quality_gates":{"require_unique_case_id":true,"require_hidden_truth":true,"require_verified_condition":true,"require_subject_identifier":false,"reject_group_leakage":true,"reject_technical_replicate_leakage":true,"reject_duplicate_cases":true},
   "evaluation":["detection_rate","false_negative_rate","characterization_accuracy","calibration","selective_accuracy"],
   "difficulty_strata":["baseline","moderate","hard","stress","edge"],
-  "quality_gates":{"require_unique_case_id":true,"require_hidden_truth":true,"reject_duplicate_cases":true},
   "private_test_labels":true
 }
