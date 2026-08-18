@@ -3,6 +3,7 @@
   "version":"1.0",
   "status":"candidate",
   "task":"phenotype_classification",
+  "dataset_ids":["pathogen_cardiac_phenotype_registry_v1"],
   "positive_context":"pathogen_associated",
   "contrast_contexts":["inflammatory","myocardial_injury","metabolic"],
   "modalities":["single-cell RNA-seq","single-nucleus RNA-seq","clinical phenotype"],
