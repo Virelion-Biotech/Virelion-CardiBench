@@ -1,0 +1,67 @@
+version: "1.0"
+registry_policy:
+  metadata_only: true
+  source_data_redistributed: false
+  accession_required: true
+  verification_status: "curated_candidate"
+
+datasets:
+  - id: "litvinukova_2020_human_heart"
+    title: "Cell-by-cell analysis of the human heart reveals the cellular ecosystem of the myocardium"
+    source: "Nature"
+    accession: "GSE145154"
+    organism: "Homo sapiens"
+    tissue: "heart"
+    modality: "single-nucleus RNA-seq"
+    design: "human cardiac cell atlas"
+    cardiac_contexts: ["reference", "cardiac_cell_atlas"]
+    use_cases: ["cell annotation", "reference atlas", "cell-context transfer"]
+    labels: ["cell type", "anatomical region", "donor"]
+    leakage_group: "donor"
+    status: "candidate"
+    notes: "Use as a reference atlas; do not treat heterogeneous donor tissue as a randomized disease-control experiment."
+
+  - id: "mi_sham_cardiac_snrna_candidate"
+    title: "Cardiac injury single-nucleus RNA-seq benchmark candidate"
+    source: "NCBI GEO"
+    accession: "GSE189733"
+    organism: "Mus musculus"
+    tissue: "heart"
+    modality: "single-nucleus RNA-seq"
+    design: "experimental myocardial injury and reference samples"
+    cardiac_contexts: ["myocardial_injury", "reference"]
+    use_cases: ["MI-vs-reference", "injury-state classification", "cell-state analysis"]
+    labels: ["injury condition", "sample", "cell type"]
+    leakage_group: "animal"
+    status: "candidate_requires_metadata_verification"
+    notes: "Verify exact sample-level MI/reference assignments from GEO metadata before materializing a benchmark split."
+
+  - id: "porcine_cardiac_snRNA_reference_candidate"
+    title: "Porcine cardiac single-nucleus RNA-seq reference/injury candidate"
+    source: "NCBI GEO"
+    accession: "GSE147768"
+    organism: "Sus scrofa"
+    tissue: "heart"
+    modality: "single-nucleus RNA-seq"
+    design: "porcine cardiac transcriptomic study"
+    cardiac_contexts: ["reference", "injury_candidate"]
+    use_cases: ["cross-species transfer", "cell annotation", "injury modeling"]
+    labels: ["sample", "cell type", "experimental condition"]
+    leakage_group: "animal"
+    status: "candidate_requires_metadata_verification"
+    notes: "Condition labels must be reconciled with the study's original metadata before benchmark inclusion."
+
+  - id: "human_cardiac_bulk_reference"
+    title: "Human cardiac bulk transcriptomic reference collection"
+    source: "NCBI GEO"
+    accession: "GSE57338"
+    organism: "Homo sapiens"
+    tissue: "heart"
+    modality: "bulk RNA-seq"
+    design: "human cardiac transcriptomic cohort"
+    cardiac_contexts: ["reference", "disease_comparison"]
+    use_cases: ["cross-study validation", "bulk expression benchmarking"]
+    labels: ["clinical group", "sample"]
+    leakage_group: "study_subject"
+    status: "candidate_requires_metadata_verification"
+    notes: "Confirm assay technology and phenotype labels from the accession metadata before use."
