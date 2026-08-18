@@ -1,0 +1,22 @@
+{
+  "benchmark_id": "cross-species-transfer",
+  "version": "1.0",
+  "status": "candidate",
+  "task": "cross_species_generalization",
+  "goal": "Measure whether cardiac representations learned in one species transfer to a completely held-out species.",
+  "modalities": ["single-cell RNA-seq", "single-nucleus RNA-seq"],
+  "split": {
+    "policy": "species_heldout",
+    "test_values": ["Homo sapiens", "Sus scrofa", "Mus musculus"],
+    "technical_replicates_together": true,
+    "biological_subjects_together": true
+  },
+  "quality_gates": {
+    "require_verified_condition": true,
+    "require_species": true,
+    "require_subject_identifier": true,
+    "reject_group_leakage": true
+  },
+  "evaluation": ["auroc", "auprc", "balanced_accuracy", "macro_f1", "calibration"],
+  "notes": "Instantiate only when sufficient compatible labels and cell contexts exist in at least two species."
+}
