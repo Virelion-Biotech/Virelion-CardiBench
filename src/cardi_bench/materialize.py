@@ -6,7 +6,7 @@ import json
 from typing import Iterable
 
 from .registry import Sample
-from .splits import plan_group_split
+from .splits import make_group_split
 from .policies import plan_policy_split
 from .benchmark import assert_benchmark_safe, label_counts
 
@@ -50,11 +50,20 @@ def materialize(
     validation_values = validation_values or set()
 
     if policy == "subject_heldout":
-        assignments = plan_group_split(
+        assignments = make_group_split(
             rows,
-            test_groups=test_values,
-            validation_groups=validation_values,
-        ).assignments
+            seed=seed,
+            group_by="group_id",
+        )
+        if validation_values or test_values:
+            unknown = (test_values | validation_values) - {r.group_id for r in rows}
+            if unknown:
+                raise ValueError(f"unknown subject groups: {sorted(unknown)}")
+            for row in rows:
+                if row.group_id in test_values:
+                    assignments[row.sample_id] = "test"
+                elif row.group_id in validation_values:
+                    assignments[row.sample_id] = "validation"
     else:
         assignments = plan_policy_split(
             rows,
