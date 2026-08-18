@@ -3,6 +3,7 @@
   "version":"1.0",
   "status":"candidate",
   "task":"multimodal_classification",
+  "dataset_ids":["gse269054_multimodal_mi"],
   "modalities":["single-nucleus RNA-seq","spatial transcriptomics","phenotype table"],
   "alignment_requirements":["shared subject or donor identifier","compatible anatomical region","documented timepoint alignment"],
   "split":{"primary_group_key":"biological_subject","study_held_out_test":true,"technical_replicates_together":true,"random_seed":20260818},
