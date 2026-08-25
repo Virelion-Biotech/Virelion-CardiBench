@@ -1,0 +1,91 @@
+id: mi-vs-sham-geo-source-audit
+version: "1.0"
+status: "source-audited"
+updated: "2026-08-25"
+purpose: "Record programmatically verified GEO source characteristics before benchmark materialization."
+
+acquisition_policy:
+  metadata: "GEO accession/SOFT metadata"
+  preferred_processed_data: "GEO supplementary MTX/TSV/count matrices"
+  raw_sequence_data: "SRA only when processed data are insufficient"
+  raw_data_commit: false
+  provenance_required: true
+  biological_subject_identity_required: true
+  technical_replicates_must_not_be_split: true
+
+sources:
+  - accession: GSE153480
+    role: primary_candidate
+    organism: Mus musculus
+    assay: scRNA-seq
+    question_fit: "direct MI vs sham"
+    samples: 8
+    conditions: "P1/P8 MI and sham at 1/3 days post surgery"
+    processed_data: "GEO supplementary MTX/TSV filtered gene-barcode matrices"
+    raw_archive_size: "117.4 MB"
+    sample_accessions:
+      - GSM4644949
+      - GSM4644950
+      - GSM4644951
+      - GSM4644952
+      - GSM4644953
+      - GSM4644954
+      - GSM4644955
+      - GSM4644956
+    use: "primary within-study candidate after biological-unit reconciliation"
+    caveat: "Neonatal P1/P8 biology and timepoint are explicit strata; do not pool across strata without a prespecified analysis."
+
+  - accession: GSE135310
+    role: secondary_candidate
+    organism: Mus musculus
+    assay: scRNA-seq/CITE-seq
+    question_fit: "MI and sham immune-cell response"
+    samples: 7
+    conditions: "permanent MI or sham across multiple timepoints; immune-cell-focused designs"
+    processed_data: "GEO supplementary MTX/TSV/TXT"
+    raw_archive_size: "2.1 GB"
+    use: "immune/cell-context and temporal generalization; not the primary whole-heart benchmark"
+    caveat: "Multiple cell compartments, pooled libraries and timepoints require sample-level and biological-subject reconstruction before use."
+
+  - accession: GSE216211
+    role: external_validation_candidate
+    organism: Mus musculus
+    assay: scRNA-seq
+    question_fit: "direct Sham vs MI"
+    samples: 3
+    conditions: "Sham, MI, MI-E"
+    processed_data: "GEO supplementary MTX/TSV"
+    raw_archive_size: "191.3 MB"
+    use: "external/qualitative validation or macrophage-specific evaluation"
+    caveat: "Only one GEO sample is provided for Sham and one for MI; insufficient for a standalone biological-replicate benchmark."
+
+  - accession: GSE106472
+    role: mechanistic_external_candidate
+    organism: Mus musculus
+    assay: inDrop scRNA-seq
+    question_fit: "WT MI vs WT non-MI reference"
+    samples: 3
+    conditions: "WT D4 MI, IRF3KO D4 MI, WT no-MI"
+    processed_data: "GEO supplementary MTX/TSV"
+    raw_archive_size: "10.7 MB"
+    use: "external mechanistic validation using WT MI vs WT no-MI only"
+    caveat: "Do not treat IRF3KO as a sham/reference sample; genotype is a major confounder and there is one sample per listed condition."
+
+  - accession: GSE269054
+    role: spatial_extension
+    organism: Mus musculus
+    assay: spatial transcriptomics / multimodal spatial profiling
+    question_fit: "MI injury borderzone vs reference with spatial context"
+    use: "separate spatial/zone-generalization task"
+    caveat: "Do not mix this directly into the initial scRNA-seq MI-vs-sham feature matrix; spatial samples have different measurement structure and may lack supplementary processed matrices."
+
+release_gate:
+  required_before_candidate_release:
+    - "Download and checksum all selected processed files."
+    - "Parse Series and Sample metadata from GEO/SOFT."
+    - "Resolve biological subject/unit identity without heuristic fabrication."
+    - "Assign MI/sham labels only from auditable metadata."
+    - "Record tissue, anatomical zone, age, timepoint, cell context, assay and study."
+    - "Reject or quarantine ambiguous pooled/technical samples."
+    - "Materialize one-row-per-biological-unit benchmark inputs."
+    - "Run leakage audit before CardiLearn training."
