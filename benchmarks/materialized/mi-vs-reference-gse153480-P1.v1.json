@@ -1,0 +1,24 @@
+{
+  "assignments": {
+    "GSM4644949": "train",
+    "GSM4644950": "train",
+    "GSM4644951": "validation",
+    "GSM4644952": "train"
+  },
+  "benchmark_id": "mi-vs-reference-gse153480-P1",
+  "group_count": 4,
+  "label_counts": {
+    "train": {
+      "myocardial_injury": 1,
+      "reference": 2
+    },
+    "validation": {
+      "myocardial_injury": 1
+    }
+  },
+  "metadata_sha256": "7594997ddb6ad55c44fb3c8e4e0bce55cb210d8f4ccd23d307e61109eef8e0f3",
+  "policy": "subject_heldout",
+  "sample_count": 4,
+  "seed": 42,
+  "version": "1.0.0"
+}
