@@ -1,0 +1,42 @@
+{
+  "adapter_status": "all 8 samples accepted",
+  "caveats": [
+    "Each library is a biological pool, not a single animal. Treating the library as the independent unit is correct for this design.",
+    "Cell-level observations within a library are not independent biological replicates.",
+    "P1 and P8 biology differ; primary regenerative MI-vs-sham analysis should prefer the P1 stratum or model age explicitly.",
+    "No expression matrix is redistributed here; only metadata + locked split manifests."
+  ],
+  "dataset": "GSE153480",
+  "digests": {
+    "P1": "7594997ddb6ad55c44fb3c8e4e0bce55cb210d8f4ccd23d307e61109eef8e0f3",
+    "P8": "04ab3925ba5ed978a9e25b5f9e35cdf96ee8aba11ce148627977d8d41f4c7487",
+    "pool": "6c6f9b8d6dd679704bbbaa009ec1ba47760628f96815ceb4730abe999751bf8a"
+  },
+  "experimental_unit": "litter-level pool (8-12 ventricles from the same litter \u2192 one 10x library)",
+  "individual_animal_ids_available": false,
+  "invented_ids": false,
+  "labels": {
+    "myocardial_injury": ["GSM4644949", "GSM4644951", "GSM4644953", "GSM4644955"],
+    "reference": ["GSM4644950", "GSM4644952", "GSM4644954", "GSM4644956"]
+  },
+  "materialized_benchmarks": [
+    "mi-vs-reference-gse153480-pool.v1.json",
+    "mi-vs-reference-gse153480-P1.v1.json",
+    "mi-vs-reference-gse153480-P8.v1.json"
+  ],
+  "paper": {
+    "authors": "Wang Z, Cui M, Shah AM, Tan W, Liu N, Bassel-Duby R, Olson EN",
+    "doi": "10.1016/j.celrep.2020.108472",
+    "geo": "GSE153480 (scRNA-seq); superseries GSE153481",
+    "journal": "Cell Reports",
+    "pmid": "33296652",
+    "title": "Cell-Type-Specific Gene Regulatory Networks Underlying Murine Neonatal Heart Regeneration at Single-Cell Resolution",
+    "year": 2020
+  },
+  "source_of_unit_definition": "STAR Methods + Figure 1 legend (n=8\u201312 animals pooled; n=1 library per condition\u00d7timepoint\u00d7age)",
+  "strata": {
+    "developmental_age": ["P1", "P8"],
+    "note": "P1 = regenerative; P8 = non-regenerative. Do not pool P1 and P8 without prespecified analysis.",
+    "post_surgical_day": ["day1", "day3"]
+  }
+}

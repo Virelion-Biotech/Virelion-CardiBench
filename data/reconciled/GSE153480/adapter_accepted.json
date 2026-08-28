@@ -1,0 +1,90 @@
+[
+  {
+    "cell_context": "whole_ventricle_nonmyocyte_focus",
+    "group_id": "GSE153480_pool_P1_day1_MI",
+    "label": "myocardial_injury",
+    "organism": "Mus musculus",
+    "region": "ventricle_below_ligation",
+    "sample_id": "GSM4644949",
+    "study_id": "GSE153480",
+    "technical_group": "GSM4644949",
+    "timepoint": "P1_day1"
+  },
+  {
+    "cell_context": "whole_ventricle_nonmyocyte_focus",
+    "group_id": "GSE153480_pool_P1_day1_Sham",
+    "label": "reference",
+    "organism": "Mus musculus",
+    "region": "ventricle_below_ligation",
+    "sample_id": "GSM4644950",
+    "study_id": "GSE153480",
+    "technical_group": "GSM4644950",
+    "timepoint": "P1_day1"
+  },
+  {
+    "cell_context": "whole_ventricle_nonmyocyte_focus",
+    "group_id": "GSE153480_pool_P1_day3_MI",
+    "label": "myocardial_injury",
+    "organism": "Mus musculus",
+    "region": "ventricle_below_ligation",
+    "sample_id": "GSM4644951",
+    "study_id": "GSE153480",
+    "technical_group": "GSM4644951",
+    "timepoint": "P1_day3"
+  },
+  {
+    "cell_context": "whole_ventricle_nonmyocyte_focus",
+    "group_id": "GSE153480_pool_P1_day3_Sham",
+    "label": "reference",
+    "organism": "Mus musculus",
+    "region": "ventricle_below_ligation",
+    "sample_id": "GSM4644952",
+    "study_id": "GSE153480",
+    "technical_group": "GSM4644952",
+    "timepoint": "P1_day3"
+  },
+  {
+    "cell_context": "whole_ventricle_nonmyocyte_focus",
+    "group_id": "GSE153480_pool_P8_day1_MI",
+    "label": "myocardial_injury",
+    "organism": "Mus musculus",
+    "region": "ventricle_below_ligation",
+    "sample_id": "GSM4644953",
+    "study_id": "GSE153480",
+    "technical_group": "GSM4644953",
+    "timepoint": "P8_day1"
+  },
+  {
+    "cell_context": "whole_ventricle_nonmyocyte_focus",
+    "group_id": "GSE153480_pool_P8_day1_Sham",
+    "label": "reference",
+    "organism": "Mus musculus",
+    "region": "ventricle_below_ligation",
+    "sample_id": "GSM4644954",
+    "study_id": "GSE153480",
+    "technical_group": "GSM4644954",
+    "timepoint": "P8_day1"
+  },
+  {
+    "cell_context": "whole_ventricle_nonmyocyte_focus",
+    "group_id": "GSE153480_pool_P8_day3_MI",
+    "label": "myocardial_injury",
+    "organism": "Mus musculus",
+    "region": "ventricle_below_ligation",
+    "sample_id": "GSM4644955",
+    "study_id": "GSE153480",
+    "technical_group": "GSM4644955",
+    "timepoint": "P8_day3"
+  },
+  {
+    "cell_context": "whole_ventricle_nonmyocyte_focus",
+    "group_id": "GSE153480_pool_P8_day3_Sham",
+    "label": "reference",
+    "organism": "Mus musculus",
+    "region": "ventricle_below_ligation",
+    "sample_id": "GSM4644956",
+    "study_id": "GSE153480",
+    "technical_group": "GSM4644956",
+    "timepoint": "P8_day3"
+  }
+]
