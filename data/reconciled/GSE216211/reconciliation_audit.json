@@ -1,0 +1,10 @@
+{
+  "adapter_status": "2 accepted",
+  "dataset": "GSE216211",
+  "digest": "2195a9baf4bff89c5f9a59c9e639c5efb553dd5e5cb99ea079878059c97d4566",
+  "excluded_from_primary": ["GSM6661564 (MI-E)"],
+  "experimental_unit": "library; individual animal IDs not in GEO",
+  "invented_ids": false,
+  "primary_binary": "Sham vs MI",
+  "reconciliation_date": "2026-08-29T08:55:17.140176+00:00"
+}

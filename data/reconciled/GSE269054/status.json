@@ -1,0 +1,7 @@
+{
+  "accession": "GSE269054",
+  "title": "Spatially clustered type I interferon responses at injury borderzones",
+  "status": "metadata_verified_candidate",
+  "organism": "Homo sapiens; Mus musculus",
+  "note": "Titles encode biol rep IDs for many Visium samples. Full library-level locking deferred pending complete per-sample genotype/condition/timepoint table and human vs mouse separation. Quarantine mixed ruptured-MI multi-rep libraries."
+}
