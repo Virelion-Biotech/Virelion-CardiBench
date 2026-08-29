@@ -1,0 +1,12 @@
+{
+  "benchmark_id": "mi-vs-reference-gse135310-eligible",
+  "checks": {
+    "expression_matrix_redistributed": false,
+    "invented_subject_ids": false,
+    "no_group_in_multiple_splits": true
+  },
+  "group_heldout": true,
+  "metadata_sha256": "7d81e2d2491894cd54fd3b899b59a4fd7fe00af8dcbf94a7d5d1026152d6c73f",
+  "policy": "subject_heldout",
+  "seed": 42
+}
