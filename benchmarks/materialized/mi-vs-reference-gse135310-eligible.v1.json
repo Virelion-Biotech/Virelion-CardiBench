@@ -1,0 +1,22 @@
+{
+  "assignments": {
+    "GSM4005123": "train",
+    "GSM4005124": "train",
+    "GSM4005125": "train",
+    "GSM4005126": "train",
+    "GSM4005127": "train"
+  },
+  "benchmark_id": "mi-vs-reference-gse135310-eligible",
+  "group_count": 5,
+  "label_counts": {
+    "train": {
+      "myocardial_injury": 4,
+      "reference": 1
+    }
+  },
+  "metadata_sha256": "7d81e2d2491894cd54fd3b899b59a4fd7fe00af8dcbf94a7d5d1026152d6c73f",
+  "policy": "subject_heldout",
+  "sample_count": 5,
+  "seed": 42,
+  "version": "1.0.0"
+}
