@@ -27,3 +27,26 @@ def test_materialization_rejects_cross_split_group_leakage():
     ]
     first = materialize(rows, benchmark_id="fixture", test_values={"a"})
     assert set(first.assignments.values()) == {"test"}
+
+
+def test_explicit_subject_partitions_are_exact():
+    result = materialize(_samples(), benchmark_id="fixture", test_values={"c"}, validation_values={"b"})
+    assert result.assignments == {"s1": "train", "s2": "validation", "s3": "test", "s4": "train"}
+
+
+def test_metadata_hash_binds_individual_labels():
+    from dataclasses import replace
+    rows = _samples()
+    changed = [replace(rows[0], label=rows[1].label), replace(rows[1], label=rows[0].label), *rows[2:]]
+    one = materialize(rows, benchmark_id="fixture", test_values={"c"})
+    two = materialize(changed, benchmark_id="fixture", test_values={"c"})
+    assert one.label_counts == two.label_counts
+    assert one.metadata_sha256 != two.metadata_sha256
+
+
+def test_rejects_duplicate_ids_and_overlapping_partitions():
+    import pytest
+    with pytest.raises(ValueError, match="unique"):
+        materialize([*_samples(), _samples()[0]], benchmark_id="fixture")
+    with pytest.raises(ValueError, match="disjoint"):
+        materialize(_samples(), benchmark_id="fixture", test_values={"a"}, validation_values={"a"})
