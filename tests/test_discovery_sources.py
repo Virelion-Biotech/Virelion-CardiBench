@@ -126,7 +126,7 @@ def test_ncbi_fetcher_contract_keeps_source_failures_isolated():
     calls=[]
     def fetch(url,params,timeout):
         calls.append((url,dict(params or {})))
-        if params and params.get("db")=="geo":raise RuntimeError("rate limited")
+        if params and params.get("db")=="gds":raise RuntimeError("rate limited")
         if "esearch.fcgi" in url:return {"esearchresult":{"idlist":[]}}
         return {}
     batch=run_discovery(sources=["geo","bioproject"],limit=1,fetch_json=fetch)
