@@ -8,6 +8,7 @@ Use CardiBench intelligence only through the HeartTwin service surface. HeartTwi
 - `benchmark.search`: search normalized evidence. Retrieval scores are lexical signals, not quality scores.
 - `benchmark.catalog`: list normalized evidence records with optional type/source filters.
 - `benchmark.discover`: collect bounded public-source observations. A discovery observation is a candidate only.
+- `benchmark.admission.assess`: fail-closed metadata/readiness assessment before scientific admission; returns `blocked` or `ready_for_review` and never auto-approves a dataset.
 - `benchmark.resolve`: materialize an already admitted benchmark from supplied sample metadata and biological split constraints.
 - `benchmark.result.record`: record a CardiEval result only after independent evaluation.
 - `benchmark.results`: retrieve protocol-scoped result history.
@@ -24,6 +25,6 @@ Use CardiBench intelligence only through the HeartTwin service surface. HeartTwi
 
 ## Preferred flow
 
-`benchmark.health → benchmark.search/catalog → scientific admission and reconciliation → benchmark.resolve → CardiLearn → CardiEval → benchmark.result.record → CardiTrace`
+`benchmark.health → benchmark.search/catalog → benchmark.admission.assess → scientific review/reconciliation → benchmark.resolve → CardiLearn → CardiEval → benchmark.result.record → CardiTrace`
 
-For a HeartTwin-native caller, prefer `VirelionServices.benchmark_search`, `benchmark_catalog`, `benchmark_discover`, `benchmark`, `benchmark_record_result`, and `benchmark_results` rather than importing CardiBench directly.
+For a HeartTwin-native caller, prefer `VirelionServices.benchmark_search`, `benchmark_catalog`, `benchmark_discover`, `benchmark_admission`, `benchmark`, `benchmark_record_result`, and `benchmark_results` rather than importing CardiBench directly.

@@ -7,7 +7,7 @@ from typing import Any, Iterable
 from .evidence import ResolvedCatalog
 from .result_history import BenchmarkResultObservation
 
-STRONG_IDENTIFIERS = {"doi", "geo", "sra", "bioproject", "pmid", "github", "accession"}
+STRONG_IDENTIFIERS = {"doi", "geo", "sra", "bioproject", "pmid", "pmcid", "nct", "github", "accession"}
 
 
 def catalog_coverage(catalog: ResolvedCatalog) -> dict[str, Any]:
