@@ -60,3 +60,16 @@ GNU Affero General Public License v3.0 or later (AGPL-3.0-or-later). See `LICENS
 CardiBench now exposes `benchmark.health`, `benchmark.search`, `benchmark.catalog`, `benchmark.discover`, `benchmark.result.record`, and `benchmark.results` alongside `benchmark.resolve`. Discovery observations are candidates only: they do not bypass dataset admission, reconciliation, biological grouping, readiness, or leakage checks. HeartTwin remains the orchestrator; CardiBridge owns transport; CardiTrace owns lineage; CardiEval owns independent scoring; CardiAtlas owns biomedical knowledge context.
 
 The intended loop is `discover → reconcile/admit → benchmark.resolve → CardiLearn → CardiEval → benchmark.result.record → CardiTrace`. Search rankings are lexical retrieval signals, never quality or clinical-validity scores. See `docs/INTELLIGENCE_ARCHITECTURE.md`.
+
+
+## Intelligence release, dashboard, and agent surface
+
+The living intelligence layer can emit a deterministic release descriptor and a dependency-free read-only dashboard from the same catalog/result stores:
+
+```bash
+cardibench intelligence-report --json
+cardibench release-intelligence
+cardibench build-dashboard
+```
+
+The repository also includes `skills/cardibench-intelligence/SKILL.md` for HeartTwin-native agent use. It deliberately routes agents through HeartTwin's `benchmark.*` capabilities rather than turning CardiBench or CardiAgent into a second orchestrator.

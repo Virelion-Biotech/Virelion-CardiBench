@@ -3,11 +3,14 @@ from __future__ import annotations
 import argparse,json
 from datetime import date
 from pathlib import Path
+from .analytics import intelligence_summary
 from .catalog import BENCHMARK_FAMILIES
 from .discovery import SOURCE_NAMES,run_discovery
+from .dashboard import render_dashboard,write_dashboard
 from .intelligence_store import build_catalog,load_catalog,save_discovery_batch
 from .manifest import assert_valid_manifest
 from .release import audit_repository_paths
+from .release_bundle import build_release_bundle,save_release_bundle
 from .result_history import BenchmarkResultObservation,append_result,filter_results,load_result_history
 from .search import search_catalog
 
@@ -34,6 +37,9 @@ def main(argv:list[str]|None=None)->int:
     x=sub.add_parser("search"); x.add_argument("query"); x.add_argument("--catalog",type=Path,default=Path("data/intelligence/catalog.json")); x.add_argument("--limit",type=int,default=20); x.add_argument("--json",action="store_true",dest="as_json")
     x=sub.add_parser("record-result"); x.add_argument("path",type=Path); x.add_argument("--store",type=Path,default=Path("data/intelligence/results.json"))
     x=sub.add_parser("list-results"); x.add_argument("--store",type=Path,default=Path("data/intelligence/results.json")); x.add_argument("--benchmark-id"); x.add_argument("--model-id"); x.add_argument("--split"); x.add_argument("--comparability-key"); x.add_argument("--json",action="store_true",dest="as_json")
+    x=sub.add_parser("intelligence-report"); x.add_argument("--catalog",type=Path,default=Path("data/intelligence/catalog.json")); x.add_argument("--results",type=Path,default=Path("data/intelligence/results.json")); x.add_argument("--json",action="store_true",dest="as_json")
+    x=sub.add_parser("release-intelligence"); x.add_argument("--catalog",type=Path,default=Path("data/intelligence/catalog.json")); x.add_argument("--results",type=Path,default=Path("data/intelligence/results.json")); x.add_argument("--output",type=Path,default=Path("data/intelligence/release.json"))
+    x=sub.add_parser("build-dashboard"); x.add_argument("--catalog",type=Path,default=Path("data/intelligence/catalog.json")); x.add_argument("--results",type=Path,default=Path("data/intelligence/results.json")); x.add_argument("--release",type=Path,default=Path("data/intelligence/release.json")); x.add_argument("--output",type=Path,default=Path("site/intelligence/index.html"))
     a=p.parse_args(argv)
     if a.command=="validate-manifest":return 0 if _validate_manifest(a.path) else 1
     if a.command=="validate-all-manifests":
@@ -58,5 +64,11 @@ def main(argv:list[str]|None=None)->int:
         result=BenchmarkResultObservation.from_dict(_load_json(a.path)); added=append_result(a.store,result); print(json.dumps({"store":str(a.store),"added":added,"result_id":result.result_id},indent=2)); return 0
     if a.command=="list-results":
         items=filter_results(load_result_history(a.store),benchmark_id=a.benchmark_id,model_id=a.model_id,split=a.split,comparability_key=a.comparability_key); print(json.dumps([i.to_dict() for i in items],indent=2) if a.as_json else "\n".join(f"{i.result_id}\t{i.benchmark_id}\t{i.model_id}" for i in items)); return 0
+    if a.command=="intelligence-report":
+        catalog=load_catalog(a.catalog); results=load_result_history(a.results) if a.results.is_file() else []; report=intelligence_summary(catalog,results); print(json.dumps(report,indent=2)); return 0
+    if a.command=="release-intelligence":
+        bundle=build_release_bundle(a.catalog,results_path=a.results); save_release_bundle(a.output,bundle); print(json.dumps({"output":str(a.output),"release_id":bundle["release_id"]},indent=2)); return 0
+    if a.command=="build-dashboard":
+        catalog=load_catalog(a.catalog); results=load_result_history(a.results) if a.results.is_file() else []; release=_load_json(a.release) if a.release.is_file() else None; write_dashboard(a.output,render_dashboard(catalog,results,release=release)); print(json.dumps({"output":str(a.output),"records":len(catalog.records),"results":len(results)},indent=2)); return 0
     return 2
 if __name__=="__main__":raise SystemExit(main())
