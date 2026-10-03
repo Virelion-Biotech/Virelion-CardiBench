@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T14:59:27.643722+00:00",
+  "generated_at": "2026-10-03T15:04:41.469294+00:00",
   "links": [],
   "records": [
     {
@@ -506,6 +506,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "\u00c1rboles de clasificaci\u00f3n y regresi\u00f3n cl\u00e1sicos: diapositivas y pr\u00e1cticas en Python (bagging y boosting)",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122600"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23122600"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23122600"
+        ]
+      },
+      "observation_ids": [
+        "obs-0e1f558e4da40695236f"
+      ],
+      "record_id": "cbx-0de14c59ade5e078",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Evaluation of radioanatomical and biochemical features of patients with hyperlipidaemia by conventional angiography",
       "evidence_state": "observed",
       "identifiers": {
@@ -738,6 +764,32 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Translink passenger injuries per 10,000 trips",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122853"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23122853"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23122853"
+        ]
+      },
+      "observation_ids": [
+        "obs-5efffc5dd68aabc335eb"
+      ],
+      "record_id": "cbx-18a247b9ff34ca17",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -1036,6 +1088,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Translink customer service complaints per 10,000 trips",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122848"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23122848"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23122848"
+        ]
+      },
+      "observation_ids": [
+        "obs-9c8bc29b66f4736eddee"
+      ],
+      "record_id": "cbx-23da5ba8f47ec45e",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Hyperthermia As A Conservative Treatment For Carpal Tunnel Syndrome. A Randomized \"Sham\" Controlled Trial",
       "evidence_state": "observed",
       "identifiers": {
@@ -1323,6 +1401,32 @@
         "obs-b04ed01c1730d324bf55"
       ],
       "record_id": "cbx-2c6223fb45ed8cd9",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Translink patronage by mode, rest of Queensland",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122855"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23122855"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23122855"
+        ]
+      },
+      "observation_ids": [
+        "obs-17e3579ce3f8dcdef014"
+      ],
+      "record_id": "cbx-2dd938b41aaa6d49",
       "record_type": "dataset",
       "sources": [
         "zenodo"
@@ -1668,6 +1772,32 @@
       "record_type": "dataset",
       "sources": [
         "bioproject"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Citytrain on-time running and reliability",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122846"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23122846"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23122846"
+        ]
+      },
+      "observation_ids": [
+        "obs-c2b4fb675c4a06281dca"
+      ],
+      "record_id": "cbx-35349305008c6eb5",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -3354,6 +3484,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Traffic by hour of day and day of week, Queensland, 2025",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122780"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23122780"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23122780"
+        ]
+      },
+      "observation_ids": [
+        "obs-c6a861f771b2b0d04c58"
+      ],
+      "record_id": "cbx-75aa725612c5f9ca",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Study to Evaluate the Effect of Cetuximab on Corrected QT (QTc) Interval Changes in Patients With Advanced Malignancies From Solid Tumors",
       "evidence_state": "observed",
       "identifiers": {
@@ -4387,6 +4543,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Traffic census of state-controlled roads, Queensland",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122799"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23122799"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23122799"
+        ]
+      },
+      "observation_ids": [
+        "obs-ba221b386e85f0cd1468"
+      ],
+      "record_id": "cbx-992f0bc5779b58e4",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Edge AI for Real-Time Facial Emotion Detection: A Raspberry Pi-Based Approach with CNN",
       "evidence_state": "observed",
       "identifiers": {
@@ -4515,6 +4697,32 @@
       "record_type": "publication",
       "sources": [
         "pubmed"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Translink passenger fines and warnings",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122851"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23122851"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23122851"
+        ]
+      },
+      "observation_ids": [
+        "obs-2286761ba3493d9a5612"
+      ],
+      "record_id": "cbx-9c925cb99c147610",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -5318,6 +5526,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Open surface water gauging stations, Queensland",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122776"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23122776"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23122776"
+        ]
+      },
+      "observation_ids": [
+        "obs-c5d1306479eb781c1850"
+      ],
+      "record_id": "cbx-be9c46e812541fae",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Learning general representation of 12-lead ECG with a joint-embedding predictive architecture.",
       "evidence_state": "observed",
       "identifiers": {
@@ -6073,6 +6307,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Public housing dwellings, Queensland",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122769"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23122769"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23122769"
+        ]
+      },
+      "observation_ids": [
+        "obs-27eca194fa380f97a5ca"
+      ],
+      "record_id": "cbx-db6421b434814bbf",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Independent associations of psychiatric disorders with atrial fibrillation and acute coronary syndrome: An analysis of the National Inpatient Sample.",
       "evidence_state": "observed",
       "identifiers": {
@@ -6201,6 +6461,32 @@
       "record_type": "dataset",
       "sources": [
         "geo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Translink patronage by mode, South East Queensland",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122860"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23122860"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23122860"
+        ]
+      },
+      "observation_ids": [
+        "obs-e46a244bbcf82498a9f2"
+      ],
+      "record_id": "cbx-def28246b0443339",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
