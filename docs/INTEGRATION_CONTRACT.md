@@ -36,3 +36,18 @@ A benchmark result should identify:
 - benchmark provenance SHA-256
 
 This makes results comparable across CardiLearn/CardiVex releases and prevents unscoped performance claims.
+
+
+## Living intelligence control plane
+
+CardiBench also owns benchmark/dataset discovery, conservative evidence identity, local search, and protocol-scoped result history. These are control-plane capabilities and do not become patient/subject `CardiacState` observations. HeartTwin should invoke them through `benchmark.*` capabilities, while only `benchmark.resolve` is reduced into canonical subject state.
+
+Canonical evaluation loop:
+
+```text
+CardiBench benchmark.resolve → CardiLearn → CardiEval → CardiBench benchmark.result.record → CardiTrace
+```
+
+`benchmark.result.record` preserves the benchmark fingerprint, split, protocol identity, model identity and metric observations. Results with different comparability keys are not silently pooled.
+
+CardiBridge may transport `benchmark.evidence` and `benchmark.result`; CardiTrace remains the source of execution/artifact lineage. CardiAtlas identifiers may be retained as evidence, but CardiBench must not invent Atlas entities from ambiguous source metadata.

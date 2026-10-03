@@ -1,6 +1,6 @@
 # Virelion-CardiBench
 
-CardiBench is a benchmark registry and dataset-management library for cardiac machine-learning evaluation. It defines benchmark manifests, biological grouping rules, leakage checks, and reproducible benchmark artifacts.
+CardiBench is the benchmark and dataset-intelligence layer for cardiac machine-learning evaluation in the Virelion HeartTwin stack. It combines leakage-aware benchmark construction with conservative public-evidence discovery, search, and protocol-scoped result history. It defines benchmark manifests, biological grouping rules, leakage checks, and reproducible benchmark artifacts.
 
 ## What it contains
 
@@ -53,3 +53,10 @@ Benchmark quality depends on the completeness and correctness of source metadata
 ## License
 
 GNU Affero General Public License v3.0 or later (AGPL-3.0-or-later). See `LICENSE`.
+
+
+## Living intelligence and HeartTwin integration
+
+CardiBench now exposes `benchmark.health`, `benchmark.search`, `benchmark.catalog`, `benchmark.discover`, `benchmark.result.record`, and `benchmark.results` alongside `benchmark.resolve`. Discovery observations are candidates only: they do not bypass dataset admission, reconciliation, biological grouping, readiness, or leakage checks. HeartTwin remains the orchestrator; CardiBridge owns transport; CardiTrace owns lineage; CardiEval owns independent scoring; CardiAtlas owns biomedical knowledge context.
+
+The intended loop is `discover → reconcile/admit → benchmark.resolve → CardiLearn → CardiEval → benchmark.result.record → CardiTrace`. Search rankings are lexical retrieval signals, never quality or clinical-validity scores. See `docs/INTELLIGENCE_ARCHITECTURE.md`.
