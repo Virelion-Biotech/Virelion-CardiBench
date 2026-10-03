@@ -6,9 +6,10 @@ benchmark readiness, biological validity, or clinical generalizability.
 from __future__ import annotations
 from dataclasses import dataclass
 from datetime import date,datetime,timedelta,timezone
-import json,os,re
+import json,os,re,time
 from typing import Any,Callable,Iterable,Mapping
 from urllib.parse import urlencode
+from urllib.error import HTTPError
 from urllib.request import Request,urlopen
 from .evidence import SourceObservation
 
@@ -25,12 +26,39 @@ DEFAULT_SOURCE_QUERIES={
 JsonFetcher=Callable[[str,Mapping[str,Any]|None,float],dict[str,Any]]
 
 def _now_iso(): return datetime.now(timezone.utc).isoformat()
+_LAST_NCBI_REQUEST=0.0
+
 def _default_fetch_json(url:str,params:Mapping[str,Any]|None=None,timeout:float=30.0)->dict[str,Any]:
-    if params:url += ("&" if "?" in url else "?")+urlencode({k:v for k,v in params.items() if v is not None})
-    req=Request(url,headers={"User-Agent":"CardiBench/0.10 (+https://github.com/Virelion-Biotech/Virelion-CardiBench)","Accept":"application/json"})
+    global _LAST_NCBI_REQUEST
+    values={k:v for k,v in dict(params or {}).items() if v is not None}
+    is_ncbi="eutils.ncbi.nlm.nih.gov" in url
+    if is_ncbi:
+        values.setdefault("tool","cardibench")
+        email=os.getenv("NCBI_EMAIL")
+        if email:values.setdefault("email",email)
+        api_key=os.getenv("NCBI_API_KEY")
+        if api_key:values.setdefault("api_key",api_key)
+    if values:url += ("&" if "?" in url else "?")+urlencode(values)
     token=os.getenv("CARDIBENCH_GITHUB_TOKEN") or os.getenv("GITHUB_TOKEN")
-    if "api.github.com" in url and token:req.add_header("Authorization",f"Bearer {token}")
-    with urlopen(req,timeout=timeout) as resp:return json.loads(resp.read().decode("utf-8"))
+    attempts=4
+    for attempt in range(attempts):
+        if is_ncbi and not os.getenv("NCBI_API_KEY"):
+            elapsed=time.monotonic()-_LAST_NCBI_REQUEST
+            if elapsed<0.36:time.sleep(0.36-elapsed)
+        req=Request(url,headers={"User-Agent":"CardiBench/0.10 (+https://github.com/Virelion-Biotech/Virelion-CardiBench)","Accept":"application/json"})
+        if "api.github.com" in url and token:req.add_header("Authorization",f"Bearer {token}")
+        try:
+            with urlopen(req,timeout=timeout) as resp:
+                if is_ncbi:_LAST_NCBI_REQUEST=time.monotonic()
+                return json.loads(resp.read().decode("utf-8"))
+        except HTTPError as exc:
+            if is_ncbi:_LAST_NCBI_REQUEST=time.monotonic()
+            if exc.code not in {429,500,502,503,504} or attempt==attempts-1:raise
+            retry_after=exc.headers.get("Retry-After") if exc.headers else None
+            try:delay=float(retry_after) if retry_after is not None else 0.0
+            except (TypeError,ValueError):delay=0.0
+            time.sleep(max(delay,min(8.0,0.75*(2**attempt))))
+    raise RuntimeError("unreachable fetch retry state")
 def _date(v): return str(v)[:10] if v else None
 def _tokens(v): return set(re.findall(r"[a-z0-9]+",str(v).lower()))
 def _token_filter(text:str,query:str)->bool:

@@ -118,3 +118,16 @@ def test_clinicaltrials_fixture():
     rows=discover_clinicaltrials("cardiac",5,fetch)
     assert rows[0].identifiers["nct"]=="NCT12345678"
     assert rows[0].metadata["overall_status"]=="RECRUITING"
+
+
+def test_ncbi_fetcher_contract_keeps_source_failures_isolated():
+    # The network fetcher owns retry/rate-limit behavior; run_discovery must still
+    # preserve per-source health rather than fail the whole batch.
+    calls=[]
+    def fetch(url,params,timeout):
+        calls.append((url,dict(params or {})))
+        if params and params.get("db")=="geo":raise RuntimeError("rate limited")
+        if "esearch.fcgi" in url:return {"esearchresult":{"idlist":[]}}
+        return {}
+    batch=run_discovery(sources=["geo","bioproject"],limit=1,fetch_json=fetch)
+    assert [run.ok for run in batch.source_runs]==[False,True]
