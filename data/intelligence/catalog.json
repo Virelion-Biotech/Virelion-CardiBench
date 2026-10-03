@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T14:53:30.501503+00:00",
+  "generated_at": "2026-10-03T14:59:27.643722+00:00",
   "links": [],
   "records": [
     {
@@ -213,6 +213,32 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Gaming machine data, Queensland totals",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122746"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23122746"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23122746"
+        ]
+      },
+      "observation_ids": [
+        "obs-44fd33e1acfbdbc1220e"
+      ],
+      "record_id": "cbx-08315c9036605738",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -558,6 +584,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Gaming machine data for clubs, Queensland",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122740"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23122740"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23122740"
+        ]
+      },
+      "observation_ids": [
+        "obs-b93b6f5b7a485f9dadf5"
+      ],
+      "record_id": "cbx-1251a82d326b2375",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Cloud-Based and Locally Deployed Language Models in Nursing and Health Care: An AI Act-Aligned Framework.",
       "evidence_state": "observed",
       "identifiers": {
@@ -608,6 +660,32 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Register of regulated pools, Queensland",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122596"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23122596"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23122596"
+        ]
+      },
+      "observation_ids": [
+        "obs-2e357f8ab4be95ce7805"
+      ],
+      "record_id": "cbx-1753a234aed61a5f",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -1252,6 +1330,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Properties with pool safety certificates, Queensland",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122673"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23122673"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23122673"
+        ]
+      },
+      "observation_ids": [
+        "obs-2e3dd2446e32e24074d8"
+      ],
+      "record_id": "cbx-2ead534636b123e8",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Efficacy and Safety of Repetitive Transcranial Magnetic Stimulation and Expressive Writing for Post-Traumatic Stress",
       "evidence_state": "observed",
       "identifiers": {
@@ -1377,6 +1481,32 @@
         "obs-32ff210e5d108aa75f94"
       ],
       "record_id": "cbx-30fbdecdde72a6ce",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Gaming machine data by SA4, Queensland",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122738"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23122738"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23122738"
+        ]
+      },
+      "observation_ids": [
+        "obs-8e2f085f13ac9e7baa10"
+      ],
+      "record_id": "cbx-3173b170575061da",
       "record_type": "dataset",
       "sources": [
         "zenodo"
@@ -1697,6 +1827,32 @@
       "record_type": "publication",
       "sources": [
         "crossref"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "ANOMALY DETECTION IN INTERNET OF THINGS NETWORKS USING EXPLAINABLE DEEP LEARNING TECHNIQUES",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122642"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23122642"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23122642"
+        ]
+      },
+      "observation_ids": [
+        "obs-109bc8c50e459e3ff13a"
+      ],
+      "record_id": "cbx-3ad136ab1790eef5",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -2097,6 +2253,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Social housing register, Queensland",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122758"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23122758"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23122758"
+        ]
+      },
+      "observation_ids": [
+        "obs-c305f9336275d3b57938"
+      ],
+      "record_id": "cbx-4bc7aacdd39d2531",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Change in land values by council area, Queensland, 2010 onwards",
       "evidence_state": "observed",
       "identifiers": {
@@ -2413,6 +2595,58 @@
     },
     {
       "aliases": [],
+      "canonical_name": "State school catchment areas, junior secondary, Queensland",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122716"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23122716"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23122716"
+        ]
+      },
+      "observation_ids": [
+        "obs-63010fcabcd06a444ba9"
+      ],
+      "record_id": "cbx-56d863cddd5d8ddc",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "State school enrolments by school and year level, February census, Queensland 2015 to 2019",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122707"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23122707"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23122707"
+        ]
+      },
+      "observation_ids": [
+        "obs-613fedd7c32211bbd675"
+      ],
+      "record_id": "cbx-575aacb1ea60f05c",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Deep learning for cardiac CT segmentation for congenital heart disease: A systematic review.",
       "evidence_state": "observed",
       "identifiers": {
@@ -2571,6 +2805,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Gambling expenditure by stream, Queensland",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122748"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23122748"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23122748"
+        ]
+      },
+      "observation_ids": [
+        "obs-4b8a73042852a852abd6"
+      ],
+      "record_id": "cbx-5fb1c7b47da9db22",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "PublicationBiasBenchmark release 2026.2",
       "evidence_state": "observed",
       "identifiers": {
@@ -2590,6 +2850,32 @@
         "obs-d7bdd0f55b296f4d162e"
       ],
       "record_id": "cbx-6001fbe6d3006b43",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "State school catchment areas, primary, Queensland",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122718"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23122718"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23122718"
+        ]
+      },
+      "observation_ids": [
+        "obs-a86b2906f1296389d5db"
+      ],
+      "record_id": "cbx-6156eb5c5ac335e0",
       "record_type": "dataset",
       "sources": [
         "zenodo"
@@ -2881,6 +3167,32 @@
       "record_type": "publication",
       "sources": [
         "medrxiv"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Gaming machine data for hotels, Queensland",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122744"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23122744"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23122744"
+        ]
+      },
+      "observation_ids": [
+        "obs-adcdf77202ae8c2968f2"
+      ],
+      "record_id": "cbx-703cc854cc2e4e63",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -3251,6 +3563,32 @@
       "record_type": "dataset",
       "sources": [
         "geo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Licensed pool safety inspectors, Queensland",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122679"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23122679"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23122679"
+        ]
+      },
+      "observation_ids": [
+        "obs-1cffec3155fb96b166ed"
+      ],
+      "record_id": "cbx-7f6cebabcfb8310b",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -3971,6 +4309,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Unclaimed money register, Queensland Public Trustee",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122682"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23122682"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23122682"
+        ]
+      },
+      "observation_ids": [
+        "obs-36a9314ff854b331af47"
+      ],
+      "record_id": "cbx-9886dd6681a25431",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Construction and empirical testing of a verifiable food safety complaint risk-triage model using human foods complaint system data from the United States Food and Drug Administration",
       "evidence_state": "observed",
       "identifiers": {
@@ -4151,6 +4515,32 @@
       "record_type": "publication",
       "sources": [
         "pubmed"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Gaming venues by number of machines, Queensland",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122751"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23122751"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23122751"
+        ]
+      },
+      "observation_ids": [
+        "obs-99503092d260f59517cd"
+      ],
+      "record_id": "cbx-9cf11b1900a9cdc0",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -5210,6 +5600,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Social housing maintenance and modification spending, Queensland",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122762"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23122762"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23122762"
+        ]
+      },
+      "observation_ids": [
+        "obs-1dd26e65e329cc44fa49"
+      ],
+      "record_id": "cbx-c6179a073e0297c5",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Coal exports and sales value by country, Queensland",
       "evidence_state": "observed",
       "identifiers": {
@@ -5495,6 +5911,32 @@
       "record_type": "publication",
       "sources": [
         "europepmc"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "State and non-state school details, Queensland",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122704"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23122704"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23122704"
+        ]
+      },
+      "observation_ids": [
+        "obs-bb34595f0c05056e7c68"
+      ],
+      "record_id": "cbx-d4964ac76a42c9eb",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -6472,6 +6914,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Notifiable diseases by quarter, Queensland, 2010 to 2014",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122756"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23122756"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23122756"
+        ]
+      },
+      "observation_ids": [
+        "obs-28ca0da402b8d9150f12"
+      ],
+      "record_id": "cbx-f75912f571afa8f1",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Cxcr2 deficiency reshapes the bone marrow transcriptome and is associated with impaired bone homeostasis in adult male mice",
       "evidence_state": "observed",
       "identifiers": {
@@ -6628,6 +7096,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Gaming machine data by SA2, Queensland",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122732"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23122732"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23122732"
+        ]
+      },
+      "observation_ids": [
+        "obs-46fce15f12ab5a33d040"
+      ],
+      "record_id": "cbx-fd87ae22dd3728f6",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Plasma proteomic signatures linking preserved ratio impaired spirometry to cardiometabolic diseases and multimorbidity: A longitudinal cohort study.",
       "evidence_state": "observed",
       "identifiers": {
@@ -6651,6 +7145,32 @@
       "record_type": "publication",
       "sources": [
         "pubmed"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "State school catchment areas, senior secondary, Queensland",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122727"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23122727"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23122727"
+        ]
+      },
+      "observation_ids": [
+        "obs-add594348df6f4815ade"
+      ],
+      "record_id": "cbx-fecd197b88e83277",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
