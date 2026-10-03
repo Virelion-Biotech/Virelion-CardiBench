@@ -1,10 +1,14 @@
 from cardi_bench.discovery import (
+    discover_bioproject,
+    discover_clinicaltrials,
     discover_crossref,
+    discover_europepmc,
     discover_geo,
     discover_github,
     discover_openalex,
     discover_preprints,
     discover_pubmed,
+    discover_sra,
     discover_zenodo,
     run_discovery,
 )
@@ -80,3 +84,37 @@ def test_discovery_failure_is_isolated_per_source():
     assert batch.healthy_sources==1
     assert [run.ok for run in batch.source_runs]==[True,False]
     assert batch.observations
+
+
+def test_bioproject_fixture():
+    def fetch(url, params, timeout):
+        if "esearch.fcgi" in url:return {"esearchresult":{"idlist":["9"]}}
+        return {"result":{"9":{"project_acc":"PRJNA123","project_title":"Cardiac RNA-seq project","organism_name":"Mus musculus"}}}
+    rows=discover_bioproject("cardiac RNA-seq",5,fetch)
+    assert rows[0].identifiers["bioproject"]=="PRJNA123"
+
+
+def test_sra_fixture():
+    def fetch(url, params, timeout):
+        if "esearch.fcgi" in url:return {"esearchresult":{"idlist":["10"]}}
+        return {"result":{"10":{"study_acc":"SRP123","title":"Cardiac SRA study","extra":"PRJNA123"}}}
+    rows=discover_sra("cardiac RNA-seq",5,fetch)
+    assert rows[0].identifiers["sra"]=="SRP123"
+    assert rows[0].identifiers["bioproject"]=="PRJNA123"
+
+
+def test_europepmc_fixture():
+    def fetch(url, params, timeout):
+        return {"resultList":{"result":[{"id":"123","source":"MED","title":"Cardiac benchmark study","pmid":"123","pmcid":"PMC123","doi":"10.1000/EPMC","firstPublicationDate":"2026-01-01"}]}}
+    rows=discover_europepmc("cardiac benchmark",5,fetch)
+    assert rows[0].identifiers["doi"]=="10.1000/epmc"
+    assert rows[0].identifiers["pmid"]=="123"
+    assert rows[0].identifiers["pmcid"]=="PMC123"
+
+
+def test_clinicaltrials_fixture():
+    def fetch(url, params, timeout):
+        return {"studies":[{"protocolSection":{"identificationModule":{"nctId":"NCT12345678","briefTitle":"Cardiac trial"},"statusModule":{"overallStatus":"RECRUITING","startDateStruct":{"date":"2026-01"}},"conditionsModule":{"conditions":["Heart Failure"]},"designModule":{"phases":["PHASE2"]}}}]}
+    rows=discover_clinicaltrials("cardiac",5,fetch)
+    assert rows[0].identifiers["nct"]=="NCT12345678"
+    assert rows[0].metadata["overall_status"]=="RECRUITING"

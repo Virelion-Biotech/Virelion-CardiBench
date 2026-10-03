@@ -12,12 +12,15 @@ from urllib.parse import urlencode
 from urllib.request import Request,urlopen
 from .evidence import SourceObservation
 
-SOURCE_NAMES=("pubmed","geo","crossref","zenodo","github","openalex","biorxiv","medrxiv")
+SOURCE_NAMES=("pubmed","geo","bioproject","sra","crossref","zenodo","github","openalex","europepmc","clinicaltrials","biorxiv","medrxiv")
 DEFAULT_SOURCE_QUERIES={
 "pubmed":"(cardiac OR heart OR cardiomyocyte) AND (benchmark OR machine learning OR dataset)",
 "geo":"(heart OR cardiac OR cardiomyocyte) AND (RNA-seq OR single cell OR transcriptome)",
+"bioproject":"(heart OR cardiac OR cardiomyocyte) AND (RNA-seq OR transcriptome OR sequencing)",
+"sra":"(heart OR cardiac OR cardiomyocyte) AND (RNA-seq OR transcriptome OR sequencing)",
 "crossref":"cardiac machine learning benchmark dataset","zenodo":"cardiac benchmark dataset machine learning",
 "github":"cardiac benchmark machine learning","openalex":"cardiac machine learning benchmark dataset",
+"europepmc":"cardiac machine learning benchmark dataset","clinicaltrials":"cardiac OR heart",
 "biorxiv":"cardiac benchmark dataset machine learning","medrxiv":"cardiac benchmark dataset machine learning"}
 JsonFetcher=Callable[[str,Mapping[str,Any]|None,float],dict[str,Any]]
 
@@ -40,6 +43,12 @@ def _pubmed_doi(row:Mapping[str,Any])->str|None:
             value=str(item.get("value") or "").strip()
             if value:return value.lower()
     return None
+def _regex_identifier(text:str,pattern:str)->str|None:
+    match=re.search(pattern,text,re.I)
+    return match.group(0).upper() if match else None
+def _xml_tag(text:str,tag:str)->str|None:
+    match=re.search(fr"<{tag}[^>]*>(.*?)</{tag}>",text,re.I|re.S)
+    return re.sub(r"<[^>]+>"," ",match.group(1)).strip() if match else None
 def _primary_geo_pmid(row:Mapping[str,Any])->str|None:
     raw=row.get("pubmedids") or row.get("PubMedIds") or row.get("pubmed_ids")
     if isinstance(raw,(list,tuple)):
@@ -92,6 +101,52 @@ def discover_geo(q,limit,fetch=_default_fetch_json):
         if pmid:identifiers["pmid"]=pmid
         if acc and title:out.append(SourceObservation(source="geo",source_record_id=acc,title=title,kind="dataset",url=f"https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc={acc}",published_at=_date(row.get("PDAT") or row.get("pdat")),identifiers=identifiers,metadata={"summary":row.get("summary"),"gds_type":row.get("gdstype"),"pubmed_ids":row.get("pubmedids") or row.get("PubMedIds") or row.get("pubmed_ids") or []}))
     return out
+def discover_bioproject(q,limit,fetch=_default_fetch_json):
+    raw=_ncbi("bioproject",q,limit,fetch)
+    if not raw:return []
+    ids,res=raw; out=[]
+    for uid in ids:
+        row=res.get(str(uid),{}); blob=json.dumps(row,ensure_ascii=False)
+        acc=str(row.get("project_acc") or row.get("project_accn") or row.get("accession") or "").strip().upper() or _regex_identifier(blob,r"\bPRJ[A-Z]{2}\d+\b")
+        title=str(row.get("project_title") or row.get("title") or row.get("project_name") or acc or f"BioProject {uid}").strip()
+        identifiers={"bioproject":acc} if acc else {"bioproject_uid":str(uid)}
+        out.append(SourceObservation(source="bioproject",source_record_id=acc or str(uid),title=title,kind="dataset",url=f"https://www.ncbi.nlm.nih.gov/bioproject/{acc or uid}",identifiers=identifiers,metadata={"uid":str(uid),"organism":row.get("organism_name") or row.get("organism")}))
+    return out
+def discover_sra(q,limit,fetch=_default_fetch_json):
+    raw=_ncbi("sra",q,limit,fetch)
+    if not raw:return []
+    ids,res=raw; out=[]
+    for uid in ids:
+        row=res.get(str(uid),{}); blob=" ".join(str(v) for v in row.values())
+        accession=str(row.get("study_acc") or row.get("accession") or "").strip().upper() or _regex_identifier(blob,r"\bSR[APRX]\d+\b")
+        bioproject=_regex_identifier(blob,r"\bPRJ[A-Z]{2}\d+\b")
+        title=str(row.get("title") or _xml_tag(str(row.get("expxml") or ""),"Title") or accession or f"SRA {uid}").strip()
+        identifiers={}
+        if accession:identifiers["sra"]=accession
+        else:identifiers["sra_uid"]=str(uid)
+        if bioproject:identifiers["bioproject"]=bioproject
+        out.append(SourceObservation(source="sra",source_record_id=accession or str(uid),title=title,kind="dataset",url=f"https://www.ncbi.nlm.nih.gov/sra/{accession or uid}",identifiers=identifiers,metadata={"uid":str(uid)}))
+    return out
+def discover_europepmc(q,limit,fetch=_default_fetch_json):
+    rows=fetch("https://www.ebi.ac.uk/europepmc/webservices/rest/search",{"query":q+" sort_date:y","format":"json","resultType":"core","pageSize":limit},30).get("resultList",{}).get("result",[]); out=[]
+    for row in rows:
+        title=str(row.get("title") or "").strip(); source_id=str(row.get("id") or row.get("pmid") or row.get("pmcid") or row.get("doi") or title).strip()
+        if not title:continue
+        identifiers={}
+        if row.get("doi"):identifiers["doi"]=str(row["doi"])
+        if row.get("pmid"):identifiers["pmid"]=str(row["pmid"])
+        if row.get("pmcid"):identifiers["pmcid"]=str(row["pmcid"])
+        out.append(SourceObservation(source="europepmc",source_record_id=source_id,title=title,kind="publication",url=f"https://europepmc.org/article/{row.get('source') or 'MED'}/{source_id}",published_at=_date(row.get("firstPublicationDate") or row.get("firstIndexDate") or row.get("pubYear")),identifiers=identifiers,metadata={"journal":row.get("journalTitle"),"cited_by_count":row.get("citedByCount")}))
+    return out
+def discover_clinicaltrials(q,limit,fetch=_default_fetch_json):
+    studies=fetch("https://clinicaltrials.gov/api/v2/studies",{"query.term":q,"pageSize":limit,"format":"json"},30).get("studies",[]); out=[]
+    for study in studies:
+        protocol=study.get("protocolSection") or {}; ident=protocol.get("identificationModule") or {}; status=protocol.get("statusModule") or {}; conditions=protocol.get("conditionsModule") or {}; design=protocol.get("designModule") or {}
+        nct=str(ident.get("nctId") or "").strip().upper(); title=str(ident.get("briefTitle") or ident.get("officialTitle") or nct).strip()
+        if not nct or not title:continue
+        start=(status.get("startDateStruct") or {}).get("date")
+        out.append(SourceObservation(source="clinicaltrials",source_record_id=nct,title=title,kind="other",url=f"https://clinicaltrials.gov/study/{nct}",published_at=_date(start),identifiers={"nct":nct},metadata={"conditions":conditions.get("conditions") or [],"phases":design.get("phases") or [],"overall_status":status.get("overallStatus")}))
+    return out
 def discover_crossref(q,limit,fetch=_default_fetch_json):
     items=fetch("https://api.crossref.org/works",{"query.bibliographic":q,"rows":limit,"select":"DOI,title,URL,published,container-title,type"},30).get("message",{}).get("items",[]); out=[]
     for row in items:
@@ -137,6 +192,10 @@ def run_discovery(*,query:str|None=None,sources:Iterable[str]|None=None,limit:in
         try:
             if source=="pubmed":found=discover_pubmed(q,limit,fetch_json)
             elif source=="geo":found=discover_geo(q,limit,fetch_json)
+            elif source=="bioproject":found=discover_bioproject(q,limit,fetch_json)
+            elif source=="sra":found=discover_sra(q,limit,fetch_json)
+            elif source=="europepmc":found=discover_europepmc(q,limit,fetch_json)
+            elif source=="clinicaltrials":found=discover_clinicaltrials(q,limit,fetch_json)
             elif source=="crossref":found=discover_crossref(q,limit,fetch_json)
             elif source=="zenodo":found=discover_zenodo(q,limit,fetch_json)
             elif source=="github":found=discover_github(q,limit,fetch_json)

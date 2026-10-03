@@ -3,6 +3,7 @@ from __future__ import annotations
 import os
 from pathlib import Path
 from typing import Any,Iterable,Mapping
+from .admission import assess_admission
 from .discovery import SOURCE_NAMES,run_discovery
 from .evidence import CatalogRecord
 from .intelligence_store import load_catalog
@@ -14,7 +15,7 @@ from .search import search_catalog
 class CardiBenchAPI:
     contract_version="1.0"
     def invoke(self,capability:str,payload:Mapping[str,Any]|None=None)->dict[str,Any]:
-        data=dict(payload or {}); dispatch={"benchmark.health":self.health,"benchmark.resolve":self.resolve,"benchmark.search":self.search,"benchmark.catalog":self.catalog,"benchmark.discover":self.discover,"benchmark.result.record":self.record_result,"benchmark.results":self.results}
+        data=dict(payload or {}); dispatch={"benchmark.health":self.health,"benchmark.resolve":self.resolve,"benchmark.search":self.search,"benchmark.catalog":self.catalog,"benchmark.discover":self.discover,"benchmark.admission.assess":self.admission_assess,"benchmark.result.record":self.record_result,"benchmark.results":self.results}
         if capability not in dispatch: raise ValueError(f"CardiBench does not support {capability}")
         return dispatch[capability](data)
     @staticmethod
@@ -34,7 +35,7 @@ class CardiBenchAPI:
         return list(load_catalog(path).records)
     def health(self,payload=None):
         payload=dict(payload or {}); cp=self._catalog_path(payload); rp=self._result_path(payload)
-        return {"contract_version":self.contract_version,"status":"ok","capabilities":["benchmark.health","benchmark.resolve","benchmark.search","benchmark.catalog","benchmark.discover","benchmark.result.record","benchmark.results"],"catalog":{"configured":cp is not None,"exists":bool(cp and cp.is_file()),"path":str(cp) if cp else None},"results":{"configured":rp is not None,"exists":bool(rp and rp.is_file()),"path":str(rp) if rp else None}}
+        return {"contract_version":self.contract_version,"status":"ok","capabilities":["benchmark.health","benchmark.resolve","benchmark.search","benchmark.catalog","benchmark.discover","benchmark.admission.assess","benchmark.result.record","benchmark.results"],"catalog":{"configured":cp is not None,"exists":bool(cp and cp.is_file()),"path":str(cp) if cp else None},"results":{"configured":rp is not None,"exists":bool(rp and rp.is_file()),"path":str(rp) if rp else None}}
     def resolve(self,payload):
         raw_samples=payload.get("samples") or []
         if not isinstance(raw_samples,list): raise ValueError("samples must be an array")
@@ -60,6 +61,11 @@ class CardiBenchAPI:
         else:raise ValueError("sources must be an array or comma-separated string")
         batch=run_discovery(query=str(payload["query"]) if payload.get("query") else None,sources=sources,limit=int(payload.get("limit",25)),lookback_days=int(payload.get("lookback_days",30)))
         return {"contract_version":self.contract_version,**batch.to_dict()}
+    def admission_assess(self,payload):
+        raw=payload.get("samples") or []
+        if not isinstance(raw,list):raise ValueError("samples must be an array")
+        report=assess_admission(raw,policy=str(payload.get("policy","subject_heldout")),benchmark_id=str(payload.get("benchmark_id","candidate")),version=str(payload.get("version","1.0")),test_values=payload.get("test_values") or [],validation_values=payload.get("validation_values") or [],seed=int(payload.get("seed",0)))
+        return {"contract_version":self.contract_version,**report.to_dict()}
     def record_result(self,payload):
         data=dict(payload); data.pop("entity_id",None); store=data.pop("result_store",None); raw_metrics=data.get("metrics")
         if isinstance(raw_metrics,list):

@@ -21,6 +21,7 @@ def audit_repository_paths(paths: Iterable[str]) -> AuditResult:
         "schemas/benchmark_definition.schema.json",
         "schemas/benchmark_result.schema.json",
         "schemas/split_manifest.schema.json",
+        "src/cardi_bench/admission.py",
         "src/cardi_bench/adapters.py",
         "src/cardi_bench/analytics.py",
         "src/cardi_bench/api.py",

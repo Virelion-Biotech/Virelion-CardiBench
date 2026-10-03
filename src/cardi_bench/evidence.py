@@ -38,7 +38,7 @@ def normalize_identifier_map(values: Mapping[str, str] | None) -> dict[str, str]
             continue
         if key == "doi":
             value = value.lower().removeprefix("https://doi.org/").removeprefix("http://doi.org/")
-        elif key in {"geo", "sra", "bioproject", "accession"}:
+        elif key in {"geo", "sra", "bioproject", "accession", "pmcid", "nct"}:
             value = value.upper()
         elif key == "pmid":
             value = re_digits(value)

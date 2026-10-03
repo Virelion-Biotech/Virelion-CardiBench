@@ -19,3 +19,8 @@ Search reports matched/missing tokens, fields, lexical coverage and retrieval sc
 Each source reports health independently. A connector must emit `SourceObservation`, preserve identity/URI, avoid inferring missing biology, use bounded calls, expose failures, and not require changing HeartTwin/CardiTrace ownership.
 
 Global discovery/search remains control-plane state. Only a resolved benchmark used by a workflow enters canonical `CardiacState`.
+
+
+### Candidate admission gate
+
+Discovery records cannot jump directly into a benchmark. Candidate sample metadata pass through `benchmark.admission.assess`, which requires explicit sample, biological-group, study, label, and policy-specific fields, checks holdout values, attempts the normal leakage-safe materializer, and fails closed on missing metadata or inadequate evaluation label coverage. A passing state is `ready_for_review`, never automatic scientific admission.

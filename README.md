@@ -73,3 +73,8 @@ cardibench build-dashboard
 ```
 
 The repository also includes `skills/cardibench-intelligence/SKILL.md` for HeartTwin-native agent use. It deliberately routes agents through HeartTwin's `benchmark.*` capabilities rather than turning CardiBench or CardiAgent into a second orchestrator.
+
+
+## Fail-closed candidate admission
+
+`benchmark.admission.assess` and `cardibench assess-admission` validate whether candidate metadata are sufficient for a leakage-checked materialization preview. The assessment never auto-admits a dataset: `ready_for_review` means only that required metadata are explicit and the preview satisfies software gates. Missing biological grouping or policy-specific metadata blocks admission rather than being inferred.

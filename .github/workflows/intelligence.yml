@@ -40,7 +40,7 @@ jobs:
           STAMP="$(date -u +%Y%m%dT%H%M%SZ)"
           SNAPSHOT="data/intelligence/snapshots/${STAMP}-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}.json"
           test ! -e "${SNAPSHOT}"
-          cardibench discover --sources pubmed,geo,crossref,zenodo,github,openalex,biorxiv,medrxiv --limit 25 --lookback-days 30 --output "${SNAPSHOT}"
+          cardibench discover --sources pubmed,geo,bioproject,sra,crossref,zenodo,github,openalex,europepmc,clinicaltrials,biorxiv,medrxiv --limit 25 --lookback-days 30 --output "${SNAPSHOT}"
       - run: cardibench build-catalog --snapshots-dir data/intelligence/snapshots --output data/intelligence/catalog.json --overrides data/intelligence/identity_overrides.json
       - name: Build release and dashboard
         run: |

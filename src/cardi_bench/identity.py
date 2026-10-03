@@ -14,13 +14,13 @@ from typing import Any, Iterable, Mapping
 from .evidence import CatalogRecord, IdentityLink, ResolvedCatalog, SourceObservation
 
 IDENTIFIER_PRIORITY = (
-    "doi", "geo", "bioproject", "sra", "pmid",
+    "doi", "geo", "bioproject", "sra", "pmid", "pmcid", "nct",
     "github", "url", "uri", "accession",
 )
 
 KIND_IDENTIFIER_PRIORITY = {
     "dataset": ("geo", "bioproject", "sra", "accession", "doi", "url", "uri"),
-    "publication": ("doi", "pmid", "url", "uri"),
+    "publication": ("doi", "pmid", "pmcid", "url", "uri"),
     "repository": ("github", "url", "uri", "doi"),
     "benchmark": ("doi", "github", "url", "uri", "accession"),
     "model": ("doi", "github", "url", "uri", "accession"),
