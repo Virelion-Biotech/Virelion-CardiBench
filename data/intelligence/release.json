@@ -1,15 +1,15 @@
 {
   "catalog_file": "catalog.json",
-  "catalog_generated_at": "2026-10-03T21:24:20.885282+00:00",
-  "catalog_sha256": "13564605e12b60fa07c74b2dfedc71d57d0e2439ba3cd886c948638e0991f2cc",
-  "release_id": "cardibench-intelligence-8d9ea603825279fc41bf",
+  "catalog_generated_at": "2026-10-03T23:13:57.362142+00:00",
+  "catalog_sha256": "9d128b96abc4f88f95c84cd27c49075fb2a49ddeda2d24badf798cbd69212862",
+  "release_id": "cardibench-intelligence-9633d60e7b48f3b455f9",
   "results_file": "results.json",
   "results_sha256": "45ee331622d074d492a5b67388cae4b05ed3fe9e71110ace66e220b28e5523ea",
   "schema_version": "1.0",
   "summary": {
     "catalog": {
       "by_evidence_state": {
-        "observed": 317
+        "observed": 337
       },
       "by_source": {
         "bioproject": 25,
@@ -23,21 +23,21 @@
         "openalex": 35,
         "pubmed": 25,
         "sra": 4,
-        "zenodo": 118
+        "zenodo": 138
       },
       "by_type": {
-        "dataset": 138,
-        "other": 58,
+        "dataset": 145,
+        "other": 71,
         "publication": 120,
         "repository": 1
       },
       "links": 0,
-      "records": 317,
+      "records": 337,
       "records_with_cross_artifact_links": 0,
-      "records_with_strong_identifier": 317,
+      "records_with_strong_identifier": 337,
       "records_without_strong_identifier": 0
     },
-    "catalog_generated_at": "2026-10-03T21:24:20.885282+00:00",
+    "catalog_generated_at": "2026-10-03T23:13:57.362142+00:00",
     "results": {
       "benchmarks": 1,
       "comparability_groups": 1,
