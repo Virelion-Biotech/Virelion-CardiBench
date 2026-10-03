@@ -9,7 +9,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: cardibench-reference-evaluation
+  group: cardibench-generated-products
   cancel-in-progress: false
 jobs:
   evaluate:
@@ -22,6 +22,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Sync latest main
+        run: |
+          git fetch origin main
+          git checkout main
+          git pull --ff-only origin main
       - name: Install CardiBench and pinned CardiEval
         run: |
           python -m pip install -e '.[test]'
@@ -45,5 +50,4 @@ jobs:
           git add data/intelligence/results.json data/intelligence/reference-evaluation.json data/intelligence/release.json site/intelligence/index.html
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "chore: record CardiEval software reference"
-          git pull --rebase origin main
           git push origin HEAD:main
