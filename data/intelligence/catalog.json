@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T20:40:42.045113+00:00",
+  "generated_at": "2026-10-03T21:24:20.885282+00:00",
   "links": [],
   "records": [
     {
@@ -292,6 +292,32 @@
       "record_type": "dataset",
       "sources": [
         "bioproject"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "TEsingle benchmarking data (hg38 Read 2)",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23111583"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23111583"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23111583"
+        ]
+      },
+      "observation_ids": [
+        "obs-46f226518a506ad37814"
+      ],
+      "record_id": "cbx-09e16418368f3c8b",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -1381,6 +1407,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Stafford's Conjecture 3.8 for Weyl algebras: Lean 4 formalization",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23127367"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23127367"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23127367"
+        ]
+      },
+      "observation_ids": [
+        "obs-995ea58b896346cf728c"
+      ],
+      "record_id": "cbx-2825384f8ff3d79f",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Driver Fatigue Detection Using YOLOv5 with Genetic- Algorithm-Based Hyperparameter Optimization and Fine-Tuning Strategies",
       "evidence_state": "observed",
       "identifiers": {
@@ -1482,6 +1534,32 @@
       "record_type": "publication",
       "sources": [
         "openalex"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Confidence-Gated Modality Acquisition for Cost-Aware Multimodal Alzheimer's Disease Screening",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23127170"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23127170"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23127170"
+        ]
+      },
+      "observation_ids": [
+        "obs-e0ac4e8d6fe3e0a367b7"
+      ],
+      "record_id": "cbx-2b07af3b3779005f",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -2509,6 +2587,32 @@
       "record_type": "dataset",
       "sources": [
         "geo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "METHODOLOGICAL FRAMEWORK AND ICT INTEGRATION IN FLIPPED CLASSROOM INSTRUCTION FOR ENGLISH LANGUAGE TEACHING",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23127341"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23127341"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23127341"
+        ]
+      },
+      "observation_ids": [
+        "obs-79663f14adde5a14fea9"
+      ],
+      "record_id": "cbx-435e12d1c584ed59",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -3980,6 +4084,32 @@
       "record_type": "publication",
       "sources": [
         "openalex"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Replication package: What Do Citizens Complain About? A Service-Quality and Kano Analysis of Saudi Mobile-Government App Reviews",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23127066"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23127066"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23127066"
+        ]
+      },
+      "observation_ids": [
+        "obs-ab14dfc3e837ced7aa57"
+      ],
+      "record_id": "cbx-7be256631d1f457f",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -6264,6 +6394,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Reproducible Python Code and Multisource Data for Evidence-Based Educational Equity in Ecuador",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23127253"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23127253"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23127253"
+        ]
+      },
+      "observation_ids": [
+        "obs-23753d315beb44c16400"
+      ],
+      "record_id": "cbx-c270183125b01726",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Evaluating the Cyclical Hybrid Imputation Technique (CHIT) under MCAR, MAR, and MNAR missing data mechanisms: Evidence from health datasets.",
       "evidence_state": "observed",
       "identifiers": {
@@ -7326,6 +7482,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Dataset for: How Pre-Service Teachers Leverage AI: Resource Management, Technological Adaptation, and Information and Technology Literacy Through a Metacognitive Lens",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23127121"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23127121"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23127121"
+        ]
+      },
+      "observation_ids": [
+        "obs-e10bb16fda06293f9417"
+      ],
+      "record_id": "cbx-e8cf99c164b23b5e",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "CortexCode: identification of dynamic epigenetic programs implicated in cortical deep-layer neuron differentiation and autism spectrum disorder",
       "evidence_state": "observed",
       "identifiers": {
@@ -7402,6 +7584,32 @@
       "record_type": "dataset",
       "sources": [
         "geo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Modelo de detecci\u00f3n de textos generados con inteligencia artificial y generaci\u00f3n de propuestas de retroalimentaci\u00f3n pedag\u00f3gica.",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23127130"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23127130"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23127130"
+        ]
+      },
+      "observation_ids": [
+        "obs-7f36fdd23505d95d1939"
+      ],
+      "record_id": "cbx-eaf65e8831fcc51e",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
       ]
     },
     {
