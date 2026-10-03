@@ -1,0 +1,36 @@
+id: mi-vs-sham-priority
+version: "1.0"
+status: "candidate"
+question: "Can cardiac transcriptomic models distinguish myocardial infarction from sham/reference while generalizing across biological replicates and studies?"
+positive_label: MI
+negative_label: sham_or_noninjured_reference
+included_datasets:
+  - GSE153480
+  - GSE135310
+  - GSE216211
+  - GSE106472
+  - GSE269054
+rules:
+  - "Do not merge I/R with permanent MI."
+  - "Do not merge genotype perturbations with the primary MI/sham task."
+  - "Keep anatomical zone as metadata; optionally create a separate zone-generalization task."
+  - "Keep age and timepoint explicit."
+  - "Never split cells/nuclei from the same biological subject across partitions."
+  - "Never split technical replicates or pooled libraries across partitions."
+  - "Prefer study-held-out testing for claims of generalization."
+recommended_tasks:
+  - id: "within_study_mi_sham"
+    split: "subject_level"
+    purpose: "controlled within-study classification"
+  - id: "cross_study_mi_sham"
+    split: "study_held_out"
+    purpose: "external generalization"
+  - id: "cell_context_mi_sham"
+    split: "subject_level"
+    purpose: "test whether models rely on cell composition"
+  - id: "timepoint_generalization"
+    split: "timepoint_held_out"
+    purpose: "test temporal robustness"
+  - id: "species_transfer"
+    split: "species_held_out"
+    purpose: "test cross-species representation transfer"

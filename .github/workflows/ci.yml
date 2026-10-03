@@ -1,0 +1,36 @@
+name: ci
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: pip install -e ".[test]"
+      - name: Unit tests
+        run: pytest -q
+      - name: Validate manifests
+        run: cardibench validate-all-manifests
+      - name: Audit
+        run: cardibench audit --strict .
+      - name: Verify locked digests present
+        run: |
+          test -f benchmarks/materialized/mi-vs-reference-gse153480-pool.v1.json
+          test -f benchmarks/materialized/mi-vs-reference-gse216211.v1.json
+          test -f benchmarks/materialized/mi-vs-reference-gse106472-wt.v1.json
+          test -f benchmarks/materialized/mi-vs-reference-gse135310-eligible.v1.json
+          python - <<'PY'
+          import json, pathlib
+          for p in pathlib.Path("benchmarks/materialized").glob("*.json"):
+              d = json.loads(p.read_text())
+              assert d.get("metadata_sha256"), p
+              assert d.get("policy") == "subject_heldout", p
+          print("locked digests OK", len(list(pathlib.Path("benchmarks/materialized").glob("*.json"))))
+          PY

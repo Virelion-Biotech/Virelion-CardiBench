@@ -1,0 +1,41 @@
+[
+  {
+    "sample_id": "GSM2840135",
+    "title": "WT_D4MI_CD45P",
+    "condition": "MI",
+    "genotype": "WT",
+    "timepoint": "day4",
+    "subject_id": "GSE106472_lib_WT_D4MI",
+    "organism": "Mus musculus",
+    "modality": "single-cell RNA-seq",
+    "cell_context": "CD45+_leukocytes",
+    "note": "Library-level unit; n animals per library not stated in GEO brief",
+    "geo_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2840135"
+  },
+  {
+    "sample_id": "GSM2840136",
+    "title": "IRF3KO_D4MI_CD45P",
+    "condition": "MI",
+    "genotype": "IRF3KO",
+    "timepoint": "day4",
+    "subject_id": "GSE106472_lib_IRF3KO_D4MI",
+    "organism": "Mus musculus",
+    "modality": "single-cell RNA-seq",
+    "cell_context": "CD45+_leukocytes",
+    "note": "Genotype arm — exclude from primary WT MI-vs-reference binary",
+    "geo_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2840136"
+  },
+  {
+    "sample_id": "GSM2840137",
+    "title": "WT_NOMI",
+    "condition": "Sham",
+    "genotype": "WT",
+    "timepoint": "no_MI",
+    "subject_id": "GSE106472_lib_WT_NOMI",
+    "organism": "Mus musculus",
+    "modality": "single-cell RNA-seq",
+    "cell_context": "CD45+_leukocytes",
+    "note": "Reference (No MI); library-level unit",
+    "geo_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2840137"
+  }
+]

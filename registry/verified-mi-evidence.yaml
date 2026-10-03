@@ -1,0 +1,67 @@
+version: "1.0"
+verified_on: "2026-08-18"
+policy: "Public-accession metadata verified against NCBI GEO; exact biological replicate mappings remain a prerequisite for locked splits."
+
+datasets:
+  - accession: GSE153480
+    title: "Single cell RNA-seq of neonatal heart regeneration"
+    organism: "Mus musculus"
+    modality: "single-cell RNA-seq"
+    mi_sham: true
+    samples: 8
+    sample_ids:
+      - GSM4644949
+      - GSM4644950
+      - GSM4644951
+      - GSM4644952
+      - GSM4644953
+      - GSM4644954
+      - GSM4644955
+      - GSM4644956
+    design: "P1/P8 neonatal hearts, MI or sham, 1d and 3d"
+    source: "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE153480"
+    status: "verified_metadata_candidate"
+
+  - accession: GSE135310
+    title: "Time series single cell transcriptomics of cardiac inflammation after myocardial infarction in mice"
+    organism: "Mus musculus"
+    modality: "single-cell RNA-seq"
+    mi_sham: true
+    design: "cardiac CD45+ and CD11b+ populations across post-MI/sham timepoints"
+    source: "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE135310"
+    status: "verified_metadata_candidate"
+    caveat: "Several collections are multiplexed/pool-level; biological replicate assignment must be recovered from sample metadata before locked splitting."
+
+  - accession: GSE216211
+    title: "A subset of temporary resident cardiac macrophages induced by myocardial infarction limits adverse ventricular remodeling"
+    organism: "Mus musculus"
+    modality: "single-cell RNA-seq"
+    mi_sham: true
+    samples: 3
+    sample_ids: [GSM6661562, GSM6661563, GSM6661564]
+    conditions: ["Sham", "MI", "MI-E"]
+    source: "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE216211"
+    status: "verified_metadata_candidate"
+    caveat: "MI-E is a separate condition and should not be merged into MI for the primary binary task."
+
+  - accession: GSE269054
+    title: "Spatially clustered type I interferon responses at injury borderzones"
+    organism: "Homo sapiens; Mus musculus"
+    modality: "single-nucleus RNA-seq + spatial transcriptomics"
+    mi_sham: true
+    samples: 37
+    design: "healthy and injured hearts including MI, I/R and traumatic injury; mouse and human"
+    source: "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE269054"
+    status: "verified_metadata_candidate"
+    caveat: "Do not collapse MI, I/R, genotype, rupture, injury zone or species into one label; use them as separate benchmark dimensions."
+
+  - accession: GSE219117
+    title: "A subset of temporary resident cardiac macrophages induced by myocardial infarction limits adverse ventricular remodeling"
+    organism: "Mus musculus"
+    modality: "single-cell RNA-seq + spatial transcriptomics"
+    mi_sham: true
+    samples: 7
+    sample_ids: [GSM6661562, GSM6661563, GSM6661564, GSM6774194, GSM6774195, GSM6774196, GSM6774197]
+    source: "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE219117"
+    status: "verified_metadata_candidate"
+    caveat: "This is a SuperSeries; preserve modality and spatial section identity rather than treating all samples as interchangeable replicates."

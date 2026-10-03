@@ -1,0 +1,10 @@
+{
+  "adapter_status": "5 accepted",
+  "caveat": "Steady-state treated as reference; all MI timepoints as myocardial_injury. Temporal structure is a separate analysis dimension.",
+  "dataset": "GSE135310",
+  "digest": "7d81e2d2491894cd54fd3b899b59a4fd7fe00af8dcbf94a7d5d1026152d6c73f",
+  "experimental_unit": "library/pool (protocol reports n=3–5 animals per timepoint class)",
+  "invented_ids": false,
+  "quarantined": ["GSM4005128", "GSM4200846"],
+  "reconciliation_date": "2026-08-29T08:55:17.140176+00:00"
+}

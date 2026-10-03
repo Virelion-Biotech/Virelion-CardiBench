@@ -1,0 +1,8 @@
+{
+  "accession": "GSE219117",
+  "title": "A subset of temporary resident cardiac macrophages induced by myocardial infarction limits adverse ventricular remodeling",
+  "status": "metadata_verified_candidate",
+  "scRNA_component": "GSE216211 (reconciled separately)",
+  "spatial_samples": ["GSM6774194", "GSM6774195", "GSM6774196", "GSM6774197"],
+  "caveat": "Spatial samples are MI / MI-E only (no Sham spatial). Primary MI-vs-Sham binary should use scRNA GSE216211, not spatial arms."
+}

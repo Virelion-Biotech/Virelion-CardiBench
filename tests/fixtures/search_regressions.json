@@ -1,0 +1,25 @@
+[
+  {
+    "query": "myocardial infarction benchmark",
+    "expected_record_id": "mi-benchmark",
+    "records": [
+      {"record_id":"mi-benchmark","canonical_name":"Myocardial infarction cardiac benchmark","record_type":"benchmark","aliases":["MI benchmark"],"identifiers":{"doi":"10.1000/mi"},"observation_ids":[],"sources":["crossref"],"evidence_state":"verified","metadata":{}},
+      {"record_id":"mechanics","canonical_name":"Cardiac mechanics dataset","record_type":"dataset","aliases":[],"identifiers":{"geo":"GSE2"},"observation_ids":[],"sources":["geo"],"evidence_state":"observed","metadata":{}}
+    ]
+  },
+  {
+    "query": "GSE153480",
+    "expected_record_id": "gse153480",
+    "records": [
+      {"record_id":"gse153480","canonical_name":"Mouse myocardial infarction transcriptome","record_type":"dataset","aliases":[],"identifiers":{"geo":"GSE153480"},"observation_ids":[],"sources":["geo"],"evidence_state":"verified","metadata":{}},
+      {"record_id":"other","canonical_name":"Cardiac imaging cohort","record_type":"dataset","aliases":[],"identifiers":{"geo":"GSE999999"},"observation_ids":[],"sources":["geo"],"evidence_state":"observed","metadata":{}}
+    ]
+  },
+  {
+    "query": "cardiac mechanics benchmark",
+    "expected_status": "partial_candidates_only",
+    "records": [
+      {"record_id":"mechanics","canonical_name":"Cardiac mechanics dataset","record_type":"dataset","aliases":[],"identifiers":{},"observation_ids":[],"sources":["manual"],"evidence_state":"observed","metadata":{}}
+    ]
+  }
+]

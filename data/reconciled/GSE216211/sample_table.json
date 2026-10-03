@@ -1,0 +1,41 @@
+[
+  {
+    "sample_id": "GSM6661562",
+    "title": "Sham, scRNAseq",
+    "condition": "Sham",
+    "subject_id": "GSE216211_lib_Sham",
+    "organism": "Mus musculus",
+    "modality": "single-cell RNA-seq",
+    "cell_context": "immune_cells",
+    "strain": "C57BL/6J",
+    "age": "8-9 weeks",
+    "note": "Library-level; individual animal IDs not in GEO",
+    "geo_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6661562"
+  },
+  {
+    "sample_id": "GSM6661563",
+    "title": "MI, scRNAseq",
+    "condition": "MI",
+    "subject_id": "GSE216211_lib_MI",
+    "organism": "Mus musculus",
+    "modality": "single-cell RNA-seq",
+    "cell_context": "immune_cells",
+    "strain": "C57BL/6J",
+    "age": "8-9 weeks",
+    "note": "Library-level; individual animal IDs not in GEO",
+    "geo_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6661563"
+  },
+  {
+    "sample_id": "GSM6661564",
+    "title": "MI-E, scRNAseq",
+    "condition": "MI-E",
+    "subject_id": "GSE216211_lib_MI-E",
+    "organism": "Mus musculus",
+    "modality": "single-cell RNA-seq",
+    "cell_context": "immune_cells",
+    "strain": "C57BL/6J",
+    "age": "8-9 weeks",
+    "note": "Separate experimental arm — NOT merged into MI for primary binary",
+    "geo_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6661564"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "results": [
+    {
+      "artifact_uri": "repo://data/intelligence/reference-evaluation.json",
+      "benchmark_id": "cardibench-software-reference",
+      "benchmark_provenance_sha256": "5609571dd5e8ac205cc28a2b733c94e0243a0f818f9033e4dba3876a2898f984",
+      "benchmark_version": "1.0.0",
+      "comparability_key": "cardibench-software-reference|1.0.0|5609571dd5e8ac205cc28a2b733c94e0243a0f818f9033e4dba3876a2898f984|test|cardibench-software-reference-v1|CardiEval/1.4.1",
+      "metrics": {
+        "accuracy": 0.55,
+        "auprc": 0.6479761904761904,
+        "auroc": 0.59,
+        "balanced_accuracy": 0.55,
+        "brier": 0.25934882373634277,
+        "ece": 0.3063741274891361,
+        "macro_f1": 0.5396419437340154,
+        "sensitivity": 0.4,
+        "specificity": 0.7
+      },
+      "model_id": "hash-prior-software-baseline",
+      "model_version": "1.0.0",
+      "notes": "SOFTWARE REFERENCE ONLY \u2014 synthetic labels and label-independent baseline; not biological or clinical performance.",
+      "protocol_id": "cardibench-software-reference-v1",
+      "recorded_at": "2026-10-03T15:04:08.192358+00:00",
+      "result_id": "result-3b627f74fda1ac839f74",
+      "sample_count": 20,
+      "source": "CardiEval/1.4.1",
+      "split": "test"
+    }
+  ],
+  "schema_version": "1.0"
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Virelion-Biotech/Virelion-CardiBench/schema/dataset_record.schema.json",
+  "title": "CardiBench DatasetRecord",
+  "type": "object",
+  "required": ["dataset_id", "title", "source", "modality", "species", "tissue", "study_group"],
+  "properties": {
+    "dataset_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._-]+$"},
+    "title": {"type": "string"},
+    "source": {"type": "string"},
+    "accession": {"type": ["string", "null"]},
+    "modality": {"type": "string", "enum": ["scRNA-seq", "snRNA-seq", "bulk_RNA-seq", "spatial", "proteomics", "imaging", "electrophysiology", "clinical", "multimodal"]},
+    "species": {"type": "string"},
+    "tissue": {"type": "string"},
+    "study_group": {"type": "string"},
+    "processing_version": {"type": ["string", "null"]},
+    "label_source": {"type": "string"},
+    "license": {"type": ["string", "null"]}
+  },
+  "additionalProperties": false
+}

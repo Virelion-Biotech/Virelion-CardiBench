@@ -1,0 +1,36 @@
+id: mi-vs-reference
+version: "1.0"
+status: "candidate"
+question: "Can a model distinguish myocardial-injury cardiac tissue from reference tissue?"
+modalities:
+  - single-nucleus RNA-seq
+  - single-cell RNA-seq
+primary_task: binary_classification
+labels:
+  positive: myocardial_injury
+  negative: reference
+split_policy:
+  preferred_group_keys: [animal, donor, study]
+  technical_replicates_must_stay_together: true
+  cross_study_test: true
+required_metadata:
+  - accession
+  - sample_id
+  - subject_or_animal_id
+  - experimental_condition
+  - modality
+  - tissue
+  - study_id
+quality_gates:
+  - verify_positive_negative_labels_from_source_metadata
+  - verify_subject_level_grouping
+  - exclude_mislabeled_or_ambiguous_samples
+  - document preprocessing_and_normalization
+metrics:
+  - auroc
+  - auprc
+  - balanced_accuracy
+  - sensitivity
+  - specificity
+  - calibration
+notes: "This benchmark definition does not redistribute source data. It is instantiated only after dataset-level metadata verification."

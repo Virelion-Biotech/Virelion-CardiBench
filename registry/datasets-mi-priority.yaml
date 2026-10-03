@@ -1,0 +1,78 @@
+version: "1.0"
+status: "metadata_verified_candidates"
+selection_rule: "Prioritize explicit MI/sham or injury/reference comparisons; preserve biological replicate identity."
+
+datasets:
+  - id: "GSE153480"
+    accession: "GSE153480"
+    title: "Single cell RNA-seq of neonatal heart regeneration"
+    source: "NCBI GEO"
+    organism: "Mus musculus"
+    modality: "single-cell RNA-seq"
+    contexts: ["MI", "sham"]
+    design: "P1/P8 neonatal hearts, MI or sham, 1d and 3d"
+    samples: ["GSM4644949", "GSM4644950", "GSM4644951", "GSM4644952", "GSM4644953", "GSM4644954", "GSM4644955", "GSM4644956"]
+    primary_labels: ["age", "timepoint", "injury"]
+    grouping: "animal_or_biological_replicate"
+    benchmark_roles: ["MI-vs-sham", "regeneration-vs-injury", "timepoint_generalization"]
+    evidence_url: "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE153480"
+    notes: "GEO explicitly reports MI or sham surgery and eight samples spanning P1/P8 and 1d/3d. Exact biological-replicate grouping must be taken from sample metadata before split materialization."
+
+  - id: "GSE135310"
+    accession: "GSE135310"
+    title: "Time series single cell transcriptomics of cardiac inflammation after myocardial infarction in mice"
+    source: "NCBI GEO"
+    organism: "Mus musculus"
+    modality: "single-cell RNA-seq"
+    contexts: ["MI", "sham", "immune_infiltrate"]
+    design: "cardiac leukocytes/myeloid populations across post-MI timepoints"
+    samples: ["GSM4005128", "GSM4200846"]
+    primary_labels: ["injury", "timepoint", "cell_context"]
+    grouping: "animal_or_pool"
+    benchmark_roles: ["MI-vs-sham", "immune-state-classification", "temporal-generalization"]
+    evidence_url: "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE135310"
+    notes: "GEO describes cardiac CD45+ and CD11b+ datasets after MI or sham, including multiplexed collections. Pooling and biological replicate structure must be respected."
+
+  - id: "GSE216211"
+    accession: "GSE216211"
+    title: "Cardiac macrophage heterogeneity after myocardial infarction"
+    source: "NCBI GEO"
+    organism: "Mus musculus"
+    modality: "single-cell RNA-seq"
+    contexts: ["MI", "sham", "macrophage"]
+    design: "heart cell populations from Sham, MI and MI-E"
+    samples: ["GSM6661562", "GSM6661563", "GSM6661564"]
+    primary_labels: ["injury", "cell_context"]
+    grouping: "animal_or_biological_replicate"
+    benchmark_roles: ["MI-vs-sham", "macrophage-state", "remodeling"]
+    evidence_url: "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE216211"
+    notes: "The public GEO record explicitly lists Sham, MI and MI-E. MI-E should remain a separate condition rather than being silently merged with MI."
+
+  - id: "GSE106472"
+    accession: "GSE106472"
+    title: "IRF3 and type I interferons fuel a fatal response to myocardial infarction"
+    source: "NCBI GEO"
+    organism: "Mus musculus"
+    modality: "single-cell RNA-seq"
+    contexts: ["MI", "reference", "genotype"]
+    design: "WT MI, IRF3 knockout MI, WT non-MI; day 4"
+    samples: ["GSM2840135", "GSM2840136", "GSM2840137"]
+    primary_labels: ["injury", "genotype"]
+    grouping: "animal_or_biological_replicate"
+    benchmark_roles: ["MI-vs-reference", "inflammatory-state", "genotype-transfer"]
+    evidence_url: "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE106472"
+    notes: "Use WT MI versus WT non-MI for the clean injury comparison; retain IRF3 knockout as a separate perturbation task."
+
+  - id: "GSE269054"
+    accession: "GSE269054"
+    title: "Spatially clustered type I interferon responses at injury borderzones"
+    source: "NCBI GEO"
+    organism: "Homo sapiens; Mus musculus"
+    modality: "single-nucleus RNA-seq + spatial transcriptomics"
+    contexts: ["healthy", "MI", "I/R", "borderzone"]
+    design: "mouse and human spatial/single-nucleus cardiac injury study"
+    primary_labels: ["injury", "zone", "species", "timepoint", "genotype"]
+    grouping: "animal_or_donor"
+    benchmark_roles: ["spatial-injury", "borderzone-classification", "cross-species-transfer"]
+    evidence_url: "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE269054"
+    notes: "High-value multimodal benchmark candidate. Keep sham, MI, I/R, genotype, sex and zone labels distinct; do not collapse injury modalities into one label."
