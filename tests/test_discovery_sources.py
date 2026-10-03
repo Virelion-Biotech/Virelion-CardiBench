@@ -14,9 +14,10 @@ def test_pubmed_fixture():
     def fetch(url, params, timeout):
         if "esearch.fcgi" in url:
             return {"esearchresult": {"idlist": ["123"]}}
-        return {"result": {"123": {"title": "Cardiac ML benchmark", "pubdate": "2026 Jan", "fulljournalname": "Heart AI"}}}
+        return {"result": {"123": {"title": "Cardiac ML benchmark", "pubdate": "2026 Jan", "fulljournalname": "Heart AI", "articleids": [{"idtype": "doi", "value": "10.1000/PUBMED"}]}}}
     rows=discover_pubmed("cardiac benchmark",5,fetch)
     assert rows[0].identifiers["pmid"]=="123"
+    assert rows[0].identifiers["doi"]=="10.1000/pubmed"
     assert rows[0].kind=="publication"
 
 
@@ -24,9 +25,10 @@ def test_geo_fixture():
     def fetch(url, params, timeout):
         if "esearch.fcgi" in url:
             return {"esearchresult": {"idlist": ["1"]}}
-        return {"result": {"1": {"accession": "GSE123", "title": "Cardiac single-cell atlas", "pdat": "2026-01-01"}}}
+        return {"result": {"1": {"accession": "GSE123", "title": "Cardiac single-cell atlas", "pdat": "2026-01-01", "pubmedids": ["456"]}}}
     rows=discover_geo("cardiac single cell",5,fetch)
     assert rows[0].identifiers["geo"]=="GSE123"
+    assert rows[0].identifiers["pmid"]=="456"
     assert rows[0].kind=="dataset"
 
 

@@ -34,6 +34,22 @@ def _token_filter(text:str,query:str)->bool:
     q={t for t in _tokens(query) if len(t)>2 and t not in {"and","or","not","the","for"}}
     if not q:return True
     return bool(q & _tokens(text))
+def _pubmed_doi(row:Mapping[str,Any])->str|None:
+    for item in row.get("articleids") or []:
+        if isinstance(item,Mapping) and str(item.get("idtype") or "").lower()=="doi":
+            value=str(item.get("value") or "").strip()
+            if value:return value.lower()
+    return None
+def _primary_geo_pmid(row:Mapping[str,Any])->str|None:
+    raw=row.get("pubmedids") or row.get("PubMedIds") or row.get("pubmed_ids")
+    if isinstance(raw,(list,tuple)):
+        for value in raw:
+            digits="".join(ch for ch in str(value) if ch.isdigit())
+            if digits:return digits
+    elif raw:
+        match=re.search(r"\d+",str(raw))
+        if match:return match.group(0)
+    return None
 
 @dataclass(frozen=True)
 class SourceRun:
@@ -61,16 +77,20 @@ def discover_pubmed(q,limit,fetch=_default_fetch_json):
     if not raw:return []
     ids,res=raw; out=[]
     for pid in ids:
-        row=res.get(str(pid),{}); title=str(row.get("title") or "").strip()
-        if title:out.append(SourceObservation(source="pubmed",source_record_id=str(pid),title=title,kind="publication",url=f"https://pubmed.ncbi.nlm.nih.gov/{pid}/",published_at=_date(row.get("pubdate")),identifiers={"pmid":str(pid)},metadata={"journal":row.get("fulljournalname") or row.get("source")}))
+        row=res.get(str(pid),{}); title=str(row.get("title") or "").strip(); doi=_pubmed_doi(row)
+        identifiers={"pmid":str(pid)}
+        if doi:identifiers["doi"]=doi
+        if title:out.append(SourceObservation(source="pubmed",source_record_id=str(pid),title=title,kind="publication",url=f"https://pubmed.ncbi.nlm.nih.gov/{pid}/",published_at=_date(row.get("pubdate")),identifiers=identifiers,metadata={"journal":row.get("fulljournalname") or row.get("source")}))
     return out
 def discover_geo(q,limit,fetch=_default_fetch_json):
     raw=_ncbi("gds",q,limit,fetch)
     if not raw:return []
     ids,res=raw; out=[]
     for uid in ids:
-        row=res.get(str(uid),{}); acc=str(row.get("accession") or "").strip().upper(); title=str(row.get("title") or acc).strip()
-        if acc and title:out.append(SourceObservation(source="geo",source_record_id=acc,title=title,kind="dataset",url=f"https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc={acc}",published_at=_date(row.get("PDAT") or row.get("pdat")),identifiers={"geo":acc,"accession":acc},metadata={"summary":row.get("summary"),"gds_type":row.get("gdstype")}))
+        row=res.get(str(uid),{}); acc=str(row.get("accession") or "").strip().upper(); title=str(row.get("title") or acc).strip(); pmid=_primary_geo_pmid(row)
+        identifiers={"geo":acc,"accession":acc}
+        if pmid:identifiers["pmid"]=pmid
+        if acc and title:out.append(SourceObservation(source="geo",source_record_id=acc,title=title,kind="dataset",url=f"https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc={acc}",published_at=_date(row.get("PDAT") or row.get("pdat")),identifiers=identifiers,metadata={"summary":row.get("summary"),"gds_type":row.get("gdstype"),"pubmed_ids":row.get("pubmedids") or row.get("PubMedIds") or row.get("pubmed_ids") or []}))
     return out
 def discover_crossref(q,limit,fetch=_default_fetch_json):
     items=fetch("https://api.crossref.org/works",{"query.bibliographic":q,"rows":limit,"select":"DOI,title,URL,published,container-title,type"},30).get("message",{}).get("items",[]); out=[]
