@@ -1,0 +1,2824 @@
+{
+  "generated_at": "2026-10-03T14:17:46.082744+00:00",
+  "observations": [
+    {
+      "content_sha256": "2c0d3e4bb02113d5e9a2f27cf72c633d8fe129e56389ef61e22e6db8cb544e74",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1145/3830727.3834821"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "conference-paper"
+      },
+      "observation_id": "obs-00b21a56a3b920ff28fb",
+      "observed_at": "2026-10-03T14:17:43.777026+00:00",
+      "published_at": "2026-09-30",
+      "source": "openalex",
+      "source_record_id": "W7172446277",
+      "text": "",
+      "title": "Reassessing the Feasibility of PPG-Based Non-Invasive Blood Glucose Level Estimation",
+      "url": "https://openalex.org/W7172446277"
+    },
+    {
+      "content_sha256": "e93dfba050fc7c7c0704891637304631c3dae5ae300822b2c0e26303267b36fe",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.47760/ijcsmc.2026.v15i09.008"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "article"
+      },
+      "observation_id": "obs-00f7b11d7078368d8f35",
+      "observed_at": "2026-10-03T14:17:43.777102+00:00",
+      "published_at": "2026-09-30",
+      "source": "openalex",
+      "source_record_id": "W7215036463",
+      "text": "",
+      "title": "Deep Learning for Automated Electrocardiogram Analysis: Real-Time Arrhythmia Classification Using 1D-CNN",
+      "url": "https://openalex.org/W7215036463"
+    },
+    {
+      "content_sha256": "4f437859a44a0930d702914be8dc7bbdcd8598e1df52e8d97454c24f44eaa2b8",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23121862"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [
+          "PublicationBiasBenchmark",
+          "2026.2",
+          "Carter2019",
+          "benchmark-storage"
+        ],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-037422b72211eaa8b6cd",
+      "observed_at": "2026-10-03T14:17:42.587615+00:00",
+      "published_at": "2026-10-03",
+      "source": "zenodo",
+      "source_record_id": "23121862",
+      "text": "",
+      "title": "PublicationBiasBenchmark: Carter2019 storage (2026.2)",
+      "url": null
+    },
+    {
+      "content_sha256": "8ec62e659932bdf6071bf646d6718edf554ca045de52586675dbcd3052782c9a",
+      "evidence_state": "observed",
+      "identifiers": {
+        "accession": "GSE329071",
+        "geo": "GSE329071"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "gds_type": "Genome binding/occupancy profiling by high throughput sequencing; Expression profiling by high throughput sequencing",
+        "summary": "Deciphering the genetic circuitry, including epigenetics and regulatory elements (REs), controlling the development and function of the cortex is essential to understand the aetiology of neuropsychiatric disorders. Here, we define the chromatin accessibility and histone modification landscape at REs across time and differentiation of cortical cell states in mice. Chromatin state at enhancers (H3K27ac and H3K27me3) revealed cell-type specific dynamic epigenomic programming underlying transcriptional activation and repression and were more informative than chromatin accessibility in predicting enhancer activity. We present evidence of epigenetic regulatory principles that are important during transitions of cell states in the process of specifying Layer 6 and Layer 5 excitatory neurons. Derepression by the H3K27 demethylase KDM6B, an autism spectrum disorder (ASD) gene, is a critical step for deep layer neuron specification. Loss of Kdm6b function alters expression of ASD risk genes in neurons. Increased H3K27me3 on REs in Kdm6b mutant neurons have an increased rate in ASD mutations notably around genes with reduced transcription and ASD risk genes. Discoveries here are foundational to understanding the regulatory logic of cortical development and provide novel insights into the role of mutations in REs contributing to ASD."
+      },
+      "observation_id": "obs-04a21df20d9abd23b634",
+      "observed_at": "2026-10-03T14:17:40.759536+00:00",
+      "published_at": "2026/10/01",
+      "source": "geo",
+      "source_record_id": "GSE329071",
+      "text": "",
+      "title": "CortexCode: identification of dynamic epigenetic programs implicated in cortical deep-layer neuron differentiation and autism spectrum disorder",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE329071"
+    },
+    {
+      "content_sha256": "6d9b2abdfbad7b01663a9787719bb4808a06a042a64d2ac12437ab69ca0238f1",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23121132"
+      },
+      "kind": "other",
+      "metadata": {
+        "keywords": [],
+        "resource_type": "software"
+      },
+      "observation_id": "obs-0a11c768cab37e40e381",
+      "observed_at": "2026-10-03T14:17:42.587758+00:00",
+      "published_at": "2026-10-03",
+      "source": "zenodo",
+      "source_record_id": "23121132",
+      "text": "",
+      "title": "AutoGobra: Automated Specification and Proof Synthesis for Go \u2014 Benchmark and Experiment Code",
+      "url": null
+    },
+    {
+      "content_sha256": "321d1e9afac773c264bf7dede992152bdb74070dd76e6b24e2b91f277748342b",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23121861"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [
+          "PublicationBiasBenchmark",
+          "2026.2",
+          "Bom2019",
+          "benchmark-storage"
+        ],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-0d131daace1a6d928f8d",
+      "observed_at": "2026-10-03T14:17:42.587623+00:00",
+      "published_at": "2026-10-03",
+      "source": "zenodo",
+      "source_record_id": "23121861",
+      "text": "",
+      "title": "PublicationBiasBenchmark: Bom2019 storage (2026.2)",
+      "url": null
+    },
+    {
+      "content_sha256": "b7fb8f10d2504ef14e66c6df744c9c11f92465e8070e2287c1f22d945bb03118",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.56201/ijmepr.v10.no1.2026.pg41.83"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "article"
+      },
+      "observation_id": "obs-0e4982e0f2f08d38319f",
+      "observed_at": "2026-10-03T14:17:43.777144+00:00",
+      "published_at": "2026-09-29",
+      "source": "openalex",
+      "source_record_id": "W7214711016",
+      "text": "",
+      "title": "Attention-Guided Residual Learning for Reliable Multi-Class Diabetic Retinopathy Severity Assessment",
+      "url": "https://openalex.org/W7214711016"
+    },
+    {
+      "content_sha256": "06d2aa19493024ac276370f3bf8f13d4d71dcebc932e70f2aa5d9213d05333cd",
+      "evidence_state": "observed",
+      "identifiers": {
+        "accession": "GSE347443",
+        "geo": "GSE347443"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "gds_type": "Expression profiling by high throughput sequencing",
+        "summary": "Analysis of steady-state mRNA levels in mouse heart tissue at E18.5 from wild-type C57BL/6J and Dp(16)1Yey mice."
+      },
+      "observation_id": "obs-12b3a2a9ac5bea323fde",
+      "observed_at": "2026-10-03T14:17:40.759648+00:00",
+      "published_at": "2026/09/30",
+      "source": "geo",
+      "source_record_id": "GSE347443",
+      "text": "",
+      "title": "Crnic Institute - Trisomy 21 Model Atlas: PolyA RNA-seq from Dp(16)1Yey mice [E18.5 Heart]",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE347443"
+    },
+    {
+      "content_sha256": "a90263171119b8de35ce6f569aea28e6e98769bcb19c5e0b2e5c7458c2fbd5c1",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23120697"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [
+          "evapotranspiration",
+          "ireland",
+          "Penman\u2013Monteith",
+          "bias correction",
+          "ensemble merging",
+          "remote sensing",
+          "reanalysis",
+          "ET"
+        ],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-153186340866578e283c",
+      "observed_at": "2026-10-03T14:17:42.587735+00:00",
+      "published_at": "2026-10-03",
+      "source": "zenodo",
+      "source_record_id": "23120697",
+      "text": "",
+      "title": "ET4I-COM: bias-corrected and adaptively merged 8-day evapotranspiration estimates at 21 Irish synoptic stations, 2018\u20132023",
+      "url": null
+    },
+    {
+      "content_sha256": "d481a79507467ce6c83067c909b1aa8a9524e28f5939d28247b8d2312f84312e",
+      "evidence_state": "observed",
+      "identifiers": {
+        "accession": "GSE335832",
+        "geo": "GSE335832"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "gds_type": "Expression profiling by high throughput sequencing",
+        "summary": "Backgrounds Lower extremity artery disease (LEAD) is a common manifestation of systemic atherosclerosis and is frequently associated with coronary and cerebrovascular disease. Although lipid-lowering therapy and risk factor control are essential, residual inflammatory risk remains a key determinant of adverse outcomes. Given the established link between inflammation and immune cells, we applied single-cell RNA sequencing (scRNA-seq) to characterize immune cell populations in lower extremity arterial plaques from patients with LEAD, comparing advanced chronic total occlusion (CTO) lesions with relatively early non-CTO lesions.\u3000 Results Single-cell RNA sequencing of CD45\u207a immune cells from five CTO and five non-CTO lower extremity artery plaques identified seven major clusters, predominantly T cells and myeloid cells. Re-clustering of CD8\u207a T cells revealed six subsets, including GZMK\u207a effector, senescent (KLRG1\u207aCD28\u207b), KLRD1\u207a, NEAT1\u207a, proliferating (Ki-67\u207a), and effector memory cells. KLRD1\u207a CD8\u207a T cells tended to be more abundant in CTO lesions (p = 0.072). Re-clustering of CD4\u207a T cells identified five subsets, including FOXP3\u207a regulatory, cytotoxic, na\u00efve, and central memory T cells, without statistically significant differences between CTO and non-CTO lesions. Detailed analysis of myeloid cells identified seven transcriptionally distinct populations, including nonclassical monocytes, conventional dendritic cells (cDC1 and cDC2), plasmacytoid dendritic cells, TREM2\u207a macrophages, and a pro-inflammatory macrophage/monocyte population characterized by high IL1B and S100A8 expression. Re-clustering of macrophage/monocyte subsets further resolved S100A8\u207a inflammatory monocytes and metabolically active TREM2\u207a macrophages. RNA velocity analysis suggested a continuous differentiation trajectory from S100A8\u207a monocytes through IL1B\u207a macrophages toward TREM2\u207a macrophages. Proportion analysis demonstrated enrichment of S100A8\u207a monocytes in CTO lesions (p = 0.0079), whereas TREM2\u207a macrophages were relatively more abundant in non-CTO lesions (p = 0.016), highlighting dynamic myeloid differentiation associated with lesion type. Myeloid cells exhibited the most prominent differences between non-CTO and CTO lesions in lower extremity artery plaques. When comparing lower extremity and coronary plaques, a consistent pattern emerged in which TREM2\u207a macrophages were enriched in non-CTO and chronic coronary syndrome plaques, whereas S100A8\u207a inflammatory monocytes predominated in CTO and acute coronary syndrome plaques. Conclusions: The scRNA-seq of LEAD plaques revealed distinct immune profiles between CTO and non-CTO groups. S100A8\u207a monocytes and TREM2\u207a macrophages may represent potential therapeutic targets in atherosclerosis of LEAD patients."
+      },
+      "observation_id": "obs-1614d536ef67f15eea08",
+      "observed_at": "2026-10-03T14:17:40.759527+00:00",
+      "published_at": "2026/10/01",
+      "source": "geo",
+      "source_record_id": "GSE335832",
+      "text": "",
+      "title": "Single-Cell RNA Sequencing Reveals Distinct Immune Cell Profiles in Lower Extremity Artery Disease Plaques",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE335832"
+    },
+    {
+      "content_sha256": "f7c0d255cadabd894666e912b929a43b69c8fb6f270fca3406819b62d7e36fc2",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1088/2632-2153/adfcb0/v1/decision1"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": null,
+        "type": "peer-review"
+      },
+      "observation_id": "obs-198c5a67d834a71f0778",
+      "observed_at": "2026-10-03T14:17:41.187656+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.1088/2632-2153/adfcb0/v1/decision1",
+      "text": "",
+      "title": "Decision letter for \"Theoretical Physics Benchmark (TPBench) - a dataset and study of AI reasoning capabilities in theoretical physics\"",
+      "url": "https://doi.org/10.1088/2632-2153/adfcb0/v1/decision1"
+    },
+    {
+      "content_sha256": "92ca6af9c1850ebc8c7d40ca748fdbf088ad6e822ddd08fe306ebdd302a7d7c5",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1101/2023.10.03.560715"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": null,
+        "type": "posted-content"
+      },
+      "observation_id": "obs-19ca2fe66a10d5974d14",
+      "observed_at": "2026-10-03T14:17:41.187666+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.1101/2023.10.03.560715",
+      "text": "",
+      "title": "Benchmark dataset for training machine learning models to predict the pathway involvement of metabolites",
+      "url": "https://doi.org/10.1101/2023.10.03.560715"
+    },
+    {
+      "content_sha256": "01a103ccf0846497f2f74477c27ab0d766950235b9fe336bacc98e01baf02a20",
+      "evidence_state": "observed",
+      "identifiers": {
+        "accession": "GSE304567",
+        "geo": "GSE304567"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "gds_type": "Expression profiling by high throughput sequencing",
+        "summary": "Contemporary single-cell epigenomic studies have identified important unresolved questions regarding chromatin dynamics in cardiac development. Leveraging our SpliCoTECH platform - an innovative single-cell multi-omics approach combining transcriptomic and chromatin binding profiling - we defined six chromatin states per metacell and mapped 610 high-scoring ncDNVs to specific chromatin contexts during hESC-CM differentiation. Here, through SpliCoTECH-RNA profiling, we further characterized functional ncDNV in understudied repressive chromatin domains, revealing its roles in modulating gene expression and lineage commitment. These findings uncover a sophisticated interplay between chromatin architecture and transcriptional regulation during cardiogenesis."
+      },
+      "observation_id": "obs-1c8ea73b14b86711e833",
+      "observed_at": "2026-10-03T14:17:40.759571+00:00",
+      "published_at": "2026/10/01",
+      "source": "geo",
+      "source_record_id": "GSE304567",
+      "text": "",
+      "title": "Single-Cell RNA Sequencing Decodes Cell-Specific Non-Coding Landscapes in Human Cardiogenesis and Congenital Heart Disease",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE304567"
+    },
+    {
+      "content_sha256": "13faceee82c0e707b89ac721714b7cf1535ddb7bdb1264a374377416c4e405e2",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1177/20539517241242457"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": [
+          "Big Data &amp; Society"
+        ],
+        "type": "journal-article"
+      },
+      "observation_id": "obs-1e89f1f922dac954eea7",
+      "observed_at": "2026-10-03T14:17:41.187737+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.1177/20539517241242457",
+      "text": "",
+      "title": "Agreements \u2018in the wild\u2019: Standards and alignment in machine learning benchmark dataset construction",
+      "url": "https://doi.org/10.1177/20539517241242457"
+    },
+    {
+      "content_sha256": "ce183c4b9cea4e8baf7a933b40a91b959b05ea634b9b94c52e10e32d00a5f984",
+      "evidence_state": "observed",
+      "identifiers": {
+        "pmid": "42641972"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Magnetic resonance imaging"
+      },
+      "observation_id": "obs-23d9fd6e0f8970513cbc",
+      "observed_at": "2026-10-03T14:17:39.874554+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42641972",
+      "text": "",
+      "title": "Training-free motion correction for cardiac T1 mapping using DINOv3 features.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42641972/"
+    },
+    {
+      "content_sha256": "b3d049c268bd5103da301d762560e0c0561bbf5ec4a08cb312a09ef764f06711",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.3389/fphys.2026.1946312"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "article"
+      },
+      "observation_id": "obs-2658e5bd4f3c97cb426b",
+      "observed_at": "2026-10-03T14:17:43.777155+00:00",
+      "published_at": "2026-09-29",
+      "source": "openalex",
+      "source_record_id": "W7214711153",
+      "text": "",
+      "title": "Dynamic graph vector autoregression for characterizing cardiac electromechanical dynamics during incremental exercise from the joint phase space of electrocardiogram and phonocardiogram",
+      "url": "https://openalex.org/W7214711153"
+    },
+    {
+      "content_sha256": "86de20bc281c3356e5896968d2239b6d46038727364682c4abf45d8cf1ac8855",
+      "evidence_state": "observed",
+      "identifiers": {
+        "accession": "GSE334303",
+        "geo": "GSE334303"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "gds_type": "Expression profiling by high throughput sequencing",
+        "summary": "Schizophrenia (SCZ) is a common psychiatric disorder characterized by psychosis, emotional withdrawal, and cognitive deficits. Most SCZ risk variants reside in  non-coding regions of the genome and are thought to influence disease risk by modulating gene regulation. However, the target genes, biological pathways, and cell types through which these variants exert their effects remain poorly understood. To address this gap, we employed in vivo CRISPR droplet sequencing (CROP-seq) in the postnatal mouse neocortex. We perturbed 12 SCZ risk genes previously linked to functionally validated risk variants, followed by single-cell RNA sequencing. We identified 3,031 differentially expressed genes (DEGs) that recapitulate transcriptional alterations observed in postmortem SCZ brains. Integrative analysis using DEG clustering, factor analysis, and gene regulatory network inference uncovered convergent gene programs with distinct biological functions and cell type specificity. Notably, ciliary transcriptional programs consistently emerged across analytical frameworks. The primary cilium is a neurocircuit modulating signaling organelle in neurons and glia that remains understudied in SCZ. Perturbation of key contributors to the ciliary transcriptional programs led to significant alterations in ciliary structure, suggesting that SCZ genetic risk factors may influence how brain cells sense and transduce extracellular signals through synapse-independent mechanisms. Together, this study provides the first in vivo characterization of the functional consequence of common variant architecture in SCZ and implicates ciliary dysfunction as a convergent downstream mechanism."
+      },
+      "observation_id": "obs-2686e5fc4ff291297efa",
+      "observed_at": "2026-10-03T14:17:40.759680+00:00",
+      "published_at": "2026/09/30",
+      "source": "geo",
+      "source_record_id": "GSE334303",
+      "text": "",
+      "title": "Perturbation of genes linked to common schizophrenia risk variants identifies cilia programs",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE334303"
+    },
+    {
+      "content_sha256": "f1bf137eb15ea22a84baa83fa77c5cc63d2d00fad0fe58b568ef64c868bf1fe0",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.02.06.704425"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": null,
+        "type": "posted-content"
+      },
+      "observation_id": "obs-26cffe1d0859defce771",
+      "observed_at": "2026-10-03T14:17:41.187706+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.64898/2026.02.06.704425",
+      "text": "",
+      "title": "A Large-Scale Cryo-EM RNA Motif Dataset and Benchmark for Machine Learning-Based Structure Modeling",
+      "url": "https://doi.org/10.64898/2026.02.06.704425"
+    },
+    {
+      "content_sha256": "6a7e133e8f38a84e770c97d20d760b9d2f7646917841f056d3ab36adde138f20",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1101/2025.07.13.25331478"
+      },
+      "kind": "publication",
+      "metadata": {
+        "category": "public and global health",
+        "version": "3"
+      },
+      "observation_id": "obs-2893089296fbfc807f48",
+      "observed_at": "2026-10-03T14:17:46.081720+00:00",
+      "published_at": "2026-09-03",
+      "source": "medrxiv",
+      "source_record_id": "10.1101/2025.07.13.25331478:3",
+      "text": "Influenza transmission in subtropical regions is shaped by complex, non-linear meteorological conditions, while surveillance-based forecasting has been further complicated by fluctuating testing intensity and non-pharmaceutical interventions during the COVID-19 period. Existing approaches often either characterize lagged environmental associations without forecasting capacity or apply deep learning without clear epidemiological interpretability. Using six years (2018-2023) of multi-site influenza surveillance data from Putian, a subtropical coastal city in southeastern China, we developed a two-stage framework to characterize meteorological associations and improve short-horizon forecasting. Influenza positivity rates were used as the primary outcome to mitigate testing-related surveillance bias. Distributed lag non-linear models (DLNMs) were constructed to estimate subtype-specific, lagged associations between meteorological variables and influenza positivity, and a Bayesian-optimized long short-term memory (LSTM) network integrating meteorological, autoregressive, and socio-behavioral covariates was developed to forecast influenza A and B activity. Influenza A positivity was associated with warmer conditions, peaking at 15{degrees}C (relative risk [RR] = 3.01, 95% CI: 1.03-8.78) and narrow diurnal temperature ranges, whereas influenza B positivity was associated with colder (8{degrees}C; RR = 26.12, 95% CI: 7.79-87.61), more humid (91%; RR = 1.52, 95% CI: 1.00-2.29), and lower-radiation conditions. The LSTM achieved lower forecast error than covariate-matched baselines (multivariate Autoregressive Integrated Moving Average [ARIMA] and eXtreme Gradient Boosting [XGBoost]) for both subtypes (Mean Absolute Error [MAE] for influenza A: 0.009 vs. 0.136 [ARIMA] and 0.138 [XGBoost]; for influenza B: 0.002 vs. 0.049 [ARIMA] and 0.070 [XGBoost]; Symmetric Mean Absolute Percentage Error [SMAPE] for influenza A: 0.521 vs. 1.212 and 1.081; for influenza B: 0.484 vs. 0.810 and 0.737, respectively). Covariate-ablation and SHapley Additive exPlanations (SHAP) analyses suggested that historical positivity and testing-related variables contributed materially to forecast stability under surveillance variability. External evaluation in Sanming provided preliminary evidence of model portability. This integrated DLNM-LSTM framework offers an interpretable approach for characterizing subtype-specific meteorological associations and improving influenza forecasting in subtropical settings.\n\nImportanceInfluenza imposes substantial global morbidity and mortality each year, and forecasting is particularly difficult in subtropical regions, where transmission occurs year-round, meteorological drivers are non-linear and lagged, and the COVID-19 period introduced pronounced epidemiological non-stationarity. Forecasts based on raw case counts are further affected by surveillance-related bias, as counts partly reflect testing intensity and clinician vigilance rather than underlying transmission alone. Existing work has largely applied inferential and deep-learning approaches in isolation, limiting either interpretability or forecasting flexibility. We address these issues with a two-stage DLNM-LSTM framework that uses influenza positivity rates as the primary endpoint and incorporates weekly detection volumes, mask-wearing stringency indices, day-and-week and non-local population proportion as socio-behavioral covariates, in order to mitigate testing-related surveillance bias and accommodate pandemic-era non-stationarity. The framework reveals distinct, subtype-specific meteorological associations for influenza A and B, shows lower forecast errors than covariate-matched baselines, both linear autoregressive (ARIMA) and non-linear machine-learning (XGBoost), and provides preliminary evidence of portability to a second subtropical city. It offers an interpretable, climate-informed methodological foundation for future operational surveillance developments in subtropical influenza forecasting.",
+      "title": "Meteorological Drivers of Influenza A and B Positivity in a Subtropical Chinese City: A Six-Year Surveillance Study Integrating Distributed Lag Non-Linear Models and Deep Learning",
+      "url": "https://doi.org/10.1101/2025.07.13.25331478"
+    },
+    {
+      "content_sha256": "d12118bbaffd7ff1181bfa2c627876f507c0846f46627939b615dc56ba2c802e",
+      "evidence_state": "observed",
+      "identifiers": {
+        "pmid": "42750723"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "International journal of cardiology. Cardiovascular risk and prevention"
+      },
+      "observation_id": "obs-28c2e90d9e1ddf2f1b3f",
+      "observed_at": "2026-10-03T14:17:39.874494+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42750723",
+      "text": "",
+      "title": "Independent associations of psychiatric disorders with atrial fibrillation and acute coronary syndrome: An analysis of the National Inpatient Sample.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42750723/"
+    },
+    {
+      "content_sha256": "3c089144306974b7206b4d5876f35d78aa5a676a611d3722ae1b03b21a4c90ed",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.09.01.26361990"
+      },
+      "kind": "publication",
+      "metadata": {
+        "category": "psychiatry and clinical psychology",
+        "version": "1"
+      },
+      "observation_id": "obs-2eafed0ca8198c1bc699",
+      "observed_at": "2026-10-03T14:17:46.082274+00:00",
+      "published_at": "2026-09-03",
+      "source": "medrxiv",
+      "source_record_id": "10.64898/2026.09.01.26361990:1",
+      "text": "Generalization is a key cognitive process that allows humans to flexibly apply prior knowledge to guide new behaviors. Difficulties with generalization and flexibility are observed across neurodevelopmental disorders, especially autism, limiting adaptive function and quality of life. Cognitive-behavioral treatment benefits some but not all autistic individuals. As treatment requires application of learned skills to everyday life, variability in generalization ability may limit intervention success in autism. While cognitive substrates of learning and generalization are well established, their potential for explaining clinical outcomes is not known. Here, we combined a category learning task with computational modelling to distinguish two learning strategies underlying generalization - prototype abstraction vs. exemplar memorization - and tested whether individual differences in these learning strategies predicted real-world intervention outcomes in autistic youth. Fifty-four participants completed the category learning task at two pre-intervention timepoints, and then completed Unstuck and On Target:14-22 intervention targeting flexible problem solving, goal setting, and planning. We found that participants who consistently relied on prototype abstraction (N=26) were subsequently more likely to benefit from the intervention, showing improvement in parent- and self-reported flexibility. These findings identify prototype abstraction as a clinically relevant cognitive capacity that may help explain individual differences in intervention response and support the tailoring of interventions. More broadly, they demonstrate the value of linking basic cognitive mechanisms to clinical outcomes and may inform strategies to enhance the effectiveness of cognitive-behavioral interventions for youth with developmental disabilities.",
+      "title": "Prototype abstraction predicts response to flexibility intervention in autistic youth",
+      "url": "https://doi.org/10.64898/2026.09.01.26361990"
+    },
+    {
+      "content_sha256": "0ac4bac9af2b323889191b9b6605de429e22394aa08b19a9755e7b6a81f8ab77",
+      "evidence_state": "observed",
+      "identifiers": {
+        "pmid": "42703625"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "European journal of psychotraumatology"
+      },
+      "observation_id": "obs-3289f0b987ae9d33114e",
+      "observed_at": "2026-10-03T14:17:39.874521+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42703625",
+      "text": "",
+      "title": "Predicting longitudinal post-traumatic stress disorder symptoms using psychological measures and heart rate variability: a machine-learning approach.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42703625/"
+    },
+    {
+      "content_sha256": "0db7813146f6a415902dd8d717bfb9bc9c79ac36803077f7d1b4df576306444b",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.22806709"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "preprint"
+      },
+      "observation_id": "obs-3918fe2bccfa6ce6c1c8",
+      "observed_at": "2026-10-03T14:17:43.777038+00:00",
+      "published_at": "2026-09-30",
+      "source": "openalex",
+      "source_record_id": "W7213518721",
+      "text": "",
+      "title": "Personalized Electrocardiographic and HRV Dynamics for Acute Stress Detection: A Leave-One-Subject-Out Benchmark on WESAD",
+      "url": "https://openalex.org/W7213518721"
+    },
+    {
+      "content_sha256": "0fdaa6a83e690a62f66393d2d1be028706cbe809bc3ddb881c8558866070f398",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.35377/saucis...1833058"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "article"
+      },
+      "observation_id": "obs-3c5ef8940d7640739aae",
+      "observed_at": "2026-10-03T14:17:43.777078+00:00",
+      "published_at": "2026-09-30",
+      "source": "openalex",
+      "source_record_id": "W7214960984",
+      "text": "",
+      "title": "A Comparative Performance Evaluation of Classification Algorithms on Imbalanced Datasets",
+      "url": "https://openalex.org/W7214960984"
+    },
+    {
+      "content_sha256": "ff4bd49839bf791c2143451170df39e62353595b5db3f8e4ef824250faf98c02",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.3389/frai.2026.1861611"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "article"
+      },
+      "observation_id": "obs-3d3fe7a51159aa9d2e2b",
+      "observed_at": "2026-10-03T14:17:43.777134+00:00",
+      "published_at": "2026-09-29",
+      "source": "openalex",
+      "source_record_id": "W7214699577",
+      "text": "",
+      "title": "Beyond text: quantifying the impact of figure-guided retrieval in biomedical RAG systems",
+      "url": "https://openalex.org/W7214699577"
+    },
+    {
+      "content_sha256": "66d407de4e355b20a70282a4831e851f44722e3e0634c7a102df2df80fd7ed2c",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23121860"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [
+          "PublicationBiasBenchmark",
+          "2026.2",
+          "Alinaghi2018",
+          "benchmark-storage"
+        ],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-3db649b1d025d922dcb6",
+      "observed_at": "2026-10-03T14:17:42.587631+00:00",
+      "published_at": "2026-10-03",
+      "source": "zenodo",
+      "source_record_id": "23121860",
+      "text": "",
+      "title": "PublicationBiasBenchmark: Alinaghi2018 storage (2026.2)",
+      "url": null
+    },
+    {
+      "content_sha256": "8782c45fc139520cc9801711aea5bfe30b70f6e564ef56fc31bd3246c81bc75c",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1145/3529399.3529413"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": [
+          "2022 7th International Conference on Machine Learning Technologies (ICMLT)"
+        ],
+        "type": "proceedings-article"
+      },
+      "observation_id": "obs-3f25e258d47c5af021d0",
+      "observed_at": "2026-10-03T14:17:41.187674+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.1145/3529399.3529413",
+      "text": "",
+      "title": "Open Learning Analytics: A Systematic Review of Benchmark Studies using Open University Learning Analytics Dataset (OULAD)",
+      "url": "https://doi.org/10.1145/3529399.3529413"
+    },
+    {
+      "content_sha256": "19c17d5ffd8f7a3980b9eb75fcd0affd7c93bc3eb9c1de8e738ede782b3e8fea",
+      "evidence_state": "observed",
+      "identifiers": {
+        "github": "alihassan891u-lab/heart-disease-detection"
+      },
+      "kind": "repository",
+      "metadata": {
+        "description": "A comparative machine learning study that evaluates multiple classification algorithms (Logistic Regression, SVM, Random Forest, KNN, Gradient Boosting, and Gaussian Naive Bayes) on cardiac health data. The project includes comprehensive exploratory data analysis, outlier detection using IQR method, and performance benchmarking. Gaussian Naive Baye",
+        "language": "Jupyter Notebook",
+        "stars": 0
+      },
+      "observation_id": "obs-3f52560732ef1621e713",
+      "observed_at": "2026-10-03T14:17:42.954450+00:00",
+      "published_at": "2026-08-17",
+      "source": "github",
+      "source_record_id": "alihassan891u-lab/Heart-Disease-Detection",
+      "text": "A comparative machine learning study that evaluates multiple classification algorithms (Logistic Regression, SVM, Random Forest, KNN, Gradient Boosting, and Gaussian Naive Bayes) on cardiac health data. The project includes comprehensive exploratory data analysis, outlier detection using IQR method, and performance benchmarking. Gaussian Naive Baye",
+      "title": "alihassan891u-lab/Heart-Disease-Detection",
+      "url": "https://github.com/alihassan891u-lab/Heart-Disease-Detection"
+    },
+    {
+      "content_sha256": "3b05ffda78b7f837cde8ee15d012543487b13ed131a3c8625e25d8ae15cf7e37",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1038/s41597-023-02612-2"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": [
+          "Scientific Data"
+        ],
+        "type": "journal-article"
+      },
+      "observation_id": "obs-406789fee1d0f98249ca",
+      "observed_at": "2026-10-03T14:17:41.187698+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.1038/s41597-023-02612-2",
+      "text": "",
+      "title": "A benchmark dataset for machine learning in ecotoxicology",
+      "url": "https://doi.org/10.1038/s41597-023-02612-2"
+    },
+    {
+      "content_sha256": "a7a67090e0e27b699b74fa57c915cc4b791eaf0402281b82b1a280fbbcf0a0ed",
+      "evidence_state": "observed",
+      "identifiers": {
+        "pmid": "42570825"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Magnetic resonance imaging"
+      },
+      "observation_id": "obs-41638a31f28c4ea51b9a",
+      "observed_at": "2026-10-03T14:17:39.874579+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42570825",
+      "text": "",
+      "title": "Toward self-contained cardiac magnetic resonance elastography: Deep learning-based segmentation of the left ventricular myocardium.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42570825/"
+    },
+    {
+      "content_sha256": "7a5814f899f878851ee719d96189f9a9486e3c708cb1ac3d70cacc2030d6c08a",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23121181"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-44659ea3d8d1d16ef862",
+      "observed_at": "2026-10-03T14:17:42.587712+00:00",
+      "published_at": "2026-10-03",
+      "source": "zenodo",
+      "source_record_id": "23121181",
+      "text": "",
+      "title": "Glacial-interglacial changes in mixed layer-upper thermocline structure and productivity in the Northern Indian Ocean inferred from individual foraminiferal stable isotope ratios",
+      "url": null
+    },
+    {
+      "content_sha256": "46be6b077e21adb4189538ee94052600997968ca8fc8923b820aacfad3242da3",
+      "evidence_state": "observed",
+      "identifiers": {
+        "pmid": "42315974"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Renal failure"
+      },
+      "observation_id": "obs-49a66a6599892fee05ab",
+      "observed_at": "2026-10-03T14:17:39.874631+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42315974",
+      "text": "",
+      "title": "A four-gene signature for diagnosis of acute kidney injury following kidney transplantation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42315974/"
+    },
+    {
+      "content_sha256": "6b09768a95c6d48fe3b5cc2da507e98883d8c27a01694fad5ccc53cf4d1b03a8",
+      "evidence_state": "observed",
+      "identifiers": {
+        "pmid": "41944044"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Pulmonology"
+      },
+      "observation_id": "obs-4ad4de0da1ed32ff60f0",
+      "observed_at": "2026-10-03T14:17:39.874421+00:00",
+      "published_at": "2026 Dec 3",
+      "source": "pubmed",
+      "source_record_id": "41944044",
+      "text": "",
+      "title": "Plasma proteomic signatures linking preserved ratio impaired spirometry to cardiometabolic diseases and multimorbidity: A longitudinal cohort study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41944044/"
+    },
+    {
+      "content_sha256": "e43ec33954bd003c90356e7599f304449e3854f7fc64eaf68070de0826f6d613",
+      "evidence_state": "observed",
+      "identifiers": {
+        "pmid": "42664937"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Biosensors & bioelectronics"
+      },
+      "observation_id": "obs-4ae7b05c77d69acac4c9",
+      "observed_at": "2026-10-03T14:17:39.874546+00:00",
+      "published_at": "2026 Dec 1",
+      "source": "pubmed",
+      "source_record_id": "42664937",
+      "text": "",
+      "title": "Integrated machine-learning-assisted wearable platform for stress state assessment based on sweat cortisol and multimodal physiological biosensing.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42664937/"
+    },
+    {
+      "content_sha256": "41b92a6b0ec79f09174c14963c41b940164f3cd90bb457b82a0bae646eee0050",
+      "evidence_state": "observed",
+      "identifiers": {
+        "accession": "GSE347444",
+        "geo": "GSE347444"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "gds_type": "Expression profiling by high throughput sequencing",
+        "summary": "Analysis of steady-state mRNA levels in mouse heart tissue at 1 month from wild-type C57BL/6J and Dp(16)1Yey mice."
+      },
+      "observation_id": "obs-4cb6bdbeebb23cc6f664",
+      "observed_at": "2026-10-03T14:17:40.759640+00:00",
+      "published_at": "2026/09/30",
+      "source": "geo",
+      "source_record_id": "GSE347444",
+      "text": "",
+      "title": "Crnic Institute - Trisomy 21 Model Atlas: PolyA RNA-seq from Dp(16)1Yey mice [1mo Heart]",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE347444"
+    },
+    {
+      "content_sha256": "09099b0c1944a914feb199c407db748e3d95ba570d725a01a1031144a3692060",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.3390/make4010008"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": [
+          "Machine Learning and Knowledge Extraction"
+        ],
+        "type": "journal-article"
+      },
+      "observation_id": "obs-4cbd41bfd6416052e218",
+      "observed_at": "2026-10-03T14:17:41.187622+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.3390/make4010008",
+      "text": "",
+      "title": "Explainable Machine Learning Reveals Capabilities, Redundancy, and Limitations of a Geospatial Air Quality Benchmark Dataset",
+      "url": "https://doi.org/10.3390/make4010008"
+    },
+    {
+      "content_sha256": "ef72ca2a91e801bcd9eab3f8b99bfe4838944eeb5e30dc78aab46082b96e3bca",
+      "evidence_state": "observed",
+      "identifiers": {
+        "pmid": "42374899"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Annals of medicine"
+      },
+      "observation_id": "obs-4eaa330bf0eba5738a6e",
+      "observed_at": "2026-10-03T14:17:39.874623+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42374899",
+      "text": "",
+      "title": "Early metabolic trajectory and sedation strategy in V-V ECMO for severe pneumonia: a multicenter cohort study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42374899/"
+    },
+    {
+      "content_sha256": "ce3c944436530c8b8da079e440b27ae659a9f30e45dff22a62ba92e3c9df9d9e",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1021/acs.jcim.5c01262.s001"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": null,
+        "type": "component"
+      },
+      "observation_id": "obs-51b5308da5b2787b04a1",
+      "observed_at": "2026-10-03T14:17:41.187760+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.1021/acs.jcim.5c01262.s001",
+      "text": "",
+      "title": "MS25: Materials Science-Focused Benchmark Data Set for Machine Learning Interatomic Potentials",
+      "url": "https://doi.org/10.1021/acs.jcim.5c01262.s001"
+    },
+    {
+      "content_sha256": "4a819016e42767a5d3287aaa3e5ad5750b0caff6bfd3beb64c9ba892a68ace1b",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5194/egusphere-egu23-14007"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": null,
+        "type": "posted-content"
+      },
+      "observation_id": "obs-549edb97f64894d2027a",
+      "observed_at": "2026-10-03T14:17:41.187681+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.5194/egusphere-egu23-14007",
+      "text": "",
+      "title": "LithoNet: A benchmark dataset for machine learning with digital outcrops",
+      "url": "https://doi.org/10.5194/egusphere-egu23-14007"
+    },
+    {
+      "content_sha256": "583d1a0d62625b43c027aea9cc3c29b3e7c1d43e97b2d494cdcece841ad143fe",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.01.29.26345103"
+      },
+      "kind": "publication",
+      "metadata": {
+        "category": "health systems and quality improvement",
+        "version": "2"
+      },
+      "observation_id": "obs-5596198957bee53379ab",
+      "observed_at": "2026-10-03T14:17:46.081869+00:00",
+      "published_at": "2026-09-03",
+      "source": "medrxiv",
+      "source_record_id": "10.64898/2026.01.29.26345103:2",
+      "text": "BackgroundTimely access to healthcare is vital especially during childbirth, as it affects unplanned out-of-hospital births, survival and morbidity outcomes. In Germany, the number of maternity wards decreased since 2014, potentially increasing travel times for pregnant women. We examined changes in the travel times after maternity ward closures from 2014 to 2024 and addressed spatial disparities, providing essential information to ensure maternal and newborn care accessibility.\n\nMethodsMaternity ward closures in Germany from 2014 to 2024 were identified, and travel time to the nearest ward was calculated for women of reproductive age (15 to 49 years) using the Open Source Routing Machine. Critical driving time was defined as 40 minutes or longer.\n\nResultsSince 2014, the number of maternity wards in Germany decreased by 172 (-23.1%), leaving 573 in 2024. Consequently, the number of women facing critical travel times increased by 109%, from 48,139 (0.28% of all women at risk) to 101,025 (0.60%). 27 closures were responsible for 90% of the increase in critical travel times, with seven accounting for over 50%. Northern and eastern parts of Germany were affected most which was reflected in an increasing Gini coefficient measuring the inequalities in travel times across Germany.\n\nConclusionMost maternity ward closures had minimal effect, but a few substantially increased travel time, especially in regions without nearby alternatives. These closures exacerbated regional disparities and potentially increased the risks of unplanned out-of-hospital births and other adverse birth outcomes.\n\nKey MessagesO_ST_ABSWhat is already known on this topicC_ST_ABSLong travel time to the nearest maternity ward is associated with unplanned out-of-hospital births and negative maternal, fetal and neonatal birth outcomes.\n\nWhat this study addsFrom 2014 to 2024, the number of maternity wards in Germany decreased by 23.1%. As a result the number of women between 15 and 49 facing travel times of 40 minutes or more increased by 109%, reaching 101,025 in 2024. Regional disparities in critical travel times were exacerbated.\n\nHow this study might affect research, practice or policyThis study underscores that further decisions on maternity ward closures should assess the impact on travel times and policy responses should create accessible accommodation options in areas where travel distance cannot be otherwise reduced. Further studies are needed to monitor the impact on increased travel time to obstetric care in Germany.",
+      "title": "Changes in Spatial Access to Obstetric Care in Germany from 2014 to 2024: A Nationwide Travel Time Analysis",
+      "url": "https://doi.org/10.64898/2026.01.29.26345103"
+    },
+    {
+      "content_sha256": "1491b144559e479c28a5e5baefe1d7dd4dce1447966425bb724bd31235d95f92",
+      "evidence_state": "observed",
+      "identifiers": {
+        "pmid": "41736539"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Clinical and experimental hypertension (New York, N.Y. : 1993)"
+      },
+      "observation_id": "obs-56e57acc80210dffef15",
+      "observed_at": "2026-10-03T14:17:39.874456+00:00",
+      "published_at": "2026 Dec 3",
+      "source": "pubmed",
+      "source_record_id": "41736539",
+      "text": "",
+      "title": "Dissecting burden of alcoholic cardiomyopathy: age-period-cohort analysis from the global burden of disease study 2019.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41736539/"
+    },
+    {
+      "content_sha256": "a4a83efde7f21aeaa4f6cadf714d6d3e75b011ed0ae47df893c65ab3b3c1c648",
+      "evidence_state": "observed",
+      "identifiers": {
+        "pmid": "42567083"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Computational biology and chemistry"
+      },
+      "observation_id": "obs-57ff0d0d1b3ba228dea9",
+      "observed_at": "2026-10-03T14:17:39.874597+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42567083",
+      "text": "",
+      "title": "Study on the potential role of KIF23 in doxorubicin-induced cardiomyopathy through multi-omics integration and AI-based screening.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42567083/"
+    },
+    {
+      "content_sha256": "8d10220e064af234e8035751825fa2cf4a0edc58a3ee3a5076b523e3ded707f0",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1021/acs.analchem.6c03711"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": [
+          "Analytical Chemistry"
+        ],
+        "type": "journal-article"
+      },
+      "observation_id": "obs-5904a0b4967217c482d3",
+      "observed_at": "2026-10-03T14:17:41.187721+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.1021/acs.analchem.6c03711",
+      "text": "",
+      "title": "CCSBase2: A\nUnified Benchmark Dataset and Machine\nLearning Framework for Robust CCS Prediction",
+      "url": "https://doi.org/10.1021/acs.analchem.6c03711"
+    },
+    {
+      "content_sha256": "3bff363e2f9883083cf3b1b195307dc71e1c39df07eec85b373c75b6f856bb17",
+      "evidence_state": "observed",
+      "identifiers": {
+        "accession": "GSE348021",
+        "geo": "GSE348021"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "gds_type": "Expression profiling by high throughput sequencing",
+        "summary": "This SuperSeries is composed of the SubSeries listed below."
+      },
+      "observation_id": "obs-5b3bc60f71da34b8468c",
+      "observed_at": "2026-10-03T14:17:40.759483+00:00",
+      "published_at": "2026/10/01",
+      "source": "geo",
+      "source_record_id": "GSE348021",
+      "text": "",
+      "title": "Vascular specification from diversified mesoderm culminates in endothelial convergence",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE348021"
+    },
+    {
+      "content_sha256": "fbfbb124f47a63257ae11da846dcd36d62296598d3a40b4a9c58eb4d7e161e51",
+      "evidence_state": "observed",
+      "identifiers": {
+        "accession": "GSE245983",
+        "geo": "GSE245983"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "gds_type": "Expression profiling by high throughput sequencing",
+        "summary": "Differentiation of human stem cells into any of the three germ cell layers is accompanied by and dependent upon a myriad of transcriptional changes. Members of a family of largely non-coding RNA transcripts, called circular RNAs (circRNAs), which arise via alternative splicing of pre-mRNAs have been shown to play important roles in stemness and cell differentiation. Herein, human embryonic stem cells were differentiated into five cell types and circRNAs and mRNAs were profiled by high-throughput sequencing. Highly expressed circRNAs whose expression was regulated across these lineages were silenced at the RNA level. One circRNA, circACVR2A(2-4), was found to induce rapid phenotypic and transcriptional transition to neurectoderm cell lineage. Interestingly, its interaction with cyclin H within the cyclin-dependent kinase (CDK) activating kinase (CAK) complex was found to be required for maintaining CDK phosphorylation homeostasis, influencing the activity of RNA polymerase II and cell cycle progression."
+      },
+      "observation_id": "obs-5b65dc18e72d061837a5",
+      "observed_at": "2026-10-03T14:17:40.759609+00:00",
+      "published_at": "2026/10/01",
+      "source": "geo",
+      "source_record_id": "GSE245983",
+      "text": "",
+      "title": "Profiling circular RNAs across human embryonic stem cell differentiation identifies the role of circACVR2A(4-6) in neuroectoderm lineage differentiation [RNA-seq]",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE245983"
+    },
+    {
+      "content_sha256": "57c58549509787624a3a6919b3d3b69a4b342874e773b4ababb92bc68bbe8ae7",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5194/essd-2020-380"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": null,
+        "type": "posted-content"
+      },
+      "observation_id": "obs-5e2621320d544f2af61a",
+      "observed_at": "2026-10-03T14:17:41.187690+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.5194/essd-2020-380",
+      "text": "",
+      "title": "AQ-Bench: A Benchmark Dataset for Machine Learning on Global\nAir Quality Metrics",
+      "url": "https://doi.org/10.5194/essd-2020-380"
+    },
+    {
+      "content_sha256": "f4362371571afffc8f1d1cdcafd562874157c26f9f1d5bb9d3ad0fdfd578878e",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.26434/chemrxiv.12609899.v1"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": null,
+        "type": "posted-content"
+      },
+      "observation_id": "obs-6062086a2f4d0cfab777",
+      "observed_at": "2026-10-03T14:17:41.187783+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.26434/chemrxiv.12609899.v1",
+      "text": "",
+      "title": "The Photoswitch Dataset: A Molecular Machine Learning Benchmark for the Advancement of Synthetic Chemistry",
+      "url": "https://doi.org/10.26434/chemrxiv.12609899.v1"
+    },
+    {
+      "content_sha256": "65da685e489816ea6ae96f173eb13f22c36a67320ecedfb7c04330d24dabc5e5",
+      "evidence_state": "observed",
+      "identifiers": {
+        "pmid": "42427275"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Annals of medicine"
+      },
+      "observation_id": "obs-623f7bd549409892a963",
+      "observed_at": "2026-10-03T14:17:39.874615+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42427275",
+      "text": "",
+      "title": "Multiple machine learning models for predicting major adverse cardiovascular events in dialysis with clinical and echocardiographic parameters: a retrospective cohort study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42427275/"
+    },
+    {
+      "content_sha256": "f7e2e7397d899ef6a6d7abffb858b67d80ec41827e002e72d0966afdb282a51c",
+      "evidence_state": "observed",
+      "identifiers": {
+        "accession": "GSE348247",
+        "geo": "GSE348247"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "gds_type": "Expression profiling by high throughput sequencing",
+        "summary": "Background: Myocardial fibrosis and oxidative stress are key drivers of post-myocardial infarction heart failure (post-MI HF). Ginsenoside Rh2 (GRh2) has shown cardioprotective potential, but its role in post-MI HF and the underlying mechanism remain unclear. The current study aimed to investigate the therapeutic effect of GRh2 on post-MI HF and to validate its regulatory mechanism using murine, cellular, and cardiac organoid models. Methods: In vivo, Cardiac function and myocardial fibrosis were evaluated. Transcriptome analysis was performed to identify enriched signaling pathways. In vitro, H9C2 cardiomyocytes and cardiac organoids were subjected to oxygen-glucose deprivation (OGD). Cardiac injury indicators, fibrotic and oxidative stress markers, and proteins associated with the TGF-\u03b2/Smad2 pathway were measured via enzyme-linked immunosorbent assay (ELISA) and Western blotting. Results: In vivo, GRh2 treatment markedly improved cardiac function and reduced myocardial fibrosis in mice with post-MI heart failure. Transcriptomic analysis revealed that the TGF-\u03b2 signaling pathway was substantially enriched. In vitro, GRh2 treatment significantly improved cell viability and reduced oxidative stress and fibrosis in OGD-exposed H9C2 cardiomyocytes and cardiac organoids. These protective effects were strongly associated with the suppression of the TGF-\u03b2/Smad2 signaling pathway. Conclusions: Ginsenoside Rh2 inhibits the TGF\u2011\u03b2/Smad2 signaling pathway to ameliorate cardiac dysfunction in post-MI heart failure, suggesting its potential as a therapeutic candidate."
+      },
+      "observation_id": "obs-62aa0d6159329930bdbe",
+      "observed_at": "2026-10-03T14:17:40.759631+00:00",
+      "published_at": "2026/09/30",
+      "source": "geo",
+      "source_record_id": "GSE348247",
+      "text": "",
+      "title": "Ginsenoside Rh2 Attenuates Post-Myocardial Infarction Heart Failure by Modulating the TGF-\u03b2/Smad2 Signaling Pathway",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE348247"
+    },
+    {
+      "content_sha256": "3cbb23bd490c4f568ee4ee8e80559472636b1bb55a23a17d19e00f89f8e239ac",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.09.01.748703"
+      },
+      "kind": "publication",
+      "metadata": {
+        "category": "bioinformatics",
+        "version": "1"
+      },
+      "observation_id": "obs-6517ab41bbfa66f1c25b",
+      "observed_at": "2026-10-03T14:17:45.395576+00:00",
+      "published_at": "2026-09-03",
+      "source": "biorxiv",
+      "source_record_id": "10.64898/2026.09.01.748703:1",
+      "text": "Single-cell perturbation profiling measures responses to genetic and chemical interventions, yet most models learn a static map, ignoring how populations move over time and how perturbations combine. AnnFlux, an object-conditioned stochastic differential equation, learns a drift field in latent cell-state space. Conditioning on the perturbing object makes the field queryable one object at a time, yielding per-object drifts comparable across genes and drugs. By learning a drift field tailored to each perturbation context, it interpolates a held-out timepoint in an epithelial-mesenchymal transition time course and predicts unseen perturbations. Beyond point estimates, AnnFlux improves distributional fidelity and predicts responses to held-out perturbation combinations. An IFN-response signature predicted by AnnFlux was associated with TLS proximity in an independent pan-cancer spatial atlas. This framework maps perturbation-driven cell-state evolution as continuous trajectories and represents unseen perturbations using prior-knowledge embeddings.",
+      "title": "AnnFlux: object-conditioned neural stochastic differential equations for single-cell perturbation dynamics",
+      "url": "https://doi.org/10.64898/2026.09.01.748703"
+    },
+    {
+      "content_sha256": "52ddb1ab70df005c282501293deb0aa81f90085f6672df8b86f7cb0d48b74f03",
+      "evidence_state": "observed",
+      "identifiers": {
+        "accession": "GSE338171",
+        "geo": "GSE338171"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "gds_type": "Expression profiling by high throughput sequencing",
+        "summary": "We have employed a single cell sequencing approach using 10xGenomics scRNAseq to study microvascular disease using chimeric mice with JAK2V617F-mutant blood cells and wild-type endothelium. Mice were challenged with a high-fat/high-cholesterol diet to model cardiometabolic stress. These mice developed a distinct cardiovascular phenotype characterized by microvascular disease, increased left ventricular mass, and relatively preserved left ventricular ejection fraction. This study concluded that JAK2V617F-mutant hematopoiesis induces coronary microvascular dysfunction. Endocardial ECs represent a key cellular target under cardiometabolic stress, and endocardial MPL signaling constitutes a potential targetable pathway in JAK2V617F-associated cardiovascular disease."
+      },
+      "observation_id": "obs-670fee5aad9a22f8b38a",
+      "observed_at": "2026-10-03T14:17:40.759672+00:00",
+      "published_at": "2026/09/30",
+      "source": "geo",
+      "source_record_id": "GSE338171",
+      "text": "",
+      "title": "Targeting TPO/MPL Signaling to Mitigate JAK2V617F-driven Cardiac Microvascular Disease",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE338171"
+    },
+    {
+      "content_sha256": "309e1e98818c5822e8a380e2ed8fad8847ff8fce6c6b9515a85d3d3f0483219b",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1109/icmla66185.2025.00159"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": [
+          "2025 International Conference on Machine Learning and Applications (ICMLA)"
+        ],
+        "type": "proceedings-article"
+      },
+      "observation_id": "obs-672255f01ac8a684731c",
+      "observed_at": "2026-10-03T14:17:41.187776+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.1109/icmla66185.2025.00159",
+      "text": "",
+      "title": "Offline Reinforcement Learning Benchmark for Variable Speed Limit Control with Real-World Dataset",
+      "url": "https://doi.org/10.1109/icmla66185.2025.00159"
+    },
+    {
+      "content_sha256": "6a327e87dee1a2cfa87be86166302eb373c2f9a7a53f5ae2853246267cb698a4",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23121915"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-68d68f2061c282ff8e7c",
+      "observed_at": "2026-10-03T14:17:42.587493+00:00",
+      "published_at": "2026-10-03",
+      "source": "zenodo",
+      "source_record_id": "23121915",
+      "text": "",
+      "title": "Dataset for: Organic Food Sales in Local Markets: A Comparative Analysis of E-Commerce Use in Ukraine and China",
+      "url": null
+    },
+    {
+      "content_sha256": "2ecfabd8db6cff724a5014e4ac98fd8a4ce75538d5a1e7afdec7d9aa761f0455",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.09.25.754374"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "preprint"
+      },
+      "observation_id": "obs-6c860632d7036250b3e7",
+      "observed_at": "2026-10-03T14:17:43.777018+00:00",
+      "published_at": "2026-10-01",
+      "source": "openalex",
+      "source_record_id": "W7215099772",
+      "text": "",
+      "title": "HMVA-DDI: A Hierarchical Multi-View Attention Network for Drug-Drug Interaction and Severity Prediction",
+      "url": "https://openalex.org/W7215099772"
+    },
+    {
+      "content_sha256": "018ae14413fc9ce2aedd481328927b64dfca5ad065d93191804dab8c0f9c2fc7",
+      "evidence_state": "observed",
+      "identifiers": {
+        "accession": "GSE304895",
+        "geo": "GSE304895"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "gds_type": "Genome binding/occupancy profiling by high throughput sequencing",
+        "summary": "Recent advances in single-cell epigenomics have highlighted significant gaps in our understanding of chromatin regulation during human heart development. Our SpliCoTECH platform (split-pool ligation-based combined assay of transcriptome and enriched chromatin binding) enabled the identification of ZIC3 as a crucial regulator of cardiac mesoderm specification. Comprehensive chromatin state analysis revealed six distinct metacell states and precisely mapped 610 high-confidence non-coding de novo variants (ncDNVs) to specific chromatin contexts. Here, transcription factor binding profiles further validated ZIC3's essential role throughout hESC-CM differentiation. Additionally, multi-histone modification profiling demonstrated functional ncDNVs enriching repressive (H3K27me3-marked) and bivalent chromatin domains actively regulate transcriptional programs and lineage determination. These findings collectively provide mechanistic understanding of ZIC3-mediated regulatory networks and establish ncDNVs as critical modulators of chromatin organization in human cardiac development and diseases."
+      },
+      "observation_id": "obs-70bfe16418ee03486a4d",
+      "observed_at": "2026-10-03T14:17:40.759555+00:00",
+      "published_at": "2026/10/01",
+      "source": "geo",
+      "source_record_id": "GSE304895",
+      "text": "",
+      "title": "Integrative Epigenomic Analysis Reveals CHD-Linked Variants in Human Heart Development",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE304895"
+    },
+    {
+      "content_sha256": "767e378a0e4224548e2e1cd6e7ee7106ccedb9c0d35c3aefd2d057802d8111c9",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1101/2023.05.27.542160"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": null,
+        "type": "posted-content"
+      },
+      "observation_id": "obs-71c7d8312e0e829d0a68",
+      "observed_at": "2026-10-03T14:17:41.187612+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.1101/2023.05.27.542160",
+      "text": "",
+      "title": "A Benchmark Dataset for Machine Learning in Ecotoxicology",
+      "url": "https://doi.org/10.1101/2023.05.27.542160"
+    },
+    {
+      "content_sha256": "b2cc3f6ca6395fb12096449938e000ed7acf9e803b2c81a06d3caf533a426970",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.53832/opendeved.1170"
+      },
+      "kind": "other",
+      "metadata": {
+        "keywords": [],
+        "resource_type": "publication"
+      },
+      "observation_id": "obs-742edfe0d0be42b27109",
+      "observed_at": "2026-10-03T14:17:42.587686+00:00",
+      "published_at": "2025-05-30",
+      "source": "zenodo",
+      "source_record_id": "14588598",
+      "text": "",
+      "title": "Understanding Quality Characteristics of EdTech Interventions and Implementation for Disadvantaged Pupils - Systematic Review with Meta-Analysis",
+      "url": null
+    },
+    {
+      "content_sha256": "3e35f1a4d1843fcd2e9d5c8b6f4a02aea9ee431120df099c70e5d934754aa21b",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23050502"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "preprint"
+      },
+      "observation_id": "obs-75877cba0dc221f8a74a",
+      "observed_at": "2026-10-03T14:17:43.777111+00:00",
+      "published_at": "2026-09-30",
+      "source": "openalex",
+      "source_record_id": "W7215061049",
+      "text": "",
+      "title": "Personalized Electrocardiographic and HRV Dynamics for Acute Stress Detection: A Leave-One-Subject-Out Benchmark on WESAD",
+      "url": "https://openalex.org/W7215061049"
+    },
+    {
+      "content_sha256": "a7c42d87230d63544c77abb20755cd114123823a32940e200cf2b4d755c9ab80",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.47852/bonviewswt620210477"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "article"
+      },
+      "observation_id": "obs-7a51ec3f31d7a68725eb",
+      "observed_at": "2026-10-03T14:17:43.777086+00:00",
+      "published_at": "2026-09-30",
+      "source": "openalex",
+      "source_record_id": "W7214971230",
+      "text": "",
+      "title": "Edge AI for Real-Time Facial Emotion Detection: A Raspberry Pi-Based Approach with CNN",
+      "url": "https://openalex.org/W7214971230"
+    },
+    {
+      "content_sha256": "9d17b664c7477f6bf3b1a4e25ad7b6c827e6fb1403e3ac8a4d4a02a47833d916",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23121007"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-7a74fa733cc41a3bb9aa",
+      "observed_at": "2026-10-03T14:17:42.587696+00:00",
+      "published_at": "2026-10-03",
+      "source": "zenodo",
+      "source_record_id": "23121007",
+      "text": "",
+      "title": "Data and code for \"Historical introduction pools pre-structure future plant invasion debt under climate change\"",
+      "url": null
+    },
+    {
+      "content_sha256": "17e21a2006869f66b5876a517c23fcc7fc01465a45639a96cc527ec7beff228e",
+      "evidence_state": "observed",
+      "identifiers": {
+        "pmid": "42101474"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "The aging male : the official journal of the International Society for the Study of the Aging Male"
+      },
+      "observation_id": "obs-7b261f5f33f54c10fe33",
+      "observed_at": "2026-10-03T14:17:39.874398+00:00",
+      "published_at": "2026 Dec 3",
+      "source": "pubmed",
+      "source_record_id": "42101474",
+      "text": "",
+      "title": "SPISE index and ensemble machine learning refine cardiovascular risk stratification in stage 0-3 CKM syndrome.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42101474/"
+    },
+    {
+      "content_sha256": "944955f682b84d8346149ed78bbaf08926fa2c8dfcf4106df14696e9926dbbe9",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23121865"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [
+          "PublicationBiasBenchmark",
+          "2026.2",
+          "Stanley2017",
+          "benchmark-storage"
+        ],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-7e93cb7ef2cf2ede628e",
+      "observed_at": "2026-10-03T14:17:42.587608+00:00",
+      "published_at": "2026-10-03",
+      "source": "zenodo",
+      "source_record_id": "23121865",
+      "text": "",
+      "title": "PublicationBiasBenchmark: Stanley2017 storage (2026.2)",
+      "url": null
+    },
+    {
+      "content_sha256": "ccd3547c04abba9f12526d4be79434495f6f025b88709f179ade22720f8d51e9",
+      "evidence_state": "observed",
+      "identifiers": {
+        "accession": "GSE329930",
+        "geo": "GSE329930"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "gds_type": "Expression profiling by high throughput sequencing",
+        "summary": "Endothelial dysfunction is a hallmark of pathological angiogenesis and associated with erythrocyte extravasation. Whether mediators released during erythrocyte lysis instruct endothelial cells (human cardiac microvascular endothelial cells (HCMECs)) for new vessel formation is unknown. Here, we performed bulk mRNA-seq to show that the membrane fraction of lysed erythrocytes activates inflammatory endothelial gene transcription and metabolically reprograms ECs to promote angiogenic sprout formation. Furthermore, the angiogenic potential of lysed erythrocytes from patients with peripheral artery disease (PAD) was impaired and could be restored by inhibiting endothelial phosphodiesterase 4 to prevent endothelial cAMP degradation. Our findings uncover that erythrolysis metabolically primes ECs for angiogenesis and that targeting endothelial cAMP generation is a promising strategy to restore endothelial angiogenic functions."
+      },
+      "observation_id": "obs-7eb3a2a9ec1ea36efbd1",
+      "observed_at": "2026-10-03T14:17:40.759691+00:00",
+      "published_at": "2026/09/30",
+      "source": "geo",
+      "source_record_id": "GSE329930",
+      "text": "",
+      "title": "Lysed erythrocyte membranes promote new vessel formation by inducing inflammatory metabolic reprogramming in endothelial cells [RNA-seq]",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE329930"
+    },
+    {
+      "content_sha256": "1e1eab4454d092c4454cfcbbcfeee2bf3b960a1419fe5cad17730a91fa68b946",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.08.30.26361746"
+      },
+      "kind": "publication",
+      "metadata": {
+        "category": "cardiovascular medicine",
+        "version": "2"
+      },
+      "observation_id": "obs-7ee6f6f59f5b90cdf2ce",
+      "observed_at": "2026-10-03T14:17:46.081919+00:00",
+      "published_at": "2026-09-03",
+      "source": "medrxiv",
+      "source_record_id": "10.64898/2026.08.30.26361746:2",
+      "text": "BackgroundA dose-finding trial evaluated safety and adherence for pre-cardiac surgery administration of sodium valproate. Integrated multi-omics analyses of myocardium were used to characterise mechanisms underlying treatment effects.\n\nMethodsAdults undergoing cardiac surgery were randomised 1:1:1:1 with concealed allocation to no treatment (Controls), sodium valproate 15mg/kg/day for 1-2 weeks, 15mg/kg/day for 4-6 weeks, or 25mg/kg/day for 4-6 weeks pre-surgery. The primary analysis evaluated adherence and toxicity. Myocardial injury was defined by high sensitivity serum troponin at 24 hours post-surgery. Single-nucleus Assay for Transposase-Accessible Chromatin with sequencing (snATACseq) and single nuclei RNA sequencing (snRNAseq) of myocardial biopsies collected at surgery assessed treatment effects on chromatin accessibility and gene expression. Candidate mechanisms were validated in in vitro.\n\nResultsThe analysis cohort included 42 participants enrolled between January 2020 and August 2024. Sodium valproate 15mg/kg/day for 1-2 weeks had the highest levels of complete treatment adherence (70%), with 20% experiencing moderate/severe drug related adverse effects. Non-compliance was increased with longer and higher dosing.\n\nAn as-treated analyses demonstrated reductions in troponin release in participants receiving Valproate[&le;]14 days where myocardial biopsies demonstrated activation of hormetic p53 and Akt-GSK-3{beta} ferroptosis protection pathways versus controls. Silencing of these pathways attenuated the protective effect of valproate in vitro. Treatment effects were not attributable to chromatin accessibility.\n\nTreatment >14 days resulted in a heart failure phenotype, suppression of ferroptosis protection pathways, and increased myocardial injury.\n\nConclusionsValproate 15mg/kg/day for [&le;]14 days pre-surgery is well tolerated in adults awaiting cardiac surgery and is associated with upregulation of ferroptosis protection pathways and reductions in myocardial injury.",
+      "title": "Dose-finding, experimental medicine evaluation of sodium valproate for the prevention of post-cardiac surgery myocardial injury",
+      "url": "https://doi.org/10.64898/2026.08.30.26361746"
+    },
+    {
+      "content_sha256": "464d3faeb291f7847971f5c7e8eed6b98bcd0ed383fd761296eda8c03adae748",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.21203/rs.3.rs-10939031/v1"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "preprint"
+      },
+      "observation_id": "obs-8002bafd7af3a707fbfe",
+      "observed_at": "2026-10-03T14:17:43.777046+00:00",
+      "published_at": "2026-09-30",
+      "source": "openalex",
+      "source_record_id": "W7214729433",
+      "text": "",
+      "title": "Persistent Cardiac Surgery-Associated Acute Kidney Injury Identifies a High-Risk Phenotype after Pediatric Congenital Heart Surgery",
+      "url": "https://openalex.org/W7214729433"
+    },
+    {
+      "content_sha256": "2ecf4ecb5ece3888f45f326f4603607f62c8b4649bc006cf4d6e5a784db91e45",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23121487"
+      },
+      "kind": "other",
+      "metadata": {
+        "keywords": [],
+        "resource_type": "publication"
+      },
+      "observation_id": "obs-828a92fde30eb9672a4e",
+      "observed_at": "2026-10-03T14:17:42.587647+00:00",
+      "published_at": "2026-10-03",
+      "source": "zenodo",
+      "source_record_id": "23121487",
+      "text": "",
+      "title": "Analytical Synthesis and Closed-Form MZI Mapping of FIR Filters for Chromatic-Dispersion Compensation",
+      "url": null
+    },
+    {
+      "content_sha256": "30e0cb2acc8433f5a7c0da8fd4e8753af3a96d8122e31c276788d7d19ed07cb3",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.08.29.26361701"
+      },
+      "kind": "publication",
+      "metadata": {
+        "category": "public and global health",
+        "version": "1"
+      },
+      "observation_id": "obs-84f88beca43c9bc6bc0d",
+      "observed_at": "2026-10-03T14:17:46.081574+00:00",
+      "published_at": "2026-09-03",
+      "source": "medrxiv",
+      "source_record_id": "10.64898/2026.08.29.26361701:1",
+      "text": "IntroductionClinical students are a future health workforce, yet their roles during outbreaks of highly infectious diseases remain uncertain because of safety, training, supervision and welfare concerns. Ugandas 2022 outbreak of Ebola disease caused by Sudan ebolavirus highlighted the need to understand how clinical students perceive outbreak-related care.\n\nAimThis study explored willingness to care for patients with Ebola virus disease among clinical students at a Ugandan medical school and examined how perceived risks, perceived benefits and support needs shaped that willingness.\n\nMethodsAn exploratory descriptive qualitative study was conducted among clinical students of Makerere University in Kampala, Uganda. Fifteen undergraduate medical and nursing students in the later years of training were purposively selected. Data were collected through in-depth interviews, audio-recorded with consent, transcribed verbatim, de-identified and analysed using latent content analysis. The Health Belief Model sensitised interpretation, and reporting was strengthened using the COREQ guidance.\n\nResultsFive interrelated themes emerged, showing that willingness to care was conditional rather than simply present or absent. Students described an initial willingness grounded in professional duty, devotion to patients and the desire to save life. This willingness was restrained by perceived risks of contracting Ebola virus disease, dying, transmitting infection to family members or colleagues, emotional distress, lack of epidemic-readiness in the curriculum, inadequate preparedness and weak welfare support. Perceived benefits, including patient survival, professional learning, outbreak experience and personal fulfilment, strengthened willingness but did not override safety concerns. Students identified reliable personal protective equipment, epidemic-ready curricula, practical infection-prevention and control training, simulation, clear protocols, close supervision, psychosocial support, insurance and fair compensation as cues to action that could convert willingness into safe participation.\n\nConclusionsClinical students in this Ugandan teaching hospital expressed a strong sense of professional responsibility, but their willingness to participate in Ebola care was conditional upon preparedness, protection, epidemic-ready education and institutional trust. Professional duty and learning opportunities promoted participation, whereas perceived risks and inadequate support limited it. Medical education programmes and outbreak-response systems should develop ethical, supervised, competency-based student roles supported by practical curricula, reliable protective equipment and psychosocial and welfare safeguards.",
+      "title": "Conditional willingness to care for patients with Ebola virus disease: a qualitative study of risk-benefit perceptions and support needs of clinical students at a Ugandan medical school",
+      "url": "https://doi.org/10.64898/2026.08.29.26361701"
+    },
+    {
+      "content_sha256": "ccbfd54ea0152c9a385168805536e84cb98d8f9d78659ec1c9e897bde403e25b",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1109/msr52588.2021.00079"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": [
+          "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)"
+        ],
+        "type": "proceedings-article"
+      },
+      "observation_id": "obs-87283157081d7c77c2f2",
+      "observed_at": "2026-10-03T14:17:41.187768+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.1109/msr52588.2021.00079",
+      "text": "",
+      "title": "ManyTypes4Py: A Benchmark Python Dataset for Machine Learning-based Type Inference",
+      "url": "https://doi.org/10.1109/msr52588.2021.00079"
+    },
+    {
+      "content_sha256": "08bd1bedd27fbdf3091dd10e43fbf0a3f38033157f5c5be1cd373f845b8a1084",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.7759/cureus.117234"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "article"
+      },
+      "observation_id": "obs-8de908b812186929d074",
+      "observed_at": "2026-10-03T14:17:43.777055+00:00",
+      "published_at": "2026-09-30",
+      "source": "openalex",
+      "source_record_id": "W7214889151",
+      "text": "",
+      "title": "Digital Twins and Offline Reinforcement Learning for Mechanical Circulatory Support Decisions: What the Current Evidence Can and Cannot Support",
+      "url": "https://openalex.org/W7214889151"
+    },
+    {
+      "content_sha256": "ba69017779fc06943b1a1fbefc4dc5f19c1f1edc00160a79d5119ac6b3725d35",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.70314/is.2025.skui.6224"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": [
+          "IS 2025 - Slovenian Conference on Artificial Intellignece"
+        ],
+        "type": "proceedings-article"
+      },
+      "observation_id": "obs-8f4a2c2056b80243fe0c",
+      "observed_at": "2026-10-03T14:17:41.187599+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.70314/is.2025.skui.6224",
+      "text": "",
+      "title": "Machine Learning for Cutting ToolWear Detection: AMulti-Dataset Benchmark Study Toward PredictiveMaintenance",
+      "url": "https://doi.org/10.70314/is.2025.skui.6224"
+    },
+    {
+      "content_sha256": "143fb1ddd325600deeae93db50220d2efbe07b1a4f50d03facef3bb36ac3610f",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.21203/rs.3.rs-11169715/v1"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "preprint"
+      },
+      "observation_id": "obs-9084dc303b707a991557",
+      "observed_at": "2026-10-03T14:17:43.777126+00:00",
+      "published_at": "2026-09-29",
+      "source": "openalex",
+      "source_record_id": "W7214676878",
+      "text": "",
+      "title": "Integrated Machine Learning and Structure-Based Computational Prioritization of KIF11 Inhibitor Candidates for CNS-Oriented Drug Discovery",
+      "url": "https://openalex.org/W7214676878"
+    },
+    {
+      "content_sha256": "ab3a9cbc662891a54b25e9b9bdbf319817251f491b600fd55ceb7c1d24729286",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23121168"
+      },
+      "kind": "other",
+      "metadata": {
+        "keywords": [],
+        "resource_type": "software"
+      },
+      "observation_id": "obs-90c38b15d2ec554019b5",
+      "observed_at": "2026-10-03T14:17:42.587751+00:00",
+      "published_at": "2026-10-03",
+      "source": "zenodo",
+      "source_record_id": "23121168",
+      "text": "",
+      "title": "AutoGobra: Automated Specification and Proof Synthesis for Go \u2014 Benchmark and Experiment Code",
+      "url": null
+    },
+    {
+      "content_sha256": "61ffa2dd08e5e5f3dc687795f9cafdf31f69a6becc9b955dd2c1b21fe29cacf4",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.21203/rs.3.rs-7286169/v1"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": null,
+        "type": "posted-content"
+      },
+      "observation_id": "obs-917dd6d8df0391df6c25",
+      "observed_at": "2026-10-03T14:17:41.187648+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.21203/rs.3.rs-7286169/v1",
+      "text": "",
+      "title": "Machine Learning Dataset and Benchmark for Accurate T Cell Receptor-pHLA Binding Prediction",
+      "url": "https://doi.org/10.21203/rs.3.rs-7286169/v1"
+    },
+    {
+      "content_sha256": "e5300ae856818685a9ac85f96ca6bd203a08b7a582734bb9ab087868b18157d2",
+      "evidence_state": "observed",
+      "identifiers": {
+        "accession": "GSE347632",
+        "geo": "GSE347632"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "gds_type": "Expression profiling by high throughput sequencing",
+        "summary": "Platelet-rich plasma (PRP) is widely studied as a regenerative biologic, but whether platelet-derived signals influence central metabolic control remains unknown. Here, we tested whether PRP acts in the brain to reshape hypothalamic cellular responses and energy balance during lipopolysaccharide (LPS)-induced systemic inflammation and diet-induced obesity (DIO). In DIO mice, a single central PRP injection shifted energy balance toward weight loss, reducing body weight, cumulative food intake, relative gonadal white adipose tissue weight, and fasting glucose, while increasing energy expenditure, oxygen consumption, fat utilization, and physical activity. Across both the LPS and DIO models, PRP reduced microglial soma area selectively in the arcuate nucleus (ARC) without changing microglial number. PRP also elicited broad hypothalamic transcriptional changes involving immune and metabolic signaling, extracellular matrix remodeling, and growth responses, rather than a uniform anti-inflammatory signature during DIO. Overall, central PRP evokes a distinctive hypothalamic response accompanied by negative energy balance in established DIO, providing a foundation for identifying active PRP components and the hypothalamic cell populations that mediate these effects."
+      },
+      "observation_id": "obs-9470a71745040cfe7ec4",
+      "observed_at": "2026-10-03T14:17:40.759509+00:00",
+      "published_at": "2026/10/01",
+      "source": "geo",
+      "source_record_id": "GSE347632",
+      "text": "",
+      "title": "Central platelet-rich plasma administration promotes weight loss in diet-induced obese mice",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE347632"
+    },
+    {
+      "content_sha256": "b3d403964334121ac151bfe72be5cc926522a47df17ed69ec64cee5fcd5d984a",
+      "evidence_state": "observed",
+      "identifiers": {
+        "pmid": "42703253"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Cognitive neurodynamics"
+      },
+      "observation_id": "obs-954a57c5f8bb11729b99",
+      "observed_at": "2026-10-03T14:17:39.874530+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42703253",
+      "text": "",
+      "title": "Memristor-based echo state network for ECG classification: optimizing accuracy and efficiency with different architectures.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42703253/"
+    },
+    {
+      "content_sha256": "0b073574e9905162fdf25b1fe771d439db84bdbfa5f6a3345f1a35278a3fbafc",
+      "evidence_state": "observed",
+      "identifiers": {
+        "accession": "GSE338072",
+        "geo": "GSE338072"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "gds_type": "Other",
+        "summary": "Introduction: Calcific aortic stenosis (AS) is an age-related progressive disease with increasing global prevalence. Although chronic inflammation is a key factor in its pathogenesis, the detailed immune cell profiles and their interactions with non-immune cells remain poorly understood. This study aimed to characterize the immune cell landscape in calcific AS at a single-cell level and evaluate the potential of anti-inflammatory therapy. Methods: Human aortic valve samples were obtained from four patients with non-calcified aortic regurgitation (AR) and 11 patients with AS undergoing surgical aortic valve replacement. Single-cell 3\u2019 gene expression sequencing (scRNA-seq (3\u2019)) was performed on CD45+ immune cells, while single-cell RNA sequencing Flex (scRNA-seq (Flex)) and bulk RNA sequencing were conducted on unsorted cells. Additionally, an anti-TNF\u03b1 antibody experiment was performed in a murine AS model induced by aortic valve wire injury. Results: In myeloid cells, LYVE1 resident macrophages were significantly decreased, whereas classical monocytes expressing pro-inflammatory genes and C1Q macrophages were increased in AS valves compared to AR valves. These macrophages exhibited strong interactions with valve interstitial cells, particularly with chondrogenic subtypes expressing COMP and SPARC. Anti-TNF\u03b1 treatment in the murine model significantly reduced aortic valve calcification without hematopoietic complications. Conclusions: This study is the first to integrate scRNA-seq (3\u2019) and scRNA-seq (Flex) analyses of human aortic valves, revealing single cell-level characteristics of immune cells and their interactions with non-immune cells in calcific AS. These findings suggest that anti-inflammatory therapy could be a therapeutic target for calcific AS."
+      },
+      "observation_id": "obs-964e62430a2377d421a1",
+      "observed_at": "2026-10-03T14:17:40.759518+00:00",
+      "published_at": "2026/10/01",
+      "source": "geo",
+      "source_record_id": "GSE338072",
+      "text": "",
+      "title": "Single-Cell RNA Sequencing Unveils Macrophage Involvement in Aortic Valve Stenosis Progression [spatial transcriptome]",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE338072"
+    },
+    {
+      "content_sha256": "c814592762eb01b49be82b6c2cbcb19aa795e619931ddd9b3b33ecde9fefb6c1",
+      "evidence_state": "observed",
+      "identifiers": {
+        "accession": "GSE276872",
+        "geo": "GSE276872"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "gds_type": "Expression profiling by high throughput sequencing",
+        "summary": "Introduction: Environmental exposure to dioxin has been linked to increased myocardial infarction. Smooth muscle cells (SMC) in the coronary vasculature play a critical role in atherosclerotic plaque remodeling due to their phenotypic plasticity, however, the detailed mechanism linking dioxin exposure to adverse SMC modulation is not well understood. Methods: Single-cell RNA and ATAC sequencing and histological analyses were performed on the aorta from mouse models of atherosclerosis exposed to 2,3,7,8-Tetrachlorodibenzo-p-dioxin (TCDD) or control. Primary human coronary artery SMC (HCASMC) treated in culture with TCDD were used to perform RNA-Seq, ATAC-Seq, and functional phenotypic assays. ChIP-Seq was performed with antibodies against Aryl-hydrocarbon receptor (AHR) and TCF21.  Results: Modulated SMC were the most transcriptionally responsive cell type to dioxin in the atherosclerotic aorta. Dioxin accelerated disease phenotype by promoting a modulated SMC phenotype early, resulting in increased lesion size, migration of SMC, and macrophage recruitment to the lesion. We found C3 expressing modulated SMCs to be likely contributing to the increased macrophage recruitment and inflammation. Analysis of the RNA-Seq data from HCASMC treated with TCDD showed differential enrichment of biological pathways related to cell migration, localization, and inflammation. Further, ATAC-Seq data showed a significant activation for pathways regulating vascular development, cell migration, inflammation, and apoptosis. Also, there was enrichment of AHR ChIP-Seq peaks as expected, however, the TCF21 enrichment decreased significantly with TCDD treatment. The SMC-specific Ahr knockout resulted in increased oxidative stress in SMC, increased lesion size and macrophage content, and loss of SMC lineage cells in the lesion cap when exposed to TCDD. Conclusion: Dioxin adversely remodels atherosclerotic plaque by accelerating the SMC-phenotypic modulation, and increasing inflammation and oxidative stress resulting in increased macrophage recruitment and lesion size. Dioxin may adversely affect the SMC phenotype and disease state by affecting the TCF21 occupancy in the open chromatin regions. Ahr in SMC confers protection against dioxin by promoting a stable plaque phenotype and reducing dioxin induced oxidative stress."
+      },
+      "observation_id": "obs-99afcbfa536623ad9816",
+      "observed_at": "2026-10-03T14:17:40.759586+00:00",
+      "published_at": "2026/10/01",
+      "source": "geo",
+      "source_record_id": "GSE276872",
+      "text": "",
+      "title": "Aryl-hydrocarbon receptor in smooth muscle cells protect against dioxin induced adverse remodeling of atherosclerosis [scRNA]",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE276872"
+    },
+    {
+      "content_sha256": "e42819cf3f86bda9efe7506254adcb5c89d06b974684d1a75b8fe567f362cba3",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23121618"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [
+          "professional congruence, pre-service teachers, reflective learning, project-based learning, teacher education, professional identity, pedagogical reflection, authenticity, empathy."
+        ],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-9f1475039e942f17d863",
+      "observed_at": "2026-10-03T14:17:42.587654+00:00",
+      "published_at": "2025-03-30",
+      "source": "zenodo",
+      "source_record_id": "23121618",
+      "text": "",
+      "title": "DEVELOPING PROFESSIONAL CONGRUENCE IN PRE-SERVICE TEACHERS THROUGH REFLECTIVE PROJECT-BASED LEARNING",
+      "url": null
+    },
+    {
+      "content_sha256": "32af36a2573ab88b8eb2b89ffdd91816187f923e58481a5487210709fd1b3c2c",
+      "evidence_state": "observed",
+      "identifiers": {
+        "accession": "GSE338319",
+        "geo": "GSE338319"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "gds_type": "Expression profiling by high throughput sequencing",
+        "summary": "Heart failure with reduced ejection fraction (HFrEF) is characterized by impaired contractile function and mitochondrial dysfunction, yet therapies that simultaneously restore cardiac energetics and mechanical performance remain limited. Here, we demonstrate that adeno-associated virus (AAV)-mediated PERM1 gene delivery prevents pressure overload-induced HFrEF in mice. AAV-PERM1 preserved mitochondrial respiration, maintained compact mitochondrial morphology and mitochondrial DNA content, and attenuated pathological hypertrophy and fibrosis. Unexpectedly, these effects occurred despite persistent suppression of oxidative phosphorylation and fatty acid oxidation transcripts, revealing a mechanism independent of transcriptional metabolic reprogramming. Instead, PERM1 localized to a mitochondria-sarcomere microdomain, whereas it associates with ribosomal proteins and a creatine kinase-troponin C complex, suppressed pathological O-GlcNAcylation, and post-transcriptionally preserved electron transport chain protein abundance. Functionally, PERM1 enhanced myofibrillar force generation. These findings identify PERM1 as a previously unrecognized organizer of a sarcomere-mitochondria energetic microdomain that preserves mitochondrial protein homeostasis and couples energy production to force generation, thereby conferring resilience against heart failure."
+      },
+      "observation_id": "obs-a982b4acf5cd0ada8732",
+      "observed_at": "2026-10-03T14:17:40.759665+00:00",
+      "published_at": "2026/09/30",
+      "source": "geo",
+      "source_record_id": "GSE338319",
+      "text": "",
+      "title": "PERM1 Gene Therapy Prevents Pressure Overload-induced Heart Failure Through a Sarcomere-Mitochondria Energetic Microdomain",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE338319"
+    },
+    {
+      "content_sha256": "d2bf8b17173c508f6b0374e04b021ec79991b2cb5e0e17b6df7250551461347c",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23002229"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-ac1813aecb756366dc1b",
+      "observed_at": "2026-10-03T14:17:42.587727+00:00",
+      "published_at": "2026-10-03",
+      "source": "zenodo",
+      "source_record_id": "23002229",
+      "text": "",
+      "title": "Potassium binding at G:U motifs modulates RNA hairpin stability",
+      "url": null
+    },
+    {
+      "content_sha256": "e09256957e5b8298cd6468dd0bfa01fe71b195f044f6dc5b7efb09e143953e9b",
+      "evidence_state": "observed",
+      "identifiers": {
+        "accession": "GSE335995",
+        "geo": "GSE335995"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "gds_type": "Expression profiling by high throughput sequencing",
+        "summary": "Rheumatoid arthritis (RA) is associated with an approximately two-fold increased risk of heart failure not explained by ischaemic heart disease, implicating systemic inflammation as a candidate driver of myocardial injury. To test whether sustained RA-associated systemic inflammation alters the myocardium, male BALB/c mice underwent a modified delayed-type hypersensitivity arthritis (DTHA) protocol with weekly re-induction over eight weeks (RA+), while control animals received a vehicle injection protocol (RA-). Bulk RNA sequencing was performed on left ventricular myocardium collected at the end of the study, to characterise the myocardial transcriptional response to sustained systemic inflammation in hearts showing no overt structural or functional remodelling by cardiac MRI, histology, or conventional biomarkers."
+      },
+      "observation_id": "obs-aeac9d33c2e7cfee1fcc",
+      "observed_at": "2026-10-03T14:17:40.759406+00:00",
+      "published_at": "2026/10/02",
+      "source": "geo",
+      "source_record_id": "GSE335995",
+      "text": "",
+      "title": "Myocardial transcriptome of left ventricular tissue from a murine arthritis model (RA+ vs RA-)",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE335995"
+    },
+    {
+      "content_sha256": "b4c6814f30bd3847b380d01432d38a085c36c4c33dad486e2b824e7c15a67a86",
+      "evidence_state": "observed",
+      "identifiers": {
+        "pmid": "41486553"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Gut microbes"
+      },
+      "observation_id": "obs-af2ca802a74072f5986c",
+      "observed_at": "2026-10-03T14:17:39.874467+00:00",
+      "published_at": "2026 Dec 3",
+      "source": "pubmed",
+      "source_record_id": "41486553",
+      "text": "",
+      "title": "Lactococcus lactis subsp. Cremoris reprograms systemic metabolism and protects against myocardial injury.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41486553/"
+    },
+    {
+      "content_sha256": "ae76228e95026ce803deb0bca17a6c60dc80a869632b26b215f3bebeeab899c0",
+      "evidence_state": "observed",
+      "identifiers": {
+        "pmid": "42571467"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "JSAMS plus"
+      },
+      "observation_id": "obs-b097836ea9313a207fce",
+      "observed_at": "2026-10-03T14:17:39.874569+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42571467",
+      "text": "",
+      "title": "Exercise-based rehabilitation with or without blood flow restriction in individuals with heart failure: Protocol for the rehab-washout HF trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42571467/"
+    },
+    {
+      "content_sha256": "6e43b165ced7dd26f948d9bc41239686429dfaf4f47fa01a4d187759c9f76ee4",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23119463"
+      },
+      "kind": "other",
+      "metadata": {
+        "keywords": [
+          "human pancreatic islets",
+          "pancreatic \u03b1-cells",
+          "pancreatic \u03b2-cells",
+          "autofluorescence intensity",
+          "label-free cell classification",
+          "repeated random cell splitting",
+          "leave-one-donor-out validation",
+          "interpretable machine learning",
+          "Local Ternary Patterns"
+        ],
+        "resource_type": "software"
+      },
+      "observation_id": "obs-b2fa7dfcfe1a10dcd3f9",
+      "observed_at": "2026-10-03T14:17:42.587766+00:00",
+      "published_at": "2026-10-03",
+      "source": "zenodo",
+      "source_record_id": "23119463",
+      "text": "",
+      "title": "Autofluorescence intensity patterns encode \u03b1/\u03b2-cell identity in living human pancreatic islets: interpretable machine-learning classification within and across donors",
+      "url": null
+    },
+    {
+      "content_sha256": "582cc37842d26e2cf7750d13c18798f86ad9b8a1f915027dc8d0c64d3114715c",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1038/s41598-026-73268-2"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "article"
+      },
+      "observation_id": "obs-b31f97531514907e1e00",
+      "observed_at": "2026-10-03T14:17:43.777179+00:00",
+      "published_at": "2026-09-29",
+      "source": "openalex",
+      "source_record_id": "W7214728445",
+      "text": "",
+      "title": "Beyond transfer learning: a generative self-supervised framework for fMRI-based diagnosis on small and imbalanced datasets",
+      "url": "https://openalex.org/W7214728445"
+    },
+    {
+      "content_sha256": "283016686f58fba897c74f9dd351b762e2ecd523410d0e54c8b1768268b4dac3",
+      "evidence_state": "observed",
+      "identifiers": {
+        "accession": "GSE312516",
+        "geo": "GSE312516"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "gds_type": "Expression profiling by high throughput sequencing",
+        "summary": "Dedifferentiation of mature cells is a key mechanism for generating source cells in many regenerative systems, including the zebrafish fin. Here we show that osteoblast injury responses involve rapid and extensive transcriptional reprogramming, yielding a cell state that closely resembles embryonic osteoblasts while also activating regeneration-specific genes. Among these, wnt10a is the only canonical Wnt ligand induced specifically in osteoblasts during early phases after amputation. Using genetic perturbations, we demonstrate that Wnt10a-dependent Wnt/\u03b2-catenin signaling is essential for osteoblast dedifferentiation and acts cell-autonomously to drive this process. Loss of wnt10a or Wnt/\u03b2-catenin activity blocks the dedifferentiation program, whereas wnt10a overexpression enhances dedifferentiation and is sufficient to induce it even without injury. Wnt/\u03b2-catenin signaling promotes dedifferentiation by suppressing NF-\u03baB activity, placing it upstream of known inhibitory cues. Notably, wnt10a also stimulates cardiomyocyte dedifferentiation, revealing a conserved role in activating source-cell formation during regeneration."
+      },
+      "observation_id": "obs-b4253fbc88286aafba79",
+      "observed_at": "2026-10-03T14:17:40.759545+00:00",
+      "published_at": "2026/10/01",
+      "source": "geo",
+      "source_record_id": "GSE312516",
+      "text": "",
+      "title": "Wnt\u2013\u03b2-catenin signaling promotes zebrafish osteoblast dedifferentiation by wnt10a-mediated inhibition of NF-\u03baB",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE312516"
+    },
+    {
+      "content_sha256": "c56bc216dbc0b09230144b162accf51cea5ba890628db7593971825beab61397",
+      "evidence_state": "observed",
+      "identifiers": {
+        "pmid": "42567084"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Computational biology and chemistry"
+      },
+      "observation_id": "obs-b57a6fc4f077383028fc",
+      "observed_at": "2026-10-03T14:17:39.874589+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42567084",
+      "text": "",
+      "title": "Optimizing predictive performance in heart disease diagnosis with stacked wrapper pre-processing techniques.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42567084/"
+    },
+    {
+      "content_sha256": "f47d297e969429af9e6a06665df1d0dde9fbafbd34384f5ce77925dd93f52d5f",
+      "evidence_state": "observed",
+      "identifiers": {
+        "accession": "GSE276870",
+        "geo": "GSE276870"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "gds_type": "Genome binding/occupancy profiling by high throughput sequencing",
+        "summary": "Introduction: Environmental exposure to dioxin has been linked to increased myocardial infarction. Smooth muscle cells (SMC) in the coronary vasculature play a critical role in atherosclerotic plaque remodeling due to their phenotypic plasticity, however, the detailed mechanism linking dioxin exposure to adverse SMC modulation is not well understood. Methods: Single-cell RNA and ATAC sequencing and histological analyses were performed on the aorta from mouse models of atherosclerosis exposed to 2,3,7,8-Tetrachlorodibenzo-p-dioxin (TCDD) or control. Primary human coronary artery SMC (HCASMC) treated in culture with TCDD were used to perform RNA-Seq, ATAC-Seq, and functional phenotypic assays. ChIP-Seq was performed with antibodies against Aryl-hydrocarbon receptor (AHR) and TCF21.  Results: Modulated SMC were the most transcriptionally responsive cell type to dioxin in the atherosclerotic aorta. Dioxin accelerated disease phenotype by promoting a modulated SMC phenotype early, resulting in increased lesion size, migration of SMC, and macrophage recruitment to the lesion. We found C3 expressing modulated SMCs to be likely contributing to the increased macrophage recruitment and inflammation. Analysis of the RNA-Seq data from HCASMC treated with TCDD showed differential enrichment of biological pathways related to cell migration, localization, and inflammation. Further, ATAC-Seq data showed a significant activation for pathways regulating vascular development, cell migration, inflammation, and apoptosis. Also, there was enrichment of AHR ChIP-Seq peaks as expected, however, the TCF21 enrichment decreased significantly with TCDD treatment. The SMC-specific Ahr knockout resulted in increased oxidative stress in SMC, increased lesion size and macrophage content, and loss of SMC lineage cells in the lesion cap when exposed to TCDD. Conclusion: Dioxin adversely remodels atherosclerotic plaque by accelerating the SMC-phenotypic modulation, and increasing inflammation and oxidative stress resulting in increased macrophage recruitment and lesion size. Dioxin may adversely affect the SMC phenotype and disease state by affecting the TCF21 occupancy in the open chromatin regions. Ahr in SMC confers protection against dioxin by promoting a stable plaque phenotype and reducing dioxin induced oxidative stress."
+      },
+      "observation_id": "obs-b7d95f70ded3de8dd00c",
+      "observed_at": "2026-10-03T14:17:40.759594+00:00",
+      "published_at": "2026/10/01",
+      "source": "geo",
+      "source_record_id": "GSE276870",
+      "text": "",
+      "title": "Aryl-hydrocarbon receptor in smooth muscle cells protect against dioxin induced adverse remodeling of atherosclerosis  [scATAC]",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE276870"
+    },
+    {
+      "content_sha256": "a434ee532b396599a2efe972721a8e06a75cfdb7ae2ab1b1129b6ed6bf364cd4",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23121289"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-b92753711fb90828f8b5",
+      "observed_at": "2026-10-03T14:17:42.587670+00:00",
+      "published_at": "2026-03-08",
+      "source": "zenodo",
+      "source_record_id": "23121289",
+      "text": "",
+      "title": "Olist Transactional Evidence Benchmark (OTEB)",
+      "url": null
+    },
+    {
+      "content_sha256": "735444eb8df858b35ff77f43277890b645a22df5f1109178a04ee6dd2ecdca87",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.09.01.26361933"
+      },
+      "kind": "publication",
+      "metadata": {
+        "category": "health informatics",
+        "version": "1"
+      },
+      "observation_id": "obs-ba6b9bb7872ed044eecd",
+      "observed_at": "2026-10-03T14:17:46.081962+00:00",
+      "published_at": "2026-09-03",
+      "source": "medrxiv",
+      "source_record_id": "10.64898/2026.09.01.26361933:1",
+      "text": "Early identification of Alzheimers disease and related dementias (ADRD) remains challenging despite its importance for timely intervention, management of modifiable risk factors, and care planning. We developed and evaluated ADRD onset prediction models using longitudinal electronic health records (EHRs) from the All of Us Research Program at clinically meaningful lead times of 6, 12, 24, and 36 months before diagnosis, benchmarking interpretable count-based representations against four publicly available pretrained clinical foundation models (CLMBR-T, GPT-style, LLaMA-style, and Mamba) across multiple ADRD phenotype definitions. Count-based models consistently achieved the highest discrimination and calibration across all cohorts and prediction horizons. Predictive performance declined with increasing lead time for all approaches; however, the performance gap between count-based and pretrained representations progressively narrowed, with foundation models achieving comparable AUROC of 0.719 (compared to the AUROC of 0.738 of count-based model) at the 36-month horizon while providing higher sensitivity and F1 scores under a fixed operating threshold. External validation with zero-shot evaluation on UChicago EHRs exhibited limited generalizability for count-based and pretrained clinical foundation model based representations. These findings demonstrate that transparent count-based EHR representations remain the strongest overall approach for ADRD onset prediction, while pretrained clinical foundation models provide complementary advantages for long-term risk identification and establish a benchmark for evaluating transferable clinical representations in temporal ADRD risk prediction.",
+      "title": "Evaluating Clinical Foundation Models for Early Alzheimer's Disease and Related Dementia Prediction from Longitudinal EHRs",
+      "url": "https://doi.org/10.64898/2026.09.01.26361933"
+    },
+    {
+      "content_sha256": "70af99fe901444d0a1d1448bf92ad3c3c67f8db97e93bef2a43efe47a2e94b17",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.3389/frai.2026.1919564"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "article"
+      },
+      "observation_id": "obs-bcbacaeef51a306a1f5c",
+      "observed_at": "2026-10-03T14:17:43.777000+00:00",
+      "published_at": "2026-10-01",
+      "source": "openalex",
+      "source_record_id": "W7215036114",
+      "text": "",
+      "title": "UniPET: a unified approach for whole-body CT to PET translation",
+      "url": "https://openalex.org/W7215036114"
+    },
+    {
+      "content_sha256": "4d3550be4ab6f4f5001f56ab4c526344e3facfa20e87de285b6ba0db8f239c8f",
+      "evidence_state": "observed",
+      "identifiers": {
+        "accession": "GSE304806",
+        "geo": "GSE304806"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "gds_type": "Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing",
+        "summary": "Cardiogenesis is tightly regulated by epigenetic mechanisms, and disruptions in these processes can lead to congenital heart disease (CHD). To dissect the chromatin dynamics underlying human cardiac differentiation, we developed SpliCoTECH (split-pool ligation-based combined assay of transcriptome and enriched chromatin binding), a single-cell multi-omics approach that simultaneously profiles histone modifications (H3K27ac, H3K4me3, and H3K27me3 in this study) and gene expression across key stages of human embryonic stem cell (hESC) to cardiomyocyte (CM) differentiation. Applying SpliCoTECH, we identified ZIC3 as a pivotal regulator of cardiac mesoderm specification. Our analyses reveal that lineage decisions predominantly occur at H3K27ac-marked regions within multipotent progenitors, rather than at H3K4me3 or H3K27me3 regions. Using the scChroMHMM framework, we defined six distinct chromatin states per metacell and linked 610 non-coding de novo variants (ncDNVs) with high HeartENN scores to specific chromatin contexts across subpopulations."
+      },
+      "observation_id": "obs-bd87d257d4ff74b54840",
+      "observed_at": "2026-10-03T14:17:40.759563+00:00",
+      "published_at": "2026/10/01",
+      "source": "geo",
+      "source_record_id": "GSE304806",
+      "text": "",
+      "title": "Single-Cell Multiomics Reveals Cell-Type-Specific Non-Coding Maps of Congenital Heart Disease Variants During Human Cardiogenesis",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE304806"
+    },
+    {
+      "content_sha256": "6deb3b9718928ed4207fb2f94de4c3de9cd2930d62d13f5f738d85d4dd9693d3",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23084826"
+      },
+      "kind": "other",
+      "metadata": {
+        "keywords": [],
+        "resource_type": "software"
+      },
+      "observation_id": "obs-c079ec48379e93da98c6",
+      "observed_at": "2026-10-03T14:17:42.587743+00:00",
+      "published_at": "2026-10-01",
+      "source": "zenodo",
+      "source_record_id": "23084826",
+      "text": "",
+      "title": "LastExit: Recovery Feasibility Mass for Critical-Scenario Mining in Automated Driving",
+      "url": null
+    },
+    {
+      "content_sha256": "1bee8d9bc8705982c2a16ff011e5eafd01ebcde43133d0ed870d9ef4db9abfa5",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.26434/chemrxiv.15004280/v1"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": null,
+        "type": "posted-content"
+      },
+      "observation_id": "obs-c50fbaf21b3f42046208",
+      "observed_at": "2026-10-03T14:17:41.187631+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.26434/chemrxiv.15004280/v1",
+      "text": "",
+      "title": "CCSBase2: A Unified Benchmark Dataset and Machine Learning Framework for Robust CCS Prediction",
+      "url": "https://doi.org/10.26434/chemrxiv.15004280/v1"
+    },
+    {
+      "content_sha256": "8689d116c023d91e5209ba0f3afd7a7268abbc55ac701a7490130be6b2c1cbac",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.09.29.755404"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "preprint"
+      },
+      "observation_id": "obs-c7eda954e73cb3c9bbe4",
+      "observed_at": "2026-10-03T14:17:43.777094+00:00",
+      "published_at": "2026-09-30",
+      "source": "openalex",
+      "source_record_id": "W7214988462",
+      "text": "",
+      "title": "Engineering robust cardiomyocyte differentiation from iPSCs through WNT-mediated process window expansion",
+      "url": "https://openalex.org/W7214988462"
+    },
+    {
+      "content_sha256": "441d67ea776ccd2e9b61bf8b4f404e00c1b211279f2b9175ec103b36b2ef4242",
+      "evidence_state": "observed",
+      "identifiers": {
+        "accession": "GSE297340",
+        "geo": "GSE297340"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "gds_type": "Expression profiling by high throughput sequencing",
+        "summary": "Cardiac injury, such as myocardial infarction (MI), results in permanent loss of cardiomyocytes and heart failure. We used single nuclei RNA sequencing (snRNAseq) to assess whether transient expression of the pro-proliferative transcription factor Myc and Cyclin T1 from modified bicistronic mRNA vector can drive adult cardiomyocyte proliferation to replace injured myocardium. Herein, we show that Myc-Ccnt1 modified mRNA leads to cardiomyocyte cell cycle re-entry, myocardial repair and functional (long-term) recovery post-MI in mice."
+      },
+      "observation_id": "obs-c9ca5f1749f85dc52432",
+      "observed_at": "2026-10-03T14:17:40.759579+00:00",
+      "published_at": "2026/10/01",
+      "source": "geo",
+      "source_record_id": "GSE297340",
+      "text": "",
+      "title": "A transient modified mRNA encoding Myc and Cyclin T1 induces cardiac regeneration and improves cardiac function after myocardial injury.",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE297340"
+    },
+    {
+      "content_sha256": "3d4758489da5df6070c33a6717728ce258f7819db35b95591473f47b5e8ae5b0",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.08.31.26361798"
+      },
+      "kind": "publication",
+      "metadata": {
+        "category": "epidemiology",
+        "version": "1"
+      },
+      "observation_id": "obs-cb090420f89fa0e9d181",
+      "observed_at": "2026-10-03T14:17:46.082119+00:00",
+      "published_at": "2026-09-03",
+      "source": "medrxiv",
+      "source_record_id": "10.64898/2026.08.31.26361798:1",
+      "text": "BackgroundEndometriosis affects approximately 10% of reproductive-age women and is associated with substantial diagnostic delay and heterogeneous symptom presentation. Prior machine-learning prediction models have relied on comorbidity data alone or on small candidatevariant genetic scores, with inconsistent or incompletely reported performance. No study has combined a well-powered, multi-ancestry polygenic risk score (PRS) with environmental, reproductive, and symptom data in a single hybrid model. We developed and evaluated hybrid risk-prediction models integrating a genome-wide, multi-ancestry PRS with clinical and symptom data for endometriosis in the US-based All of Us Research Program.\n\nMethodsAmong 69,376 participants (15,382 endometriosis cases, 53,994 controls) across six genetically inferred ancestry groups, we computed individual-level PRS values using PRS-CS weights derived from an independent, multi-ancestry GWAS. Five nested logistic regression, random forest, and XGBoost models progressively added age, ancestry, and within-ancestry genetic principal components (Model 1), environmental and reproductive factors (Model 2), symptom and comorbidity indicators (Model 3), all covariates combined (Model 4), and PRS x environment interactions (Model 5). Performance was assessed by AUROC in a held-out test set and 5-fold cross-validation, with class-weighted, Youden-optimized thresholds used for sensitivity, specificity, and predictive values; permutation importance identified top contributors. Pairwise AUROC differences were tested with a Holm-corrected DeLong-type test.\n\nResultsDiscrimination improved from AUROC 0.63 (PRS, age, ancestry, principal components) to 0.72 for the full model, driven mainly by symptom and comorbidity data. XGBoost consistently outperformed logistic regression and random forest. The PRS ranked among the top individual predictors by permutation importance in nearly every model, alongside age, while genetic and demographic information alone gave only modest discrimination, and PRS x environment interactions did not improve on environmental factors alone. Threshold optimization yielded balanced sensitivity and specificity (~0.67/0.65) versus near-zero sensitivity at a default threshold.\n\nConclusionsCombining the PRS with symptom and comorbidity data gave the best discrimination compared to solely a well-powered, multi-ancestry PRS as a predictor of endometriosis. This study clarifies both the promise and current limits of hybrid genetic-clinical prediction for endometriosis and points to symptom-based phenotyping, molecular subtyping, and external validation as priorities.",
+      "title": "Hybrid risk scores integrating polygenic and clinical variables for endometriosis prediction",
+      "url": "https://doi.org/10.64898/2026.08.31.26361798"
+    },
+    {
+      "content_sha256": "421c8d8b3781cd7f368777b997fa6000eed781cac3e69224a799e9c26d8d1257",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.08.27.26361533"
+      },
+      "kind": "publication",
+      "metadata": {
+        "category": "emergency medicine",
+        "version": "2"
+      },
+      "observation_id": "obs-cc3a863b31833e74f5d1",
+      "observed_at": "2026-10-03T14:17:46.081406+00:00",
+      "published_at": "2026-09-03",
+      "source": "medrxiv",
+      "source_record_id": "10.64898/2026.08.27.26361533:2",
+      "text": "BackgroundIn patients experiencing out-of-hospital cardiac arrest, optimization of oxygen delivery during cardiopulmonary resuscitation is a critical. Although both positive end-expiratory pressure (PEEP) and zero end-expiratory pressure (ZEEP) are employed during CPR, their respective impacts on clinically relevant outcomes is yet to be clearly established.\n\nMethodsThis investigator-initiated, pragmatic, registry-based, multicenter, triple-blind randomized controlled superiority trial evaluates whether applying 8 cm H2O PEEP during cardiopulmonary resuscitation improves outcomes compared with ZEEP in adults with non-traumatic, non-drowning out-of-hospital cardiac arrest. Pre-randomized CPR kits (1:1 PEEP vs. sham) were used by ambulance sites during manual ventilation throughout the resuscitation process. The primary analysis was conducted in the principal stratum of patients who received either a supraglottic airway or endotracheal tube. The primary outcome was neurological status at hospital discharge measured by a utility-weighted score on the modified Rankin Scale. Secondary outcomes included prehospital return of spontaneous circulation, 30-day survival, and 6-month quality of life. The primary safety outcome was clinically significant pneumothorax.\n\nResultsAmong the 3,200 patients who underwent randomization, 1,200 in the PEEP group and 1,200 in the ZEEP group were included in the principal stratum analysis. The mean utility-weighted modified Rankin Scale score at discharge was 0.1020 in the PEEP group and 0.1075 in the ZEEP group (mean difference corrected for covariates in a regression model of 0.0050; 95% CI -0.0159 - 0.0258). The observed rates in the PEEP and ZEEP groups of prehospital return of spontaneous circulation were X% vs. Y%; adjusted odds ratio, Z; 95% CI, A-B and in 30-day survival X% vs. Y%; adjusted odds ratio, Z; 95% CI, A-B. The incidence of clinically significant pneumothorax was similar between the PEEP and ZEEP groups, occurring in X% and Y% of patients, respectively (adjusted odds ratio, Z; 95% CI, A-B).\n\nConclusionConclusion and discussion follow at Stage-2.\n\nStage-1 Registered ReportWe present our Stage-1 Registered Report as a full clinical trial article with all methods in past tense and including mock results, table and figures for the primary analysis. To remind the reader that this Stage-1 article is written before data collection, we highlight in color that these mock results are only for illustrative purposes and will be replaced by the actual results in the Stage-2 Registered Report.\n\nSupplementsAll study supplements and updates are available in the ResearchEquals collection [1], including the protocol Version 2.1 (February 4, 2026) [2], DSMB charter [3] and example DSMB closed session report (based on mock data) [4], as well as an Excel sheet [5] and R code [6] used to generate Figure A.6.\n\nO_FIG O_LINKSMALLFIG WIDTH=142 HEIGHT=200 SRC=\"FIGDIR/small/26361533v1_figA_6.gif\" ALT=\"Figure 6\">\nView larger version (45K):\norg.highwire.dtl.DTLVardef@99175dorg.highwire.dtl.DTLVardef@cd1365org.highwire.dtl.DTLVardef@1b44e59org.highwire.dtl.DTLVardef@83cf94_HPS_FORMAT_FIGEXP  M_FIG O_FLOATNOFigure A.6.C_FLOATNO Definitions of the Favorable and Unfavorable scenario for neurological outcomes given the same 4%-point absolute decrease in mortality (mRS-6) and base rates of the survivors scores (mRS-0 to mRS-5) observed in the ARREST registry period 2016-2018. These base rates might overestimate the proportion of good outcomes as withholding consent for mRS-scores to be included in research was found to be associated with worse outcomes elsewhere [36]. Figure based on Excel sheet [5] using R code [6].\n\nC_FIG Simultaneous evaluation PCI-RR and ethicsThe institutional review board1 tasked with the ethical evaluation of the REVIVE-PEEP trial agreed to perform a pilot experiment of simultaneous ethical and Stage-1 peer review at Peer Community In Registered Reports (PCI-RR). This means that all feedback will be considered as one round of review and the authors reply to both will weigh the two sources of feedback together. The protocol Version 2.1 (February 4, 2026) [2] supplementing this manuscript is the version pre-ethical review and will be updated to a post-ethical review version after in-principle acceptance at PCI-RR. We will evaluate this pilot of simultaneous review as a major step towards  Trinity review aiming to reduce  redundant paperwork of three different documents -- research papers, ethics review applications, and research grant applications -- for the same research plan[7].\n\nRegistrationThe REVIVE-PEEP trial will be registered in an registry part of the International Clinical Trials Registry Platform after ethics approval and PCI-RR in-principle acceptance, with this Stage-1 registered report serving as the full preregistration alongside the protocol; currently Version 2.1 (February 4, 2026) [2].",
+      "title": "Positive end-expiratory pressure versus sham valve/zero end-expiratory pressure in cardiopulmonary resuscitation during manual ventilation to improve neurological outcomes in adult patients suffering an out-of-hospital cardiac arrest - an investigator-initiated, pragmatic, registry-based, multicenter, parallel-group, triple-blind randomized controlled superiority clinical trial in the ARREST registry (REVIVE-PEEP protocol Stage-1 Registered Report)",
+      "url": "https://doi.org/10.64898/2026.08.27.26361533"
+    },
+    {
+      "content_sha256": "9b73f4a08065496ae9003f3934c2e91bb2ec4bbd92ed7e8333a57a6250c09c5e",
+      "evidence_state": "observed",
+      "identifiers": {
+        "accession": "GSE348334",
+        "geo": "GSE348334"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "gds_type": "Expression profiling by high throughput sequencing",
+        "summary": "Naturally, pig hearts cannot recover from ischemic reperfusion injury; however, pig hearts receiving cardiomyocyte-specific modified-RNA (CM-SMRTs) targeting Cyclin D2 (CCND2CM-SMRTs) demonstrated significantly better cardiac function, compared to the un-treated hearts receiving Green Fluorescent Protein-induced modified RNA (GFPCM-SMRTs). In this report, we generated and analyzed single-nuclei RNA sequencing (snRNAseq) data to examine the mechanism by which CCND2CM-SMRTs regulate cardiomyocyte cell-cycle and improve cardiac function in the whole heart. The snRNAseq data from CCND2CM-SMRTs-treated pig hearts (~2-month-old) were integrated with the data from age-matched GFPCM-SMRTs-treated hearts, harvested on day 2 and day 28 after treatment, as well as na\u00efve neonatal day 1 & 2 (with regenerative potential, GEO database GSE185289) and na\u00efve 2-month-old (without regenerative potential, , GEO database GSE185289). SnRNAseq data from all cardiac cell types were analyzed using an Autoencoder pipeline. Six cardiomyocytes (CM1-CM6), four fibroblasts (FB1-FB4), six smooth muscle cells (SMC1-SMC4), five endothelial cells (EC1-EC5), four macrophages (Mph1-Mph4), and two T-cells (Tcell1 and Tcell2) clusters were defined."
+      },
+      "observation_id": "obs-cf01bc112e37dd56addc",
+      "observed_at": "2026-10-03T14:17:40.759623+00:00",
+      "published_at": "2026/09/30",
+      "source": "geo",
+      "source_record_id": "GSE348334",
+      "text": "",
+      "title": "Single-nuclei RNA sequencing data analysis: cardiomyocyte-specific modified-RNA targeting Cyclin D2 turns subpop-ulations of adult pig cardiomyocytes, fibroblasts, and smooth muscle cells back to the neonatal characteristic",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE348334"
+    },
+    {
+      "content_sha256": "24ee7d5b41042625028f2fb14f0c6e44347e214c39b96e831e485219dc9f0f1b",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5120/ijca2025925797"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": [
+          "International Journal of Computer Applications"
+        ],
+        "type": "journal-article"
+      },
+      "observation_id": "obs-d02459135309d37379dc",
+      "observed_at": "2026-10-03T14:17:41.187729+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.5120/ijca2025925797",
+      "text": "",
+      "title": "Comprehensive Benchmark Study of Machine Learning and Deep Learning Approaches for Human Activity Recognition Using the UCI HAR Dataset",
+      "url": "https://doi.org/10.5120/ijca2025925797"
+    },
+    {
+      "content_sha256": "18b6041db4aea05c449f673b316ab939b93e85c257b06b08ce6a26f8a8b21756",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1145/3776574.3831236"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "conference-paper"
+      },
+      "observation_id": "obs-d0e944cbd82c625e7292",
+      "observed_at": "2026-10-03T14:17:43.776897+00:00",
+      "published_at": "2026-10-02",
+      "source": "openalex",
+      "source_record_id": "W7170914597",
+      "text": "",
+      "title": "A Unified Tokenization Framework for Pain Recognition using Heterogeneous 3D Modalities",
+      "url": "https://openalex.org/W7170914597"
+    },
+    {
+      "content_sha256": "0bf0f3da2089782028079d543e8f2a4a0a743710560d020b55b832e85ec3804c",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23121370"
+      },
+      "kind": "other",
+      "metadata": {
+        "keywords": [],
+        "resource_type": "software"
+      },
+      "observation_id": "obs-d177c5ef70411e344a1f",
+      "observed_at": "2026-10-03T14:17:42.587704+00:00",
+      "published_at": "2026-10-03",
+      "source": "zenodo",
+      "source_record_id": "23121370",
+      "text": "",
+      "title": "Project TALOS: Tactical Agentic Literature Orchestration System",
+      "url": null
+    },
+    {
+      "content_sha256": "cdfae975463a9efaf7d4d132e2baaf130c1f14cdfc1a0207257c99a5ead70e5f",
+      "evidence_state": "observed",
+      "identifiers": {
+        "accession": "GSE348019",
+        "geo": "GSE348019"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "gds_type": "Expression profiling by high throughput sequencing",
+        "summary": "Vasculogenesis establishes the embryonic circulatory system, yet how a common vascular program emerges across multiple embryonic and extraembryonic developmental environments remains incompletely understood. Here we reconstruct mouse vasculogenesis through integrated single-cell, spatial, lineage and perturbation analyses. Vascular specification emerges from distinct sources of pre-specified mesoderm through a transient Kdr-positive, Etv2-negative vascular-primed state promoted by BMP signaling. Primed cells persist until E8.0 to E8.5, after which they resolve into committed derivatives. Dual blood-endothelial potential is largely restricted to early vitelline progenitors, whereas embryonic and umbilical progenitors contribute predominantly to endothelial lineages. Temporal VEGF signaling perturbations validate the inferred specification sequence, placing VEGF downstream of vascular priming and demonstrating its indispensable role in vascular and primitive blood specification. Endothelial derivatives converge toward a common transcriptional state while retaining transcriptional traces of their developmental origins."
+      },
+      "observation_id": "obs-d1a7ce7d08bdd381351c",
+      "observed_at": "2026-10-03T14:17:40.759498+00:00",
+      "published_at": "2026/10/01",
+      "source": "geo",
+      "source_record_id": "GSE348019",
+      "text": "",
+      "title": "Vascular specification from diversified mesoderm culminates in endothelial convergence [MARS-Seq]",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE348019"
+    },
+    {
+      "content_sha256": "95cae55fa3c5c89048fbe089932c75f8385f9e143abe626b2a31ee970dea2791",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1063/5.0346054"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": [
+          "APL Machine Learning"
+        ],
+        "type": "journal-article"
+      },
+      "observation_id": "obs-d31b31890a0149fb2581",
+      "observed_at": "2026-10-03T14:17:41.187713+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.1063/5.0346054",
+      "text": "",
+      "title": "A scanner-informed synthetic overlay benchmark dataset for EUV lithography calibration",
+      "url": "https://doi.org/10.1063/5.0346054"
+    },
+    {
+      "content_sha256": "3b11056730743f6860d7a7fc082057fb395ec3cda6cdc6b5ed5cb6ba4bbb50ad",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122001"
+      },
+      "kind": "other",
+      "metadata": {
+        "keywords": [],
+        "resource_type": "software"
+      },
+      "observation_id": "obs-d3278398b2ec1389c065",
+      "observed_at": "2026-10-03T14:17:42.587588+00:00",
+      "published_at": "2026-10-03",
+      "source": "zenodo",
+      "source_record_id": "23122001",
+      "text": "",
+      "title": "Limnologen Hus 6 PIML: physics-informed environmental normalization of modal frequencies of a CLT building",
+      "url": null
+    },
+    {
+      "content_sha256": "adaf7aa6c0e5b999e491dc0cf691f5b69723dcb3de991be07d09201b96b763dd",
+      "evidence_state": "observed",
+      "identifiers": {
+        "pmid": "42715794"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Computer methods and programs in biomedicine"
+      },
+      "observation_id": "obs-d47de4d9c3a31be35c7d",
+      "observed_at": "2026-10-03T14:17:39.874513+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42715794",
+      "text": "",
+      "title": "Emotional artificial intelligence at the edge for tele-rehabilitation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42715794/"
+    },
+    {
+      "content_sha256": "f49fb4ef5275976eecfb329ba6b2691d1791aea4979c532114bd682add115d9d",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23121477"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-d5a9b3e74b34be080f24",
+      "observed_at": "2026-10-03T14:17:42.587663+00:00",
+      "published_at": "2026-10-03",
+      "source": "zenodo",
+      "source_record_id": "23121477",
+      "text": "",
+      "title": "Citizen centred governance and relative development profiles in Vietnam",
+      "url": null
+    },
+    {
+      "content_sha256": "1debe5fd1d44ea0aa5a27a3749d79a0211c225b7ea69ba108bf05945882f5d0a",
+      "evidence_state": "observed",
+      "identifiers": {
+        "pmid": "42473088"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Magnetic resonance in medicine"
+      },
+      "observation_id": "obs-d6419bf899a790a969e6",
+      "observed_at": "2026-10-03T14:17:39.874605+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42473088",
+      "text": "",
+      "title": "Training Deep Learning Based Dynamic MR Image Reconstruction Using Synthetic Fractals.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42473088/"
+    },
+    {
+      "content_sha256": "bab95eeb372226457fdc1d606512c1bdd084c659d3119cbfd1155a8aba67645a",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23086527"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "preprint"
+      },
+      "observation_id": "obs-d6c40119147f4bdd4cae",
+      "observed_at": "2026-10-03T14:17:43.776974+00:00",
+      "published_at": "2026-10-01",
+      "source": "openalex",
+      "source_record_id": "W7170224701",
+      "text": "",
+      "title": "Data for ''Deep learning-based prediction of time-resolved adhesive forces in viscoelastic Hertzian contacts''",
+      "url": "https://openalex.org/W7170224701"
+    },
+    {
+      "content_sha256": "7ad609f3e78929d268d4aac3663c735607cb002ac7cebd9e9ede03d59056973c",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1002/ima.70434"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "article"
+      },
+      "observation_id": "obs-d6efaf4b801d279ae702",
+      "observed_at": "2026-10-03T14:17:43.777186+00:00",
+      "published_at": "2026-09-29",
+      "source": "openalex",
+      "source_record_id": "W7214729092",
+      "text": "",
+      "title": "SurpSAM : Saliency\u2010 and Uncertainty\u2010Guided Reinforcement Prompting for Automatic Left Atrial Segmentation",
+      "url": "https://openalex.org/W7214729092"
+    },
+    {
+      "content_sha256": "588e9019979e00e05419289b8dc1d74c9654c10a65708d8096829d6a3f8101f7",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23121235"
+      },
+      "kind": "other",
+      "metadata": {
+        "keywords": [
+          "reproducibility metadata",
+          "information extraction",
+          "large language models",
+          "silent errors",
+          "human verification cost",
+          "evaluation of AI systems",
+          "benchmark",
+          "machine learning reproducibility"
+        ],
+        "resource_type": "publication"
+      },
+      "observation_id": "obs-d73cb85eeb9ebffc8e7e",
+      "observed_at": "2026-10-03T14:17:42.587720+00:00",
+      "published_at": "2026-10-03",
+      "source": "zenodo",
+      "source_record_id": "23121235",
+      "text": "",
+      "title": "Extracting Reproducibility Metadata from Machine-Learning Papers: a Taxonomy of Silent Errors and the Cost of Human Verification",
+      "url": null
+    },
+    {
+      "content_sha256": "3113bc6534d015dac5eef9b3a64917a20f881d44c0b886b454310ac27eac3414",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23121978"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [
+          "PublicationBiasBenchmark",
+          "2026.2"
+        ],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-d7bdd0f55b296f4d162e",
+      "observed_at": "2026-10-03T14:17:42.587599+00:00",
+      "published_at": "2026-10-03",
+      "source": "zenodo",
+      "source_record_id": "23121978",
+      "text": "",
+      "title": "PublicationBiasBenchmark release 2026.2",
+      "url": null
+    },
+    {
+      "content_sha256": "5eeae433c7b0f41319aade3f301796fa5a7c5991f1c16c31eccf855f820f2519",
+      "evidence_state": "observed",
+      "identifiers": {
+        "pmid": "42628486"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Computational biology and chemistry"
+      },
+      "observation_id": "obs-dade2254958be50bbd59",
+      "observed_at": "2026-10-03T14:17:39.874561+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42628486",
+      "text": "",
+      "title": "IoT-based ECG arrhythmia detection and classification model using an optimization based hybrid deep capsule stacked autoencoder.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42628486/"
+    },
+    {
+      "content_sha256": "26544612edd776b30d649aafe5f7b08d90b77a55280006fa28f224283201cb5b",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.26434/chemrxiv.15009168/v1"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": null,
+        "type": "posted-content"
+      },
+      "observation_id": "obs-df37f26e2150a2c5d37c",
+      "observed_at": "2026-10-03T14:17:41.187530+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.26434/chemrxiv.15009168/v1",
+      "text": "",
+      "title": "Quantifying Validation-Induced Optimism in Machine Learning for Food Spectroscopy: An Empirical Multi-Dataset Benchmark",
+      "url": "https://doi.org/10.26434/chemrxiv.15009168/v1"
+    },
+    {
+      "content_sha256": "c9405c2ab55fc978957cb593cbe51e76948bab4a376a58cb36699a1315638cee",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23121846"
+      },
+      "kind": "other",
+      "metadata": {
+        "keywords": [],
+        "resource_type": "software"
+      },
+      "observation_id": "obs-df79e795370eb28d9b2f",
+      "observed_at": "2026-10-03T14:17:42.587639+00:00",
+      "published_at": "2026-10-03",
+      "source": "zenodo",
+      "source_record_id": "23121846",
+      "text": "",
+      "title": "molssi-seamm/mopac_step: MOPAC calculations for many structures on a cluster queue",
+      "url": null
+    },
+    {
+      "content_sha256": "45662f2e4075c3c7f3b0c08a2d237fab0661c0253ee05e3bf6428860a31ceb8e",
+      "evidence_state": "observed",
+      "identifiers": {
+        "accession": "GSE347306",
+        "geo": "GSE347306"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "gds_type": "Expression profiling by high throughput sequencing",
+        "summary": "Analysis of steady-state mRNA levels in mouse heart tissue at 4 months from wild-type C57BL/6J and Dp(16)1Yey mice."
+      },
+      "observation_id": "obs-dfe00ecf80ad2e05d4f4",
+      "observed_at": "2026-10-03T14:17:40.759656+00:00",
+      "published_at": "2026/09/30",
+      "source": "geo",
+      "source_record_id": "GSE347306",
+      "text": "",
+      "title": "Crnic Institute - Trisomy 21 Model Atlas: PolyA RNA-seq from Dp(16)1Yey mice. [Dp16 4mo Heart]",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE347306"
+    },
+    {
+      "content_sha256": "c8bcacfc7c3a3505faa1e78bd235fc113b6d52a4fadd245c12fe0cccbcc1e04b",
+      "evidence_state": "observed",
+      "identifiers": {
+        "pmid": "42777595"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Computer methods and programs in biomedicine"
+      },
+      "observation_id": "obs-e0a354035a8581c300d5",
+      "observed_at": "2026-10-03T14:17:39.874476+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42777595",
+      "text": "",
+      "title": "Flexible framework for generating synthetic electrocardiograms and photoplethysmograms using a parametrized model.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42777595/"
+    },
+    {
+      "content_sha256": "70d7fee6e90e60a96b099595f00609bdbbee6fee247ccbbd1e141e466139e671",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.3390/electronics15194501"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "article"
+      },
+      "observation_id": "obs-e2cd71ca433392e79b37",
+      "observed_at": "2026-10-03T14:17:43.776989+00:00",
+      "published_at": "2026-10-01",
+      "source": "openalex",
+      "source_record_id": "W7172253581",
+      "text": "",
+      "title": "A Unified Benchmark of Deep Learning Models for Multi-Task 3D Brain Tumor Segmentation from Magnetic Resonance Imaging",
+      "url": "https://openalex.org/W7172253581"
+    },
+    {
+      "content_sha256": "9cdafdfa3743601f858843d00a9393b3221382265c091f9a214ab6f525180b55",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1145/3556384.3556427"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": [
+          "2022 5th International Conference on Signal Processing and Machine Learning"
+        ],
+        "type": "proceedings-article"
+      },
+      "observation_id": "obs-e49dd9845add96793b89",
+      "observed_at": "2026-10-03T14:17:41.187752+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.1145/3556384.3556427",
+      "text": "",
+      "title": "Diversified assessment benchmark of vision dataset-based perception in ship navigation scenario",
+      "url": "https://doi.org/10.1145/3556384.3556427"
+    },
+    {
+      "content_sha256": "974b628aa912ae61b82aff9fe569fcd32a4b93c1226b8dcf9043943c786c7023",
+      "evidence_state": "observed",
+      "identifiers": {
+        "pmid": "42716324"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Current problems in cardiology"
+      },
+      "observation_id": "obs-e5aea9db6d1438aa1680",
+      "observed_at": "2026-10-03T14:17:39.874504+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42716324",
+      "text": "",
+      "title": "Research trends and emerging themes in artificial intelligence and cardiology: A bibliometric analysis of highly cited publications.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42716324/"
+    },
+    {
+      "content_sha256": "d107ba3d2ab569a3e094be99268b6b058f252461829f4427b6851de282bf1e90",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.3389/fonc.2026.1948751"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "article"
+      },
+      "observation_id": "obs-e6340d2c1f3e3589cb71",
+      "observed_at": "2026-10-03T14:17:43.777063+00:00",
+      "published_at": "2026-09-30",
+      "source": "openalex",
+      "source_record_id": "W7214957776",
+      "text": "",
+      "title": "Development and validation of a machine learning-based prediction model for anemia risk in patients with primary lung cancer receiving platinum-based chemotherapy: a multicenter study",
+      "url": "https://openalex.org/W7214957776"
+    },
+    {
+      "content_sha256": "8e32e5f8dbe250bdbaff97ae30833f16e52dcced0ec66dea446c6bcfa6fa5303",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.21203/rs.3.rs-11084350/v1"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "preprint"
+      },
+      "observation_id": "obs-e85731e58fc13cc389ed",
+      "observed_at": "2026-10-03T14:17:43.777009+00:00",
+      "published_at": "2026-10-01",
+      "source": "openalex",
+      "source_record_id": "W7215054570",
+      "text": "",
+      "title": "Computational Linguistics and Intelligent Learning for Automated Article Credibility Classification",
+      "url": "https://openalex.org/W7215054570"
+    },
+    {
+      "content_sha256": "33aa0a6dc5126043347204108356941d6cb99b22c8b216c4385765874519cb31",
+      "evidence_state": "observed",
+      "identifiers": {
+        "pmid": "41925003"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Hematology (Amsterdam, Netherlands)"
+      },
+      "observation_id": "obs-ecfc1e2dd587530d6a60",
+      "observed_at": "2026-10-03T14:17:39.874434+00:00",
+      "published_at": "2026 Dec 3",
+      "source": "pubmed",
+      "source_record_id": "41925003",
+      "text": "",
+      "title": "Machine learning in the prediction of liver iron concentration and iron chelation therapy adjustment.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41925003/"
+    },
+    {
+      "content_sha256": "b1b4037fef4f0fb6515d74361f726367d248ad9adb35276249bac1c00286824b",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1088/2632-2153/adfcb0/v2/decision1"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": null,
+        "type": "peer-review"
+      },
+      "observation_id": "obs-ee3ce2c270ac6f2f26b7",
+      "observed_at": "2026-10-03T14:17:41.187640+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.1088/2632-2153/adfcb0/v2/decision1",
+      "text": "",
+      "title": "Decision letter for \"Theoretical Physics Benchmark (TPBench) - a dataset and study of AI reasoning capabilities in theoretical physics\"",
+      "url": "https://doi.org/10.1088/2632-2153/adfcb0/v2/decision1"
+    },
+    {
+      "content_sha256": "c0ddeefd195c503523f8c9f9b00481fe5d839a2ff1c8288c5f2d5c81cad08abe",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.3389/fnut.2026.1919174"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "article"
+      },
+      "observation_id": "obs-ee93ce63ecd5f849d4e7",
+      "observed_at": "2026-10-03T14:17:43.777171+00:00",
+      "published_at": "2026-09-29",
+      "source": "openalex",
+      "source_record_id": "W7214716652",
+      "text": "",
+      "title": "Construction and empirical testing of a verifiable food safety complaint risk-triage model using human foods complaint system data from the United States Food and Drug Administration",
+      "url": "https://openalex.org/W7214716652"
+    },
+    {
+      "content_sha256": "15524025472564312fb32d3dee7660cda2346418e35ae3f1ffd9404cf16af509",
+      "evidence_state": "observed",
+      "identifiers": {
+        "pmid": "42777594"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Computer methods and programs in biomedicine"
+      },
+      "observation_id": "obs-f13eab816e5739ce3998",
+      "observed_at": "2026-10-03T14:17:39.874484+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42777594",
+      "text": "",
+      "title": "SDFStent: Real-time interactive virtual stenting via SDF deformation fields.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42777594/"
+    },
+    {
+      "content_sha256": "c5e867e393cfdf56d632ca512b4ad1fc235f48e7deec60593757a89a8dd93e6d",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.20517/ais.2026.62"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 1,
+        "type": "article"
+      },
+      "observation_id": "obs-f428179811018021e015",
+      "observed_at": "2026-10-03T14:17:43.777071+00:00",
+      "published_at": "2026-09-30",
+      "source": "openalex",
+      "source_record_id": "W7214958089",
+      "text": "",
+      "title": "Artificial intelligence in Acute Care Surgery: integrating new capabilities into a complex adaptive system",
+      "url": "https://openalex.org/W7214958089"
+    },
+    {
+      "content_sha256": "27fc6e37fb49ef8434b51fa93f960bcead6818e415c3f0a6a348e05d8615006f",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23121361"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [
+          "prehospital care",
+          "emergency medical services",
+          "ambulance",
+          "emergency care",
+          "bibliographic database",
+          "literature index",
+          "evidence map",
+          "research classification"
+        ],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-f6d8bafc0958ed94bca0",
+      "observed_at": "2026-10-03T14:17:42.587678+00:00",
+      "published_at": "2026-10-03",
+      "source": "zenodo",
+      "source_record_id": "23121361",
+      "text": "",
+      "title": "PreLiX \u2013 Prehospital Literature Index: articles and classification",
+      "url": null
+    },
+    {
+      "content_sha256": "a89b7294a4a0b6067c26ca00cc5b7c8dcf7f32502071c32515b4734a213f9f16",
+      "evidence_state": "observed",
+      "identifiers": {
+        "pmid": "42442245"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Neural networks : the official journal of the International Neural Network Society"
+      },
+      "observation_id": "obs-f705e2c83d7633ccf0fb",
+      "observed_at": "2026-10-03T14:17:39.874298+00:00",
+      "published_at": "2027 Jan",
+      "source": "pubmed",
+      "source_record_id": "42442245",
+      "text": "",
+      "title": "Learning general representation of 12-lead ECG with a joint-embedding predictive architecture.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42442245/"
+    },
+    {
+      "content_sha256": "c8eafa521bad1a5ebba9b320a890f96940132efb9f4f7c15c2a086d894c30362",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23121998"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [
+          "self-directed learning, competence, pedagogical technology, problem-based learning, project method, flipped classroom, digital learning, reflection, e-portfolio."
+        ],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-f78e35433a047dba4ad3",
+      "observed_at": "2026-10-03T14:17:42.587573+00:00",
+      "published_at": "2026-10-03",
+      "source": "zenodo",
+      "source_record_id": "23121998",
+      "text": "",
+      "title": "IMPROVING THE METHODOLOGY FOR DEVELOPING STUDENTS' INDEPENDENT LEARNING COMPETENCE BASED ON MODERN PEDAGOGICAL TECHNOLOGIES",
+      "url": null
+    },
+    {
+      "content_sha256": "0d756a99ebab4ee5f79930047a70960d0593f85443562591d374a3cb9e8271ca",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1021/acs.jcim.5c00550.s001"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": null,
+        "type": "component"
+      },
+      "observation_id": "obs-f9c62a61be296e898384",
+      "observed_at": "2026-10-03T14:17:41.187745+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.1021/acs.jcim.5c00550.s001",
+      "text": "",
+      "title": "Assessing Uncertainty in Machine Learning for Polymer Property Prediction: A Benchmark Study",
+      "url": "https://doi.org/10.1021/acs.jcim.5c00550.s001"
+    },
+    {
+      "content_sha256": "ec870a7a200cce622e1addbcd7f9fe6ded525e8d80ff7b101af0f8ed7ac96e51",
+      "evidence_state": "observed",
+      "identifiers": {
+        "accession": "GSE248286",
+        "geo": "GSE248286"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "gds_type": "Expression profiling by high throughput sequencing",
+        "summary": "Cardiac injury, such as myocardial infarction (MI), results in permanent loss of cardiomyocytes and in many cases heart failure. We used single nuclei RNA sequencing (snRNAseq) to assess whether transgenic expression of the pro-proliferative transcription factor Myc and Cyclin T1 can drive substantial adult cardiomyocyte proliferation to replace lost cardiomyocytes. Herein, we show that Myc and Cyclin T1 induced cardiomyocyte proliferation leads to myocardial repair and functional (long-term) recovery post-MI in mice."
+      },
+      "observation_id": "obs-fae4dde4c507ffad28d0",
+      "observed_at": "2026-10-03T14:17:40.759602+00:00",
+      "published_at": "2026/10/01",
+      "source": "geo",
+      "source_record_id": "GSE248286",
+      "text": "",
+      "title": "Overexpression of Myc and Cyclin T1 induces cardiac regeneration and improves cardiac function after myocardial injury.",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE248286"
+    },
+    {
+      "content_sha256": "b7656c4105961f6d7a8ae289aa261d3dfcd6e4c27144ca62cf3e010343406564",
+      "evidence_state": "observed",
+      "identifiers": {
+        "pmid": "42696435"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Annals of medicine"
+      },
+      "observation_id": "obs-fbffd8a7a4eeaaca1275",
+      "observed_at": "2026-10-03T14:17:39.874538+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42696435",
+      "text": "",
+      "title": "Heterogeneous effects of preoperative beta blockers on 30-day mortality after coronary artery bypass surgery.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42696435/"
+    },
+    {
+      "content_sha256": "deb926e9c07a05b6629629a0b515f6a2f61ede6873283f4fdf9fc26af74503b1",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.21203/rs.3.rs-11027799/v1"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "preprint"
+      },
+      "observation_id": "obs-fdfa71f487115c26d164",
+      "observed_at": "2026-10-03T14:17:43.777119+00:00",
+      "published_at": "2026-09-29",
+      "source": "openalex",
+      "source_record_id": "W7208826007",
+      "text": "",
+      "title": "A Reproducible Ensemble Learning Framework for 12\u2011Lead ECG Classification of Myocardial Ischemia and Infarction",
+      "url": "https://openalex.org/W7208826007"
+    }
+  ],
+  "query": null,
+  "schema_version": "1.0",
+  "source_runs": [
+    {
+      "count": 25,
+      "message": "",
+      "ok": true,
+      "source": "pubmed"
+    },
+    {
+      "count": 25,
+      "message": "",
+      "ok": true,
+      "source": "geo"
+    },
+    {
+      "count": 24,
+      "message": "",
+      "ok": true,
+      "source": "crossref"
+    },
+    {
+      "count": 25,
+      "message": "",
+      "ok": true,
+      "source": "zenodo"
+    },
+    {
+      "count": 1,
+      "message": "",
+      "ok": true,
+      "source": "github"
+    },
+    {
+      "count": 25,
+      "message": "",
+      "ok": true,
+      "source": "openalex"
+    },
+    {
+      "count": 1,
+      "message": "",
+      "ok": true,
+      "source": "biorxiv"
+    },
+    {
+      "count": 8,
+      "message": "",
+      "ok": true,
+      "source": "medrxiv"
+    }
+  ]
+}

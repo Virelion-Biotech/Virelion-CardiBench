@@ -1,0 +1,49 @@
+{
+  "catalog_file": "catalog.json",
+  "catalog_generated_at": "2026-10-03T14:17:46.173366+00:00",
+  "catalog_sha256": "233c3cb4d3715c5c1f8b04247c1b80fad001ea04e8640215085e565723dad8f3",
+  "release_id": "cardibench-intelligence-76b93e56b885767a6529",
+  "results_file": "results.json",
+  "results_sha256": "d270921d7f65b9e5e700a72b6b68686ffdda649c558d9fd55e5a6047304a67d3",
+  "schema_version": "1.0",
+  "summary": {
+    "catalog": {
+      "by_evidence_state": {
+        "observed": 134
+      },
+      "by_source": {
+        "biorxiv": 1,
+        "crossref": 24,
+        "geo": 25,
+        "github": 1,
+        "medrxiv": 8,
+        "openalex": 25,
+        "pubmed": 25,
+        "zenodo": 25
+      },
+      "by_type": {
+        "dataset": 40,
+        "other": 10,
+        "publication": 83,
+        "repository": 1
+      },
+      "links": 0,
+      "records": 134,
+      "records_with_cross_artifact_links": 0,
+      "records_with_strong_identifier": 134,
+      "records_without_strong_identifier": 0
+    },
+    "catalog_generated_at": "2026-10-03T14:17:46.173366+00:00",
+    "results": {
+      "benchmarks": 0,
+      "comparability_groups": 0,
+      "cross_protocol_pooling_forbidden": true,
+      "evaluator_sources": {},
+      "largest_comparability_group": 0,
+      "metrics": {},
+      "models": 0,
+      "results": 0
+    },
+    "schema_version": "1.0"
+  }
+}
