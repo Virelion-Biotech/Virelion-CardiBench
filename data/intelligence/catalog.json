@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T14:50:03.018632+00:00",
+  "generated_at": "2026-10-03T14:53:30.501503+00:00",
   "links": [],
   "records": [
     {
@@ -244,6 +244,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "The sinonasal microbiome is associated with upper-airway disease and lower-airway infections in primary ciliary dyskinesia",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJNA1535041"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJNA1535041"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "bioproject:PRJNA1535041"
+        ]
+      },
+      "observation_ids": [
+        "obs-5e2a1c8df31ba426ab1c"
+      ],
+      "record_id": "cbx-09b023df0aca5f86",
+      "record_type": "dataset",
+      "sources": [
+        "bioproject"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Coastal wave monitoring, Cairns",
       "evidence_state": "observed",
       "identifiers": {
@@ -372,6 +398,32 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Polycystin-2 functions as a calcium leak channel under endoplasmic reticulum stress to protect against myocardial ischemia",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJNA1533467"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJNA1533467"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "bioproject:PRJNA1533467"
+        ]
+      },
+      "observation_ids": [
+        "obs-401b5d3e1a2c851c597b"
+      ],
+      "record_id": "cbx-0c3289829693bb8c",
+      "record_type": "dataset",
+      "sources": [
+        "bioproject"
       ]
     },
     {
@@ -556,6 +608,32 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Cytoglobin scavenges intracellular hydrogen peroxide and regulates redox signals in the vasculature",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJNA1534011"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJNA1534011"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "bioproject:PRJNA1534011"
+        ]
+      },
+      "observation_ids": [
+        "obs-4fd82b9e92638cbe3708"
+      ],
+      "record_id": "cbx-1761daf5910556d2",
+      "record_type": "dataset",
+      "sources": [
+        "bioproject"
       ]
     },
     {
@@ -773,6 +851,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Data and Supplementary Materials for \"A Dual-Driven DEMATEL-AISM Framework for Revealing the Structural Relationships of Ecological Product Value Realization in Marine Ranching",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122448"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23122448"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23122448"
+        ]
+      },
+      "observation_ids": [
+        "obs-d605346285eb7391b188"
+      ],
+      "record_id": "cbx-20b358205a905ded",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Flexible framework for generating synthetic electrocardiograms and photoplethysmograms using a parametrized model.",
       "evidence_state": "observed",
       "identifiers": {
@@ -955,6 +1059,38 @@
       "record_type": "dataset",
       "sources": [
         "zenodo"
+      ]
+    },
+    {
+      "aliases": [
+        "Whole-genome sequencing of Mycobacterium sp. strain 210603T using PolySeqOne"
+      ],
+      "canonical_name": "Mycobacterium sp. NTM 210603 Genome sequencing and assembly",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJNA1534617",
+        "sra": "SRA2555894"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJNA1534617"
+        },
+        "observation_count": 2,
+        "source_record_ids": [
+          "bioproject:PRJNA1534617",
+          "sra:SRA2555894"
+        ]
+      },
+      "observation_ids": [
+        "obs-12d0b77ee7b499b45bb2",
+        "obs-21a2f455efdb020ad777"
+      ],
+      "record_id": "cbx-27cccd5b7a237604",
+      "record_type": "dataset",
+      "sources": [
+        "bioproject",
+        "sra"
       ]
     },
     {
@@ -1168,6 +1304,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "A Heterozygous Mitochondrial Gene Variant Sensitizes Cardiomyocytes to Cytokine Stress and amplifies Proinflammatory Chemokine Signaling in Inflammatory Cardiomyopathy",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJNA1532774"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJNA1532774"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "bioproject:PRJNA1532774"
+        ]
+      },
+      "observation_ids": [
+        "obs-167e1671a2a1d33034dd"
+      ],
+      "record_id": "cbx-2feae5dada61e401",
+      "record_type": "dataset",
+      "sources": [
+        "bioproject"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Incremental Value of Smartphone Sensing for Monitoring Momentary Affect Intensity in Adults Using Transformer-Based Models: Observational Study.",
       "evidence_state": "observed",
       "identifiers": {
@@ -1274,6 +1436,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Transcriptomics-informed phenotypic screening of Rhodiola sachalinensis identifies herbacetin as a cardioprotective candidate against adverse cardiac remodeling",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJNA1532467"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJNA1532467"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "bioproject:PRJNA1532467"
+        ]
+      },
+      "observation_ids": [
+        "obs-bc332ff97919b2139701"
+      ],
+      "record_id": "cbx-3302eb5b57f93c59",
+      "record_type": "dataset",
+      "sources": [
+        "bioproject"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Label-efficient cross-population transfer learning for electrocardiographic risk stratification: evaluation across German, Chinese and US cohorts",
       "evidence_state": "observed",
       "identifiers": {
@@ -1328,6 +1516,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Mus musculus Genome sequencing and assembly",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJNA1531297"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJNA1531297"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "bioproject:PRJNA1531297"
+        ]
+      },
+      "observation_ids": [
+        "obs-5511f7d6037d4f3dcde4"
+      ],
+      "record_id": "cbx-335ec6b93844f251",
+      "record_type": "dataset",
+      "sources": [
+        "bioproject"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "SDFStent: Real-time interactive virtual stenting via SDF deformation fields.",
       "evidence_state": "observed",
       "identifiers": {
@@ -1351,6 +1565,32 @@
       "record_type": "publication",
       "sources": [
         "pubmed"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Spexin diminishes atrial fibrillation vulnerability by acting on galanin receptor 2 (PRJCA023047)",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJDB43180"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJDB43180"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "bioproject:PRJDB43180"
+        ]
+      },
+      "observation_ids": [
+        "obs-85ab2c6cc0207d13ff57"
+      ],
+      "record_id": "cbx-3557411c6bd948ff",
+      "record_type": "dataset",
+      "sources": [
+        "bioproject"
       ]
     },
     {
@@ -1457,6 +1697,32 @@
       "record_type": "publication",
       "sources": [
         "crossref"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "HCA_Heart_Foetal_Wellcome_RNA",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJEB115510"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJEB115510"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "bioproject:PRJEB115510"
+        ]
+      },
+      "observation_ids": [
+        "obs-e1ca52a1b328055149ff"
+      ],
+      "record_id": "cbx-3b492275c9106154",
+      "record_type": "dataset",
+      "sources": [
+        "bioproject"
       ]
     },
     {
@@ -1936,6 +2202,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Molecular Disambiguation of Heart Rate Control by the Nucleus Ambiguus",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJNA1533504"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJNA1533504"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "bioproject:PRJNA1533504"
+        ]
+      },
+      "observation_ids": [
+        "obs-eca85e4f5d48a02181a7"
+      ],
+      "record_id": "cbx-4dee0268c0fec258",
+      "record_type": "dataset",
+      "sources": [
+        "bioproject"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Logan and Albert rivers flood extent, April 2017",
       "evidence_state": "observed",
       "identifiers": {
@@ -2197,6 +2489,32 @@
       "record_type": "publication",
       "sources": [
         "openalex"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "scRNA-seq: GUCY1A1 suppresses endothelial ferroptosis through LDHA moonlighting in cardiac ischemia-reperfusion injury (PRJCA041766)",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJDB43748"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJDB43748"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "bioproject:PRJDB43748"
+        ]
+      },
+      "observation_ids": [
+        "obs-e6f8c8f214000e477a58"
+      ],
+      "record_id": "cbx-5941cb1290ddb97c",
+      "record_type": "dataset",
+      "sources": [
+        "bioproject"
       ]
     },
     {
@@ -2645,6 +2963,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Ginsenoside Rh2 Attenuates Post-Myocardial Infarction Heart Failure by Modulating the TGF-\u03b2/Smad2 Signaling Pathway",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJNA1533314"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJNA1533314"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "bioproject:PRJNA1533314"
+        ]
+      },
+      "observation_ids": [
+        "obs-ec559f540a63cef90f8f"
+      ],
+      "record_id": "cbx-73bfe407b8392c46",
+      "record_type": "dataset",
+      "sources": [
+        "bioproject"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "SUrgical Versus PERcutaneous AXillary Artery International Registry",
       "evidence_state": "observed",
       "identifiers": {
@@ -2806,6 +3150,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Mechanistic insights into a heart-brain-liver-gut microbiota axis of Shengdihuang-Yimucao herb pair on controlling cardiac remodeling to ischemic stress",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJEB127389"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJEB127389"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "bioproject:PRJEB127389"
+        ]
+      },
+      "observation_ids": [
+        "obs-7f40098eac3c4949aeab"
+      ],
+      "record_id": "cbx-7b92785a84b86c4d",
+      "record_type": "dataset",
+      "sources": [
+        "bioproject"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Digital Twins and Offline Reinforcement Learning for Mechanical Circulatory Support Decisions: What the Current Evidence Can and Cannot Support",
       "evidence_state": "observed",
       "identifiers": {
@@ -2828,6 +3198,32 @@
       "record_type": "publication",
       "sources": [
         "openalex"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "METHODS OF TEACHING PROBLEM SOLVING IN HIGHER EDUCATION INSTITUTIONS: A REVIEW OF INSTRUCTIONAL APPROACHES AND THEIR EFFECTIVENESS",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122558"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23122558"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23122558"
+        ]
+      },
+      "observation_ids": [
+        "obs-cf9feb66f7e8406fbae7"
+      ],
+      "record_id": "cbx-7d253311fe264338",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -2907,6 +3303,32 @@
       "record_type": "other",
       "sources": [
         "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Postnatal heart development is coordinated by multi-lineage Wnt and BMP signaling",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJNA1531549"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJNA1531549"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "bioproject:PRJNA1531549"
+        ]
+      },
+      "observation_ids": [
+        "obs-87c063520dc725554597"
+      ],
+      "record_id": "cbx-877aeaa6b6237cb4",
+      "record_type": "dataset",
+      "sources": [
+        "bioproject"
       ]
     },
     {
@@ -3152,6 +3574,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Deletion of an essential interval independent of Myocardin expression",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJEB124962"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJEB124962"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "bioproject:PRJEB124962"
+        ]
+      },
+      "observation_ids": [
+        "obs-f57174407a631b24f249"
+      ],
+      "record_id": "cbx-907eab3f0a937924",
+      "record_type": "dataset",
+      "sources": [
+        "bioproject"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Saleable coal production by year and coal type, Queensland",
       "evidence_state": "observed",
       "identifiers": {
@@ -3339,6 +3787,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Cxcr2 deficiency alters transcriptional programs in articular cartilage and subchondral bone of adult male mice",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJNA1530436"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJNA1530436"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "bioproject:PRJNA1530436"
+        ]
+      },
+      "observation_ids": [
+        "obs-efe375cd24a02e6d42c5"
+      ],
+      "record_id": "cbx-961b5094a18ac449",
+      "record_type": "dataset",
+      "sources": [
+        "bioproject"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Heterogeneous effects of preoperative beta blockers on 30-day mortality after coronary artery bypass surgery.",
       "evidence_state": "observed",
       "identifiers": {
@@ -3441,6 +3915,58 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Polygonatum Sibiricum Polysaccharide Improves Intestinal Fluid Metabolism through Modulating Gut Microbiota and Metabolites in Rats with Heart Failure after Myocardial Infarction",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJEB127388"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJEB127388"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "bioproject:PRJEB127388"
+        ]
+      },
+      "observation_ids": [
+        "obs-1df3ea22f3d85a5a2238"
+      ],
+      "record_id": "cbx-97e49ba6fb0f7931",
+      "record_type": "dataset",
+      "sources": [
+        "bioproject"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Coupled Error Information for Quadratic Goal Comparisons: Code and Reproducibility Companion",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122117"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23122117"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23122117"
+        ]
+      },
+      "observation_ids": [
+        "obs-15285003126b7893fc22"
+      ],
+      "record_id": "cbx-98852a1a8407f280",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -3946,6 +4472,42 @@
       ]
     },
     {
+      "aliases": [
+        "B_heart (CRX2384513)"
+      ],
+      "canonical_name": "heart (CRX2384531)",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJCA053434"
+      },
+      "metadata": {
+        "identifier_conflicts": {
+          "sra_uid": [
+            "47080669",
+            "47080687"
+          ]
+        },
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJCA053434"
+        },
+        "observation_count": 2,
+        "source_record_ids": [
+          "sra:47080669",
+          "sra:47080687"
+        ]
+      },
+      "observation_ids": [
+        "obs-51e29f738831c0f51270",
+        "obs-ceb56a0cb0103a3ca5f4"
+      ],
+      "record_id": "cbx-ab4f8145ac8416c0",
+      "record_type": "dataset",
+      "sources": [
+        "sra"
+      ]
+    },
+    {
       "aliases": [],
       "canonical_name": "Comprehensive Benchmark Study of Machine Learning and Deep Learning Approaches for Human Activity Recognition Using the UCI HAR Dataset",
       "evidence_state": "observed",
@@ -3969,6 +4531,32 @@
       "record_type": "publication",
       "sources": [
         "crossref"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Regulation of DNA damage and transcriptional output in the vasculature through a cytoglobin-HMGB2 axis",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJNA1534904"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJNA1534904"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "bioproject:PRJNA1534904"
+        ]
+      },
+      "observation_ids": [
+        "obs-714d1e972a73182310b7"
+      ],
+      "record_id": "cbx-aca692fed0b0bc48",
+      "record_type": "dataset",
+      "sources": [
+        "bioproject"
       ]
     },
     {
@@ -4183,6 +4771,58 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Phenotypic screening identifies kenpaullone as a prolymphangiogenic compound to improve heart repair following myocardial infarction",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJNA1533541"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJNA1533541"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "bioproject:PRJNA1533541"
+        ]
+      },
+      "observation_ids": [
+        "obs-0bf8f7e5b422e3fbc1e4"
+      ],
+      "record_id": "cbx-b71e8aae8f76b8c0",
+      "record_type": "dataset",
+      "sources": [
+        "bioproject"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Single-nuclei RNA sequencing data analysis: cardiomyocyte-specific modified-RNA targeting Cyclin D2 turns subpop-ulations of adult pig cardiomyocytes, fibroblasts, and smooth muscle cells back to the neonatal characteristic",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJNA1533478"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJNA1533478"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "bioproject:PRJNA1533478"
+        ]
+      },
+      "observation_ids": [
+        "obs-edcf323cce020506dd92"
+      ],
+      "record_id": "cbx-b76dc654d02970c5",
+      "record_type": "dataset",
+      "sources": [
+        "bioproject"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Hybrid risk scores integrating polygenic and clinical variables for endometriosis prediction",
       "evidence_state": "observed",
       "identifiers": {
@@ -4311,6 +4951,33 @@
       "record_type": "publication",
       "sources": [
         "pubmed"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "control8am-1",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJNA1537323",
+        "sra": "SRA2555791"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJNA1537323"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "sra:SRA2555791"
+        ]
+      },
+      "observation_ids": [
+        "obs-f7348d134c519ac538f6"
+      ],
+      "record_id": "cbx-bf605ca1a4b11fd4",
+      "record_type": "dataset",
+      "sources": [
+        "sra"
       ]
     },
     {
@@ -4503,6 +5170,42 @@
       "record_type": "publication",
       "sources": [
         "europepmc"
+      ]
+    },
+    {
+      "aliases": [
+        "TC5 (CRX958396)"
+      ],
+      "canonical_name": "TC4 (CRX958395)",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJCA023439"
+      },
+      "metadata": {
+        "identifier_conflicts": {
+          "sra_uid": [
+            "47074041",
+            "47074042"
+          ]
+        },
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJCA023439"
+        },
+        "observation_count": 2,
+        "source_record_ids": [
+          "sra:47074041",
+          "sra:47074042"
+        ]
+      },
+      "observation_ids": [
+        "obs-35a893cf70e680f4301f",
+        "obs-4c6652ed1c3543eb5329"
+      ],
+      "record_id": "cbx-c5cec30a55a45379",
+      "record_type": "dataset",
+      "sources": [
+        "sra"
       ]
     },
     {
@@ -4712,6 +5415,32 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Coxsackievirus B3 (CVB3)-activated macrophage-derived sEV Drives Cardiomyocyte Death in Fulminant Myocarditis",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJNA1533448"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJNA1533448"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "bioproject:PRJNA1533448"
+        ]
+      },
+      "observation_ids": [
+        "obs-97df746a255c5b591b1b"
+      ],
+      "record_id": "cbx-d229ee4e94b40aa4",
+      "record_type": "dataset",
+      "sources": [
+        "bioproject"
       ]
     },
     {
@@ -4981,6 +5710,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "RNA sequencing of heart of Glutaminase knockout mice",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJNA1530984"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJNA1530984"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "bioproject:PRJNA1530984"
+        ]
+      },
+      "observation_ids": [
+        "obs-865169b6751953a2df87"
+      ],
+      "record_id": "cbx-de6808e255380cba",
+      "record_type": "dataset",
+      "sources": [
+        "bioproject"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Single-Cell RNA Sequencing Decodes Cell-Specific Non-Coding Landscapes in Human Cardiogenesis and Congenital Heart Disease",
       "evidence_state": "observed",
       "identifiers": {
@@ -5187,6 +5942,32 @@
       "record_type": "dataset",
       "sources": [
         "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "ChIP-seq of H3K27ac and H3K27me3 marks from control and Zmynd8-cKO mouse cardiomyocytes",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJNA1536329"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJNA1536329"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "bioproject:PRJNA1536329"
+        ]
+      },
+      "observation_ids": [
+        "obs-f7569026ab8b80e60ddf"
+      ],
+      "record_id": "cbx-e7e39c5349d2925d",
+      "record_type": "dataset",
+      "sources": [
+        "bioproject"
       ]
     },
     {
@@ -5638,6 +6419,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Human-Relevant Lead Exposure During Differentiation Alters the Transcriptomic Profile of Human Induced Pluripotent Stem Cell-Derived Cardiomyocytes",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJNA1532806"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJNA1532806"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "bioproject:PRJNA1532806"
+        ]
+      },
+      "observation_ids": [
+        "obs-f2dfd6129e9a084f36d7"
+      ],
+      "record_id": "cbx-f6ccc8030bfea0b7",
+      "record_type": "dataset",
+      "sources": [
+        "bioproject"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Aryl-hydrocarbon receptor in smooth muscle cells protect against dioxin induced adverse remodeling of atherosclerosis  [scATAC]",
       "evidence_state": "observed",
       "identifiers": {
@@ -5661,6 +6468,32 @@
       "record_type": "dataset",
       "sources": [
         "geo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Cxcr2 deficiency reshapes the bone marrow transcriptome and is associated with impaired bone homeostasis in adult male mice",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJNA1530429"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJNA1530429"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "bioproject:PRJNA1530429"
+        ]
+      },
+      "observation_ids": [
+        "obs-bf230f3ce9f86a879a58"
+      ],
+      "record_id": "cbx-f872c4e50cdaaf8f",
+      "record_type": "dataset",
+      "sources": [
+        "bioproject"
       ]
     },
     {
