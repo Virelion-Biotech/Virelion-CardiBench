@@ -2,9 +2,9 @@
   "catalog_file": "catalog.json",
   "catalog_generated_at": "2026-10-03T14:59:27.643722+00:00",
   "catalog_sha256": "cdad724a2c79c1d1eafc979ab5caa4d8e110666b0961fbc5e989f3541f9d3958",
-  "release_id": "cardibench-intelligence-ce18055e279b6e8f902f",
+  "release_id": "cardibench-intelligence-3d5d2f8246dc04edb7ab",
   "results_file": "results.json",
-  "results_sha256": "d270921d7f65b9e5e700a72b6b68686ffdda649c558d9fd55e5a6047304a67d3",
+  "results_sha256": "45ee331622d074d492a5b67388cae4b05ed3fe9e71110ace66e220b28e5523ea",
   "schema_version": "1.0",
   "summary": {
     "catalog": {
@@ -39,14 +39,26 @@
     },
     "catalog_generated_at": "2026-10-03T14:59:27.643722+00:00",
     "results": {
-      "benchmarks": 0,
-      "comparability_groups": 0,
+      "benchmarks": 1,
+      "comparability_groups": 1,
       "cross_protocol_pooling_forbidden": true,
-      "evaluator_sources": {},
-      "largest_comparability_group": 0,
-      "metrics": {},
-      "models": 0,
-      "results": 0
+      "evaluator_sources": {
+        "CardiEval/1.4.1": 1
+      },
+      "largest_comparability_group": 1,
+      "metrics": {
+        "accuracy": 1,
+        "auprc": 1,
+        "auroc": 1,
+        "balanced_accuracy": 1,
+        "brier": 1,
+        "ece": 1,
+        "macro_f1": 1,
+        "sensitivity": 1,
+        "specificity": 1
+      },
+      "models": 1,
+      "results": 1
     },
     "schema_version": "1.0"
   }
