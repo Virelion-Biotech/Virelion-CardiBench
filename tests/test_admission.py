@@ -13,7 +13,7 @@ def _rows():
 
 
 def test_admission_ready_only_after_leakage_safe_materialization():
-    report=assess_admission(_rows(),benchmark_id="fixture",seed=7)
+    report=assess_admission(_rows(),benchmark_id="fixture",seed=7,test_values=["g1","g2"],validation_values=["g3","g4"])
     assert report.ready_for_review
     assert report.status=="ready_for_review"
     assert report.materialization_preview

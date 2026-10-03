@@ -13,6 +13,7 @@ def test_release_audit_accepts_complete_repository():
         "registry/datasets-mi-priority.yaml",
         "benchmarks/catalog.yaml",
         "benchmarks/manifests/mi-vs-reference.v1.json",
+        "src/cardi_bench/admission.py",
         "src/cardi_bench/adapters.py",
         "src/cardi_bench/analytics.py",
         "src/cardi_bench/api.py",
