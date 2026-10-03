@@ -31,6 +31,8 @@ def test_release_audit_accepts_complete_repository():
         "src/cardi_bench/result_history.py",
         "src/cardi_bench/release_bundle.py",
         "src/cardi_bench/search.py",
+        "scripts/generate_reference_result.py",
+        ".github/workflows/reference-evaluation.yml",
         "tests/test_quality.py",
         "tests/test_materialize.py",
         "tests/test_end_to_end_fixture.py",

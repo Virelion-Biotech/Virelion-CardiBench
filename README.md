@@ -78,3 +78,8 @@ The repository also includes `skills/cardibench-intelligence/SKILL.md` for Heart
 ## Fail-closed candidate admission
 
 `benchmark.admission.assess` and `cardibench assess-admission` validate whether candidate metadata are sufficient for a leakage-checked materialization preview. The assessment never auto-admits a dataset: `ready_for_review` means only that required metadata are explicit and the preview satisfies software gates. Missing biological grouping or policy-specific metadata blocks admission rather than being inferred.
+
+
+## CardiEval software-reference history
+
+The repository maintains one evaluator-generated software-reference result to continuously verify the CardiBench → CardiEval → result-history path. It uses evaluator-controlled synthetic labels and a label-independent deterministic hash baseline. It is explicitly **not biological, preclinical, or clinical performance** and must not be used to compare scientific models.

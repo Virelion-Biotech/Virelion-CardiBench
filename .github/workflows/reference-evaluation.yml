@@ -1,0 +1,49 @@
+name: CardiBench reference evaluation
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/reference-evaluation.yml"
+      - "scripts/generate_reference_result.py"
+permissions:
+  contents: write
+concurrency:
+  group: cardibench-reference-evaluation
+  cancel-in-progress: false
+jobs:
+  evaluate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install CardiBench and pinned CardiEval
+        run: |
+          python -m pip install -e '.[test]'
+          python -m pip install 'git+https://github.com/Virelion-Biotech/Virelion-CardiEval.git@a697906c4ff68bacfaf764eda566a92a67cb64f3'
+      - name: Produce independent software-reference evaluation
+        run: |
+          python scripts/generate_reference_result.py             --result-store data/intelligence/results.json             --report data/intelligence/reference-evaluation.json
+      - name: Rebuild intelligence products
+        run: |
+          cardibench release-intelligence --catalog data/intelligence/catalog.json --results data/intelligence/results.json --output data/intelligence/release.json
+          cardibench build-dashboard --catalog data/intelligence/catalog.json --results data/intelligence/results.json --release data/intelligence/release.json --output site/intelligence/index.html
+      - name: Validate repository
+        run: |
+          pytest -q
+          cardibench validate-all-manifests
+          cardibench audit .
+      - name: Commit reference evidence
+        run: |
+          git config user.name "cardibench-bot"
+          git config user.email "cardibench-bot@users.noreply.github.com"
+          git add data/intelligence/results.json data/intelligence/reference-evaluation.json data/intelligence/release.json site/intelligence/index.html
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "chore: record CardiEval software reference"
+          git pull --rebase origin main
+          git push origin HEAD:main

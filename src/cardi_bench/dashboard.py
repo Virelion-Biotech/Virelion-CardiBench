@@ -97,7 +97,7 @@ def render_dashboard(
         "".join(record_rows),
         "</tbody></table></section>",
         "<section><h2>Result history</h2>",
-        "<table><thead><tr><th>Benchmark</th><th>Model</th><th>Split</th><th>Evaluator/source</th><th>Metrics</th></tr></thead><tbody>",
+        "<table><thead><tr><th>Benchmark</th><th>Model</th><th>Split</th><th>Evaluator/source</th><th>Metrics</th><th>Notes</th></tr></thead><tbody>",
         "".join(result_rows),
         "</tbody></table></section>",
         "<script>",
