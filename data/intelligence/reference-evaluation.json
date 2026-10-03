@@ -1,11 +1,11 @@
 {
-  "evaluation_fingerprint": "e65eef47e1df66db6f9ce849b56dd497706250b15c41398efdcfe4027e167885",
+  "evaluation_fingerprint": "fae31dabd10910ebe23f1dc1e0e0765cc3cfb8f3c08487b9c71fb0d1ac8e304f",
   "model_definition": "SHA-256(sample_id) deterministic score; labels are never used to generate predictions.",
   "report": {
     "benchmark_id": "cardibench-software-reference",
     "benchmark_sha256": "5609571dd5e8ac205cc28a2b733c94e0243a0f818f9033e4dba3876a2898f984",
     "benchmark_version": "1.0.0",
-    "created_at": "2026-10-03T21:23:41.706292Z",
+    "created_at": "2026-10-03T23:13:35.864102Z",
     "errors": [],
     "evaluator_version": "1.4.1",
     "ground_truth_source": "benchmark_manifest",
