@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T15:04:41.469294+00:00",
+  "generated_at": "2026-10-03T20:40:42.045113+00:00",
   "links": [],
   "records": [
     {
@@ -292,6 +292,32 @@
       "record_type": "dataset",
       "sources": [
         "bioproject"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Forest harvesting machinery specifications database (1962\u20132025): forwarders, harvesters, and skidders",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23126526"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23126526"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23126526"
+        ]
+      },
+      "observation_ids": [
+        "obs-5c47c5749625612fdffb"
+      ],
+      "record_id": "cbx-0a71f40655f93522",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -875,6 +901,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Whom Parties Attack: Ideological Distance and Issue Ownership in Switzerland",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23125738"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23125738"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23125738"
+        ]
+      },
+      "observation_ids": [
+        "obs-afe47fe7bf0e139e2f74"
+      ],
+      "record_id": "cbx-1e44b79c766cbf62",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Early metabolic trajectory and sedation strategy in V-V ECMO for severe pneumonia: a multicenter cohort study.",
       "evidence_state": "observed",
       "identifiers": {
@@ -1088,6 +1140,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Adaptaci\u00f3n pedag\u00f3gica como categor\u00eda anal\u00edtica: hacia una disciplina integradora en M\u00e9xico",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.21044981"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.21044981"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:21044981"
+        ]
+      },
+      "observation_ids": [
+        "obs-b7251425ba1a2b280864"
+      ],
+      "record_id": "cbx-2356db95b63dab25",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Translink customer service complaints per 10,000 trips",
       "evidence_state": "observed",
       "identifiers": {
@@ -1136,6 +1214,32 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Stafford's Conjecture 3.8 for Weyl algebras: Lean 4 formalization",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23126868"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23126868"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23126868"
+        ]
+      },
+      "observation_ids": [
+        "obs-703c995debf1834c3456"
+      ],
+      "record_id": "cbx-255928b9be4e2c85",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -1189,6 +1293,32 @@
       "record_type": "publication",
       "sources": [
         "openalex"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Biomedical LLM GPU Dangling Centrality: Reproducibility Code and Benchmarks",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23125562"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23125562"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23125562"
+        ]
+      },
+      "observation_ids": [
+        "obs-85daa3456f962faed551"
+      ],
+      "record_id": "cbx-274bd6e7c96ef528",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -1430,6 +1560,34 @@
       "record_type": "dataset",
       "sources": [
         "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "PhenoSS: phenotype semantic similarity-based approach for rare disease prediction and patient clustering.",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1093/jamia/ocag131",
+        "pmcid": "PMC13630301",
+        "pmid": "42535932"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1093/jamia/ocag131"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "europepmc:42535932"
+        ]
+      },
+      "observation_ids": [
+        "obs-e1ba6285200dd14aecfa"
+      ],
+      "record_id": "cbx-2e1b0be72864f584",
+      "record_type": "publication",
+      "sources": [
+        "europepmc"
       ]
     },
     {
@@ -2013,6 +2171,58 @@
     },
     {
       "aliases": [],
+      "canonical_name": "The Stewardship Triad: A Discerning Method for Evaluating AI Adoption in Clinical and Pastoral Care",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23125644"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23125644"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23125644"
+        ]
+      },
+      "observation_ids": [
+        "obs-47318016b6a251769277"
+      ],
+      "record_id": "cbx-3c1fb3e9398e0268",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Dataset and source codes for Araki et al., (2026) \"Continental-scale prediction of hydrologic signatures and processes\"",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23125780"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23125780"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23125780"
+        ]
+      },
+      "observation_ids": [
+        "obs-c725405fd43029b93f2e"
+      ],
+      "record_id": "cbx-3c6fe8a1ad9667a9",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "MS25: Materials Science-Focused Benchmark Data Set for Machine Learning Interatomic Potentials",
       "evidence_state": "observed",
       "identifiers": {
@@ -2035,6 +2245,32 @@
       "record_type": "publication",
       "sources": [
         "crossref"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Kvantifik\u00e1cia post-diturban\u010dn\u00fdch tokov uhl\u00edka v smrekovom ekosyst\u00e9me - Quantification of post-disturbance CO2 fluxes in a spruce ecosystem",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23125585"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23125585"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23125585"
+        ]
+      },
+      "observation_ids": [
+        "obs-8eeba0eb5b59c0c7ef53"
+      ],
+      "record_id": "cbx-3d49315992b22e15",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -2084,6 +2320,32 @@
         "obs-0b5d9261faecdbee48ba"
       ],
       "record_id": "cbx-3d936975782a4613",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Datasets for AnDi-J Benchmark",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23126182"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23126182"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23126182"
+        ]
+      },
+      "observation_ids": [
+        "obs-043d23a0b1d514103cb4"
+      ],
+      "record_id": "cbx-3effe7f45e82a1b6",
       "record_type": "dataset",
       "sources": [
         "zenodo"
@@ -2671,6 +2933,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "border-lab/xftmanu_code_supplement: Code supplement: corrected final submission (v4.3)",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23126770"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23126770"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23126770"
+        ]
+      },
+      "observation_ids": [
+        "obs-35b755564f9eb7759a2d"
+      ],
+      "record_id": "cbx-552e0f6a1d2bd2b4",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Role of Presepsin as a Novel Biomarker in Diagnosis of Neonatal Sepsis",
       "evidence_state": "observed",
       "identifiers": {
@@ -2903,6 +3191,32 @@
       ],
       "record_id": "cbx-5b146a67b7174280",
       "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Harmony & Voice-Leading Roots in Hymnody.",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23127054"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23127054"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23127054"
+        ]
+      },
+      "observation_ids": [
+        "obs-8390e8c6996d00e2f4b0"
+      ],
+      "record_id": "cbx-5c4d4ec67dfe48dc",
+      "record_type": "other",
       "sources": [
         "zenodo"
       ]
@@ -3670,6 +3984,58 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Raw security camera footage for: Estimating Tsunami Currents in a Resonant Harbor Using Video-Based Analysis: Application to Crescent City, California.",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23090992"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23090992"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23090992"
+        ]
+      },
+      "observation_ids": [
+        "obs-a0f31c1aeaed1625e978"
+      ],
+      "record_id": "cbx-7c6d56c90e7242ba",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Computational complexity versus physics: what each physical resource would compute \u2014 from finite automata to closed time loops",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23125606"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23125606"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23125606"
+        ]
+      },
+      "observation_ids": [
+        "obs-f769043db17c8dc0371c"
+      ],
+      "record_id": "cbx-7cd6da0cafababfa",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "METHODS OF TEACHING PROBLEM SOLVING IN HIGHER EDUCATION INSTITUTIONS: A REVIEW OF INSTRUCTIONAL APPROACHES AND THEIR EFFECTIVENESS",
       "evidence_state": "observed",
       "identifiers": {
@@ -3742,6 +4108,32 @@
         "obs-1cffec3155fb96b166ed"
       ],
       "record_id": "cbx-7f6cebabcfb8310b",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Questionnaire for Road Traffic Injury Patients to Assess Potential Risk Factors, Patterns of Injury, and the Perception of Unsafe Driving Post-Accident",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23126180"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23126180"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23126180"
+        ]
+      },
+      "observation_ids": [
+        "obs-dbcbd1ed0be8a913d7ce"
+      ],
+      "record_id": "cbx-81d90d878272e8bc",
       "record_type": "dataset",
       "sources": [
         "zenodo"
@@ -4621,6 +5013,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "EHTEST \u2013 A systematically sampled and annotated corpus for the study of human\u2013nature relations in Estonian thought and culture",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23126966"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23126966"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23126966"
+        ]
+      },
+      "observation_ids": [
+        "obs-4a91e507d6cd93a16e13"
+      ],
+      "record_id": "cbx-9aecc9f1cd5aece4",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Western Queensland flood extent, February 2019",
       "evidence_state": "observed",
       "identifiers": {
@@ -4779,6 +5197,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "jqnatividad/csv-nose: v1.4.0",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23125909"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23125909"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23125909"
+        ]
+      },
+      "observation_ids": [
+        "obs-a56000ff91c5af62930f"
+      ],
+      "record_id": "cbx-9f3752d74714c1aa",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Integrated Machine Learning and Structure-Based Computational Prioritization of KIF11 Inhibitor Candidates for CNS-Oriented Drug Discovery",
       "evidence_state": "observed",
       "identifiers": {
@@ -4824,6 +5268,32 @@
         "obs-dc3b2aa2bdcd3f097283"
       ],
       "record_id": "cbx-a0a654f95ba8fda4",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Deep-Fish-Bone: Brightfield Microscopy Dataset for Multi-Label Segmentation of Craniovertebral Skeletal Structures in Zebrafish Larvae",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23125004"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23125004"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23125004"
+        ]
+      },
+      "observation_ids": [
+        "obs-0fd68679283c0b9377fe"
+      ],
+      "record_id": "cbx-a17be88f2ed91f8f",
       "record_type": "dataset",
       "sources": [
         "zenodo"
@@ -5017,6 +5487,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "TALABALARDA INTERFERENSIV KOMPETENTLIKNI RIVOJLANTIRISH MUAMMOSINING PEDAGOGIK-PSIXOLOGIK VA LINGVOMETODIK ASOSLARI",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23125805"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23125805"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23125805"
+        ]
+      },
+      "observation_ids": [
+        "obs-27b8c9ad2fe12a798881"
+      ],
+      "record_id": "cbx-aa251b47bf1a5ce1",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "LithoNet: A benchmark dataset for machine learning with digital outcrops",
       "evidence_state": "observed",
       "identifiers": {
@@ -5103,6 +5599,32 @@
       "record_type": "dataset",
       "sources": [
         "sra"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "REASSEMBLY Invertebrate COI Barcode Reference Library",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23126394"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23126394"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23126394"
+        ]
+      },
+      "observation_ids": [
+        "obs-2e997114451a62949a4f"
+      ],
+      "record_id": "cbx-abafdb56994e786f",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -5990,6 +6512,58 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Roof Type Classification with Innovative Machine Learning Approaches: code and baseline notebooks",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23126683"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23126683"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23126683"
+        ]
+      },
+      "observation_ids": [
+        "obs-2f420ce34be9b2e49d25"
+      ],
+      "record_id": "cbx-cd11d5e73f62e0ee",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Adaptive Survival Protocol: A Measurement Protocol for Survival Under Model\u2013Reality Divergence (v0.1.0-protocol)",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23125215"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23125215"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23125215"
+        ]
+      },
+      "observation_ids": [
+        "obs-dd72eb0255a1b4440ae2"
+      ],
+      "record_id": "cbx-cdd584ca2f1ebca6",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Crnic Institute - Trisomy 21 Model Atlas: PolyA RNA-seq from Dp(16)1Yey mice. [Dp16 4mo Heart]",
       "evidence_state": "observed",
       "identifiers": {
@@ -6223,6 +6797,32 @@
       "record_type": "publication",
       "sources": [
         "openalex"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "SaudiArabic-ASR-DID: Multi-Model ASR and Multimodal Dialect Identification for Saudi Arabic",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23126013"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23126013"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23126013"
+        ]
+      },
+      "observation_ids": [
+        "obs-7caf52c7ce303a904d92"
+      ],
+      "record_id": "cbx-d881c0ec67e4dfe9",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -6589,6 +7189,32 @@
       ],
       "record_id": "cbx-e17e5429b7fc7695",
       "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Operativni sustavi i ra\u010dunalne mre\u017ee - Linux u primjeni",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23125216"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23125216"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23125216"
+        ]
+      },
+      "observation_ids": [
+        "obs-d1648f8fab319d5f0a46"
+      ],
+      "record_id": "cbx-e40e8c6694eb0913",
+      "record_type": "other",
       "sources": [
         "zenodo"
       ]
@@ -6989,6 +7615,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "JuliaPlasma/ChargedParticleDynamics.jl: v0.5.2",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23126910"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23126910"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23126910"
+        ]
+      },
+      "observation_ids": [
+        "obs-5a320e8cc17414b2b9b8"
+      ],
+      "record_id": "cbx-f065458d293d04cf",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Decision letter for \"Theoretical Physics Benchmark (TPBench) - a dataset and study of AI reasoning capabilities in theoretical physics\"",
       "evidence_state": "observed",
       "identifiers": {
@@ -7038,6 +7690,32 @@
       "record_type": "publication",
       "sources": [
         "pubmed"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Supplementary Material and Reproducibility Artifact for \"Task Separation Is Not Enough: Auditing Program-Level Test-Suite Forecasts\"",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23125675"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23125675"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23125675"
+        ]
+      },
+      "observation_ids": [
+        "obs-cb7bd31c3576a70fb7c5"
+      ],
+      "record_id": "cbx-f402f62874bc5d4f",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
       ]
     },
     {
