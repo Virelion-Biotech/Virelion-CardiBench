@@ -43,7 +43,7 @@ class BenchmarkResultObservation:
             object.__setattr__(self,"result_id",f"result-{_digest(identity)[:20]}")
     @property
     def comparability_key(self)->str:
-        return "|".join((self.benchmark_id,self.benchmark_version,self.benchmark_provenance_sha256,self.split,self.protocol_id))
+        return "|".join((self.benchmark_id,self.benchmark_version,self.benchmark_provenance_sha256,self.split,self.protocol_id,self.source))
     def to_dict(self)->dict[str,Any]:
         value=asdict(self); value["metrics"]=dict(self.metrics); value["comparability_key"]=self.comparability_key; return value
     @classmethod

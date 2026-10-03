@@ -22,3 +22,18 @@ def test_discovery_crossref_fixture():
 def test_hearttwin_api_surfaces():
     api=CardiBenchAPI(); search=api.invoke('benchmark.search',{'query':'cardiac benchmark','records':[{'record_id':'x','canonical_name':'Cardiac benchmark','record_type':'benchmark','aliases':[],'identifiers':{},'observation_ids':[],'sources':['manual'],'evidence_state':'verified','metadata':{}}]}); assert search['full_match_count']==1
     out=api.invoke('benchmark.result.record',{'benchmark_id':'b','benchmark_version':'1','benchmark_sha256':'b'*64,'model_id':'m','model_version':'1','split':'test','metrics':[{'name':'auroc','value':.9,'n':10}],'sample_count':10,'task_id':'task'}); assert out['result']['metrics']=={'auroc':.9}
+
+
+def test_identity_resolution_is_transitive_within_artifact_kind():
+    a=SourceObservation(source="geo",source_record_id="GSE1",title="A",kind="dataset",identifiers={"geo":"GSE1"})
+    b=SourceObservation(source="zenodo",source_record_id="1",title="B",kind="dataset",identifiers={"geo":"GSE1","doi":"10.1000/x"})
+    c=SourceObservation(source="other",source_record_id="2",title="C",kind="dataset",identifiers={"doi":"10.1000/x"})
+    resolved=resolve_observations([a,b,c])
+    assert len(resolved.records)==1
+    assert resolved.records[0].metadata["observation_count"]==3
+
+def test_result_comparability_includes_evaluator_source():
+    base=dict(benchmark_id="b",benchmark_version="1",model_id="m",model_version="1",split="test",metrics={"auroc":0.8},sample_count=10,benchmark_provenance_sha256="c"*64,protocol_id="task")
+    a=BenchmarkResultObservation(source="CardiEval/0.4",**base)
+    b=BenchmarkResultObservation(source="CardiEval/0.5",**base)
+    assert a.comparability_key!=b.comparability_key
