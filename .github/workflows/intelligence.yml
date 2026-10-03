@@ -3,6 +3,17 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "17 5 * * *"
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/intelligence.yml"
+      - "src/cardi_bench/discovery.py"
+      - "src/cardi_bench/evidence.py"
+      - "src/cardi_bench/identity.py"
+      - "src/cardi_bench/search.py"
+      - "src/cardi_bench/analytics.py"
+      - "src/cardi_bench/release_bundle.py"
+      - "src/cardi_bench/dashboard.py"
 permissions:
   contents: write
 concurrency:
