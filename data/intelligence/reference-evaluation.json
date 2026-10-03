@@ -1,0 +1,101 @@
+{
+  "evaluation_fingerprint": "3778e6e73f1add507e34dded64edd3b0088a28ac65a726cf90b5f238529f9570",
+  "model_definition": "SHA-256(sample_id) deterministic score; labels are never used to generate predictions.",
+  "report": {
+    "benchmark_id": "cardibench-software-reference",
+    "benchmark_sha256": "5609571dd5e8ac205cc28a2b733c94e0243a0f818f9033e4dba3876a2898f984",
+    "benchmark_version": "1.0.0",
+    "created_at": "2026-10-03T20:39:30.683599Z",
+    "errors": [],
+    "evaluator_version": "1.4.1",
+    "ground_truth_source": "benchmark_manifest",
+    "metrics": [
+      {
+        "ci_high": 0.75,
+        "ci_low": 0.35,
+        "direction": "higher_is_better",
+        "n": 20,
+        "name": "accuracy",
+        "value": 0.55
+      },
+      {
+        "ci_high": 0.7627913752913743,
+        "ci_low": 0.3484848484848485,
+        "direction": "higher_is_better",
+        "n": 20,
+        "name": "balanced_accuracy",
+        "value": 0.55
+      },
+      {
+        "ci_high": 0.7493734335839599,
+        "ci_low": 0.30666666666666664,
+        "direction": "higher_is_better",
+        "n": 20,
+        "name": "macro_f1",
+        "value": 0.5396419437340154
+      },
+      {
+        "ci_high": 0.8542410714285711,
+        "ci_low": 0.3131155303030303,
+        "direction": "higher_is_better",
+        "n": 20,
+        "name": "auroc",
+        "value": 0.59
+      },
+      {
+        "ci_high": 0.9135939280018225,
+        "ci_low": 0.38254974906629324,
+        "direction": "higher_is_better",
+        "n": 20,
+        "name": "auprc",
+        "value": 0.6479761904761904
+      },
+      {
+        "ci_high": 0.35094737116285335,
+        "ci_low": 0.16889289006509833,
+        "direction": "lower_is_better",
+        "n": 20,
+        "name": "brier",
+        "value": 0.25934882373634277
+      },
+      {
+        "ci_high": 0.488428996014334,
+        "ci_low": 0.18738972379474195,
+        "direction": "lower_is_better",
+        "n": 20,
+        "name": "ece",
+        "value": 0.3063741274891361
+      },
+      {
+        "ci_high": 0.75,
+        "ci_low": 0.11083333333333381,
+        "direction": "higher_is_better",
+        "n": 20,
+        "name": "sensitivity",
+        "value": 0.4
+      },
+      {
+        "ci_high": 1.0,
+        "ci_low": 0.4,
+        "direction": "higher_is_better",
+        "n": 20,
+        "name": "specificity",
+        "value": 0.7
+      }
+    ],
+    "model_id": "hash-prior-software-baseline",
+    "primary_direction": "higher_is_better",
+    "primary_metric": "balanced_accuracy",
+    "primary_value": 0.55,
+    "schema_version": "0.4",
+    "split": "test",
+    "subgroups": [],
+    "task": "binary_classification",
+    "task_id": "cardibench-software-reference-v1",
+    "warnings": []
+  },
+  "schema_version": "1.0",
+  "scientific_use": "prohibited",
+  "statement": "Synthetic software integration fixture; not biological, preclinical, or clinical performance.",
+  "validation_class": "software_reference"
+}

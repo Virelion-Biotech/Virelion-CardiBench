@@ -71,6 +71,15 @@ def validate_policy_integrity(samples: Iterable[Sample], assignments: dict[str, 
 
 def assert_benchmark_safe(samples: Iterable[Sample], assignments: dict[str, str], policy: str | None = None) -> None:
     samples = list(samples)
+    ids = [sample.sample_id for sample in samples]
+    if len(set(ids)) != len(ids) or any(not sid or not sid.strip() for sid in ids):
+        raise ValueError("Benchmark sample IDs must be nonempty and unique")
+    if set(assignments) != set(ids):
+        raise ValueError("Assignments must cover exactly the benchmark samples")
+    if set(assignments.values()) - {"train", "validation", "test"}:
+        raise ValueError("Unknown benchmark partition")
+    if any(not sample.group_id or not sample.group_id.strip() for sample in samples):
+        raise ValueError("Benchmark biological group IDs must be nonempty")
     violations = validate_no_group_leakage(assignments, samples)
     if policy:
         violations.extend(validate_policy_integrity(samples, assignments, policy))

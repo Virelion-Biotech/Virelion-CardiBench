@@ -1,118 +1,85 @@
 # Virelion-CardiBench
 
-**A versioned benchmark and dataset registry for cardiac AI evaluation.**
+CardiBench is the benchmark and dataset-intelligence layer for cardiac machine-learning evaluation in the Virelion HeartTwin stack. It combines leakage-aware benchmark construction with conservative public-evidence discovery, search, and protocol-scoped result history. It defines benchmark manifests, biological grouping rules, leakage checks, and reproducible benchmark artifacts.
 
-CardiBench is the data/evaluation layer in the Virelion cardiac AI series. It does not generate biological challenges and it does not perform detection. Its purpose is to make evaluation datasets explicit, reproducible, versioned, and difficult to accidentally leak between training and testing.
+## What it contains
 
-## End-to-end workflow
+- Metadata-first dataset and sample registries.
+- Cardiac phenotype and condition normalization.
+- Biological subject/donor/animal and technical-replicate grouping.
+- Study, species, temporal, cell-context, and region split policies.
+- Leakage validation and benchmark-readiness checks.
+- Deterministic benchmark manifests and materialized assignments.
+- Provenance hashes and reproducible benchmark artifacts.
+- Benchmark definitions for cardiac-state, injury, transfer, temporal, multimodal, and challenge evaluation.
+- CLI validation and repository audit commands.
 
-```text
-public study metadata
-        |
-        v
-   GEO / dataset adapter
-        |
-        v
- normalized SampleRecord
-        |
-        +--> cardiac phenotype ontology
-        |
-        +--> quality + readiness gates
-        |
-        v
- benchmark policy selection
-        |
-        v
- leakage-aware materialization
-        |
-        +--> provenance / canonical hash
-        |
-        v
- reproducible locked benchmark
-        |
-        +-------------------+
-        |                   |
-        v                   v
-    CardiLearn          CardiVex
-        |                   |
-        +---------+---------+
-                  v
-              CardiEval
-```
+CardiBench does not redistribute source datasets.
 
-## What is implemented
-
-- Metadata-first dataset registry with accession, organism, tissue, modality, study and intended use.
-- GEO-style sample metadata adapter with conservative condition normalization; ambiguous labels are rejected rather than guessed.
-- Controlled cardiac phenotype ontology for reference, myocardial injury, ischemia-reperfusion, remodeling, inflammatory, hypertrophic, metabolic, electrophysiologic, fibrotic, cell-state and pathogen-associated phenotypes.
-- Biological subject/donor/animal and technical-replicate grouping plus species, timepoint, cell-context and region metadata.
-- Leakage-aware split generation and explicit subject, study, species, temporal, cell-context and region policies.
-- Policy-specific leakage validation, not just generic subject leakage detection.
-- Benchmark manifests with private-test and quality-gate declarations.
-- Materialized benchmark objects with deterministic assignments, seed preservation and provenance hashes.
-- Dataset quality and benchmark readiness gates.
-- Benchmark family catalog covering cardiac-state classification, MI/reference, cell-context transfer, temporal generalization, cross-study generalization, cross-species transfer, multimodal prediction, pathogen-associated cardiac states and CardiVex blind challenge evaluation.
-- Installable `cardibench` CLI with single-manifest validation, bulk manifest validation, benchmark listing and strict repository audit.
-- End-to-end metadata fixtures and automated CI/package checks.
-
-## Benchmark families
-
-| Benchmark | Question |
-|---|---|
-| `cardiac-state-classification` | Can a model distinguish broad cardiac cellular states? |
-| `mi-vs-reference` | Can a model distinguish myocardial-injury tissue from reference? |
-| `cell-context-transfer` | Does a model generalize across cardiac cell contexts? |
-| `study-heldout-generalization` | Does performance survive a completely held-out study? |
-| `cross-species-transfer` | Does a learned phenotype transfer between species? |
-| `temporal-injury-state` | Does the model generalize across injury phases? |
-| `multimodal-cardiac-state` | Does a representation transfer across compatible cardiac modalities? |
-| `pathogen-associated-cardiac-state` | Can pathogen-associated cardiac response states be distinguished from non-infectious injury/inflammation? |
-| `cardivex-challenge-evaluation` | Can CardiVex detect blinded phenotype-level challenge cases? |
-
-## Dataset registry
-
-The registry is metadata-first and does not redistribute source data. A public-accession entry is not automatically a benchmark: it must pass provenance, condition-label, biological-grouping and leakage checks before promotion into a locked split.
-
-A verified MI-focused evidence file currently records public GEO metadata for **GSE153480**, **GSE135310**, **GSE216211**, **GSE269054**, and the multimodal SuperSeries **GSE219117**. These entries are verified at the accession/series metadata level; exact animal/donor replicate mappings still have to be recovered before a locked benchmark is materialized.
-
-## Leakage policy
-
-CardiBench treats leakage as a benchmark failure, not merely a modeling issue. Preferred split hierarchy:
-
-1. biological subject separation;
-2. donor/animal separation;
-3. study-level separation for cross-study tests;
-4. explicit species/timepoint/cell-context/region separation when those define the benchmark;
-5. sample-level splitting only when stronger grouping metadata are genuinely unavailable, with an explicit warning.
-
-Technical replicates never cross partitions.
-
-## Provenance and reproducibility
-
-Materialized benchmarks carry dataset identifiers, benchmark policy, random seed, manifest metadata and a canonical SHA-256 digest. Equivalent metadata with different key ordering produce the same digest.
-
-Benchmark result records also carry benchmark/model provenance so scores cannot be reported without identifying the evaluation artifact that produced them.
-
-## CLI
+## Installation
 
 ```bash
 pip install -e '.[test]'
 pytest -q
+```
 
+## Usage
+
+```bash
 cardibench validate-manifest benchmarks/manifests/mi-vs-reference.v1.json
 cardibench validate-all-manifests
 cardibench list-benchmarks --json
 cardibench audit --strict .
 ```
 
-## CI
+## Inputs and outputs
 
-The main workflow runs the tests, compilation, full benchmark-manifest validation and strict repository audit across Python 3.10–3.13, plus a separate wheel-build/install check. The repository deliberately distinguishes **code completeness** from **release verification**: a release is not declared fully verified until CI has produced a green run on the exact release commit.
+**Inputs:** dataset/sample metadata, benchmark manifests, biological grouping metadata, split policies, and benchmark definitions.
 
-## Safety boundary
+**Outputs:** validated benchmark manifests, deterministic split assignments, materialized benchmark artifacts, provenance hashes, readiness/audit reports, and benchmark metadata.
 
-CardiBench may represent pathogen-associated cardiac phenotypes and clinical observations, but benchmark metadata do not contain pathogen engineering parameters, propagation instructions, inoculation procedures, doses, or other operational biological instructions.
+Preferred split hierarchy is biological subject, donor/animal, study for study-held-out tasks, and other required biological contexts. Technical replicates must not cross partitions.
 
-## Release status
+## Validation
 
-**Release candidate.** The engineering workflow is complete enough for integration with CardiLearn/CardiVex. Final release verification still requires a successful GitHub Actions run on the exact `main` release commit and promotion of specific public datasets only after their sample-level biological replicate metadata have been reconciled.
+Validation checks schema and manifest integrity, grouping rules, leakage, duplicate or incompatible assignments, and benchmark readiness. Materialized benchmarks record benchmark identity, policy, seed, metadata, and a canonical SHA-256 digest.
+
+Passing benchmark validation does not establish that a dataset is biologically representative or clinically generalizable.
+
+## Limitations
+
+Benchmark quality depends on the completeness and correctness of source metadata. Sample-level splitting may be unavoidable when stronger grouping metadata are unavailable and can overestimate generalization. Benchmark construction cannot remove biological confounding or study-specific bias.
+
+## License
+
+GNU Affero General Public License v3.0 or later (AGPL-3.0-or-later). See `LICENSE`.
+
+
+## Living intelligence and HeartTwin integration
+
+CardiBench now exposes `benchmark.health`, `benchmark.search`, `benchmark.catalog`, `benchmark.discover`, `benchmark.result.record`, and `benchmark.results` alongside `benchmark.resolve`. Discovery observations are candidates only: they do not bypass dataset admission, reconciliation, biological grouping, readiness, or leakage checks. HeartTwin remains the orchestrator; CardiBridge owns transport; CardiTrace owns lineage; CardiEval owns independent scoring; CardiAtlas owns biomedical knowledge context.
+
+The intended loop is `discover → reconcile/admit → benchmark.resolve → CardiLearn → CardiEval → benchmark.result.record → CardiTrace`. Search rankings are lexical retrieval signals, never quality or clinical-validity scores. See `docs/INTELLIGENCE_ARCHITECTURE.md`.
+
+
+## Intelligence release, dashboard, and agent surface
+
+The living intelligence layer can emit a deterministic release descriptor and a dependency-free read-only dashboard from the same catalog/result stores:
+
+```bash
+cardibench intelligence-report --json
+cardibench release-intelligence
+cardibench build-dashboard
+```
+
+The repository also includes `skills/cardibench-intelligence/SKILL.md` for HeartTwin-native agent use. It deliberately routes agents through HeartTwin's `benchmark.*` capabilities rather than turning CardiBench or CardiAgent into a second orchestrator.
+
+
+## Fail-closed candidate admission
+
+`benchmark.admission.assess` and `cardibench assess-admission` validate whether candidate metadata are sufficient for a leakage-checked materialization preview. The assessment never auto-admits a dataset: `ready_for_review` means only that required metadata are explicit and the preview satisfies software gates. Missing biological grouping or policy-specific metadata blocks admission rather than being inferred.
+
+
+## CardiEval software-reference history
+
+The repository maintains one evaluator-generated software-reference result to continuously verify the CardiBench → CardiEval → result-history path. It uses evaluator-controlled synthetic labels and a label-independent deterministic hash baseline. It is explicitly **not biological, preclinical, or clinical performance** and must not be used to compare scientific models.

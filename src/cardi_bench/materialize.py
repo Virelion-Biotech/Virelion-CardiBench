@@ -49,6 +49,9 @@ def materialize(
     test_values = test_values or set()
     validation_values = validation_values or set()
 
+    if test_values & validation_values:
+        raise ValueError("test and validation values must be disjoint")
+
     if policy == "subject_heldout":
         assignments = make_group_split(
             rows,
@@ -59,6 +62,7 @@ def materialize(
             unknown = (test_values | validation_values) - {r.group_id for r in rows}
             if unknown:
                 raise ValueError(f"unknown subject groups: {sorted(unknown)}")
+            assignments = {row.sample_id: "train" for row in rows}
             for row in rows:
                 if row.group_id in test_values:
                     assignments[row.sample_id] = "test"
@@ -80,6 +84,7 @@ def materialize(
         "policy": policy,
         "assignments": dict(sorted(assignments.items())),
         "labels": counts,
+        "samples": [asdict(row) for row in sorted(rows, key=lambda row: row.sample_id)],
         "seed": seed,
     }
     digest = sha256(
