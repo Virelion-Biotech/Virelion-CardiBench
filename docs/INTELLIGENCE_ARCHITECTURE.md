@@ -12,7 +12,7 @@ public sources → CardiBench observations → identity resolution → searchabl
 
 ### Boundaries
 
-A source observation is immutable evidence that a source exposed a record; it is not an admitted dataset. A catalog record is searchable normalized evidence. The existing registry remains the gate for biological metadata, subject grouping, labels, replicates and eligibility. Benchmark manifests remain deterministic and leakage checked. Result observations preserve one concrete evaluation under one benchmark fingerprint/protocol and are never pooled across incompatible comparability keys.
+A source observation is immutable evidence that a source exposed a record; scheduled refreshes write append-only timestamp/run-qualified snapshot files so same-day reruns cannot overwrite evidence; it is not an admitted dataset. A catalog record is searchable normalized evidence. The existing registry remains the gate for biological metadata, subject grouping, labels, replicates and eligibility. Benchmark manifests remain deterministic and leakage checked. Result observations preserve one concrete evaluation under one benchmark fingerprint/protocol and are never pooled across incompatible comparability keys.
 
 Search reports matched/missing tokens, fields, lexical coverage and retrieval score. The score is query-local retrieval evidence, not scientific quality or clinical validity.
 
