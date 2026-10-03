@@ -1,0 +1,3773 @@
+{
+  "generated_at": "2026-10-03T14:50:02.872915+00:00",
+  "observations": [
+    {
+      "content_sha256": "2c0d3e4bb02113d5e9a2f27cf72c633d8fe129e56389ef61e22e6db8cb544e74",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1145/3830727.3834821"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "conference-paper"
+      },
+      "observation_id": "obs-00b21a56a3b920ff28fb",
+      "observed_at": "2026-10-03T14:49:58.030910+00:00",
+      "published_at": "2026-09-30",
+      "source": "openalex",
+      "source_record_id": "W7172446277",
+      "text": "",
+      "title": "Reassessing the Feasibility of PPG-Based Non-Invasive Blood Glucose Level Estimation",
+      "url": "https://openalex.org/W7172446277"
+    },
+    {
+      "content_sha256": "e93dfba050fc7c7c0704891637304631c3dae5ae300822b2c0e26303267b36fe",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.47760/ijcsmc.2026.v15i09.008"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "article"
+      },
+      "observation_id": "obs-00f7b11d7078368d8f35",
+      "observed_at": "2026-10-03T14:49:58.031090+00:00",
+      "published_at": "2026-09-30",
+      "source": "openalex",
+      "source_record_id": "W7215036463",
+      "text": "",
+      "title": "Deep Learning for Automated Electrocardiogram Analysis: Real-Time Arrhythmia Classification Using 1D-CNN",
+      "url": "https://openalex.org/W7215036463"
+    },
+    {
+      "content_sha256": "278219a65fdcddd32238a206d62278d3a68a047142e04db74c290e687bb19e83",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT01514162"
+      },
+      "kind": "other",
+      "metadata": {
+        "conditions": [
+          "Heart Valve Diseases"
+        ],
+        "overall_status": "COMPLETED",
+        "phases": [
+          "NA"
+        ]
+      },
+      "observation_id": "obs-062855811eb1c31200dc",
+      "observed_at": "2026-10-03T14:49:59.337389+00:00",
+      "published_at": "2012-02",
+      "source": "clinicaltrials",
+      "source_record_id": "NCT01514162",
+      "text": "",
+      "title": "Post-Approval Study Protocol of the St. Jude Medical Trifecta Valve",
+      "url": "https://clinicaltrials.gov/study/NCT01514162"
+    },
+    {
+      "content_sha256": "7a8889f3d1600a1f71c15c8903073c9ffd0adee44e56a5b7718b8b83af5b5101",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.68129/jeis.v1i2.7"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "article"
+      },
+      "observation_id": "obs-0a668d420138dd7b67d7",
+      "observed_at": "2026-10-03T14:49:58.030972+00:00",
+      "published_at": "2026-09-30",
+      "source": "openalex",
+      "source_record_id": "W7214907505",
+      "text": "",
+      "title": "Driver Fatigue Detection Using YOLOv5 with Genetic- Algorithm-Based Hyperparameter Optimization and Fine-Tuning Strategies",
+      "url": "https://openalex.org/W7214907505"
+    },
+    {
+      "content_sha256": "aaf3c416e4cc5fed0df089f50c79fbed6bdc33e76adc7683699f84b34d0a95a9",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122521"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [
+          "Australia",
+          "government open data",
+          "publicdata.au",
+          "wave height",
+          "wave buoy",
+          "swell",
+          "sea surface temperature",
+          "Coastal Data System",
+          "Mooloolaba",
+          "Queensland",
+          "Mooloolaba wave height data",
+          "Mooloolaba waverider buoy readings",
+          "Coastal Data System waves Mooloolaba"
+        ],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-0b5d9261faecdbee48ba",
+      "observed_at": "2026-10-03T14:49:57.004256+00:00",
+      "published_at": "2026-10-02",
+      "source": "zenodo",
+      "source_record_id": "23122521",
+      "text": "",
+      "title": "Coastal wave monitoring, Mooloolaba",
+      "url": null
+    },
+    {
+      "content_sha256": "36fab15651b079240a6490da5076fc1e6bf1b5a317d9b0d29ff4fb405eb479a9",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1117/1.jbo.31.11.113506",
+        "pmcid": "PMC13618995",
+        "pmid": "42808087"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "journal": null
+      },
+      "observation_id": "obs-0bc87425777e83cc0a07",
+      "observed_at": "2026-10-03T14:49:59.142885+00:00",
+      "published_at": "2026-09-28",
+      "source": "europepmc",
+      "source_record_id": "42808087",
+      "text": "",
+      "title": "Biophotonics point-of-care diagnostics in low-resource settings: a South African perspective.",
+      "url": "https://europepmc.org/article/MED/42808087"
+    },
+    {
+      "content_sha256": "2904f06c14cbe6188198c3535630694ff9c3a2a6547d8131c2fc5ab80457f0fe",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT00924846"
+      },
+      "kind": "other",
+      "metadata": {
+        "conditions": [
+          "Acute Hypoxemic Respiratory Failure"
+        ],
+        "overall_status": "COMPLETED",
+        "phases": [
+          "PHASE3"
+        ]
+      },
+      "observation_id": "obs-0ee29749bf77f58f1a23",
+      "observed_at": "2026-10-03T14:49:59.337458+00:00",
+      "published_at": "2005-04",
+      "source": "clinicaltrials",
+      "source_record_id": "NCT00924846",
+      "text": "",
+      "title": "High-Frequency Oscillatory Ventilation Associated With Inhaled Nitric Oxide in Children",
+      "url": "https://clinicaltrials.gov/study/NCT00924846"
+    },
+    {
+      "content_sha256": "9fb8f728ef9777f79479213e26c48e319c1d76348da006a44543f3c119c3f3e4",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT06651970"
+      },
+      "kind": "other",
+      "metadata": {
+        "conditions": [
+          "Chronic Lymphocytic Leukaemia",
+          "Moderate to Severe Cardiac Impairment"
+        ],
+        "overall_status": "RECRUITING",
+        "phases": [
+          "PHASE4"
+        ]
+      },
+      "observation_id": "obs-131f7094793a1e93d5ff",
+      "observed_at": "2026-10-03T14:49:59.337646+00:00",
+      "published_at": "2025-02-04",
+      "source": "clinicaltrials",
+      "source_record_id": "NCT06651970",
+      "text": "",
+      "title": "Acalabrutinib Monotherapy vs Investigator's Choice of Treatment in Patients With CL Leukaemia and Heart Failure",
+      "url": "https://clinicaltrials.gov/study/NCT06651970"
+    },
+    {
+      "content_sha256": "7e4bd4f630bc095b9b92b99b426c3d10f38daf9c41b7689bc1ac14eca3a29cac",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122560"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [
+          "Australia",
+          "government open data",
+          "publicdata.au",
+          "gas production",
+          "coal seam gas",
+          "CSG",
+          "oil production",
+          "petroleum",
+          "Queensland",
+          "Queensland coal seam gas production by field",
+          "Queensland CSG and conventional gas production statistics",
+          "Queensland oil and gas production returns"
+        ],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-138e6fe9250a274cddc9",
+      "observed_at": "2026-10-03T14:49:57.004105+00:00",
+      "published_at": "2026-09-04",
+      "source": "zenodo",
+      "source_record_id": "23122560",
+      "text": "",
+      "title": "Petroleum and gas production by field, Queensland",
+      "url": null
+    },
+    {
+      "content_sha256": "cfa013e09d356590fad0781cf7ba1d411b44b0916b785208ac1135f9e446c394",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT07084142"
+      },
+      "kind": "other",
+      "metadata": {
+        "conditions": [
+          "Heart Failure and Reduced Ejection Fraction"
+        ],
+        "overall_status": "RECRUITING",
+        "phases": [
+          "NA"
+        ]
+      },
+      "observation_id": "obs-18ecd2bc56f9dd875244",
+      "observed_at": "2026-10-03T14:49:59.337596+00:00",
+      "published_at": "2025-08-01",
+      "source": "clinicaltrials",
+      "source_record_id": "NCT07084142",
+      "text": "",
+      "title": "Developing a Digital Aid to Improve ICD Decisions",
+      "url": "https://clinicaltrials.gov/study/NCT07084142"
+    },
+    {
+      "content_sha256": "43ca51a687a89e27ee82cc470a5204d5e8d7bcd4a506fa98de414e135da97457",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT07713641"
+      },
+      "kind": "other",
+      "metadata": {
+        "conditions": [
+          "Endotoxemia",
+          "Inflammation",
+          "Executive Function (Cognition)"
+        ],
+        "overall_status": "RECRUITING",
+        "phases": [
+          "NA"
+        ]
+      },
+      "observation_id": "obs-194f79a1e5a0215edd63",
+      "observed_at": "2026-10-03T14:49:59.337711+00:00",
+      "published_at": "2025-10-24",
+      "source": "clinicaltrials",
+      "source_record_id": "NCT07713641",
+      "text": "",
+      "title": "Short-Chain Fatty Acids in Lypopolysaccharide-Induced Inflammation and Executive Function",
+      "url": "https://clinicaltrials.gov/study/NCT07713641"
+    },
+    {
+      "content_sha256": "f7c0d255cadabd894666e912b929a43b69c8fb6f270fca3406819b62d7e36fc2",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1088/2632-2153/adfcb0/v1/decision1"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": null,
+        "type": "peer-review"
+      },
+      "observation_id": "obs-198c5a67d834a71f0778",
+      "observed_at": "2026-10-03T14:49:55.753704+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.1088/2632-2153/adfcb0/v1/decision1",
+      "text": "",
+      "title": "Decision letter for \"Theoretical Physics Benchmark (TPBench) - a dataset and study of AI reasoning capabilities in theoretical physics\"",
+      "url": "https://doi.org/10.1088/2632-2153/adfcb0/v1/decision1"
+    },
+    {
+      "content_sha256": "92ca6af9c1850ebc8c7d40ca748fdbf088ad6e822ddd08fe306ebdd302a7d7c5",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1101/2023.10.03.560715"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": null,
+        "type": "posted-content"
+      },
+      "observation_id": "obs-19ca2fe66a10d5974d14",
+      "observed_at": "2026-10-03T14:49:55.753719+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.1101/2023.10.03.560715",
+      "text": "",
+      "title": "Benchmark dataset for training machine learning models to predict the pathway involvement of metabolites",
+      "url": "https://doi.org/10.1101/2023.10.03.560715"
+    },
+    {
+      "content_sha256": "873b671a378b64d89ea947f6d1a17eb425dc551c9bec614eb5d6c6858cd7bd17",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT03613246"
+      },
+      "kind": "other",
+      "metadata": {
+        "conditions": [
+          "Transcatheter Aortic Valve Implantation"
+        ],
+        "overall_status": "ACTIVE_NOT_RECRUITING",
+        "phases": []
+      },
+      "observation_id": "obs-1a0753bf19130e8aa48b",
+      "observed_at": "2026-10-03T14:49:59.337423+00:00",
+      "published_at": "2019-02-20",
+      "source": "clinicaltrials",
+      "source_record_id": "NCT03613246",
+      "text": "",
+      "title": "NVT ALLEGRA TAVI System TF in Failing Calcified Aortic Heart Valves in a Real-world Patient Population",
+      "url": "https://clinicaltrials.gov/study/NCT03613246"
+    },
+    {
+      "content_sha256": "cdf044479f1cf5f8f37c9779a306865de70d133030c83738bb6c6a09c62d0e04",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT05177588"
+      },
+      "kind": "other",
+      "metadata": {
+        "conditions": [
+          "Heart Failure"
+        ],
+        "overall_status": "COMPLETED",
+        "phases": [
+          "PHASE4"
+        ]
+      },
+      "observation_id": "obs-1c3d14e32d30ddfa5d6b",
+      "observed_at": "2026-10-03T14:49:59.337493+00:00",
+      "published_at": "2021-07-21",
+      "source": "clinicaltrials",
+      "source_record_id": "NCT05177588",
+      "text": "",
+      "title": "Efficacy of Metformin as add-on Therapy in Non-Diabetic Heart Failure Patients",
+      "url": "https://clinicaltrials.gov/study/NCT05177588"
+    },
+    {
+      "content_sha256": "090b2822abe9d7076a17752c9b351234719d05d70a431683617ed1c52c6e2b37",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122540"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [
+          "Australia",
+          "government open data",
+          "publicdata.au",
+          "coal exports",
+          "coking coal",
+          "thermal coal",
+          "export destinations",
+          "mining statistics",
+          "Queensland",
+          "Queensland coal export destinations by mine",
+          "Where Queensland coal is exported",
+          "Queensland coal exports by country and financial year"
+        ],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-1d798bec15cf66ff619d",
+      "observed_at": "2026-10-03T14:49:57.004176+00:00",
+      "published_at": "2026-09-17",
+      "source": "zenodo",
+      "source_record_id": "23122540",
+      "text": "",
+      "title": "Coal exports by mine and destination country, Queensland",
+      "url": null
+    },
+    {
+      "content_sha256": "ccebdeaa2c8f5bebe4247514d9711dda064a7eb421a26523972c34cbc96d22e5",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122530"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [
+          "Australia",
+          "government open data",
+          "publicdata.au",
+          "wave height",
+          "wave buoy",
+          "swell",
+          "sea surface temperature",
+          "Coastal Data System",
+          "Townsville",
+          "Queensland",
+          "Townsville wave height data",
+          "Townsville waverider buoy readings",
+          "Coastal Data System waves Townsville"
+        ],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-1d8b0c69a66a89567198",
+      "observed_at": "2026-10-03T14:49:57.004227+00:00",
+      "published_at": "2025-08-07",
+      "source": "zenodo",
+      "source_record_id": "23122530",
+      "text": "",
+      "title": "Coastal wave monitoring, Townsville",
+      "url": null
+    },
+    {
+      "content_sha256": "13faceee82c0e707b89ac721714b7cf1535ddb7bdb1264a374377416c4e405e2",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1177/20539517241242457"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": [
+          "Big Data &amp; Society"
+        ],
+        "type": "journal-article"
+      },
+      "observation_id": "obs-1e89f1f922dac954eea7",
+      "observed_at": "2026-10-03T14:49:55.753858+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.1177/20539517241242457",
+      "text": "",
+      "title": "Agreements \u2018in the wild\u2019: Standards and alignment in machine learning benchmark dataset construction",
+      "url": "https://doi.org/10.1177/20539517241242457"
+    },
+    {
+      "content_sha256": "775f3f8a763e27c8cd3f38edbdbf755ef16e512fc5e996d7cce20b9d2831eab9",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1371/journal.pone.0359577",
+        "pmcid": "PMC13623145",
+        "pmid": "42809583"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "journal": null
+      },
+      "observation_id": "obs-1fb17a0362c754422553",
+      "observed_at": "2026-10-03T14:49:59.142849+00:00",
+      "published_at": "2026-09-29",
+      "source": "europepmc",
+      "source_record_id": "42809583",
+      "text": "",
+      "title": "Evaluating the Cyclical Hybrid Imputation Technique (CHIT) under MCAR, MAR, and MNAR missing data mechanisms: Evidence from health datasets.",
+      "url": "https://europepmc.org/article/MED/42809583"
+    },
+    {
+      "content_sha256": "ba94b7b38fc1ba6afbc670c8761725ca5c2a8ca9c47e3b0bf69d4ff35029f80a",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1007/s12265-026-10842-z",
+        "pmid": "42776352"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "journal": null
+      },
+      "observation_id": "obs-200b06ce585553c9b874",
+      "observed_at": "2026-10-03T14:49:59.143080+00:00",
+      "published_at": "2026-09-23",
+      "source": "europepmc",
+      "source_record_id": "42776352",
+      "text": "",
+      "title": "Cross-cohort Generalization for Heart Disease Prediction with Explainable AI.",
+      "url": "https://europepmc.org/article/MED/42776352"
+    },
+    {
+      "content_sha256": "ea43dde309ba7d3f69739d153995dbfd1a70555db3071810a2c54fa9046f7a44",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1007/s12016-026-09203-0",
+        "pmcid": "PMC13597546",
+        "pmid": "42771227"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "journal": null
+      },
+      "observation_id": "obs-21b7316314f227ccdcd7",
+      "observed_at": "2026-10-03T14:49:59.143142+00:00",
+      "published_at": "2026-09-22",
+      "source": "europepmc",
+      "source_record_id": "42771227",
+      "text": "",
+      "title": "Computational Approaches to Penicillin Allergy De-labelling: A Clinical Review.",
+      "url": "https://europepmc.org/article/MED/42771227"
+    },
+    {
+      "content_sha256": "5d41cd11037809bb8e95f269cc1459ab0f1651469648ed3b0715ca6d3308cc74",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT00666003"
+      },
+      "kind": "other",
+      "metadata": {
+        "conditions": [
+          "Renal Failure",
+          "Hemodynamics"
+        ],
+        "overall_status": "COMPLETED",
+        "phases": []
+      },
+      "observation_id": "obs-23665507c0778ed9fa11",
+      "observed_at": "2026-10-03T14:49:59.337527+00:00",
+      "published_at": "2008-04",
+      "source": "clinicaltrials",
+      "source_record_id": "NCT00666003",
+      "text": "",
+      "title": "Hemodynamic Assessment APCO Monitor vs Crit Line for Renal Replacement Rx",
+      "url": "https://clinicaltrials.gov/study/NCT00666003"
+    },
+    {
+      "content_sha256": "a14ac0144eaf5c4678a821dded73046206643ba552bab0b846373f33f773c667",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1016/j.mri.2026.110770",
+        "pmid": "42641972"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Magnetic resonance imaging"
+      },
+      "observation_id": "obs-23d9fd6e0f8970513cbc",
+      "observed_at": "2026-10-03T14:49:54.901388+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42641972",
+      "text": "",
+      "title": "Training-free motion correction for cardiac T1 mapping using DINOv3 features.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42641972/"
+    },
+    {
+      "content_sha256": "33a34da69d75e36b48d7ea75b7311124496564af9635d891dcaddd569c72fcac",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122534"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [
+          "Australia",
+          "government open data",
+          "publicdata.au",
+          "wave height",
+          "wave buoy",
+          "swell",
+          "sea surface temperature",
+          "Coastal Data System",
+          "Cairns",
+          "Queensland",
+          "Cairns wave height data",
+          "Cairns waverider buoy readings",
+          "Coastal Data System waves Cairns"
+        ],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-2496b3c9e1b213bfbeab",
+      "observed_at": "2026-10-03T14:49:57.004211+00:00",
+      "published_at": "2026-07-06",
+      "source": "zenodo",
+      "source_record_id": "23122534",
+      "text": "",
+      "title": "Coastal wave monitoring, Cairns",
+      "url": null
+    },
+    {
+      "content_sha256": "f1bf137eb15ea22a84baa83fa77c5cc63d2d00fad0fe58b568ef64c868bf1fe0",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.02.06.704425"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": null,
+        "type": "posted-content"
+      },
+      "observation_id": "obs-26cffe1d0859defce771",
+      "observed_at": "2026-10-03T14:49:55.753797+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.64898/2026.02.06.704425",
+      "text": "",
+      "title": "A Large-Scale Cryo-EM RNA Motif Dataset and Benchmark for Machine Learning-Based Structure Modeling",
+      "url": "https://doi.org/10.64898/2026.02.06.704425"
+    },
+    {
+      "content_sha256": "bcbdbe3c5d1e0863314bbab2e1d80c38bec8d3baf88107aacd21556c29b1bb52",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.2196/90854",
+        "pmcid": "PMC13618209",
+        "pmid": "42803770"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "journal": null
+      },
+      "observation_id": "obs-274a34775eb4e2a33461",
+      "observed_at": "2026-10-03T14:49:59.142974+00:00",
+      "published_at": "2026-09-25",
+      "source": "europepmc",
+      "source_record_id": "42803770",
+      "text": "",
+      "title": "Cloud-Based and Locally Deployed Language Models in Nursing and Health Care: An AI Act-Aligned Framework.",
+      "url": "https://europepmc.org/article/MED/42803770"
+    },
+    {
+      "content_sha256": "1bad3324c89742310566bdd73005c7efb95de501be1eec4d98bf8014cbe5cc1b",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122592"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [
+          "Australia",
+          "government open data",
+          "publicdata.au",
+          "youth detention",
+          "young offenders",
+          "youth justice",
+          "juvenile detention",
+          "Queensland",
+          "Girls and boys in youth detention in Queensland",
+          "Queensland youth detention population by sex"
+        ],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-287bdbf9ece649c52f8a",
+      "observed_at": "2026-10-03T14:49:57.003926+00:00",
+      "published_at": "2024-08-22",
+      "source": "zenodo",
+      "source_record_id": "23122592",
+      "text": "",
+      "title": "Young people in youth detention each day by sex, Queensland 2011 to 2016",
+      "url": null
+    },
+    {
+      "content_sha256": "6a7e133e8f38a84e770c97d20d760b9d2f7646917841f056d3ab36adde138f20",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1101/2025.07.13.25331478"
+      },
+      "kind": "publication",
+      "metadata": {
+        "category": "public and global health",
+        "version": "3"
+      },
+      "observation_id": "obs-2893089296fbfc807f48",
+      "observed_at": "2026-10-03T14:50:02.871186+00:00",
+      "published_at": "2026-09-03",
+      "source": "medrxiv",
+      "source_record_id": "10.1101/2025.07.13.25331478:3",
+      "text": "Influenza transmission in subtropical regions is shaped by complex, non-linear meteorological conditions, while surveillance-based forecasting has been further complicated by fluctuating testing intensity and non-pharmaceutical interventions during the COVID-19 period. Existing approaches often either characterize lagged environmental associations without forecasting capacity or apply deep learning without clear epidemiological interpretability. Using six years (2018-2023) of multi-site influenza surveillance data from Putian, a subtropical coastal city in southeastern China, we developed a two-stage framework to characterize meteorological associations and improve short-horizon forecasting. Influenza positivity rates were used as the primary outcome to mitigate testing-related surveillance bias. Distributed lag non-linear models (DLNMs) were constructed to estimate subtype-specific, lagged associations between meteorological variables and influenza positivity, and a Bayesian-optimized long short-term memory (LSTM) network integrating meteorological, autoregressive, and socio-behavioral covariates was developed to forecast influenza A and B activity. Influenza A positivity was associated with warmer conditions, peaking at 15{degrees}C (relative risk [RR] = 3.01, 95% CI: 1.03-8.78) and narrow diurnal temperature ranges, whereas influenza B positivity was associated with colder (8{degrees}C; RR = 26.12, 95% CI: 7.79-87.61), more humid (91%; RR = 1.52, 95% CI: 1.00-2.29), and lower-radiation conditions. The LSTM achieved lower forecast error than covariate-matched baselines (multivariate Autoregressive Integrated Moving Average [ARIMA] and eXtreme Gradient Boosting [XGBoost]) for both subtypes (Mean Absolute Error [MAE] for influenza A: 0.009 vs. 0.136 [ARIMA] and 0.138 [XGBoost]; for influenza B: 0.002 vs. 0.049 [ARIMA] and 0.070 [XGBoost]; Symmetric Mean Absolute Percentage Error [SMAPE] for influenza A: 0.521 vs. 1.212 and 1.081; for influenza B: 0.484 vs. 0.810 and 0.737, respectively). Covariate-ablation and SHapley Additive exPlanations (SHAP) analyses suggested that historical positivity and testing-related variables contributed materially to forecast stability under surveillance variability. External evaluation in Sanming provided preliminary evidence of model portability. This integrated DLNM-LSTM framework offers an interpretable approach for characterizing subtype-specific meteorological associations and improving influenza forecasting in subtropical settings.\n\nImportanceInfluenza imposes substantial global morbidity and mortality each year, and forecasting is particularly difficult in subtropical regions, where transmission occurs year-round, meteorological drivers are non-linear and lagged, and the COVID-19 period introduced pronounced epidemiological non-stationarity. Forecasts based on raw case counts are further affected by surveillance-related bias, as counts partly reflect testing intensity and clinician vigilance rather than underlying transmission alone. Existing work has largely applied inferential and deep-learning approaches in isolation, limiting either interpretability or forecasting flexibility. We address these issues with a two-stage DLNM-LSTM framework that uses influenza positivity rates as the primary endpoint and incorporates weekly detection volumes, mask-wearing stringency indices, day-and-week and non-local population proportion as socio-behavioral covariates, in order to mitigate testing-related surveillance bias and accommodate pandemic-era non-stationarity. The framework reveals distinct, subtype-specific meteorological associations for influenza A and B, shows lower forecast errors than covariate-matched baselines, both linear autoregressive (ARIMA) and non-linear machine-learning (XGBoost), and provides preliminary evidence of portability to a second subtropical city. It offers an interpretable, climate-informed methodological foundation for future operational surveillance developments in subtropical influenza forecasting.",
+      "title": "Meteorological Drivers of Influenza A and B Positivity in a Subtropical Chinese City: A Six-Year Surveillance Study Integrating Distributed Lag Non-Linear Models and Deep Learning",
+      "url": "https://doi.org/10.1101/2025.07.13.25331478"
+    },
+    {
+      "content_sha256": "5a2b44a9a50109741088bedb000d611f150caa4f4dd42a13aabb8525abe12087",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1016/j.ijcrp.2026.200704",
+        "pmid": "42750723"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "International journal of cardiology. Cardiovascular risk and prevention"
+      },
+      "observation_id": "obs-28c2e90d9e1ddf2f1b3f",
+      "observed_at": "2026-10-03T14:49:54.901175+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42750723",
+      "text": "",
+      "title": "Independent associations of psychiatric disorders with atrial fibrillation and acute coronary syndrome: An analysis of the National Inpatient Sample.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42750723/"
+    },
+    {
+      "content_sha256": "3c089144306974b7206b4d5876f35d78aa5a676a611d3722ae1b03b21a4c90ed",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.09.01.26361990"
+      },
+      "kind": "publication",
+      "metadata": {
+        "category": "psychiatry and clinical psychology",
+        "version": "1"
+      },
+      "observation_id": "obs-2eafed0ca8198c1bc699",
+      "observed_at": "2026-10-03T14:50:02.872147+00:00",
+      "published_at": "2026-09-03",
+      "source": "medrxiv",
+      "source_record_id": "10.64898/2026.09.01.26361990:1",
+      "text": "Generalization is a key cognitive process that allows humans to flexibly apply prior knowledge to guide new behaviors. Difficulties with generalization and flexibility are observed across neurodevelopmental disorders, especially autism, limiting adaptive function and quality of life. Cognitive-behavioral treatment benefits some but not all autistic individuals. As treatment requires application of learned skills to everyday life, variability in generalization ability may limit intervention success in autism. While cognitive substrates of learning and generalization are well established, their potential for explaining clinical outcomes is not known. Here, we combined a category learning task with computational modelling to distinguish two learning strategies underlying generalization - prototype abstraction vs. exemplar memorization - and tested whether individual differences in these learning strategies predicted real-world intervention outcomes in autistic youth. Fifty-four participants completed the category learning task at two pre-intervention timepoints, and then completed Unstuck and On Target:14-22 intervention targeting flexible problem solving, goal setting, and planning. We found that participants who consistently relied on prototype abstraction (N=26) were subsequently more likely to benefit from the intervention, showing improvement in parent- and self-reported flexibility. These findings identify prototype abstraction as a clinically relevant cognitive capacity that may help explain individual differences in intervention response and support the tailoring of interventions. More broadly, they demonstrate the value of linking basic cognitive mechanisms to clinical outcomes and may inform strategies to enhance the effectiveness of cognitive-behavioral interventions for youth with developmental disabilities.",
+      "title": "Prototype abstraction predicts response to flexibility intervention in autistic youth",
+      "url": "https://doi.org/10.64898/2026.09.01.26361990"
+    },
+    {
+      "content_sha256": "b09ae3475993463e1d338b03d41f4e01c668a972838d0a6c74506413cde05242",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1002/wjs.70580"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "article"
+      },
+      "observation_id": "obs-2f5653d75c8feae4f463",
+      "observed_at": "2026-10-03T14:49:58.030791+00:00",
+      "published_at": "2026-10-01",
+      "source": "openalex",
+      "source_record_id": "W7215032971",
+      "text": "",
+      "title": "Development of a Predictive Model for Patient Compliance in Enhanced Recovery After Surgery (ERAS) Programs for Colorectal Surgery",
+      "url": "https://openalex.org/W7215032971"
+    },
+    {
+      "content_sha256": "956e0c7d1994ee090989af2fe366cb6a868f4de7e65af9a03cba1a1bc009c28e",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1080/20008066.2026.2715185",
+        "pmid": "42703625"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "European journal of psychotraumatology"
+      },
+      "observation_id": "obs-3289f0b987ae9d33114e",
+      "observed_at": "2026-10-03T14:49:54.901243+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42703625",
+      "text": "",
+      "title": "Predicting longitudinal post-traumatic stress disorder symptoms using psychological measures and heart rate variability: a machine-learning approach.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42703625/"
+    },
+    {
+      "content_sha256": "70ffc3e4bfc98f2cac567a6c82583dc8fad77717905b82ee4f6ed14a65bc88e7",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122590"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [
+          "Australia",
+          "government open data",
+          "publicdata.au",
+          "youth detention",
+          "young offenders",
+          "youth justice",
+          "juvenile detention",
+          "Queensland",
+          "Young people on remand in Queensland youth detention",
+          "Queensland youth detention by legal status"
+        ],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-32ff210e5d108aa75f94",
+      "observed_at": "2026-10-03T14:49:57.003993+00:00",
+      "published_at": "2024-08-22",
+      "source": "zenodo",
+      "source_record_id": "23122590",
+      "text": "",
+      "title": "Young people in youth detention each day by legal status, Queensland 2011 to 2016",
+      "url": null
+    },
+    {
+      "content_sha256": "1c3856c11c838556da7ad0b5f4be890cccd6802c2ba8839deff7d8c05c8ee35f",
+      "evidence_state": "observed",
+      "identifiers": {
+        "pmcid": "PMC13601223"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "journal": null
+      },
+      "observation_id": "obs-334cbc292c8083911b7c",
+      "observed_at": "2026-10-03T14:49:59.142958+00:00",
+      "published_at": "2026-09-25",
+      "source": "europepmc",
+      "source_record_id": "PMC13601223",
+      "text": "",
+      "title": "Label-efficient cross-population transfer learning for electrocardiographic risk stratification: evaluation across German, Chinese and US cohorts",
+      "url": "https://europepmc.org/article/PMC/PMC13601223"
+    },
+    {
+      "content_sha256": "0db7813146f6a415902dd8d717bfb9bc9c79ac36803077f7d1b4df576306444b",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.22806709"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "preprint"
+      },
+      "observation_id": "obs-3918fe2bccfa6ce6c1c8",
+      "observed_at": "2026-10-03T14:49:58.030925+00:00",
+      "published_at": "2026-09-30",
+      "source": "openalex",
+      "source_record_id": "W7213518721",
+      "text": "",
+      "title": "Personalized Electrocardiographic and HRV Dynamics for Acute Stress Detection: A Leave-One-Subject-Out Benchmark on WESAD",
+      "url": "https://openalex.org/W7213518721"
+    },
+    {
+      "content_sha256": "0fdaa6a83e690a62f66393d2d1be028706cbe809bc3ddb881c8558866070f398",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.35377/saucis...1833058"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "article"
+      },
+      "observation_id": "obs-3c5ef8940d7640739aae",
+      "observed_at": "2026-10-03T14:49:58.031024+00:00",
+      "published_at": "2026-09-30",
+      "source": "openalex",
+      "source_record_id": "W7214960984",
+      "text": "",
+      "title": "A Comparative Performance Evaluation of Classification Algorithms on Imbalanced Datasets",
+      "url": "https://openalex.org/W7214960984"
+    },
+    {
+      "content_sha256": "8782c45fc139520cc9801711aea5bfe30b70f6e564ef56fc31bd3246c81bc75c",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1145/3529399.3529413"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": [
+          "2022 7th International Conference on Machine Learning Technologies (ICMLT)"
+        ],
+        "type": "proceedings-article"
+      },
+      "observation_id": "obs-3f25e258d47c5af021d0",
+      "observed_at": "2026-10-03T14:49:55.753734+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.1145/3529399.3529413",
+      "text": "",
+      "title": "Open Learning Analytics: A Systematic Review of Benchmark Studies using Open University Learning Analytics Dataset (OULAD)",
+      "url": "https://doi.org/10.1145/3529399.3529413"
+    },
+    {
+      "content_sha256": "19c17d5ffd8f7a3980b9eb75fcd0affd7c93bc3eb9c1de8e738ede782b3e8fea",
+      "evidence_state": "observed",
+      "identifiers": {
+        "github": "alihassan891u-lab/heart-disease-detection"
+      },
+      "kind": "repository",
+      "metadata": {
+        "description": "A comparative machine learning study that evaluates multiple classification algorithms (Logistic Regression, SVM, Random Forest, KNN, Gradient Boosting, and Gaussian Naive Bayes) on cardiac health data. The project includes comprehensive exploratory data analysis, outlier detection using IQR method, and performance benchmarking. Gaussian Naive Baye",
+        "language": "Jupyter Notebook",
+        "stars": 0
+      },
+      "observation_id": "obs-3f52560732ef1621e713",
+      "observed_at": "2026-10-03T14:49:57.291847+00:00",
+      "published_at": "2026-08-17",
+      "source": "github",
+      "source_record_id": "alihassan891u-lab/Heart-Disease-Detection",
+      "text": "A comparative machine learning study that evaluates multiple classification algorithms (Logistic Regression, SVM, Random Forest, KNN, Gradient Boosting, and Gaussian Naive Bayes) on cardiac health data. The project includes comprehensive exploratory data analysis, outlier detection using IQR method, and performance benchmarking. Gaussian Naive Baye",
+      "title": "alihassan891u-lab/Heart-Disease-Detection",
+      "url": "https://github.com/alihassan891u-lab/Heart-Disease-Detection"
+    },
+    {
+      "content_sha256": "aff58d0bd81a2a09bb9ec3aa910d425c9ba3c91289aa96b6c4ce0fb6bf4d10d5",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122517"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [
+          "Australia",
+          "government open data",
+          "publicdata.au",
+          "wave height",
+          "wave buoy",
+          "swell",
+          "sea surface temperature",
+          "Coastal Data System",
+          "Tweed Heads",
+          "Queensland",
+          "Tweed Heads wave height data",
+          "Tweed Heads waverider buoy readings",
+          "Coastal Data System waves Tweed Heads"
+        ],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-3fbadf3472b7c4d7a494",
+      "observed_at": "2026-10-03T14:49:57.004290+00:00",
+      "published_at": "2026-02-17",
+      "source": "zenodo",
+      "source_record_id": "23122517",
+      "text": "",
+      "title": "Coastal wave monitoring, Tweed Heads",
+      "url": null
+    },
+    {
+      "content_sha256": "3b05ffda78b7f837cde8ee15d012543487b13ed131a3c8625e25d8ae15cf7e37",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1038/s41597-023-02612-2"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": [
+          "Scientific Data"
+        ],
+        "type": "journal-article"
+      },
+      "observation_id": "obs-406789fee1d0f98249ca",
+      "observed_at": "2026-10-03T14:49:55.753766+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.1038/s41597-023-02612-2",
+      "text": "",
+      "title": "A benchmark dataset for machine learning in ecotoxicology",
+      "url": "https://doi.org/10.1038/s41597-023-02612-2"
+    },
+    {
+      "content_sha256": "9c8ea4f2dc0f6354210bbee0e1595d0a700ead66d621bf29416313348a0ccaf1",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1016/j.mri.2026.110768",
+        "pmid": "42570825"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Magnetic resonance imaging"
+      },
+      "observation_id": "obs-41638a31f28c4ea51b9a",
+      "observed_at": "2026-10-03T14:49:54.901451+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42570825",
+      "text": "",
+      "title": "Toward self-contained cardiac magnetic resonance elastography: Deep learning-based segmentation of the left ventricular myocardium.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42570825/"
+    },
+    {
+      "content_sha256": "dbaa2616c6007077d8e8a25e0565baf1fca7a3b082214a6830bed0057ab5eb11",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122515"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [
+          "Australia",
+          "government open data",
+          "publicdata.au",
+          "wave height",
+          "wave buoy",
+          "swell",
+          "sea surface temperature",
+          "Coastal Data System",
+          "Gold Coast",
+          "Queensland",
+          "Gold Coast wave height data",
+          "Gold Coast waverider buoy readings",
+          "Coastal Data System waves Gold Coast"
+        ],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-41e03726d22202130523",
+      "observed_at": "2026-10-03T14:49:57.004306+00:00",
+      "published_at": "2026-02-19",
+      "source": "zenodo",
+      "source_record_id": "23122515",
+      "text": "",
+      "title": "Coastal wave monitoring, Gold Coast",
+      "url": null
+    },
+    {
+      "content_sha256": "65fb114fe675b5346ba454410b6f26005170aedac7e22bed8800a96a1f8da3ed",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.17826/cumj.1835349"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "article"
+      },
+      "observation_id": "obs-43a7fe00b59ed3f6cd22",
+      "observed_at": "2026-10-03T14:49:58.031057+00:00",
+      "published_at": "2026-09-30",
+      "source": "openalex",
+      "source_record_id": "W7214984046",
+      "text": "",
+      "title": "Evaluation of radioanatomical and biochemical features of patients with hyperlipidaemia by conventional angiography",
+      "url": "https://openalex.org/W7214984046"
+    },
+    {
+      "content_sha256": "c4684b871aff18e3ecc8885dc391794605ff26219dabda9a67a79233176e3f20",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT04127461"
+      },
+      "kind": "other",
+      "metadata": {
+        "conditions": [
+          "Coronary Bypass Stenosis",
+          "Graft Infection"
+        ],
+        "overall_status": "COMPLETED",
+        "phases": [
+          "NA"
+        ]
+      },
+      "observation_id": "obs-4411dd05c611dbb0aabb",
+      "observed_at": "2026-10-03T14:49:59.337578+00:00",
+      "published_at": "2016-09-03",
+      "source": "clinicaltrials",
+      "source_record_id": "NCT04127461",
+      "text": "",
+      "title": "Endoscopic Harvesting in Coronary Artery Bypass Grafting.",
+      "url": "https://clinicaltrials.gov/study/NCT04127461"
+    },
+    {
+      "content_sha256": "304576a1dcba023d43535ccd3ff611dd69e31a41ac5dd87a533cb76a0c71ed29",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1093/ehjdh/ztag147",
+        "pmcid": "PMC13617667",
+        "pmid": "42807400"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "journal": null
+      },
+      "observation_id": "obs-4583069eb0d61886370a",
+      "observed_at": "2026-10-03T14:49:59.143178+00:00",
+      "published_at": "2026-09-19",
+      "source": "europepmc",
+      "source_record_id": "42807400",
+      "text": "",
+      "title": "Transportability of an artificial intelligence electrocardiography model for structural heart disease: external validation and recalibration of EchoNext-Mini in MIMIC-IV.",
+      "url": "https://europepmc.org/article/MED/42807400"
+    },
+    {
+      "content_sha256": "90ea04a7dcf7a1b0198abdd411c41fedb5e47f12d225aed88f729aa35ff3650b",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT06405282"
+      },
+      "kind": "other",
+      "metadata": {
+        "conditions": [
+          "Fluid Retention Tissue",
+          "Perfusion; Complications"
+        ],
+        "overall_status": "COMPLETED",
+        "phases": []
+      },
+      "observation_id": "obs-473e5f2e0284999aeb2b",
+      "observed_at": "2026-10-03T14:49:59.337308+00:00",
+      "published_at": "2022-04-14",
+      "source": "clinicaltrials",
+      "source_record_id": "NCT06405282",
+      "text": "",
+      "title": "Weightlessness Associated Cephalad Fluid Shifts; The Potential to Evaluate Venous and Lymphatic Dysfunction",
+      "url": "https://clinicaltrials.gov/study/NCT06405282"
+    },
+    {
+      "content_sha256": "4c4a4934d623c8895e4763585ccefd6b55bb637b33ba529bd25e9d962071f266",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT06595342"
+      },
+      "kind": "other",
+      "metadata": {
+        "conditions": [
+          "Cervical Artery Stenosis",
+          "Intracranial Artery Stenosis"
+        ],
+        "overall_status": "NOT_YET_RECRUITING",
+        "phases": []
+      },
+      "observation_id": "obs-47be11fc971d683acde7",
+      "observed_at": "2026-10-03T14:49:59.337615+00:00",
+      "published_at": "2024-10-30",
+      "source": "clinicaltrials",
+      "source_record_id": "NCT06595342",
+      "text": "",
+      "title": "A Prospective Cohort of Patients With Cervical/Intracranial Arteries Stenosis in China",
+      "url": "https://clinicaltrials.gov/study/NCT06595342"
+    },
+    {
+      "content_sha256": "ba7ab681b7a606f002305b5411c272f318a43736cb2a50da3b11519cb5ff41ec",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.34133/csbj.0212",
+        "pmcid": "PMC13624364",
+        "pmid": "42819612"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "journal": null
+      },
+      "observation_id": "obs-494f30f557714ef55c08",
+      "observed_at": "2026-10-03T14:49:59.142785+00:00",
+      "published_at": "2026-09-30",
+      "source": "europepmc",
+      "source_record_id": "42819612",
+      "text": "",
+      "title": "Machine Learning in Stem Cell Research: From Biological Data to Clinical Translation.",
+      "url": "https://europepmc.org/article/MED/42819612"
+    },
+    {
+      "content_sha256": "e1e94f08018995c2134da9062d154faf4e913c10291f3b3114cdf1b9530ea8ef",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1080/0886022x.2026.2687235",
+        "pmid": "42315974"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Renal failure"
+      },
+      "observation_id": "obs-49a66a6599892fee05ab",
+      "observed_at": "2026-10-03T14:49:54.901609+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42315974",
+      "text": "",
+      "title": "A four-gene signature for diagnosis of acute kidney injury following kidney transplantation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42315974/"
+    },
+    {
+      "content_sha256": "93b69c2a165577147d676d2d9281a72f40c93b2a44203160b75f4fcaed77e654",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1080/25310429.2026.2650733",
+        "pmid": "41944044"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Pulmonology"
+      },
+      "observation_id": "obs-4ad4de0da1ed32ff60f0",
+      "observed_at": "2026-10-03T14:49:54.901024+00:00",
+      "published_at": "2026 Dec 3",
+      "source": "pubmed",
+      "source_record_id": "41944044",
+      "text": "",
+      "title": "Plasma proteomic signatures linking preserved ratio impaired spirometry to cardiometabolic diseases and multimorbidity: A longitudinal cohort study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41944044/"
+    },
+    {
+      "content_sha256": "a1b81ae1091a877e59d6166308ed835d13cfc4cc55fae9648fd2e8468702a10a",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1016/j.bios.2026.119163",
+        "pmid": "42664937"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Biosensors & bioelectronics"
+      },
+      "observation_id": "obs-4ae7b05c77d69acac4c9",
+      "observed_at": "2026-10-03T14:49:54.901364+00:00",
+      "published_at": "2026 Dec 1",
+      "source": "pubmed",
+      "source_record_id": "42664937",
+      "text": "",
+      "title": "Integrated machine-learning-assisted wearable platform for stress state assessment based on sweat cortisol and multimodal physiological biosensing.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42664937/"
+    },
+    {
+      "content_sha256": "9a84eed85e8fc56e975f3ab16a0060594bbc9d3c665fbf2da6f725b97017eb54",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1007/s10928-026-10057-4",
+        "pmcid": "PMC13615157",
+        "pmid": "42789173"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "journal": null
+      },
+      "observation_id": "obs-4c7aaf402839a3e47d06",
+      "observed_at": "2026-10-03T14:49:59.143028+00:00",
+      "published_at": "2026-09-25",
+      "source": "europepmc",
+      "source_record_id": "42789173",
+      "text": "",
+      "title": "Formalizing method choice: a data-driven selection of mechanistic models for predicting human heart drug partitioning.",
+      "url": "https://europepmc.org/article/MED/42789173"
+    },
+    {
+      "content_sha256": "09099b0c1944a914feb199c407db748e3d95ba570d725a01a1031144a3692060",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.3390/make4010008"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": [
+          "Machine Learning and Knowledge Extraction"
+        ],
+        "type": "journal-article"
+      },
+      "observation_id": "obs-4cbd41bfd6416052e218",
+      "observed_at": "2026-10-03T14:49:55.753639+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.3390/make4010008",
+      "text": "",
+      "title": "Explainable Machine Learning Reveals Capabilities, Redundancy, and Limitations of a Geospatial Air Quality Benchmark Dataset",
+      "url": "https://doi.org/10.3390/make4010008"
+    },
+    {
+      "content_sha256": "4bd5e533b41fb2381193d937e83111428e821bfc38cc91a5c18bacbccee4a98c",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1080/07853890.2026.2694134",
+        "pmid": "42374899"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Annals of medicine"
+      },
+      "observation_id": "obs-4eaa330bf0eba5738a6e",
+      "observed_at": "2026-10-03T14:49:54.901588+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42374899",
+      "text": "",
+      "title": "Early metabolic trajectory and sedation strategy in V-V ECMO for severe pneumonia: a multicenter cohort study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42374899/"
+    },
+    {
+      "content_sha256": "2c6431a2725fb079f9d5921fcb3e10214ddb0f454fc2bc52658ea2c827023852",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1371/journal.pone.0358782",
+        "pmcid": "PMC13596800",
+        "pmid": "42771647"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "journal": null
+      },
+      "observation_id": "obs-51818f655da13ecc2592",
+      "observed_at": "2026-10-03T14:49:59.143103+00:00",
+      "published_at": "2026-09-22",
+      "source": "europepmc",
+      "source_record_id": "42771647",
+      "text": "",
+      "title": "Conditional spatial classification of expert-confirmed interictal epileptiform discharge epochs: An EEG-ECG ablation and SHAP analysis.",
+      "url": "https://europepmc.org/article/MED/42771647"
+    },
+    {
+      "content_sha256": "ce3c944436530c8b8da079e440b27ae659a9f30e45dff22a62ba92e3c9df9d9e",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1021/acs.jcim.5c01262.s001"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": null,
+        "type": "component"
+      },
+      "observation_id": "obs-51b5308da5b2787b04a1",
+      "observed_at": "2026-10-03T14:49:55.753903+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.1021/acs.jcim.5c01262.s001",
+      "text": "",
+      "title": "MS25: Materials Science-Focused Benchmark Data Set for Machine Learning Interatomic Potentials",
+      "url": "https://doi.org/10.1021/acs.jcim.5c01262.s001"
+    },
+    {
+      "content_sha256": "8b10c3e3793373ce0f6e71924b66d175bdcbf470a5185cbe84e44339aabb1fb6",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1038/s41598-026-70390-z"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "article"
+      },
+      "observation_id": "obs-52352ad48a4dc7eb4b98",
+      "observed_at": "2026-10-03T14:49:58.030875+00:00",
+      "published_at": "2026-10-01",
+      "source": "openalex",
+      "source_record_id": "W7215111835",
+      "text": "",
+      "title": "Generative AI-powered multimodal physiological sensors for personalized edge health monitoring",
+      "url": "https://openalex.org/W7215111835"
+    },
+    {
+      "content_sha256": "ae0e540cfc9e1975a6c11d8d256f70a28d8157ebf9c38dac1a3e80a81e90c7ae",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1371/journal.pone.0357600",
+        "pmcid": "PMC13623130",
+        "pmid": "42809584"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "journal": null
+      },
+      "observation_id": "obs-53c42ea06b1fe016903a",
+      "observed_at": "2026-10-03T14:49:59.142829+00:00",
+      "published_at": "2026-09-29",
+      "source": "europepmc",
+      "source_record_id": "42809584",
+      "text": "",
+      "title": "Deep learning for cardiac CT segmentation for congenital heart disease: A systematic review.",
+      "url": "https://europepmc.org/article/MED/42809584"
+    },
+    {
+      "content_sha256": "4a819016e42767a5d3287aaa3e5ad5750b0caff6bfd3beb64c9ba892a68ace1b",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5194/egusphere-egu23-14007"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": null,
+        "type": "posted-content"
+      },
+      "observation_id": "obs-549edb97f64894d2027a",
+      "observed_at": "2026-10-03T14:49:55.753749+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.5194/egusphere-egu23-14007",
+      "text": "",
+      "title": "LithoNet: A benchmark dataset for machine learning with digital outcrops",
+      "url": "https://doi.org/10.5194/egusphere-egu23-14007"
+    },
+    {
+      "content_sha256": "583d1a0d62625b43c027aea9cc3c29b3e7c1d43e97b2d494cdcece841ad143fe",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.01.29.26345103"
+      },
+      "kind": "publication",
+      "metadata": {
+        "category": "health systems and quality improvement",
+        "version": "2"
+      },
+      "observation_id": "obs-5596198957bee53379ab",
+      "observed_at": "2026-10-03T14:50:02.871441+00:00",
+      "published_at": "2026-09-03",
+      "source": "medrxiv",
+      "source_record_id": "10.64898/2026.01.29.26345103:2",
+      "text": "BackgroundTimely access to healthcare is vital especially during childbirth, as it affects unplanned out-of-hospital births, survival and morbidity outcomes. In Germany, the number of maternity wards decreased since 2014, potentially increasing travel times for pregnant women. We examined changes in the travel times after maternity ward closures from 2014 to 2024 and addressed spatial disparities, providing essential information to ensure maternal and newborn care accessibility.\n\nMethodsMaternity ward closures in Germany from 2014 to 2024 were identified, and travel time to the nearest ward was calculated for women of reproductive age (15 to 49 years) using the Open Source Routing Machine. Critical driving time was defined as 40 minutes or longer.\n\nResultsSince 2014, the number of maternity wards in Germany decreased by 172 (-23.1%), leaving 573 in 2024. Consequently, the number of women facing critical travel times increased by 109%, from 48,139 (0.28% of all women at risk) to 101,025 (0.60%). 27 closures were responsible for 90% of the increase in critical travel times, with seven accounting for over 50%. Northern and eastern parts of Germany were affected most which was reflected in an increasing Gini coefficient measuring the inequalities in travel times across Germany.\n\nConclusionMost maternity ward closures had minimal effect, but a few substantially increased travel time, especially in regions without nearby alternatives. These closures exacerbated regional disparities and potentially increased the risks of unplanned out-of-hospital births and other adverse birth outcomes.\n\nKey MessagesO_ST_ABSWhat is already known on this topicC_ST_ABSLong travel time to the nearest maternity ward is associated with unplanned out-of-hospital births and negative maternal, fetal and neonatal birth outcomes.\n\nWhat this study addsFrom 2014 to 2024, the number of maternity wards in Germany decreased by 23.1%. As a result the number of women between 15 and 49 facing travel times of 40 minutes or more increased by 109%, reaching 101,025 in 2024. Regional disparities in critical travel times were exacerbated.\n\nHow this study might affect research, practice or policyThis study underscores that further decisions on maternity ward closures should assess the impact on travel times and policy responses should create accessible accommodation options in areas where travel distance cannot be otherwise reduced. Further studies are needed to monitor the impact on increased travel time to obstetric care in Germany.",
+      "title": "Changes in Spatial Access to Obstetric Care in Germany from 2014 to 2024: A Nationwide Travel Time Analysis",
+      "url": "https://doi.org/10.64898/2026.01.29.26345103"
+    },
+    {
+      "content_sha256": "3ba8b002b4b9e029ea69572d69efee9f6ff80308bda0761ccd6eaddb48ce6be4",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1080/10641963.2026.2636171",
+        "pmid": "41736539"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Clinical and experimental hypertension (New York, N.Y. : 1993)"
+      },
+      "observation_id": "obs-56e57acc80210dffef15",
+      "observed_at": "2026-10-03T14:49:54.901075+00:00",
+      "published_at": "2026 Dec 3",
+      "source": "pubmed",
+      "source_record_id": "41736539",
+      "text": "",
+      "title": "Dissecting burden of alcoholic cardiomyopathy: age-period-cohort analysis from the global burden of disease study 2019.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41736539/"
+    },
+    {
+      "content_sha256": "7b92d86a69e564ca51b24672ec7a4b8ec39cdeba3c150020a3275f8eb42e11fb",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1016/j.compbiolchem.2026.109274",
+        "pmid": "42567083"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Computational biology and chemistry"
+      },
+      "observation_id": "obs-57ff0d0d1b3ba228dea9",
+      "observed_at": "2026-10-03T14:49:54.901525+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42567083",
+      "text": "",
+      "title": "Study on the potential role of KIF23 in doxorubicin-induced cardiomyopathy through multi-omics integration and AI-based screening.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42567083/"
+    },
+    {
+      "content_sha256": "8d10220e064af234e8035751825fa2cf4a0edc58a3ee3a5076b523e3ded707f0",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1021/acs.analchem.6c03711"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": [
+          "Analytical Chemistry"
+        ],
+        "type": "journal-article"
+      },
+      "observation_id": "obs-5904a0b4967217c482d3",
+      "observed_at": "2026-10-03T14:49:55.753827+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.1021/acs.analchem.6c03711",
+      "text": "",
+      "title": "CCSBase2: A\nUnified Benchmark Dataset and Machine\nLearning Framework for Robust CCS Prediction",
+      "url": "https://doi.org/10.1021/acs.analchem.6c03711"
+    },
+    {
+      "content_sha256": "80c59e4bb312130536feeb1bb61dd2428fb57d35aad8003988218340a5e95b7e",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.2196/89189",
+        "pmcid": "PMC13626297",
+        "pmid": "42814874"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "journal": null
+      },
+      "observation_id": "obs-5bbab96234568b6b5312",
+      "observed_at": "2026-10-03T14:49:59.142808+00:00",
+      "published_at": "2026-09-30",
+      "source": "europepmc",
+      "source_record_id": "42814874",
+      "text": "",
+      "title": "Technology-Enhanced Health Care in Smart Homes: Scoping Review of Sensor Technologies, Clinical Applications, Integration Challenges, and Future Directions.",
+      "url": "https://europepmc.org/article/MED/42814874"
+    },
+    {
+      "content_sha256": "a47621498b4280074579853e8de3fd7b23dadfaeac9219e0740be9964a07a1c4",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT02403024"
+      },
+      "kind": "other",
+      "metadata": {
+        "conditions": [
+          "Colorectal Cancer"
+        ],
+        "overall_status": "COMPLETED",
+        "phases": [
+          "NA"
+        ]
+      },
+      "observation_id": "obs-5ce6b7beb6209550e84a",
+      "observed_at": "2026-10-03T14:49:59.337351+00:00",
+      "published_at": "2015-08",
+      "source": "clinicaltrials",
+      "source_record_id": "NCT02403024",
+      "text": "",
+      "title": "Feasibility and Efficacy of Interval Walking in Patients With Colorectal Cancer",
+      "url": "https://clinicaltrials.gov/study/NCT02403024"
+    },
+    {
+      "content_sha256": "6e89cbd3ad94fe98d25f1701631edaa05d0a642bb277a702bb5ff70717c62bba",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT02597127"
+      },
+      "kind": "other",
+      "metadata": {
+        "conditions": [
+          "Atherosclerotic Cardiovascular Disease",
+          "Familial Hypercholesterolemia",
+          "Diabetes"
+        ],
+        "overall_status": "COMPLETED",
+        "phases": [
+          "PHASE2"
+        ]
+      },
+      "observation_id": "obs-5db416f048ff3ba7f79e",
+      "observed_at": "2026-10-03T14:49:59.337547+00:00",
+      "published_at": "2016-01",
+      "source": "clinicaltrials",
+      "source_record_id": "NCT02597127",
+      "text": "",
+      "title": "Trial to Evaluate the Effect of ALN-PCSSC Treatment on Low Density Lipoprotein Cholesterol (LDL-C)",
+      "url": "https://clinicaltrials.gov/study/NCT02597127"
+    },
+    {
+      "content_sha256": "57c58549509787624a3a6919b3d3b69a4b342874e773b4ababb92bc68bbe8ae7",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5194/essd-2020-380"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": null,
+        "type": "posted-content"
+      },
+      "observation_id": "obs-5e2621320d544f2af61a",
+      "observed_at": "2026-10-03T14:49:55.753782+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.5194/essd-2020-380",
+      "text": "",
+      "title": "AQ-Bench: A Benchmark Dataset for Machine Learning on Global\nAir Quality Metrics",
+      "url": "https://doi.org/10.5194/essd-2020-380"
+    },
+    {
+      "content_sha256": "a4daa6d09f339da8d33e782bfc54b6ab533838ce4246085a3ac7833bc4176edc",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1080/07853890.2026.2698905",
+        "pmid": "42427275"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Annals of medicine"
+      },
+      "observation_id": "obs-623f7bd549409892a963",
+      "observed_at": "2026-10-03T14:49:54.901569+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42427275",
+      "text": "",
+      "title": "Multiple machine learning models for predicting major adverse cardiovascular events in dialysis with clinical and echocardiographic parameters: a retrospective cohort study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42427275/"
+    },
+    {
+      "content_sha256": "3cbb23bd490c4f568ee4ee8e80559472636b1bb55a23a17d19e00f89f8e239ac",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.09.01.748703"
+      },
+      "kind": "publication",
+      "metadata": {
+        "category": "bioinformatics",
+        "version": "1"
+      },
+      "observation_id": "obs-6517ab41bbfa66f1c25b",
+      "observed_at": "2026-10-03T14:50:01.226433+00:00",
+      "published_at": "2026-09-03",
+      "source": "biorxiv",
+      "source_record_id": "10.64898/2026.09.01.748703:1",
+      "text": "Single-cell perturbation profiling measures responses to genetic and chemical interventions, yet most models learn a static map, ignoring how populations move over time and how perturbations combine. AnnFlux, an object-conditioned stochastic differential equation, learns a drift field in latent cell-state space. Conditioning on the perturbing object makes the field queryable one object at a time, yielding per-object drifts comparable across genes and drugs. By learning a drift field tailored to each perturbation context, it interpolates a held-out timepoint in an epithelial-mesenchymal transition time course and predicts unseen perturbations. Beyond point estimates, AnnFlux improves distributional fidelity and predicts responses to held-out perturbation combinations. An IFN-response signature predicted by AnnFlux was associated with TLS proximity in an independent pan-cancer spatial atlas. This framework maps perturbation-driven cell-state evolution as continuous trajectories and represents unseen perturbations using prior-knowledge embeddings.",
+      "title": "AnnFlux: object-conditioned neural stochastic differential equations for single-cell perturbation dynamics",
+      "url": "https://doi.org/10.64898/2026.09.01.748703"
+    },
+    {
+      "content_sha256": "bd31b66003a7c153608aec9e48eb5eea6604588853c6ad8033b8e006071d1676",
+      "evidence_state": "observed",
+      "identifiers": {
+        "pmcid": "PMC13628583"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "journal": null
+      },
+      "observation_id": "obs-66ea70c1c441596da98a",
+      "observed_at": "2026-10-03T14:49:59.142656+00:00",
+      "published_at": "2026-10-01",
+      "source": "europepmc",
+      "source_record_id": "PMC13628583",
+      "text": "",
+      "title": "Abstracts",
+      "url": "https://europepmc.org/article/PMC/PMC13628583"
+    },
+    {
+      "content_sha256": "309e1e98818c5822e8a380e2ed8fad8847ff8fce6c6b9515a85d3d3f0483219b",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1109/icmla66185.2025.00159"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": [
+          "2025 International Conference on Machine Learning and Applications (ICMLA)"
+        ],
+        "type": "proceedings-article"
+      },
+      "observation_id": "obs-672255f01ac8a684731c",
+      "observed_at": "2026-10-03T14:49:55.753932+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.1109/icmla66185.2025.00159",
+      "text": "",
+      "title": "Offline Reinforcement Learning Benchmark for Variable Speed Limit Control with Real-World Dataset",
+      "url": "https://doi.org/10.1109/icmla66185.2025.00159"
+    },
+    {
+      "content_sha256": "926cc50640fc105a2b372fc1959bbb6d44e3f63e2ee3914e7c19e892c90aeeb1",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1038/s41392-026-02946-4",
+        "pmcid": "PMC13612816",
+        "pmid": "42786165"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "journal": null
+      },
+      "observation_id": "obs-68deb05f5d610e263987",
+      "observed_at": "2026-10-03T14:49:59.143046+00:00",
+      "published_at": "2026-09-25",
+      "source": "europepmc",
+      "source_record_id": "42786165",
+      "text": "",
+      "title": "Artificial intelligence in biomarker discovery for diseases: diagnostic and therapeutic prospects.",
+      "url": "https://europepmc.org/article/MED/42786165"
+    },
+    {
+      "content_sha256": "e6c4a56c2f64d171a947e31b7a11c5e53c08d6bec45c4cecd978798c5404cbe7",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT00698841"
+      },
+      "kind": "other",
+      "metadata": {
+        "conditions": [
+          "Advanced Cancer"
+        ],
+        "overall_status": "COMPLETED",
+        "phases": [
+          "PHASE2"
+        ]
+      },
+      "observation_id": "obs-6a7cf80d71c6112c8e2d",
+      "observed_at": "2026-10-03T14:49:59.337728+00:00",
+      "published_at": "2009-02",
+      "source": "clinicaltrials",
+      "source_record_id": "NCT00698841",
+      "text": "",
+      "title": "Study to Evaluate the Effect of Cetuximab on Corrected QT (QTc) Interval Changes in Patients With Advanced Malignancies From Solid Tumors",
+      "url": "https://clinicaltrials.gov/study/NCT00698841"
+    },
+    {
+      "content_sha256": "46422fe8fb5c4f39b4a0d4a90202bd0822cee4781b22b5c6676239b58a54a2bb",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122552"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [
+          "Australia",
+          "government open data",
+          "publicdata.au",
+          "coal exports",
+          "export value",
+          "coal sales",
+          "coking coal",
+          "thermal coal",
+          "Queensland",
+          "Queensland annual coal statistics export by destination",
+          "Value of Queensland coal exports by country",
+          "Queensland coal sales by country"
+        ],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-6ba793830ecee772f3aa",
+      "observed_at": "2026-10-03T14:49:57.004138+00:00",
+      "published_at": "2026-06-10",
+      "source": "zenodo",
+      "source_record_id": "23122552",
+      "text": "",
+      "title": "Coal exports and sales value by country, Queensland",
+      "url": null
+    },
+    {
+      "content_sha256": "2ecfabd8db6cff724a5014e4ac98fd8a4ce75538d5a1e7afdec7d9aa761f0455",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.09.25.754374"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "preprint"
+      },
+      "observation_id": "obs-6c860632d7036250b3e7",
+      "observed_at": "2026-10-03T14:49:58.030860+00:00",
+      "published_at": "2026-10-01",
+      "source": "openalex",
+      "source_record_id": "W7215099772",
+      "text": "",
+      "title": "HMVA-DDI: A Hierarchical Multi-View Attention Network for Drug-Drug Interaction and Severity Prediction",
+      "url": "https://openalex.org/W7215099772"
+    },
+    {
+      "content_sha256": "767e378a0e4224548e2e1cd6e7ee7106ccedb9c0d35c3aefd2d057802d8111c9",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1101/2023.05.27.542160"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": null,
+        "type": "posted-content"
+      },
+      "observation_id": "obs-71c7d8312e0e829d0a68",
+      "observed_at": "2026-10-03T14:49:55.753619+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.1101/2023.05.27.542160",
+      "text": "",
+      "title": "A Benchmark Dataset for Machine Learning in Ecotoxicology",
+      "url": "https://doi.org/10.1101/2023.05.27.542160"
+    },
+    {
+      "content_sha256": "c861398296eb46e4f10cdf410549489bcb585386687fa2ba970d15e2a308ac76",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.3390/diagnostics16183058",
+        "pmcid": "PMC13605657",
+        "pmid": "42793843"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "journal": null
+      },
+      "observation_id": "obs-72ffc7010ada45b877e7",
+      "observed_at": "2026-10-03T14:49:59.143160+00:00",
+      "published_at": "2026-09-20",
+      "source": "europepmc",
+      "source_record_id": "42793843",
+      "text": "",
+      "title": "Cardiovascular Disease Risk Assessment from Retinal Fundus Images Using a CSP-ConvNext Model.",
+      "url": "https://europepmc.org/article/MED/42793843"
+    },
+    {
+      "content_sha256": "ca56fd146ae44a2325d8996f5e1b15e770dea907fdf8749f852aeec2823b7fe2",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1145/3776591.3837044"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "conference-paper"
+      },
+      "observation_id": "obs-75023315b25e1e8b8059",
+      "observed_at": "2026-10-03T14:49:58.030735+00:00",
+      "published_at": "2026-10-02",
+      "source": "openalex",
+      "source_record_id": "W7213440299",
+      "text": "",
+      "title": "Pseudo-Label Augmentation for Affect Sensing in Small Collaborative Groups",
+      "url": "https://openalex.org/W7213440299"
+    },
+    {
+      "content_sha256": "3e35f1a4d1843fcd2e9d5c8b6f4a02aea9ee431120df099c70e5d934754aa21b",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23050502"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "preprint"
+      },
+      "observation_id": "obs-75877cba0dc221f8a74a",
+      "observed_at": "2026-10-03T14:49:58.031104+00:00",
+      "published_at": "2026-09-30",
+      "source": "openalex",
+      "source_record_id": "W7215061049",
+      "text": "",
+      "title": "Personalized Electrocardiographic and HRV Dynamics for Acute Stress Detection: A Leave-One-Subject-Out Benchmark on WESAD",
+      "url": "https://openalex.org/W7215061049"
+    },
+    {
+      "content_sha256": "a7c42d87230d63544c77abb20755cd114123823a32940e200cf2b4d755c9ab80",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.47852/bonviewswt620210477"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "article"
+      },
+      "observation_id": "obs-7a51ec3f31d7a68725eb",
+      "observed_at": "2026-10-03T14:49:58.031042+00:00",
+      "published_at": "2026-09-30",
+      "source": "openalex",
+      "source_record_id": "W7214971230",
+      "text": "",
+      "title": "Edge AI for Real-Time Facial Emotion Detection: A Raspberry Pi-Based Approach with CNN",
+      "url": "https://openalex.org/W7214971230"
+    },
+    {
+      "content_sha256": "6059e464e5cdbdd2c63cbaddeb1a3da38451459b06159901cc930b6f671252a2",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1080/13685538.2026.2670021",
+        "pmid": "42101474"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "The aging male : the official journal of the International Society for the Study of the Aging Male"
+      },
+      "observation_id": "obs-7b261f5f33f54c10fe33",
+      "observed_at": "2026-10-03T14:49:54.900985+00:00",
+      "published_at": "2026 Dec 3",
+      "source": "pubmed",
+      "source_record_id": "42101474",
+      "text": "",
+      "title": "SPISE index and ensemble machine learning refine cardiovascular risk stratification in stage 0-3 CKM syndrome.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42101474/"
+    },
+    {
+      "content_sha256": "1e1eab4454d092c4454cfcbbcfeee2bf3b960a1419fe5cad17730a91fa68b946",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.08.30.26361746"
+      },
+      "kind": "publication",
+      "metadata": {
+        "category": "cardiovascular medicine",
+        "version": "2"
+      },
+      "observation_id": "obs-7ee6f6f59f5b90cdf2ce",
+      "observed_at": "2026-10-03T14:50:02.871550+00:00",
+      "published_at": "2026-09-03",
+      "source": "medrxiv",
+      "source_record_id": "10.64898/2026.08.30.26361746:2",
+      "text": "BackgroundA dose-finding trial evaluated safety and adherence for pre-cardiac surgery administration of sodium valproate. Integrated multi-omics analyses of myocardium were used to characterise mechanisms underlying treatment effects.\n\nMethodsAdults undergoing cardiac surgery were randomised 1:1:1:1 with concealed allocation to no treatment (Controls), sodium valproate 15mg/kg/day for 1-2 weeks, 15mg/kg/day for 4-6 weeks, or 25mg/kg/day for 4-6 weeks pre-surgery. The primary analysis evaluated adherence and toxicity. Myocardial injury was defined by high sensitivity serum troponin at 24 hours post-surgery. Single-nucleus Assay for Transposase-Accessible Chromatin with sequencing (snATACseq) and single nuclei RNA sequencing (snRNAseq) of myocardial biopsies collected at surgery assessed treatment effects on chromatin accessibility and gene expression. Candidate mechanisms were validated in in vitro.\n\nResultsThe analysis cohort included 42 participants enrolled between January 2020 and August 2024. Sodium valproate 15mg/kg/day for 1-2 weeks had the highest levels of complete treatment adherence (70%), with 20% experiencing moderate/severe drug related adverse effects. Non-compliance was increased with longer and higher dosing.\n\nAn as-treated analyses demonstrated reductions in troponin release in participants receiving Valproate[&le;]14 days where myocardial biopsies demonstrated activation of hormetic p53 and Akt-GSK-3{beta} ferroptosis protection pathways versus controls. Silencing of these pathways attenuated the protective effect of valproate in vitro. Treatment effects were not attributable to chromatin accessibility.\n\nTreatment >14 days resulted in a heart failure phenotype, suppression of ferroptosis protection pathways, and increased myocardial injury.\n\nConclusionsValproate 15mg/kg/day for [&le;]14 days pre-surgery is well tolerated in adults awaiting cardiac surgery and is associated with upregulation of ferroptosis protection pathways and reductions in myocardial injury.",
+      "title": "Dose-finding, experimental medicine evaluation of sodium valproate for the prevention of post-cardiac surgery myocardial injury",
+      "url": "https://doi.org/10.64898/2026.08.30.26361746"
+    },
+    {
+      "content_sha256": "65d78dabd11341c569c68b5fe8c60b558eae673465ee2783ab128846629cc547",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122538"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [
+          "Australia",
+          "government open data",
+          "publicdata.au",
+          "prison",
+          "correctional centre",
+          "prison visits",
+          "Queensland Corrective Services",
+          "Queensland",
+          "Queensland correctional centres list",
+          "QCS prison visiting hours",
+          "Queensland jail locations"
+        ],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-7f7f1707cb113b9bc608",
+      "observed_at": "2026-10-03T14:49:57.004192+00:00",
+      "published_at": "2026-09-30",
+      "source": "zenodo",
+      "source_record_id": "23122538",
+      "text": "",
+      "title": "Prison locations, Queensland",
+      "url": null
+    },
+    {
+      "content_sha256": "464d3faeb291f7847971f5c7e8eed6b98bcd0ed383fd761296eda8c03adae748",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.21203/rs.3.rs-10939031/v1"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "preprint"
+      },
+      "observation_id": "obs-8002bafd7af3a707fbfe",
+      "observed_at": "2026-10-03T14:49:58.030940+00:00",
+      "published_at": "2026-09-30",
+      "source": "openalex",
+      "source_record_id": "W7214729433",
+      "text": "",
+      "title": "Persistent Cardiac Surgery-Associated Acute Kidney Injury Identifies a High-Risk Phenotype after Pediatric Congenital Heart Surgery",
+      "url": "https://openalex.org/W7214729433"
+    },
+    {
+      "content_sha256": "d606b259d4cf4bab1001690a14f86ddaee4b10ee94a5b567984e8aa12115f9ef",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT04589962"
+      },
+      "kind": "other",
+      "metadata": {
+        "conditions": [
+          "Surgical and the Percutaneous Approach to the Upper Extremity Access"
+        ],
+        "overall_status": "COMPLETED",
+        "phases": []
+      },
+      "observation_id": "obs-83de9c7902ef054ecf6e",
+      "observed_at": "2026-10-03T14:49:59.337406+00:00",
+      "published_at": "2020-10-09",
+      "source": "clinicaltrials",
+      "source_record_id": "NCT04589962",
+      "text": "",
+      "title": "SUrgical Versus PERcutaneous AXillary Artery International Registry",
+      "url": "https://clinicaltrials.gov/study/NCT04589962"
+    },
+    {
+      "content_sha256": "77f575a4fc6378106faf81d2fa3cabb3e71f12318f5e569f80fa04cfeaedcf2e",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122588"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [
+          "Australia",
+          "government open data",
+          "publicdata.au",
+          "youth detention",
+          "young offenders",
+          "youth justice",
+          "juvenile detention",
+          "Queensland",
+          "Aboriginal and Torres Strait Islander children in youth detention Queensland",
+          "Queensland youth detention by Indigenous status"
+        ],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-84d7af5dd1599a8872be",
+      "observed_at": "2026-10-03T14:49:57.004019+00:00",
+      "published_at": "2024-08-22",
+      "source": "zenodo",
+      "source_record_id": "23122588",
+      "text": "",
+      "title": "Young people in youth detention each day by Indigenous status, Queensland 2011 to 2016",
+      "url": null
+    },
+    {
+      "content_sha256": "30e0cb2acc8433f5a7c0da8fd4e8753af3a96d8122e31c276788d7d19ed07cb3",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.08.29.26361701"
+      },
+      "kind": "publication",
+      "metadata": {
+        "category": "public and global health",
+        "version": "1"
+      },
+      "observation_id": "obs-84f88beca43c9bc6bc0d",
+      "observed_at": "2026-10-03T14:50:02.870940+00:00",
+      "published_at": "2026-09-03",
+      "source": "medrxiv",
+      "source_record_id": "10.64898/2026.08.29.26361701:1",
+      "text": "IntroductionClinical students are a future health workforce, yet their roles during outbreaks of highly infectious diseases remain uncertain because of safety, training, supervision and welfare concerns. Ugandas 2022 outbreak of Ebola disease caused by Sudan ebolavirus highlighted the need to understand how clinical students perceive outbreak-related care.\n\nAimThis study explored willingness to care for patients with Ebola virus disease among clinical students at a Ugandan medical school and examined how perceived risks, perceived benefits and support needs shaped that willingness.\n\nMethodsAn exploratory descriptive qualitative study was conducted among clinical students of Makerere University in Kampala, Uganda. Fifteen undergraduate medical and nursing students in the later years of training were purposively selected. Data were collected through in-depth interviews, audio-recorded with consent, transcribed verbatim, de-identified and analysed using latent content analysis. The Health Belief Model sensitised interpretation, and reporting was strengthened using the COREQ guidance.\n\nResultsFive interrelated themes emerged, showing that willingness to care was conditional rather than simply present or absent. Students described an initial willingness grounded in professional duty, devotion to patients and the desire to save life. This willingness was restrained by perceived risks of contracting Ebola virus disease, dying, transmitting infection to family members or colleagues, emotional distress, lack of epidemic-readiness in the curriculum, inadequate preparedness and weak welfare support. Perceived benefits, including patient survival, professional learning, outbreak experience and personal fulfilment, strengthened willingness but did not override safety concerns. Students identified reliable personal protective equipment, epidemic-ready curricula, practical infection-prevention and control training, simulation, clear protocols, close supervision, psychosocial support, insurance and fair compensation as cues to action that could convert willingness into safe participation.\n\nConclusionsClinical students in this Ugandan teaching hospital expressed a strong sense of professional responsibility, but their willingness to participate in Ebola care was conditional upon preparedness, protection, epidemic-ready education and institutional trust. Professional duty and learning opportunities promoted participation, whereas perceived risks and inadequate support limited it. Medical education programmes and outbreak-response systems should develop ethical, supervised, competency-based student roles supported by practical curricula, reliable protective equipment and psychosocial and welfare safeguards.",
+      "title": "Conditional willingness to care for patients with Ebola virus disease: a qualitative study of risk-benefit perceptions and support needs of clinical students at a Ugandan medical school",
+      "url": "https://doi.org/10.64898/2026.08.29.26361701"
+    },
+    {
+      "content_sha256": "ccbfd54ea0152c9a385168805536e84cb98d8f9d78659ec1c9e897bde403e25b",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1109/msr52588.2021.00079"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": [
+          "2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)"
+        ],
+        "type": "proceedings-article"
+      },
+      "observation_id": "obs-87283157081d7c77c2f2",
+      "observed_at": "2026-10-03T14:49:55.753918+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.1109/msr52588.2021.00079",
+      "text": "",
+      "title": "ManyTypes4Py: A Benchmark Python Dataset for Machine Learning-based Type Inference",
+      "url": "https://doi.org/10.1109/msr52588.2021.00079"
+    },
+    {
+      "content_sha256": "7405fa28f99a49250d7161110e4b161d5fe238fdafe107032cc63824f918cbd0",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122555"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [
+          "Australia",
+          "government open data",
+          "publicdata.au",
+          "coal production",
+          "saleable coal",
+          "coking coal",
+          "thermal coal",
+          "Queensland",
+          "Queensland annual coal production totals",
+          "Queensland coking and thermal coal output by year"
+        ],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-89b4de214c05f2196fcf",
+      "observed_at": "2026-10-03T14:49:57.004120+00:00",
+      "published_at": "2026-06-10",
+      "source": "zenodo",
+      "source_record_id": "23122555",
+      "text": "",
+      "title": "Saleable coal production by year and coal type, Queensland",
+      "url": null
+    },
+    {
+      "content_sha256": "08bd1bedd27fbdf3091dd10e43fbf0a3f38033157f5c5be1cd373f845b8a1084",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.7759/cureus.117234"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "article"
+      },
+      "observation_id": "obs-8de908b812186929d074",
+      "observed_at": "2026-10-03T14:49:58.030955+00:00",
+      "published_at": "2026-09-30",
+      "source": "openalex",
+      "source_record_id": "W7214889151",
+      "text": "",
+      "title": "Digital Twins and Offline Reinforcement Learning for Mechanical Circulatory Support Decisions: What the Current Evidence Can and Cannot Support",
+      "url": "https://openalex.org/W7214889151"
+    },
+    {
+      "content_sha256": "ba69017779fc06943b1a1fbefc4dc5f19c1f1edc00160a79d5119ac6b3725d35",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.70314/is.2025.skui.6224"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": [
+          "IS 2025 - Slovenian Conference on Artificial Intellignece"
+        ],
+        "type": "proceedings-article"
+      },
+      "observation_id": "obs-8f4a2c2056b80243fe0c",
+      "observed_at": "2026-10-03T14:49:55.753592+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.70314/is.2025.skui.6224",
+      "text": "",
+      "title": "Machine Learning for Cutting ToolWear Detection: AMulti-Dataset Benchmark Study Toward PredictiveMaintenance",
+      "url": "https://doi.org/10.70314/is.2025.skui.6224"
+    },
+    {
+      "content_sha256": "61ffa2dd08e5e5f3dc687795f9cafdf31f69a6becc9b955dd2c1b21fe29cacf4",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.21203/rs.3.rs-7286169/v1"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": null,
+        "type": "posted-content"
+      },
+      "observation_id": "obs-917dd6d8df0391df6c25",
+      "observed_at": "2026-10-03T14:49:55.753689+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.21203/rs.3.rs-7286169/v1",
+      "text": "",
+      "title": "Machine Learning Dataset and Benchmark for Accurate T Cell Receptor-pHLA Binding Prediction",
+      "url": "https://doi.org/10.21203/rs.3.rs-7286169/v1"
+    },
+    {
+      "content_sha256": "2ddb55fca73e55d46422044eab6e558c58a54dae5cbad3782913cf7bd0d4ad13",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1002/advs.77791",
+        "pmcid": "PMC13616272",
+        "pmid": "42801573"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "journal": null
+      },
+      "observation_id": "obs-943c0e13491e8ea74105",
+      "observed_at": "2026-10-03T14:49:59.142940+00:00",
+      "published_at": "2026-09-27",
+      "source": "europepmc",
+      "source_record_id": "42801573",
+      "text": "",
+      "title": "Smart Bioinks for 4D Bioprinting: Requirements, Design, and Applications.",
+      "url": "https://europepmc.org/article/MED/42801573"
+    },
+    {
+      "content_sha256": "a34aa7bddcd39d9661ad2f5e79fb730b7906d2a07684bc0dbed19fea1870a260",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT05819788"
+      },
+      "kind": "other",
+      "metadata": {
+        "conditions": [
+          "Coagulopathy",
+          "Congenital Heart Disease"
+        ],
+        "overall_status": "COMPLETED",
+        "phases": []
+      },
+      "observation_id": "obs-94a04a5f31e5c4b82984",
+      "observed_at": "2026-10-03T14:49:59.337511+00:00",
+      "published_at": "2023-08-28",
+      "source": "clinicaltrials",
+      "source_record_id": "NCT05819788",
+      "text": "",
+      "title": "FFP Usage in Pediatric CV Surgery",
+      "url": "https://clinicaltrials.gov/study/NCT05819788"
+    },
+    {
+      "content_sha256": "ad64746eea33a0682237db93511bcfbc1425689163ef6764fff2e6e2212a9314",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1007/s11571-026-10537-w",
+        "pmid": "42703253"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Cognitive neurodynamics"
+      },
+      "observation_id": "obs-954a57c5f8bb11729b99",
+      "observed_at": "2026-10-03T14:49:54.901266+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42703253",
+      "text": "",
+      "title": "Memristor-based echo state network for ECG classification: optimizing accuracy and efficiency with different architectures.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42703253/"
+    },
+    {
+      "content_sha256": "f6914163a328c4629e667a0ea61afa5830fc832e5a2ec5a28b61bbb33e052bd8",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122504"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [
+          "Australia",
+          "government open data",
+          "publicdata.au",
+          "land valuation",
+          "land values",
+          "statutory valuation",
+          "Valuer-General",
+          "local government area",
+          "Queensland",
+          "Queensland statutory land valuation trends",
+          "QLD land value change by LGA",
+          "Valuer-General annual valuation results Queensland"
+        ],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-9862bc07793fe8d59549",
+      "observed_at": "2026-10-03T14:49:57.004355+00:00",
+      "published_at": "2026-03-11",
+      "source": "zenodo",
+      "source_record_id": "23122504",
+      "text": "",
+      "title": "Change in land values by council area, Queensland, 2010 onwards",
+      "url": null
+    },
+    {
+      "content_sha256": "203e725b82c5981b1334f82c898021f53308cc7b7007e01d9174b177fa6e0745",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT01631383"
+      },
+      "kind": "other",
+      "metadata": {
+        "conditions": [
+          "Cocaine Use"
+        ],
+        "overall_status": "COMPLETED",
+        "phases": [
+          "PHASE1"
+        ]
+      },
+      "observation_id": "obs-9b743f9616cd2a4709a1",
+      "observed_at": "2026-10-03T14:49:59.337694+00:00",
+      "published_at": "2012-10",
+      "source": "clinicaltrials",
+      "source_record_id": "NCT01631383",
+      "text": "",
+      "title": "Pharmacokinetic and Safety Evaluation of L-tetrahydropalmatine (l-THP) With Cocaine Exposure in People With a History of Cocaine Use",
+      "url": "https://clinicaltrials.gov/study/NCT01631383"
+    },
+    {
+      "content_sha256": "287c4d64944ab972ad9a02dd4fb6f5869ac58670ab3db85f68f35f032fa45819",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1002/bimj.70178",
+        "pmcid": "PMC13576797",
+        "pmid": "42742461"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "journal": null
+      },
+      "observation_id": "obs-9d93830920bb778d3106",
+      "observed_at": "2026-10-03T14:49:59.142727+00:00",
+      "published_at": "2026-10-01",
+      "source": "europepmc",
+      "source_record_id": "42742461",
+      "text": "",
+      "title": "Estimation of Covariate Balancing Propensity Score Based on Outcome Adaptive Lasso.",
+      "url": "https://europepmc.org/article/MED/42742461"
+    },
+    {
+      "content_sha256": "31a1e3ee54bb8688f11ef818f34837a7455e12b9104dfbfdc4e85f814cbf6506",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT06631846"
+      },
+      "kind": "other",
+      "metadata": {
+        "conditions": [
+          "Coronary Artery Bypass Graft Surgery Patients"
+        ],
+        "overall_status": "WITHDRAWN",
+        "phases": [
+          "NA"
+        ]
+      },
+      "observation_id": "obs-9fcf17574a7849130af1",
+      "observed_at": "2026-10-03T14:49:59.337442+00:00",
+      "published_at": "2025-07",
+      "source": "clinicaltrials",
+      "source_record_id": "NCT06631846",
+      "text": "",
+      "title": "Music Therapy and Mindfulness Meditation",
+      "url": "https://clinicaltrials.gov/study/NCT06631846"
+    },
+    {
+      "content_sha256": "fccd573a731c27bbca2a4cc53a946ceeb27f97456bbeaa013681678f2563d8f0",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT00345670"
+      },
+      "kind": "other",
+      "metadata": {
+        "conditions": [
+          "Healthy"
+        ],
+        "overall_status": "COMPLETED",
+        "phases": [
+          "PHASE1"
+        ]
+      },
+      "observation_id": "obs-a1288669764466ce3b13",
+      "observed_at": "2026-10-03T14:49:59.337661+00:00",
+      "published_at": "2006-06",
+      "source": "clinicaltrials",
+      "source_record_id": "NCT00345670",
+      "text": "",
+      "title": "Study to Evaluate the Safety of MEDI-534 Vaccine Against Respiratory Syncytial Virus (RSV) and Parainfluenza Virus Type 3 (PIV3) in Healthy Children",
+      "url": "https://clinicaltrials.gov/study/NCT00345670"
+    },
+    {
+      "content_sha256": "87797d15d37e1603462d80f177ce20f7adc8d7278bd5dbfcae3d424f9a09fb48",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1016/j.procir.2024.08.390"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": [
+          "Procedia CIRP"
+        ],
+        "type": "journal-article"
+      },
+      "observation_id": "obs-aae44ad5052b4131a98c",
+      "observed_at": "2026-10-03T14:49:55.753947+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.1016/j.procir.2024.08.390",
+      "text": "",
+      "title": "A new benchmark dataset for machine learning applications in discrete manufacturing: CiP-DMD",
+      "url": "https://doi.org/10.1016/j.procir.2024.08.390"
+    },
+    {
+      "content_sha256": "9052377db6eb2253aeab4662a84f806c9279a47795c1378adface8b038ba4dd1",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1186/s13019-026-03838-y",
+        "pmcid": "PMC13615604",
+        "pmid": "42791526"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "journal": null
+      },
+      "observation_id": "obs-af08a4f061b752c9a08f",
+      "observed_at": "2026-10-03T14:49:59.142993+00:00",
+      "published_at": "2026-09-25",
+      "source": "europepmc",
+      "source_record_id": "42791526",
+      "text": "",
+      "title": "SCTS Annual Meeting 2025: Abstracts.",
+      "url": "https://europepmc.org/article/MED/42791526"
+    },
+    {
+      "content_sha256": "b5994e481c0243c78106214f8de18cef215e3186611b2269f7cb676416518fff",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1080/19490976.2025.2609426",
+        "pmid": "41486553"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Gut microbes"
+      },
+      "observation_id": "obs-af2ca802a74072f5986c",
+      "observed_at": "2026-10-03T14:49:54.901100+00:00",
+      "published_at": "2026 Dec 3",
+      "source": "pubmed",
+      "source_record_id": "41486553",
+      "text": "",
+      "title": "Lactococcus lactis subsp. Cremoris reprograms systemic metabolism and protects against myocardial injury.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41486553/"
+    },
+    {
+      "content_sha256": "cc0d1afd9ccd2820e542108528586eab72ae063e4673461eeb5edce2d6e30e00",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122548"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [
+          "Australia",
+          "government open data",
+          "publicdata.au",
+          "coal production",
+          "coal mines",
+          "saleable coal",
+          "raw coal",
+          "mining statistics",
+          "Queensland",
+          "Queensland coal industry review statistical tables",
+          "Queensland coal mine output by financial year",
+          "Saleable coal production by mine Queensland"
+        ],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-b04ed01c1730d324bf55",
+      "observed_at": "2026-10-03T14:49:57.004161+00:00",
+      "published_at": "2026-09-17",
+      "source": "zenodo",
+      "source_record_id": "23122548",
+      "text": "",
+      "title": "Coal production by mine, Queensland",
+      "url": null
+    },
+    {
+      "content_sha256": "c7bb3754f1d8c9e46f56402fcae75acbaeb9b00552f6f05d23ef0351b438c8cf",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1016/j.jsampl.2026.100153",
+        "pmid": "42571467"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "JSAMS plus"
+      },
+      "observation_id": "obs-b097836ea9313a207fce",
+      "observed_at": "2026-10-03T14:49:54.901431+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42571467",
+      "text": "",
+      "title": "Exercise-based rehabilitation with or without blood flow restriction in individuals with heart failure: Protocol for the rehab-washout HF trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42571467/"
+    },
+    {
+      "content_sha256": "15c6c97b919922398e21b8a3effd11d3047ac199b9a9a3bec17b3d00e20070c7",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1016/j.compbiolchem.2026.109285",
+        "pmid": "42567084"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Computational biology and chemistry"
+      },
+      "observation_id": "obs-b57a6fc4f077383028fc",
+      "observed_at": "2026-10-03T14:49:54.901491+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42567084",
+      "text": "",
+      "title": "Optimizing predictive performance in heart disease diagnosis with stacked wrapper pre-processing techniques.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42567084/"
+    },
+    {
+      "content_sha256": "aa58b60001af5a4517595a80a362e908c96ff25352abee92bff04db88133563b",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122519"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [
+          "Australia",
+          "government open data",
+          "publicdata.au",
+          "wave height",
+          "wave buoy",
+          "swell",
+          "sea surface temperature",
+          "Coastal Data System",
+          "Brisbane",
+          "Queensland",
+          "Brisbane wave height data",
+          "Brisbane waverider buoy readings",
+          "Coastal Data System waves Brisbane"
+        ],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-b75b5e89a5718c1963aa",
+      "observed_at": "2026-10-03T14:49:57.004271+00:00",
+      "published_at": "2026-07-14",
+      "source": "zenodo",
+      "source_record_id": "23122519",
+      "text": "",
+      "title": "Coastal wave monitoring, Brisbane",
+      "url": null
+    },
+    {
+      "content_sha256": "c58f39d9b4ee7d8edd0adee094322326cbae2e0ba133e2b113859e1af1732e2b",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122502"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [
+          "Australia",
+          "government open data",
+          "publicdata.au",
+          "flood map",
+          "flood extent",
+          "historical floods",
+          "inundation",
+          "flood lines",
+          "Flinders River",
+          "Diamantina River",
+          "2019 western Queensland flood map",
+          "Western Queensland flood extent, February 2019 polygons",
+          "2019 Floodline Western Queensland layer"
+        ],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-b7755dcb0421bc97fc51",
+      "observed_at": "2026-10-03T14:49:57.004370+00:00",
+      "published_at": "2019-02-09",
+      "source": "zenodo",
+      "source_record_id": "23122502",
+      "text": "",
+      "title": "Western Queensland flood extent, February 2019",
+      "url": null
+    },
+    {
+      "content_sha256": "4e35a567d8bdf256adf9d972cffa803004b10b14d646da636000be6f16162a11",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT00282620"
+      },
+      "kind": "other",
+      "metadata": {
+        "conditions": [
+          "Arrhythmia",
+          "Quality of Life",
+          "Hypomagnesemia"
+        ],
+        "overall_status": "UNKNOWN",
+        "phases": [
+          "PHASE4"
+        ]
+      },
+      "observation_id": "obs-b89dd9fbb16032d1a46b",
+      "observed_at": "2026-10-03T14:49:59.337265+00:00",
+      "published_at": "2006-01",
+      "source": "clinicaltrials",
+      "source_record_id": "NCT00282620",
+      "text": "",
+      "title": "Magnesium to Reduce Implantable Cardioverter Defibrillator (ICD) Shocks and Improve Patient's Quality of Life.",
+      "url": "https://clinicaltrials.gov/study/NCT00282620"
+    },
+    {
+      "content_sha256": "e853f082e9ac3f4a9aefe8a14a60e0715cc63712ef304ac23cff800c002eddc4",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT06633770"
+      },
+      "kind": "other",
+      "metadata": {
+        "conditions": [
+          "Neonatal Sepsis"
+        ],
+        "overall_status": "NOT_YET_RECRUITING",
+        "phases": []
+      },
+      "observation_id": "obs-b9f1d4714b04c2efe56c",
+      "observed_at": "2026-10-03T14:49:59.337631+00:00",
+      "published_at": "2024-12-01",
+      "source": "clinicaltrials",
+      "source_record_id": "NCT06633770",
+      "text": "",
+      "title": "Role of Presepsin as a Novel Biomarker in Diagnosis of Neonatal Sepsis",
+      "url": "https://clinicaltrials.gov/study/NCT06633770"
+    },
+    {
+      "content_sha256": "735444eb8df858b35ff77f43277890b645a22df5f1109178a04ee6dd2ecdca87",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.09.01.26361933"
+      },
+      "kind": "publication",
+      "metadata": {
+        "category": "health informatics",
+        "version": "1"
+      },
+      "observation_id": "obs-ba6b9bb7872ed044eecd",
+      "observed_at": "2026-10-03T14:50:02.871631+00:00",
+      "published_at": "2026-09-03",
+      "source": "medrxiv",
+      "source_record_id": "10.64898/2026.09.01.26361933:1",
+      "text": "Early identification of Alzheimers disease and related dementias (ADRD) remains challenging despite its importance for timely intervention, management of modifiable risk factors, and care planning. We developed and evaluated ADRD onset prediction models using longitudinal electronic health records (EHRs) from the All of Us Research Program at clinically meaningful lead times of 6, 12, 24, and 36 months before diagnosis, benchmarking interpretable count-based representations against four publicly available pretrained clinical foundation models (CLMBR-T, GPT-style, LLaMA-style, and Mamba) across multiple ADRD phenotype definitions. Count-based models consistently achieved the highest discrimination and calibration across all cohorts and prediction horizons. Predictive performance declined with increasing lead time for all approaches; however, the performance gap between count-based and pretrained representations progressively narrowed, with foundation models achieving comparable AUROC of 0.719 (compared to the AUROC of 0.738 of count-based model) at the 36-month horizon while providing higher sensitivity and F1 scores under a fixed operating threshold. External validation with zero-shot evaluation on UChicago EHRs exhibited limited generalizability for count-based and pretrained clinical foundation model based representations. These findings demonstrate that transparent count-based EHR representations remain the strongest overall approach for ADRD onset prediction, while pretrained clinical foundation models provide complementary advantages for long-term risk identification and establish a benchmark for evaluating transferable clinical representations in temporal ADRD risk prediction.",
+      "title": "Evaluating Clinical Foundation Models for Early Alzheimer's Disease and Related Dementia Prediction from Longitudinal EHRs",
+      "url": "https://doi.org/10.64898/2026.09.01.26361933"
+    },
+    {
+      "content_sha256": "70af99fe901444d0a1d1448bf92ad3c3c67f8db97e93bef2a43efe47a2e94b17",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.3389/frai.2026.1919564"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "article"
+      },
+      "observation_id": "obs-bcbacaeef51a306a1f5c",
+      "observed_at": "2026-10-03T14:49:58.030808+00:00",
+      "published_at": "2026-10-01",
+      "source": "openalex",
+      "source_record_id": "W7215036114",
+      "text": "",
+      "title": "UniPET: a unified approach for whole-body CT to PET translation",
+      "url": "https://openalex.org/W7215036114"
+    },
+    {
+      "content_sha256": "0b67c1b1421fd35e7e9c4906926248ea033156888a75d740e70eca08c1226966",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.2196/90970",
+        "pmcid": "PMC13626072",
+        "pmid": "42814619"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "journal": null
+      },
+      "observation_id": "obs-bd02feb8fc4dfb3b0a07",
+      "observed_at": "2026-10-03T14:49:59.142867+00:00",
+      "published_at": "2026-09-28",
+      "source": "europepmc",
+      "source_record_id": "42814619",
+      "text": "",
+      "title": "Incremental Value of Smartphone Sensing for Monitoring Momentary Affect Intensity in Adults Using Transformer-Based Models: Observational Study.",
+      "url": "https://europepmc.org/article/MED/42814619"
+    },
+    {
+      "content_sha256": "60c9e0ef51a12642a14370392d3582f14735c038c8bcffc2c47dabe8f851a065",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1002/cpt.70492",
+        "pmcid": "PMC13617259",
+        "pmid": "42802582"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "journal": null
+      },
+      "observation_id": "obs-be4580c57dc016704671",
+      "observed_at": "2026-10-03T14:49:59.142903+00:00",
+      "published_at": "2026-09-27",
+      "source": "europepmc",
+      "source_record_id": "42802582",
+      "text": "",
+      "title": "In Silico Clinical Trials in Drug Development: Virtual Patients, Applications, and Regulatory Convergence.",
+      "url": "https://europepmc.org/article/MED/42802582"
+    },
+    {
+      "content_sha256": "bded2eb623dc14cfa074fe02a845afa0efc74f973c8fe91670bbc0baed363e25",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122500"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [
+          "Australia",
+          "government open data",
+          "publicdata.au",
+          "flood map",
+          "flood extent",
+          "historical floods",
+          "inundation",
+          "flood lines",
+          "Logan",
+          "Beenleigh",
+          "Logan 2017 flood map",
+          "Logan and Albert rivers flood extent, April 2017 polygons",
+          "2017 Floodline Logan and Albert Rivers layer"
+        ],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-bfd9a3a85cafd1b4a755",
+      "observed_at": "2026-10-03T14:49:57.004385+00:00",
+      "published_at": "2017-04-02",
+      "source": "zenodo",
+      "source_record_id": "23122500",
+      "text": "",
+      "title": "Logan and Albert rivers flood extent, April 2017",
+      "url": null
+    },
+    {
+      "content_sha256": "ba87577da8f6d64e410e2ae173ba9998ab959ec3adab402e6773e830861c89e5",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT01174160"
+      },
+      "kind": "other",
+      "metadata": {
+        "conditions": [
+          "Atrial Fibrillation"
+        ],
+        "overall_status": "COMPLETED",
+        "phases": [
+          "PHASE3"
+        ]
+      },
+      "observation_id": "obs-c1a13a1edd3823e95492",
+      "observed_at": "2026-10-03T14:49:59.337195+00:00",
+      "published_at": "2010-08",
+      "source": "clinicaltrials",
+      "source_record_id": "NCT01174160",
+      "text": "",
+      "title": "A Study of the Efficacy and Safety of Vernakalant Hydrochloride (MK-6621) in Patients With Atrial Fibrillation (MK-6621-010 AM4)",
+      "url": "https://clinicaltrials.gov/study/NCT01174160"
+    },
+    {
+      "content_sha256": "02d60c2098a2100a3addbe4cea1bfe599499a923fc3be4a947de5ac7512b8882",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122526"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [
+          "Australia",
+          "government open data",
+          "publicdata.au",
+          "wave height",
+          "wave buoy",
+          "swell",
+          "sea surface temperature",
+          "Coastal Data System",
+          "Mackay",
+          "Queensland",
+          "Mackay wave height data",
+          "Mackay waverider buoy readings",
+          "Coastal Data System waves Mackay"
+        ],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-c1d2b8193065030ee94b",
+      "observed_at": "2026-10-03T14:49:57.004241+00:00",
+      "published_at": "2025-04-11",
+      "source": "zenodo",
+      "source_record_id": "23122526",
+      "text": "",
+      "title": "Coastal wave monitoring, Mackay",
+      "url": null
+    },
+    {
+      "content_sha256": "1bee8d9bc8705982c2a16ff011e5eafd01ebcde43133d0ed870d9ef4db9abfa5",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.26434/chemrxiv.15004280/v1"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": null,
+        "type": "posted-content"
+      },
+      "observation_id": "obs-c50fbaf21b3f42046208",
+      "observed_at": "2026-10-03T14:49:55.753656+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.26434/chemrxiv.15004280/v1",
+      "text": "",
+      "title": "CCSBase2: A Unified Benchmark Dataset and Machine Learning Framework for Robust CCS Prediction",
+      "url": "https://doi.org/10.26434/chemrxiv.15004280/v1"
+    },
+    {
+      "content_sha256": "8689d116c023d91e5209ba0f3afd7a7268abbc55ac701a7490130be6b2c1cbac",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.09.29.755404"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "preprint"
+      },
+      "observation_id": "obs-c7eda954e73cb3c9bbe4",
+      "observed_at": "2026-10-03T14:49:58.031075+00:00",
+      "published_at": "2026-09-30",
+      "source": "openalex",
+      "source_record_id": "W7214988462",
+      "text": "",
+      "title": "Engineering robust cardiomyocyte differentiation from iPSCs through WNT-mediated process window expansion",
+      "url": "https://openalex.org/W7214988462"
+    },
+    {
+      "content_sha256": "3d4758489da5df6070c33a6717728ce258f7819db35b95591473f47b5e8ae5b0",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.08.31.26361798"
+      },
+      "kind": "publication",
+      "metadata": {
+        "category": "epidemiology",
+        "version": "1"
+      },
+      "observation_id": "obs-cb090420f89fa0e9d181",
+      "observed_at": "2026-10-03T14:50:02.871899+00:00",
+      "published_at": "2026-09-03",
+      "source": "medrxiv",
+      "source_record_id": "10.64898/2026.08.31.26361798:1",
+      "text": "BackgroundEndometriosis affects approximately 10% of reproductive-age women and is associated with substantial diagnostic delay and heterogeneous symptom presentation. Prior machine-learning prediction models have relied on comorbidity data alone or on small candidatevariant genetic scores, with inconsistent or incompletely reported performance. No study has combined a well-powered, multi-ancestry polygenic risk score (PRS) with environmental, reproductive, and symptom data in a single hybrid model. We developed and evaluated hybrid risk-prediction models integrating a genome-wide, multi-ancestry PRS with clinical and symptom data for endometriosis in the US-based All of Us Research Program.\n\nMethodsAmong 69,376 participants (15,382 endometriosis cases, 53,994 controls) across six genetically inferred ancestry groups, we computed individual-level PRS values using PRS-CS weights derived from an independent, multi-ancestry GWAS. Five nested logistic regression, random forest, and XGBoost models progressively added age, ancestry, and within-ancestry genetic principal components (Model 1), environmental and reproductive factors (Model 2), symptom and comorbidity indicators (Model 3), all covariates combined (Model 4), and PRS x environment interactions (Model 5). Performance was assessed by AUROC in a held-out test set and 5-fold cross-validation, with class-weighted, Youden-optimized thresholds used for sensitivity, specificity, and predictive values; permutation importance identified top contributors. Pairwise AUROC differences were tested with a Holm-corrected DeLong-type test.\n\nResultsDiscrimination improved from AUROC 0.63 (PRS, age, ancestry, principal components) to 0.72 for the full model, driven mainly by symptom and comorbidity data. XGBoost consistently outperformed logistic regression and random forest. The PRS ranked among the top individual predictors by permutation importance in nearly every model, alongside age, while genetic and demographic information alone gave only modest discrimination, and PRS x environment interactions did not improve on environmental factors alone. Threshold optimization yielded balanced sensitivity and specificity (~0.67/0.65) versus near-zero sensitivity at a default threshold.\n\nConclusionsCombining the PRS with symptom and comorbidity data gave the best discrimination compared to solely a well-powered, multi-ancestry PRS as a predictor of endometriosis. This study clarifies both the promise and current limits of hybrid genetic-clinical prediction for endometriosis and points to symptom-based phenotyping, molecular subtyping, and external validation as priorities.",
+      "title": "Hybrid risk scores integrating polygenic and clinical variables for endometriosis prediction",
+      "url": "https://doi.org/10.64898/2026.08.31.26361798"
+    },
+    {
+      "content_sha256": "ecfa6818b3c681d18c87ff5719b2b51c0556b8b567586c9bbe1a1a08bb367dc3",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1093/bjr/tqag040",
+        "pmcid": "PMC13623237",
+        "pmid": "41719188"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 2,
+        "journal": null
+      },
+      "observation_id": "obs-cb5623f2df0ff06a40c4",
+      "observed_at": "2026-10-03T14:49:59.142761+00:00",
+      "published_at": "2026-10-01",
+      "source": "europepmc",
+      "source_record_id": "41719188",
+      "text": "",
+      "title": "Pericoronary adipose tissue imaging: quantitative assessment, artificial intelligence integration, and therapeutic modulation.",
+      "url": "https://europepmc.org/article/MED/41719188"
+    },
+    {
+      "content_sha256": "eb999972e639ce00a656c7f4f522a6faf5cb1e29409a32b40f197f8fcd2c6850",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT00988923"
+      },
+      "kind": "other",
+      "metadata": {
+        "conditions": [
+          "Carpal Tunnel Syndrome"
+        ],
+        "overall_status": "COMPLETED",
+        "phases": [
+          "NA"
+        ]
+      },
+      "observation_id": "obs-cbc5537f0dc60cfc3dbf",
+      "observed_at": "2026-10-03T14:49:59.337372+00:00",
+      "published_at": "2007-10",
+      "source": "clinicaltrials",
+      "source_record_id": "NCT00988923",
+      "text": "",
+      "title": "Hyperthermia As A Conservative Treatment For Carpal Tunnel Syndrome. A Randomized \"Sham\" Controlled Trial",
+      "url": "https://clinicaltrials.gov/study/NCT00988923"
+    },
+    {
+      "content_sha256": "421c8d8b3781cd7f368777b997fa6000eed781cac3e69224a799e9c26d8d1257",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.08.27.26361533"
+      },
+      "kind": "publication",
+      "metadata": {
+        "category": "emergency medicine",
+        "version": "2"
+      },
+      "observation_id": "obs-cc3a863b31833e74f5d1",
+      "observed_at": "2026-10-03T14:50:02.870702+00:00",
+      "published_at": "2026-09-03",
+      "source": "medrxiv",
+      "source_record_id": "10.64898/2026.08.27.26361533:2",
+      "text": "BackgroundIn patients experiencing out-of-hospital cardiac arrest, optimization of oxygen delivery during cardiopulmonary resuscitation is a critical. Although both positive end-expiratory pressure (PEEP) and zero end-expiratory pressure (ZEEP) are employed during CPR, their respective impacts on clinically relevant outcomes is yet to be clearly established.\n\nMethodsThis investigator-initiated, pragmatic, registry-based, multicenter, triple-blind randomized controlled superiority trial evaluates whether applying 8 cm H2O PEEP during cardiopulmonary resuscitation improves outcomes compared with ZEEP in adults with non-traumatic, non-drowning out-of-hospital cardiac arrest. Pre-randomized CPR kits (1:1 PEEP vs. sham) were used by ambulance sites during manual ventilation throughout the resuscitation process. The primary analysis was conducted in the principal stratum of patients who received either a supraglottic airway or endotracheal tube. The primary outcome was neurological status at hospital discharge measured by a utility-weighted score on the modified Rankin Scale. Secondary outcomes included prehospital return of spontaneous circulation, 30-day survival, and 6-month quality of life. The primary safety outcome was clinically significant pneumothorax.\n\nResultsAmong the 3,200 patients who underwent randomization, 1,200 in the PEEP group and 1,200 in the ZEEP group were included in the principal stratum analysis. The mean utility-weighted modified Rankin Scale score at discharge was 0.1020 in the PEEP group and 0.1075 in the ZEEP group (mean difference corrected for covariates in a regression model of 0.0050; 95% CI -0.0159 - 0.0258). The observed rates in the PEEP and ZEEP groups of prehospital return of spontaneous circulation were X% vs. Y%; adjusted odds ratio, Z; 95% CI, A-B and in 30-day survival X% vs. Y%; adjusted odds ratio, Z; 95% CI, A-B. The incidence of clinically significant pneumothorax was similar between the PEEP and ZEEP groups, occurring in X% and Y% of patients, respectively (adjusted odds ratio, Z; 95% CI, A-B).\n\nConclusionConclusion and discussion follow at Stage-2.\n\nStage-1 Registered ReportWe present our Stage-1 Registered Report as a full clinical trial article with all methods in past tense and including mock results, table and figures for the primary analysis. To remind the reader that this Stage-1 article is written before data collection, we highlight in color that these mock results are only for illustrative purposes and will be replaced by the actual results in the Stage-2 Registered Report.\n\nSupplementsAll study supplements and updates are available in the ResearchEquals collection [1], including the protocol Version 2.1 (February 4, 2026) [2], DSMB charter [3] and example DSMB closed session report (based on mock data) [4], as well as an Excel sheet [5] and R code [6] used to generate Figure A.6.\n\nO_FIG O_LINKSMALLFIG WIDTH=142 HEIGHT=200 SRC=\"FIGDIR/small/26361533v1_figA_6.gif\" ALT=\"Figure 6\">\nView larger version (45K):\norg.highwire.dtl.DTLVardef@99175dorg.highwire.dtl.DTLVardef@cd1365org.highwire.dtl.DTLVardef@1b44e59org.highwire.dtl.DTLVardef@83cf94_HPS_FORMAT_FIGEXP  M_FIG O_FLOATNOFigure A.6.C_FLOATNO Definitions of the Favorable and Unfavorable scenario for neurological outcomes given the same 4%-point absolute decrease in mortality (mRS-6) and base rates of the survivors scores (mRS-0 to mRS-5) observed in the ARREST registry period 2016-2018. These base rates might overestimate the proportion of good outcomes as withholding consent for mRS-scores to be included in research was found to be associated with worse outcomes elsewhere [36]. Figure based on Excel sheet [5] using R code [6].\n\nC_FIG Simultaneous evaluation PCI-RR and ethicsThe institutional review board1 tasked with the ethical evaluation of the REVIVE-PEEP trial agreed to perform a pilot experiment of simultaneous ethical and Stage-1 peer review at Peer Community In Registered Reports (PCI-RR). This means that all feedback will be considered as one round of review and the authors reply to both will weigh the two sources of feedback together. The protocol Version 2.1 (February 4, 2026) [2] supplementing this manuscript is the version pre-ethical review and will be updated to a post-ethical review version after in-principle acceptance at PCI-RR. We will evaluate this pilot of simultaneous review as a major step towards  Trinity review aiming to reduce  redundant paperwork of three different documents -- research papers, ethics review applications, and research grant applications -- for the same research plan[7].\n\nRegistrationThe REVIVE-PEEP trial will be registered in an registry part of the International Clinical Trials Registry Platform after ethics approval and PCI-RR in-principle acceptance, with this Stage-1 registered report serving as the full preregistration alongside the protocol; currently Version 2.1 (February 4, 2026) [2].",
+      "title": "Positive end-expiratory pressure versus sham valve/zero end-expiratory pressure in cardiopulmonary resuscitation during manual ventilation to improve neurological outcomes in adult patients suffering an out-of-hospital cardiac arrest - an investigator-initiated, pragmatic, registry-based, multicenter, parallel-group, triple-blind randomized controlled superiority clinical trial in the ARREST registry (REVIVE-PEEP protocol Stage-1 Registered Report)",
+      "url": "https://doi.org/10.64898/2026.08.27.26361533"
+    },
+    {
+      "content_sha256": "ee9c2e1e8443f65cdef8add9c75ba8224ee831ef99e44d25e50d7cee9be39a0a",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.2147/vhrm.s623118",
+        "pmcid": "PMC13618318",
+        "pmid": "42807935"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "journal": null
+      },
+      "observation_id": "obs-cfc05b26d20d639fec94",
+      "observed_at": "2026-10-03T14:49:59.143063+00:00",
+      "published_at": "2026-09-24",
+      "source": "europepmc",
+      "source_record_id": "42807935",
+      "text": "",
+      "title": "Development and Temporal Validation of a Logistic Regression-Based Risk Score for Identifying Life-Threatening Chest Pain at Emergency Department Triage: A Retrospective Cohort Study.",
+      "url": "https://europepmc.org/article/MED/42807935"
+    },
+    {
+      "content_sha256": "24ee7d5b41042625028f2fb14f0c6e44347e214c39b96e831e485219dc9f0f1b",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5120/ijca2025925797"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": [
+          "International Journal of Computer Applications"
+        ],
+        "type": "journal-article"
+      },
+      "observation_id": "obs-d02459135309d37379dc",
+      "observed_at": "2026-10-03T14:49:55.753842+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.5120/ijca2025925797",
+      "text": "",
+      "title": "Comprehensive Benchmark Study of Machine Learning and Deep Learning Approaches for Human Activity Recognition Using the UCI HAR Dataset",
+      "url": "https://doi.org/10.5120/ijca2025925797"
+    },
+    {
+      "content_sha256": "18b6041db4aea05c449f673b316ab939b93e85c257b06b08ce6a26f8a8b21756",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1145/3776574.3831236"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "conference-paper"
+      },
+      "observation_id": "obs-d0e944cbd82c625e7292",
+      "observed_at": "2026-10-03T14:49:58.030709+00:00",
+      "published_at": "2026-10-02",
+      "source": "openalex",
+      "source_record_id": "W7170914597",
+      "text": "",
+      "title": "A Unified Tokenization Framework for Pain Recognition using Heterogeneous 3D Modalities",
+      "url": "https://openalex.org/W7170914597"
+    },
+    {
+      "content_sha256": "7ee503fe6d8dbdaeb8a6a83c7fb01d3b578f852160b30724527a9081c5a831c4",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122513"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [
+          "Australia",
+          "government open data",
+          "publicdata.au",
+          "land valuation",
+          "objections",
+          "statutory valuation",
+          "Valuer-General",
+          "local government area",
+          "Queensland",
+          "Queensland annual valuation objections",
+          "QLD land valuation objections by LGA",
+          "Valuer-General objection rates"
+        ],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-d12fd0fcfc86901bab02",
+      "observed_at": "2026-10-03T14:49:57.004321+00:00",
+      "published_at": "2025-01-16",
+      "source": "zenodo",
+      "source_record_id": "23122513",
+      "text": "",
+      "title": "Land valuation objection rates by council area, Queensland, 2019",
+      "url": null
+    },
+    {
+      "content_sha256": "3ea4549dafc48f8865fd64eb3559c638d70d74b508bc23ac9a0143782516e4a5",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT04173273"
+      },
+      "kind": "other",
+      "metadata": {
+        "conditions": [
+          "Crohn's Disease"
+        ],
+        "overall_status": "TERMINATED",
+        "phases": [
+          "PHASE2",
+          "PHASE3"
+        ]
+      },
+      "observation_id": "obs-d240fc797b41e8ffe4a7",
+      "observed_at": "2026-10-03T14:49:59.337676+00:00",
+      "published_at": "2020-01-06",
+      "source": "clinicaltrials",
+      "source_record_id": "NCT04173273",
+      "text": "",
+      "title": "A Study Evaluating the Efficacy and Safety of Oral Etrasimod in the Treatment of Adult Participants With Moderately to Severely Active Crohn's Disease",
+      "url": "https://clinicaltrials.gov/study/NCT04173273"
+    },
+    {
+      "content_sha256": "95cae55fa3c5c89048fbe089932c75f8385f9e143abe626b2a31ee970dea2791",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1063/5.0346054"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": [
+          "APL Machine Learning"
+        ],
+        "type": "journal-article"
+      },
+      "observation_id": "obs-d31b31890a0149fb2581",
+      "observed_at": "2026-10-03T14:49:55.753812+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.1063/5.0346054",
+      "text": "",
+      "title": "A scanner-informed synthetic overlay benchmark dataset for EUV lithography calibration",
+      "url": "https://doi.org/10.1063/5.0346054"
+    },
+    {
+      "content_sha256": "52f35d96796c6da8c715e2893bff930dfdbcf98f64d5e7c7e61270216e6909f4",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1016/j.cmpb.2026.109629",
+        "pmid": "42715794"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Computer methods and programs in biomedicine"
+      },
+      "observation_id": "obs-d47de4d9c3a31be35c7d",
+      "observed_at": "2026-10-03T14:49:54.901216+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42715794",
+      "text": "",
+      "title": "Emotional artificial intelligence at the edge for tele-rehabilitation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42715794/"
+    },
+    {
+      "content_sha256": "08c9a8fbf350ba16b96f51000360cb02c69708cf8577b4e92cf6a7363061e4e9",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1002/mrm.70521",
+        "pmid": "42473088"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Magnetic resonance in medicine"
+      },
+      "observation_id": "obs-d6419bf899a790a969e6",
+      "observed_at": "2026-10-03T14:49:54.901548+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42473088",
+      "text": "",
+      "title": "Training Deep Learning Based Dynamic MR Image Reconstruction Using Synthetic Fractals.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42473088/"
+    },
+    {
+      "content_sha256": "bab95eeb372226457fdc1d606512c1bdd084c659d3119cbfd1155a8aba67645a",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23086527"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "preprint"
+      },
+      "observation_id": "obs-d6c40119147f4bdd4cae",
+      "observed_at": "2026-10-03T14:49:58.030755+00:00",
+      "published_at": "2026-10-01",
+      "source": "openalex",
+      "source_record_id": "W7170224701",
+      "text": "",
+      "title": "Data for ''Deep learning-based prediction of time-resolved adhesive forces in viscoelastic Hertzian contacts''",
+      "url": "https://openalex.org/W7170224701"
+    },
+    {
+      "content_sha256": "49d33ea4cb99278ada942d59e5ee5d76325de77631f247023229e5bb76124e34",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1016/j.compbiolchem.2026.109331",
+        "pmid": "42628486"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Computational biology and chemistry"
+      },
+      "observation_id": "obs-dade2254958be50bbd59",
+      "observed_at": "2026-10-03T14:49:54.901408+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42628486",
+      "text": "",
+      "title": "IoT-based ECG arrhythmia detection and classification model using an optimization based hybrid deep capsule stacked autoencoder.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42628486/"
+    },
+    {
+      "content_sha256": "97b09058a58d5c96c32e7076e8dc1435a18b4bec9b86200380acc7cf21979ede",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.3390/bioengineering13101152"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "article"
+      },
+      "observation_id": "obs-db21b26457338789883f",
+      "observed_at": "2026-10-03T14:49:58.030644+00:00",
+      "published_at": "2026-10-02",
+      "source": "openalex",
+      "source_record_id": "W7169800959",
+      "text": "",
+      "title": "Interpretable and Calibrated Classification of Clinical Data Using Supervised Feature Binarization",
+      "url": "https://openalex.org/W7169800959"
+    },
+    {
+      "content_sha256": "bf4c4ce976df6874afa8beeeee127ca33e19e3b1c0d622f2960c25686428b386",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1111/os.70430",
+        "pmcid": "PMC13616831",
+        "pmid": "42802133"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "journal": null
+      },
+      "observation_id": "obs-db30dfe384009cd740d8",
+      "observed_at": "2026-10-03T14:49:59.142921+00:00",
+      "published_at": "2026-09-27",
+      "source": "europepmc",
+      "source_record_id": "42802133",
+      "text": "",
+      "title": "Development and Validation of Daping Orthopedics Operative Risk Scoring System for Geriatric Hip Fracture (DOORS-GHF) for Predicting Postoperative Outcomes in Geriatric Hip Fracture Patients: A Multicenter Retrospective Comparative Study.",
+      "url": "https://europepmc.org/article/MED/42802133"
+    },
+    {
+      "content_sha256": "fb6d33f05b05abac95817bdc45eb41a14f09a32ce2373d74e5f08d55577e8b61",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122568"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [
+          "Australia",
+          "government open data",
+          "publicdata.au",
+          "suburb boundaries",
+          "locality boundaries",
+          "suburbs",
+          "addressing",
+          "Queensland",
+          "Queensland suburb boundaries map",
+          "QLD locality boundaries shapefile",
+          "Official Queensland suburb names and boundaries"
+        ],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-dc3b2aa2bdcd3f097283",
+      "observed_at": "2026-10-03T14:49:57.004073+00:00",
+      "published_at": "2026-10-03",
+      "source": "zenodo",
+      "source_record_id": "23122568",
+      "text": "",
+      "title": "Locality boundaries, Queensland",
+      "url": null
+    },
+    {
+      "content_sha256": "645735143d5a3d9793f8b24c5e802dccb50c29d0d8b62fc8909aa15a1bb61d5c",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122577"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [
+          "Australia",
+          "government open data",
+          "publicdata.au",
+          "youth detention",
+          "young offenders",
+          "youth justice",
+          "juvenile detention",
+          "Queensland",
+          "Number of children in youth detention in Queensland by age",
+          "Queensland youth detention population by age group"
+        ],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-dcae117e5a5bdeb8e173",
+      "observed_at": "2026-10-03T14:49:57.004056+00:00",
+      "published_at": "2024-08-22",
+      "source": "zenodo",
+      "source_record_id": "23122577",
+      "text": "",
+      "title": "Young people in youth detention each day by age group, Queensland 2011 to 2016",
+      "url": null
+    },
+    {
+      "content_sha256": "26544612edd776b30d649aafe5f7b08d90b77a55280006fa28f224283201cb5b",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.26434/chemrxiv.15009168/v1"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": null,
+        "type": "posted-content"
+      },
+      "observation_id": "obs-df37f26e2150a2c5d37c",
+      "observed_at": "2026-10-03T14:49:55.753515+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.26434/chemrxiv.15009168/v1",
+      "text": "",
+      "title": "Quantifying Validation-Induced Optimism in Machine Learning for Food Spectroscopy: An Empirical Multi-Dataset Benchmark",
+      "url": "https://doi.org/10.26434/chemrxiv.15009168/v1"
+    },
+    {
+      "content_sha256": "813e870afc2332abd9a97a8ee212b5adf67ca2a97c3271044f0da8c71ee1d746",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1016/j.cmpb.2026.109639",
+        "pmid": "42777595"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Computer methods and programs in biomedicine"
+      },
+      "observation_id": "obs-e0a354035a8581c300d5",
+      "observed_at": "2026-10-03T14:49:54.901130+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42777595",
+      "text": "",
+      "title": "Flexible framework for generating synthetic electrocardiograms and photoplethysmograms using a parametrized model.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42777595/"
+    },
+    {
+      "content_sha256": "127ad7f39695e7cf5b04bde0df1459ea192e5de26809268130aebfcb9f16903c",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1371/journal.pone.0358861",
+        "pmcid": "PMC13614561",
+        "pmid": "42789509"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "journal": null
+      },
+      "observation_id": "obs-e223d189e074a50d7e86",
+      "observed_at": "2026-10-03T14:49:59.143011+00:00",
+      "published_at": "2026-09-25",
+      "source": "europepmc",
+      "source_record_id": "42789509",
+      "text": "",
+      "title": "Development and evaluation of a deep incremental learning system for mammography image analysis.",
+      "url": "https://europepmc.org/article/MED/42789509"
+    },
+    {
+      "content_sha256": "d417876bd008e55651706066a37a0bec7d89d402a3f2a5aae3ba1c645ea910e4",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT07567261"
+      },
+      "kind": "other",
+      "metadata": {
+        "conditions": [
+          "Healthy Adults"
+        ],
+        "overall_status": "NOT_YET_RECRUITING",
+        "phases": [
+          "NA"
+        ]
+      },
+      "observation_id": "obs-e2b37bc99948740db329",
+      "observed_at": "2026-10-03T14:49:59.337563+00:00",
+      "published_at": "2026-06",
+      "source": "clinicaltrials",
+      "source_record_id": "NCT07567261",
+      "text": "",
+      "title": "Efficacy and Safety of Repetitive Transcranial Magnetic Stimulation and Expressive Writing for Post-Traumatic Stress",
+      "url": "https://clinicaltrials.gov/study/NCT07567261"
+    },
+    {
+      "content_sha256": "70d7fee6e90e60a96b099595f00609bdbbee6fee247ccbbd1e141e466139e671",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.3390/electronics15194501"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "article"
+      },
+      "observation_id": "obs-e2cd71ca433392e79b37",
+      "observed_at": "2026-10-03T14:49:58.030773+00:00",
+      "published_at": "2026-10-01",
+      "source": "openalex",
+      "source_record_id": "W7172253581",
+      "text": "",
+      "title": "A Unified Benchmark of Deep Learning Models for Multi-Task 3D Brain Tumor Segmentation from Magnetic Resonance Imaging",
+      "url": "https://openalex.org/W7172253581"
+    },
+    {
+      "content_sha256": "9cdafdfa3743601f858843d00a9393b3221382265c091f9a214ab6f525180b55",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1145/3556384.3556427"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": [
+          "2022 5th International Conference on Signal Processing and Machine Learning"
+        ],
+        "type": "proceedings-article"
+      },
+      "observation_id": "obs-e49dd9845add96793b89",
+      "observed_at": "2026-10-03T14:49:55.753888+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.1145/3556384.3556427",
+      "text": "",
+      "title": "Diversified assessment benchmark of vision dataset-based perception in ship navigation scenario",
+      "url": "https://doi.org/10.1145/3556384.3556427"
+    },
+    {
+      "content_sha256": "5c3747998fd822d5bfd332468ce5295921b8935ca77afd0f0b7257e0eb710766",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.7759/cureus.117321"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "article"
+      },
+      "observation_id": "obs-e5ab9c52db88425ea29a",
+      "observed_at": "2026-10-03T14:49:58.030844+00:00",
+      "published_at": "2026-10-01",
+      "source": "openalex",
+      "source_record_id": "W7215095840",
+      "text": "",
+      "title": "Code-Free Automated Machine-Learning (AutoML) Classification of Curated MRI Images Labeled for Rare Neurological Diseases: An Image-Level Proof-of-Concept Study",
+      "url": "https://openalex.org/W7215095840"
+    },
+    {
+      "content_sha256": "f3fb06376517d634d6d705217f3fe684bede46d5cdd321aaec791da0d82baf20",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1016/j.cpcardiol.2026.103452",
+        "pmid": "42716324"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Current problems in cardiology"
+      },
+      "observation_id": "obs-e5aea9db6d1438aa1680",
+      "observed_at": "2026-10-03T14:49:54.901196+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42716324",
+      "text": "",
+      "title": "Research trends and emerging themes in artificial intelligence and cardiology: A bibliometric analysis of highly cited publications.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42716324/"
+    },
+    {
+      "content_sha256": "d107ba3d2ab569a3e094be99268b6b058f252461829f4427b6851de282bf1e90",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.3389/fonc.2026.1948751"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "article"
+      },
+      "observation_id": "obs-e6340d2c1f3e3589cb71",
+      "observed_at": "2026-10-03T14:49:58.030994+00:00",
+      "published_at": "2026-09-30",
+      "source": "openalex",
+      "source_record_id": "W7214957776",
+      "text": "",
+      "title": "Development and validation of a machine learning-based prediction model for anemia risk in patients with primary lung cancer receiving platinum-based chemotherapy: a multicenter study",
+      "url": "https://openalex.org/W7214957776"
+    },
+    {
+      "content_sha256": "db616153c4a248d4797b10d631afa2e9ad6ab19780c3963d9d58c3d072280bdb",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.53982/ajerd.2026.01.03-j"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "review"
+      },
+      "observation_id": "obs-e739b44bbde5046795c5",
+      "observed_at": "2026-10-03T14:49:58.030894+00:00",
+      "published_at": "2026-10-01",
+      "source": "openalex",
+      "source_record_id": "W7215122259",
+      "text": "",
+      "title": "Smart Bed Monitoring System for Predictive patient care: A Systematic Review of Sensor Technologies and Ai Approaches",
+      "url": "https://openalex.org/W7215122259"
+    },
+    {
+      "content_sha256": "8e32e5f8dbe250bdbaff97ae30833f16e52dcced0ec66dea446c6bcfa6fa5303",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.21203/rs.3.rs-11084350/v1"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "type": "preprint"
+      },
+      "observation_id": "obs-e85731e58fc13cc389ed",
+      "observed_at": "2026-10-03T14:49:58.030828+00:00",
+      "published_at": "2026-10-01",
+      "source": "openalex",
+      "source_record_id": "W7215054570",
+      "text": "",
+      "title": "Computational Linguistics and Intelligent Learning for Automated Article Credibility Classification",
+      "url": "https://openalex.org/W7215054570"
+    },
+    {
+      "content_sha256": "41e8f5f517ef763d193c90eac86d1236f8ceea946f70cdbc3d2a5ec1ec9acede",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122506"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [
+          "Australia",
+          "government open data",
+          "publicdata.au",
+          "land valuation",
+          "land values",
+          "statutory valuation",
+          "amalgamation",
+          "Queensland",
+          "Queensland land valuation trends before amalgamation",
+          "QLD land value change by former council 2002 to 2009"
+        ],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-ec16601b6c29b72557d2",
+      "observed_at": "2026-10-03T14:49:57.004337+00:00",
+      "published_at": "2025-01-20",
+      "source": "zenodo",
+      "source_record_id": "23122506",
+      "text": "",
+      "title": "Change in land values by council area, Queensland, 2002 to 2009",
+      "url": null
+    },
+    {
+      "content_sha256": "4953608fc433526a7b11d1ea53d2a3f02f2f782190bcd865f965f0706d43aa5a",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1080/16078454.2026.2647314",
+        "pmid": "41925003"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Hematology (Amsterdam, Netherlands)"
+      },
+      "observation_id": "obs-ecfc1e2dd587530d6a60",
+      "observed_at": "2026-10-03T14:49:54.901051+00:00",
+      "published_at": "2026 Dec 3",
+      "source": "pubmed",
+      "source_record_id": "41925003",
+      "text": "",
+      "title": "Machine learning in the prediction of liver iron concentration and iron chelation therapy adjustment.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41925003/"
+    },
+    {
+      "content_sha256": "b1b4037fef4f0fb6515d74361f726367d248ad9adb35276249bac1c00286824b",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1088/2632-2153/adfcb0/v2/decision1"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": null,
+        "type": "peer-review"
+      },
+      "observation_id": "obs-ee3ce2c270ac6f2f26b7",
+      "observed_at": "2026-10-03T14:49:55.753673+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.1088/2632-2153/adfcb0/v2/decision1",
+      "text": "",
+      "title": "Decision letter for \"Theoretical Physics Benchmark (TPBench) - a dataset and study of AI reasoning capabilities in theoretical physics\"",
+      "url": "https://doi.org/10.1088/2632-2153/adfcb0/v2/decision1"
+    },
+    {
+      "content_sha256": "03442ab3a013a179b0007ee2b9edeb30c6bc806a7f80e6c9686bacb999a3c74f",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1016/j.cmpb.2026.109645",
+        "pmid": "42777594"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Computer methods and programs in biomedicine"
+      },
+      "observation_id": "obs-f13eab816e5739ce3998",
+      "observed_at": "2026-10-03T14:49:54.901152+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42777594",
+      "text": "",
+      "title": "SDFStent: Real-time interactive virtual stenting via SDF deformation fields.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42777594/"
+    },
+    {
+      "content_sha256": "c5e867e393cfdf56d632ca512b4ad1fc235f48e7deec60593757a89a8dd93e6d",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.20517/ais.2026.62"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 1,
+        "type": "article"
+      },
+      "observation_id": "obs-f428179811018021e015",
+      "observed_at": "2026-10-03T14:49:58.031009+00:00",
+      "published_at": "2026-09-30",
+      "source": "openalex",
+      "source_record_id": "W7214958089",
+      "text": "",
+      "title": "Artificial intelligence in Acute Care Surgery: integrating new capabilities into a complex adaptive system",
+      "url": "https://openalex.org/W7214958089"
+    },
+    {
+      "content_sha256": "e8643f5e486e98dbe39f126a6e52d2bb97451619a8033905c28ebb31a83b1cf8",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122583"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [
+          "Australia",
+          "government open data",
+          "publicdata.au",
+          "youth detention",
+          "young offenders",
+          "youth justice",
+          "juvenile detention",
+          "Queensland",
+          "Brisbane and Cleveland youth detention centre numbers",
+          "Queensland youth detention centre population"
+        ],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-f59e1e17bf94800ab68f",
+      "observed_at": "2026-10-03T14:49:57.004038+00:00",
+      "published_at": "2024-08-22",
+      "source": "zenodo",
+      "source_record_id": "23122583",
+      "text": "",
+      "title": "Young people in youth detention each day by detention centre, Queensland 2011 to 2016",
+      "url": null
+    },
+    {
+      "content_sha256": "7028677ef6aa1887277c72b77323882abb7186357e0debbb20c9f2cd65076bb5",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1016/j.neunet.2026.109334",
+        "pmid": "42442245"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Neural networks : the official journal of the International Neural Network Society"
+      },
+      "observation_id": "obs-f705e2c83d7633ccf0fb",
+      "observed_at": "2026-10-03T14:49:54.900892+00:00",
+      "published_at": "2027 Jan",
+      "source": "pubmed",
+      "source_record_id": "42442245",
+      "text": "",
+      "title": "Learning general representation of 12-lead ECG with a joint-embedding predictive architecture.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42442245/"
+    },
+    {
+      "content_sha256": "bd8a2706d0c36ed9734cafebfb0bc4070cd21d57f605157efd322ce01e8a96d6",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23122563"
+      },
+      "kind": "dataset",
+      "metadata": {
+        "keywords": [
+          "Australia",
+          "government open data",
+          "publicdata.au",
+          "gas reserves",
+          "2P reserves",
+          "coal seam gas",
+          "contingent resources",
+          "petroleum",
+          "Queensland",
+          "Queensland 2P gas reserves",
+          "Queensland coal seam gas reserves by field",
+          "Queensland petroleum reserves and resources"
+        ],
+        "resource_type": "dataset"
+      },
+      "observation_id": "obs-f92e3c905cf6321c2f2b",
+      "observed_at": "2026-10-03T14:49:57.004089+00:00",
+      "published_at": "2026-08-18",
+      "source": "zenodo",
+      "source_record_id": "23122563",
+      "text": "",
+      "title": "Petroleum and gas reserves by field, Queensland",
+      "url": null
+    },
+    {
+      "content_sha256": "0d756a99ebab4ee5f79930047a70960d0593f85443562591d374a3cb9e8271ca",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1021/acs.jcim.5c00550.s001"
+      },
+      "kind": "publication",
+      "metadata": {
+        "container_title": null,
+        "type": "component"
+      },
+      "observation_id": "obs-f9c62a61be296e898384",
+      "observed_at": "2026-10-03T14:49:55.753873+00:00",
+      "published_at": null,
+      "source": "crossref",
+      "source_record_id": "10.1021/acs.jcim.5c00550.s001",
+      "text": "",
+      "title": "Assessing Uncertainty in Machine Learning for Polymer Property Prediction: A Benchmark Study",
+      "url": "https://doi.org/10.1021/acs.jcim.5c00550.s001"
+    },
+    {
+      "content_sha256": "ed9e77768c3d15b45fdf2f63e81331fadcb2dc22ef4abe6f569c49e2b00c0198",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1080/07853890.2026.2719256",
+        "pmid": "42696435"
+      },
+      "kind": "publication",
+      "metadata": {
+        "journal": "Annals of medicine"
+      },
+      "observation_id": "obs-fbffd8a7a4eeaaca1275",
+      "observed_at": "2026-10-03T14:49:54.901341+00:00",
+      "published_at": "2026 Dec",
+      "source": "pubmed",
+      "source_record_id": "42696435",
+      "text": "",
+      "title": "Heterogeneous effects of preoperative beta blockers on 30-day mortality after coronary artery bypass surgery.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42696435/"
+    },
+    {
+      "content_sha256": "e83337c80316d27b3e0eefb94917a7fca070f46331d0e558f158b1c9acab9f62",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1371/journal.pdig.0001735",
+        "pmcid": "PMC13596832",
+        "pmid": "42771601"
+      },
+      "kind": "publication",
+      "metadata": {
+        "cited_by_count": 0,
+        "journal": null
+      },
+      "observation_id": "obs-fcbd9d4a5d340a5981ce",
+      "observed_at": "2026-10-03T14:49:59.143123+00:00",
+      "published_at": "2026-09-22",
+      "source": "europepmc",
+      "source_record_id": "42771601",
+      "text": "",
+      "title": "Development and external evaluation of an interpretable machine-learning model for early prediction of organ failure in higher-risk acute pancreatitis patients: A multicentre cohort study.",
+      "url": "https://europepmc.org/article/MED/42771601"
+    }
+  ],
+  "query": null,
+  "schema_version": "1.0",
+  "source_runs": [
+    {
+      "count": 25,
+      "message": "",
+      "ok": true,
+      "source": "pubmed"
+    },
+    {
+      "count": 0,
+      "message": "HTTPError: HTTP Error 429: Too Many Requests",
+      "ok": false,
+      "source": "geo"
+    },
+    {
+      "count": 0,
+      "message": "HTTPError: HTTP Error 429: Too Many Requests",
+      "ok": false,
+      "source": "bioproject"
+    },
+    {
+      "count": 0,
+      "message": "HTTPError: HTTP Error 429: Too Many Requests",
+      "ok": false,
+      "source": "sra"
+    },
+    {
+      "count": 24,
+      "message": "",
+      "ok": true,
+      "source": "crossref"
+    },
+    {
+      "count": 25,
+      "message": "",
+      "ok": true,
+      "source": "zenodo"
+    },
+    {
+      "count": 1,
+      "message": "",
+      "ok": true,
+      "source": "github"
+    },
+    {
+      "count": 25,
+      "message": "",
+      "ok": true,
+      "source": "openalex"
+    },
+    {
+      "count": 25,
+      "message": "",
+      "ok": true,
+      "source": "europepmc"
+    },
+    {
+      "count": 25,
+      "message": "",
+      "ok": true,
+      "source": "clinicaltrials"
+    },
+    {
+      "count": 1,
+      "message": "",
+      "ok": true,
+      "source": "biorxiv"
+    },
+    {
+      "count": 8,
+      "message": "",
+      "ok": true,
+      "source": "medrxiv"
+    }
+  ]
+}
