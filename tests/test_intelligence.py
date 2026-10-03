@@ -37,3 +37,20 @@ def test_result_comparability_includes_evaluator_source():
     a=BenchmarkResultObservation(source="CardiEval/0.4",**base)
     b=BenchmarkResultObservation(source="CardiEval/0.5",**base)
     assert a.comparability_key!=b.comparability_key
+
+
+def test_admission_bridge_payload_is_transport_shaped():
+    from cardi_bench import assess_admission, bridge_admission_payload
+    rows=[
+        {"sample_id":"s1","group_id":"g1","study_id":"st","label":"reference"},
+        {"sample_id":"s2","group_id":"g2","study_id":"st","label":"myocardial_injury"},
+        {"sample_id":"s3","group_id":"g3","study_id":"st","label":"reference"},
+        {"sample_id":"s4","group_id":"g4","study_id":"st","label":"myocardial_injury"},
+        {"sample_id":"s5","group_id":"g5","study_id":"st","label":"reference"},
+        {"sample_id":"s6","group_id":"g6","study_id":"st","label":"myocardial_injury"},
+    ]
+    report=assess_admission(rows,benchmark_id="candidate",test_values=["g1","g2"],validation_values=["g3","g4"])
+    payload=bridge_admission_payload(report,benchmark_id="candidate",benchmark_version="1.0",trace={"source":"CardiBench"})
+    assert payload["status"]=="ready_for_review"
+    assert payload["ready_for_review"] is True
+    assert payload["trace"]["source"]=="CardiBench"
