@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T10:17:41.991424+00:00",
+  "generated_at": "2026-10-09T11:57:42.511265+00:00",
   "links": [],
   "records": [
     {
@@ -238,6 +238,32 @@
       "record_type": "publication",
       "sources": [
         "pubmed"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Dataset kuisioner pakar dan perhitungan BWM untuk seleksi pemasok lokal proyek EPC di Riau",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23262408"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23262408"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23262408"
+        ]
+      },
+      "observation_ids": [
+        "obs-8431c99041d0eb9cebd3"
+      ],
+      "record_id": "cbx-01ff6159b2249653",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -1548,6 +1574,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Infrastructure Climate Resilience Assessment Data Starter Kit for Thailand",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23259773"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23259773"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23259773"
+        ]
+      },
+      "observation_ids": [
+        "obs-b31ae24a1fa128582e54"
+      ],
+      "record_id": "cbx-10aad3bf11a36070",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "A Pharmacovigilance Study of Torsade de Pointes",
       "evidence_state": "observed",
       "identifiers": {
@@ -2018,6 +2070,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Trained model checkpoints for: Training data composition in protein-ligand binding affinity prediction",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23248276"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23248276"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23248276"
+        ]
+      },
+      "observation_ids": [
+        "obs-0eecacfcbe637c6cd13a"
+      ],
+      "record_id": "cbx-18fd8d70e7dda271",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Faculty-grade offline automated standardized-patient assessment for resource-limited medical education",
       "evidence_state": "observed",
       "identifiers": {
@@ -2277,6 +2355,32 @@
       "record_type": "dataset",
       "sources": [
         "bioproject"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Auditable curation resource for single-cell dataset eligibility in a prespecified benchmark",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23261584"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23261584"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23261584"
+        ]
+      },
+      "observation_ids": [
+        "obs-784ef1aaf5135ef3eb67"
+      ],
+      "record_id": "cbx-1d548eab15cea4a8",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -3010,6 +3114,32 @@
       ],
       "record_id": "cbx-23da5ba8f47ec45e",
       "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Entre redes, normas y mareas",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23261287"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23261287"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23261287"
+        ]
+      },
+      "observation_ids": [
+        "obs-0b1201cc9a54bdd1a71a"
+      ],
+      "record_id": "cbx-241582281817655c",
+      "record_type": "other",
       "sources": [
         "zenodo"
       ]
@@ -3939,6 +4069,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "AdiletCodex: A Trilingual (Kazakh-Russian-English) Article-Level Corpus of the Codes and Laws of Kazakhstan",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23260689"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23260689"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23260689"
+        ]
+      },
+      "observation_ids": [
+        "obs-b05d45d2a4da427f039c"
+      ],
+      "record_id": "cbx-2d9db15080b0bf69",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Translink patronage by mode, rest of Queensland",
       "evidence_state": "observed",
       "identifiers": {
@@ -4119,6 +4275,32 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Lifelong learning in Higher Engineering Education, L3HEE, a NORDPlus financed project",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23234413"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23234413"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23234413"
+        ]
+      },
+      "observation_ids": [
+        "obs-4d60805976c864661671"
+      ],
+      "record_id": "cbx-2fb20ec3c6633e9e",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -4487,6 +4669,32 @@
       "record_type": "publication",
       "sources": [
         "biorxiv"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "QuantumShield AI: An AI-Powered Post-Quantum Cryptography Recommendation Platform",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23261604"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23261604"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23261604"
+        ]
+      },
+      "observation_ids": [
+        "obs-2ffa42c4ea3788fea1cc"
+      ],
+      "record_id": "cbx-347b7a1e2811d5bc",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -4904,6 +5112,32 @@
       "record_type": "publication",
       "sources": [
         "medrxiv"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "When Should a Profiling Model Abstain? A Reliability-Aware Decision-Support Framework for Homicide Offender Profiling",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23262286"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23262286"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23262286"
+        ]
+      },
+      "observation_ids": [
+        "obs-57e8dd60fdcaad7806b3"
+      ],
+      "record_id": "cbx-37b4a8641011c645",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -6135,6 +6369,32 @@
       "record_type": "publication",
       "sources": [
         "biorxiv"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "K-EndangeredBench: A Benchmark Dataset and Build Pipeline for Evaluating AI-Generated Content on Korean Endangered Species",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23261611"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23261611"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23261611"
+        ]
+      },
+      "observation_ids": [
+        "obs-610f78f2d4d71deaa0ae"
+      ],
+      "record_id": "cbx-481e657c6fdf078c",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -8363,6 +8623,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "D7.1 Effective instruments for mainstreaming",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23261767"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23261767"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23261767"
+        ]
+      },
+      "observation_ids": [
+        "obs-ca52c19eda3d08ca034e"
+      ],
+      "record_id": "cbx-66c3c7bd1a72a613",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Deep Learning for Automated Electrocardiogram Analysis: Real-Time Arrhythmia Classification Using 1D-CNN",
       "evidence_state": "observed",
       "identifiers": {
@@ -8881,6 +9167,32 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Why does preregistration increase the persuasiveness of evidence? A Bayesian rationalization.",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23262560"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23262560"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23262560"
+        ]
+      },
+      "observation_ids": [
+        "obs-4a8fd8b8a76f7a73ad1f"
+      ],
+      "record_id": "cbx-6bd485ec124bf4e8",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -10452,6 +10764,84 @@
     },
     {
       "aliases": [],
+      "canonical_name": "From Detection to Action: Smart Technologies for Precision Weed Management",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.65287/josta.202609.fa00"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.65287/josta.202609.fa00"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23262420"
+        ]
+      },
+      "observation_ids": [
+        "obs-7e0d828c24cca288b32d"
+      ],
+      "record_id": "cbx-842d888b0f86bd14",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "\u519c\u79d1(\u852c\u83dc\u5b66\u00b7\u8336\u5b66)\u5b66\u672f\u82f1\u8bed\u8bed\u6599\u5e93 v1.0.3 \u00b7 \u8bed\u6599\u6570\u636e\u5305(\u53d7\u9650\u8bbf\u95ee) / Agricultural English Corpus v1.0.3 (Horticulture & Tea Science) \u00b7 Data Package (Restricted Access)",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23253645"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23253645"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23253645"
+        ]
+      },
+      "observation_ids": [
+        "obs-356b322d4e8461764adc"
+      ],
+      "record_id": "cbx-8471281e98910769",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Maxillary Sinus Mucosal Thickening Characterization on CBCT Images: A Multi-Task Deep Learning Comparative Study",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23262099"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23262099"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23262099"
+        ]
+      },
+      "observation_ids": [
+        "obs-e6a1b3afa7075e830c63"
+      ],
+      "record_id": "cbx-8489d22d4d5aad05",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "An Adaptive Phase II Study to Evaluate the Efficacy, Pharmacodynamics, Safety and Tolerability of GSK2586184",
       "evidence_state": "observed",
       "identifiers": {
@@ -10839,6 +11229,32 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "DER HOM\u00d6OSTAT A CRITIQUE OF PLANETARY IMMUNOLOGY AND THE BIOPHYSICAL CAGE",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23261957"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23261957"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23261957"
+        ]
+      },
+      "observation_ids": [
+        "obs-d4ffb8a875b7149ab849"
+      ],
+      "record_id": "cbx-87a6f4dd13a562d2",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -12458,6 +12874,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "T2.1 - BBioNets Inventory Dataset",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23262234"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23262234"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23262234"
+        ]
+      },
+      "observation_ids": [
+        "obs-89a94f6c19bfb76e7fab"
+      ],
+      "record_id": "cbx-998513b535678030",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "A Prospective Cohort of Patients With Cervical/Intracranial Arteries Stenosis in China",
       "evidence_state": "observed",
       "identifiers": {
@@ -13079,6 +13521,32 @@
       ],
       "record_id": "cbx-a0a654f95ba8fda4",
       "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Premise Consistency and Potential Misalignments in Neurosymbolic Reasoning: A Benchmark Analysis and a LEAN-based First-Order Consistency Safeguard for Elementary Probability",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23261376"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23261376"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23261376"
+        ]
+      },
+      "observation_ids": [
+        "obs-64260caf9cca3fd0a0db"
+      ],
+      "record_id": "cbx-a176211fba6ef6c4",
+      "record_type": "other",
       "sources": [
         "zenodo"
       ]
@@ -13819,6 +14287,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Stories, Voices and Perspectives: From The Danger of a Single Story to The Thing Around Your Neck",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23259979"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23259979"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23259979"
+        ]
+      },
+      "observation_ids": [
+        "obs-f188ab467cc405e082d1"
+      ],
+      "record_id": "cbx-aae9b6834b3fc0c4",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Ecommerce site speed by platform: Core Web Vitals from real visitors, 2020-2026",
       "evidence_state": "observed",
       "identifiers": {
@@ -13981,6 +14475,32 @@
       "record_type": "dataset",
       "sources": [
         "bioproject"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "ADVANCED COMPUTING TECHNOLOGIES: IoT,BLOCKCHAIN, AI, AND MACHINE LEARNING",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23261439"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23261439"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23261439"
+        ]
+      },
+      "observation_ids": [
+        "obs-e6636b1d3a1666433d18"
+      ],
+      "record_id": "cbx-ad0237aa46ab362b",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -14292,6 +14812,32 @@
         "obs-55e11607dce77a0ce60a"
       ],
       "record_id": "cbx-b1b4b1d4f2d621c8",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "\"Replication Data for: Sanctions as Bargaining Architecture \u2014 OFAC General Licenses and the Political Economy of Venezuela's Sovereign Restructuring\"",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23225179"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23225179"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23225179"
+        ]
+      },
+      "observation_ids": [
+        "obs-ce42159e962311c1b505"
+      ],
+      "record_id": "cbx-b1bf1711be0e391e",
       "record_type": "dataset",
       "sources": [
         "zenodo"
@@ -15133,6 +15679,38 @@
       ]
     },
     {
+      "aliases": [
+        "Transcriptome and chromatin accessibility across multiple tissues of largemouth bass (Micropterus salmoides) and Nile tilapia (Oreochromis niloticus) upon heat stress"
+      ],
+      "canonical_name": "Largemouth bass heart tissue from control fish, replicate #1",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJNA1541591",
+        "sra": "SRA2564268"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJNA1541591"
+        },
+        "observation_count": 2,
+        "source_record_ids": [
+          "bioproject:PRJNA1541591",
+          "sra:SRA2564268"
+        ]
+      },
+      "observation_ids": [
+        "obs-4a811a2ec11e3ffaa982",
+        "obs-c647ad1a54bcd283c7eb"
+      ],
+      "record_id": "cbx-c02004d8a50bdaf6",
+      "record_type": "dataset",
+      "sources": [
+        "bioproject",
+        "sra"
+      ]
+    },
+    {
       "aliases": [],
       "canonical_name": "Decision letter for \"Theoretical Physics Benchmark (TPBench) - a dataset and study of AI reasoning capabilities in theoretical physics\"",
       "evidence_state": "observed",
@@ -15419,6 +15997,32 @@
         "obs-a97fa7c5e88cdf13ea55"
       ],
       "record_id": "cbx-c398316c0527681c",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Reproducibility materials for verifiable approval-release decisions in construction project management",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23262314"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23262314"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23262314"
+        ]
+      },
+      "observation_ids": [
+        "obs-afc3c0e46548d5e84bed"
+      ],
+      "record_id": "cbx-c39dce94f9da7dfe",
       "record_type": "dataset",
       "sources": [
         "zenodo"
@@ -17366,6 +17970,32 @@
       ],
       "record_id": "cbx-ddc8eb19e4d36df1",
       "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "FengYun-3/HIRAS Constellation FY-AIRNet Ammonia (NH\u2083) Products: Columns, Uncertainties, Averaging kernels",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23097756"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23097756"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23097756"
+        ]
+      },
+      "observation_ids": [
+        "obs-144594605f757e351745"
+      ],
+      "record_id": "cbx-de42773fb804a505",
+      "record_type": "dataset",
       "sources": [
         "zenodo"
       ]
@@ -19795,6 +20425,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Teacher Leadership in Higher Education: A Systematic Review",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23261519"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23261519"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23261519"
+        ]
+      },
+      "observation_ids": [
+        "obs-b8784c16ed1b29f27d6f"
+      ],
+      "record_id": "cbx-fb253c5dadb579a0",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Music Therapy and Mindfulness Meditation",
       "evidence_state": "observed",
       "identifiers": {
@@ -20108,6 +20764,32 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Daten der Notaufnahmesurveillance",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23262231"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23262231"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23262231"
+        ]
+      },
+      "observation_ids": [
+        "obs-06da791450783606ab48"
+      ],
+      "record_id": "cbx-ffd04763318261a3",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
