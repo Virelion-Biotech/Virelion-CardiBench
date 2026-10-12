@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T11:27:25.792814+00:00",
+  "generated_at": "2026-10-12T13:16:06.803193+00:00",
   "links": [],
   "records": [
     {
@@ -81,6 +81,32 @@
       "record_type": "publication",
       "sources": [
         "medrxiv"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Lifelong learning, cultivating curiosity: Thriving after a mid-career shift",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23306498"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23306498"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23306498"
+        ]
+      },
+      "observation_ids": [
+        "obs-bd8c834fcabf50834317"
+      ],
+      "record_id": "cbx-00e8c1c7f1ba1ddd",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -579,6 +605,32 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "High-rate GNSS observations under controlled excitations",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23314254"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23314254"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23314254"
+        ]
+      },
+      "observation_ids": [
+        "obs-2f9883ecb9d5d921465d"
+      ],
+      "record_id": "cbx-06f819dbd0ed2281",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -1782,6 +1834,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Polygenic Risk and Genetic Predisposition in Post-Traumatic Epilepsy: A Framework for Risk Estimation",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.09.10.26362755"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.64898/2026.09.10.26362755"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "medrxiv:10.64898/2026.09.10.26362755:1"
+        ]
+      },
+      "observation_ids": [
+        "obs-d5ad7f9c9f6ba9150764"
+      ],
+      "record_id": "cbx-1042695ca5bf67bb",
+      "record_type": "publication",
+      "sources": [
+        "medrxiv"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "A scanner-informed synthetic overlay benchmark dataset for EUV lithography calibration",
       "evidence_state": "observed",
       "identifiers": {
@@ -2116,6 +2194,32 @@
       ],
       "record_id": "cbx-13d6062f07789574",
       "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "WAYS TO ENSURE SUSTAINABLE DEVELOPMENT THROUGH IMPROVING THE QUALITY OF HUMAN CAPITAL",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23317279"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23317279"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23317279"
+        ]
+      },
+      "observation_ids": [
+        "obs-5b75e9ee2b14edeea3ab"
+      ],
+      "record_id": "cbx-13fbdbdb00e7d5f8",
+      "record_type": "other",
       "sources": [
         "zenodo"
       ]
@@ -2670,6 +2774,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "TRAILGENDER: A Sex-Disaggregated Database of Trail Running and Ultra-Trail Performances Worldwide (2010\u20132021)",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23314501"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23314501"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23314501"
+        ]
+      },
+      "observation_ids": [
+        "obs-a94a7d7d246385622746"
+      ],
+      "record_id": "cbx-1bed0a8bd4651372",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Ipuch/bioNC: ArticulatedKneePhysics",
       "evidence_state": "observed",
       "identifiers": {
@@ -2978,6 +3108,32 @@
       ],
       "record_id": "cbx-1ecb9f980175580a",
       "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Code and data for \"A Benford's Law-Inspired Deep Learning Model for Streamflow Prediction\"",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23317498"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23317498"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23317498"
+        ]
+      },
+      "observation_ids": [
+        "obs-f6957c81b710fb1760f5"
+      ],
+      "record_id": "cbx-1f665dfc9cd7d4b0",
+      "record_type": "dataset",
       "sources": [
         "zenodo"
       ]
@@ -4113,6 +4269,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Post-attack bioluminescence is an aposematic signal in luminin ostracods",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.06.22.733700"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.64898/2026.06.22.733700"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "biorxiv:10.64898/2026.06.22.733700:2"
+        ]
+      },
+      "observation_ids": [
+        "obs-238733aba82a768967dc"
+      ],
+      "record_id": "cbx-277a53b7727ad7a5",
+      "record_type": "publication",
+      "sources": [
+        "biorxiv"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "DEVELOPING PROFESSIONAL CONGRUENCE IN PRE-SERVICE TEACHERS THROUGH REFLECTIVE PROJECT-BASED LEARNING",
       "evidence_state": "observed",
       "identifiers": {
@@ -5135,6 +5317,32 @@
       "record_type": "dataset",
       "sources": [
         "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Design Theater: Evaluating the Gap Between User-Facing Design Reasoning and Implementation in Generative UI Tools",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1609/aies.v9i2.43227"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1609/aies.v9i2.43227"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W7171511750"
+        ]
+      },
+      "observation_ids": [
+        "obs-03e7605f3cea9ef730e8"
+      ],
+      "record_id": "cbx-3136d531ad7fdd77",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
       ]
     },
     {
@@ -6296,6 +6504,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Intensivkapazit\u00e4ten und COVID-19-Intensivbettenbelegung in Deutschland",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23317410"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23317410"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23317410"
+        ]
+      },
+      "observation_ids": [
+        "obs-c0eba9c6cd381d7dac7e"
+      ],
+      "record_id": "cbx-3aa4b352b37c94f9",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Influence of Digital Planning Tools on Monitoring & Evaluation Frameworks at CHANCEN International, Rwanda",
       "evidence_state": "observed",
       "identifiers": {
@@ -6760,6 +6994,32 @@
       "record_type": "publication",
       "sources": [
         "openalex"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "GEO-Ring observations reveal substantially overestimated global land aerosol cooling",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.22970653"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.22970653"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:22970653"
+        ]
+      },
+      "observation_ids": [
+        "obs-f42907385505810eb08c"
+      ],
+      "record_id": "cbx-3ee1425c18be22ad",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -7291,6 +7551,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Speech Intelligibility Index (SII) as a Potential Referral Metric for Adult Cochlear Implant Candidacy Evaluation",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.09.10.26362790"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.64898/2026.09.10.26362790"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "medrxiv:10.64898/2026.09.10.26362790:1"
+        ]
+      },
+      "observation_ids": [
+        "obs-6c8d980bcf4295fa1889"
+      ],
+      "record_id": "cbx-4597b39aea40ac26",
+      "record_type": "publication",
+      "sources": [
+        "medrxiv"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Sensitive Glioma Detection and Recurrence Monitoring Using a Machine Learning Model Based on Circulating Monocytes",
       "evidence_state": "observed",
       "identifiers": {
@@ -7602,6 +7888,32 @@
       "record_type": "dataset",
       "sources": [
         "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "PRISM: Phase-Resolved Isotropic Subtraction Mapping for Automated Multi-Phase CT Digital Subtraction Angiography",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.09.10.26362169"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.64898/2026.09.10.26362169"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "medrxiv:10.64898/2026.09.10.26362169:1"
+        ]
+      },
+      "observation_ids": [
+        "obs-a91bd6eab49b6d4a1953"
+      ],
+      "record_id": "cbx-485de026d0546438",
+      "record_type": "publication",
+      "sources": [
+        "medrxiv"
       ]
     },
     {
@@ -8125,6 +8437,32 @@
       "record_type": "publication",
       "sources": [
         "openalex"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Data and trained models: Statistical Downscaling of Daily Precipitation from ERA5 Atmospheric Fields to IMERG over West Africa",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23188297"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23188297"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23188297"
+        ]
+      },
+      "observation_ids": [
+        "obs-b0040d8f44e966ee691d"
+      ],
+      "record_id": "cbx-4db2717e02044030",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -8699,6 +9037,32 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Social Learning Community Detection",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23317344"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23317344"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23317344"
+        ]
+      },
+      "observation_ids": [
+        "obs-251db2d94132342ed5ce"
+      ],
+      "record_id": "cbx-55b441f0cd3c5062",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -9279,6 +9643,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Dataset for paper \"Morphogenesis of a stratified cell mound at a vortex defect\"",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.20612726"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.20612726"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:20612726"
+        ]
+      },
+      "observation_ids": [
+        "obs-68b447ceb90b01f99f32"
+      ],
+      "record_id": "cbx-5d805d67c40bd6b8",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Chronologie et listes des membres des Conseils de Gen\u00e8ve (1534-1550)",
       "evidence_state": "observed",
       "identifiers": {
@@ -9692,6 +10082,33 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "A multi-tissue transcriptome and expression atlas of the narrow-clawed crayfish Pontastacus leptodactylus",
+      "evidence_state": "observed",
+      "identifiers": {
+        "accession": "GSE349801",
+        "geo": "GSE349801"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "geo",
+          "identifier_value": "GSE349801"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "geo:GSE349801"
+        ]
+      },
+      "observation_ids": [
+        "obs-800d4c8e6370e7d0a994"
+      ],
+      "record_id": "cbx-629aaac2cf06e525",
+      "record_type": "dataset",
+      "sources": [
+        "geo"
       ]
     },
     {
@@ -10142,6 +10559,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Benchmarking three simple DNA staining-based image metrics for live-cell tracking of chromatin organization",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.03.30.715467"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.64898/2026.03.30.715467"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "biorxiv:10.64898/2026.03.30.715467:2"
+        ]
+      },
+      "observation_ids": [
+        "obs-2fc0fc9123070a7e6687"
+      ],
+      "record_id": "cbx-65a0dc83caec3f6f",
+      "record_type": "publication",
+      "sources": [
+        "biorxiv"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Sequencing Effects in the AGI\u2013Quantum Convergence A Scenario-Based Framework for Anticipating Civilizational Divergence",
       "evidence_state": "observed",
       "identifiers": {
@@ -10454,6 +10897,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Anonymous upload for peer review",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23237797"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23237797"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23237797"
+        ]
+      },
+      "observation_ids": [
+        "obs-8cf11df9d82f0abf71f7"
+      ],
+      "record_id": "cbx-686e04ff3b2a1382",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "The application progress of artificial intelligence in the diagnosis of Alzheimer\u2019s disease",
       "evidence_state": "observed",
       "identifiers": {
@@ -10738,6 +11207,32 @@
       "record_type": "publication",
       "sources": [
         "biorxiv"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "A Chain Is Only as Strong as Its Weakest Link: A Scoping Review of System Integration Audits in AI",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1609/aies.v9i1.43180"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1609/aies.v9i1.43180"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W7196955061"
+        ]
+      },
+      "observation_ids": [
+        "obs-906fc54c09d8c2ba5ebb"
+      ],
+      "record_id": "cbx-6b12158409d07afb",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
       ]
     },
     {
@@ -11697,6 +12192,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "PRIN 2026 Research Atlas: Interactive Dashboard",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23315533"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23315533"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23315533"
+        ]
+      },
+      "observation_ids": [
+        "obs-91f304fcea9ce419b9fd"
+      ],
+      "record_id": "cbx-7644f3bb8b0b8e0e",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Study to Evaluate the Effect of Cetuximab on Corrected QT (QTc) Interval Changes in Patients With Advanced Malignancies From Solid Tumors",
       "evidence_state": "observed",
       "identifiers": {
@@ -11877,6 +12398,32 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "CasanovoGUI: a cross-platform desktop application for deep learning-based de novo peptide sequencing with Casanovo",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.07.11.737889"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.64898/2026.07.11.737889"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "biorxiv:10.64898/2026.07.11.737889:2"
+        ]
+      },
+      "observation_ids": [
+        "obs-8002fec6ed7b0cffb880"
+      ],
+      "record_id": "cbx-791fa6174b655f38",
+      "record_type": "publication",
+      "sources": [
+        "biorxiv"
       ]
     },
     {
@@ -12690,6 +13237,114 @@
       ]
     },
     {
+      "aliases": [
+        "CK-2 (CRX2687117)",
+        "CK-3 (CRX2687118)",
+        "CK-4 (CRX2687119)",
+        "CK-5 (CRX2687120)",
+        "EBL-1 (CRX2687126)",
+        "EBL-2 (CRX2687127)",
+        "EBL-3 (CRX2687128)",
+        "EBL-4 (CRX2687129)",
+        "EBL-5 (CRX2687130)",
+        "AMEP-1 (CRX2687121)",
+        "AMEP-2 (CRX2687122)",
+        "AMEP-3 (CRX2687123)",
+        "AMEP-4 (CRX2687124)",
+        "AMEP-5 (CRX2687125)",
+        "EBL+AMEP-1 (CRX2687131)",
+        "EBL+AMEP-2 (CRX2687132)",
+        "EBL+AMEP-3 (CRX2687133)",
+        "EBL+AMEP-4 (CRX2687134)",
+        "EBL+AMEP-5 (CRX2687135)"
+      ],
+      "canonical_name": "CK-1 (CRX2687116)",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJCA057774"
+      },
+      "metadata": {
+        "identifier_conflicts": {
+          "sra_uid": [
+            "47335674",
+            "47335675",
+            "47335676",
+            "47335677",
+            "47335678",
+            "47335679",
+            "47335680",
+            "47335681",
+            "47335682",
+            "47335683",
+            "47335684",
+            "47335685",
+            "47335686",
+            "47335687",
+            "47335688",
+            "47335689",
+            "47335690",
+            "47335691",
+            "47335692",
+            "47335693"
+          ]
+        },
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJCA057774"
+        },
+        "observation_count": 20,
+        "source_record_ids": [
+          "sra:47335674",
+          "sra:47335675",
+          "sra:47335676",
+          "sra:47335677",
+          "sra:47335678",
+          "sra:47335679",
+          "sra:47335680",
+          "sra:47335681",
+          "sra:47335682",
+          "sra:47335683",
+          "sra:47335684",
+          "sra:47335685",
+          "sra:47335686",
+          "sra:47335687",
+          "sra:47335688",
+          "sra:47335689",
+          "sra:47335690",
+          "sra:47335691",
+          "sra:47335692",
+          "sra:47335693"
+        ]
+      },
+      "observation_ids": [
+        "obs-07d9aa76b7c1f1b09065",
+        "obs-0e52db611bfaed3d4bbc",
+        "obs-1d05b3844df4a98229ec",
+        "obs-1f04c4bf00e3bd4f5cbd",
+        "obs-2880af289dc7fba55a52",
+        "obs-2d8f266de3494eebe552",
+        "obs-2e32c8d7bb0c6cc0d500",
+        "obs-3e405a84fdd52eb29cb1",
+        "obs-4914b35ed1e54c6027c8",
+        "obs-782d9d492365ffe177c9",
+        "obs-85402492ee539633ffba",
+        "obs-97f76f33ae4593b148dd",
+        "obs-991f2180d49efa515a49",
+        "obs-9b448e960e854b58575a",
+        "obs-d709d24fa384f4331c70",
+        "obs-dfe5282e5c2cf2acb16b",
+        "obs-e213836bfb181927a9ba",
+        "obs-ed3162665a36440224fc",
+        "obs-ed8012747588287a5acf",
+        "obs-f5db31a25404e88da79d"
+      ],
+      "record_id": "cbx-7fe766f6c7532a63",
+      "record_type": "dataset",
+      "sources": [
+        "sra"
+      ]
+    },
+    {
       "aliases": [],
       "canonical_name": "Generative AI versus physicians in diagnostic radiology: a systematic review and meta-analysis",
       "evidence_state": "observed",
@@ -12765,6 +13420,32 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "India ISIN Database, by Nemo",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23318163"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23318163"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23318163"
+        ]
+      },
+      "observation_ids": [
+        "obs-f21318a863adc5e35e13"
+      ],
+      "record_id": "cbx-81753615723f35a4",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -14130,6 +14811,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Daten der Notaufnahmesurveillance",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23316308"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23316308"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23316308"
+        ]
+      },
+      "observation_ids": [
+        "obs-8022e814be0cc2a6bf3f"
+      ],
+      "record_id": "cbx-8d5b587198baa7a2",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "The Photoswitch Dataset: A Molecular Machine Learning Benchmark for the Advancement of Synthetic Chemistry",
       "evidence_state": "observed",
       "identifiers": {
@@ -14904,6 +15611,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Development of Longitudinal, Linked Maternal-Infant Cohorts using the Epic Cosmos Electronic Health Record Dataset",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.06.02.26354757"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.64898/2026.06.02.26354757"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "medrxiv:10.64898/2026.06.02.26354757:2"
+        ]
+      },
+      "observation_ids": [
+        "obs-3eb38733e7a6fb3466d6"
+      ],
+      "record_id": "cbx-9427651f0cfff518",
+      "record_type": "publication",
+      "sources": [
+        "medrxiv"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Biophotonics point-of-care diagnostics in low-resource settings: a South African perspective.",
       "evidence_state": "observed",
       "identifiers": {
@@ -14978,6 +15711,32 @@
         "obs-05c5779fa8a9b1d1a3c3"
       ],
       "record_id": "cbx-94c5dd65d6645a67",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "A Tale of Two Entity Resolution Models: A Conceptual Compass Based on Decision Timing, Human Involvement, Flexibility, and Explainability - Supplementary Materials",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23286689"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23286689"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23286689"
+        ]
+      },
+      "observation_ids": [
+        "obs-9e6615ef04b1a41d2513"
+      ],
+      "record_id": "cbx-954aa085cf32a5cf",
       "record_type": "other",
       "sources": [
         "zenodo"
@@ -15518,12 +16277,14 @@
           "identifier_type": "doi",
           "identifier_value": "10.1101/2025.01.11.631697"
         },
-        "observation_count": 1,
+        "observation_count": 2,
         "source_record_ids": [
-          "biorxiv:10.1101/2025.01.11.631697:4"
+          "biorxiv:10.1101/2025.01.11.631697:4",
+          "biorxiv:10.1101/2025.01.11.631697:5"
         ]
       },
       "observation_ids": [
+        "obs-251cf3717fccd37efaa3",
         "obs-357f9d56868acdfe6346"
       ],
       "record_id": "cbx-9a4b7cbc92d63397",
@@ -16894,6 +17655,32 @@
       ]
     },
     {
+      "aliases": [],
+      "canonical_name": "No measurable gain from handcrafted features or attention-gated fusion in chest radiograph classifiers: A capacity-matched factorial design across training sizes on a leakage-screened cohort",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23315747"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23315747"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23315747"
+        ]
+      },
+      "observation_ids": [
+        "obs-9747a5aa7fda112916d3"
+      ],
+      "record_id": "cbx-a7f7a5b90a1de59f",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
       "aliases": [
         "RNA sequencing of K7 root at 0h control replicate 2 (CRX2574416)",
         "RNA sequencing of K7 root at 0h control replicate 3 (CRX2574417)",
@@ -17539,6 +18326,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Data and code for: Suicide Mortality in Provinces Affected by the 2023 Kahramanmara\u015f Earthquakes: A Controlled National Analysis",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23316036"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23316036"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23316036"
+        ]
+      },
+      "observation_ids": [
+        "obs-4861bc2839e0ee118ff3"
+      ],
+      "record_id": "cbx-ad9e0bacd57b271a",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Multimodal Artificial Intelligence for Early Prediction of Preeclampsia Using Maternal Clinical, Biochemical, and Ultrasound Data: A Systematic Review",
       "evidence_state": "observed",
       "identifiers": {
@@ -17723,6 +18536,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "AOD dataset calculated based on the Hybrid model",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23312575"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23312575"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23312575"
+        ]
+      },
+      "observation_ids": [
+        "obs-b6299c88a99c27ff53ca"
+      ],
+      "record_id": "cbx-b079c32c66a3560f",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Non-invasive Liver Screening for Risk Assessment for Coronary Heart Disease",
       "evidence_state": "observed",
       "identifiers": {
@@ -17745,6 +18584,32 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Beyond Accuracy in Crop Classification: Calibration, Selective Prediction, and Robustness",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.20935/acadai8570"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.20935/acadai8570"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23317820"
+        ]
+      },
+      "observation_ids": [
+        "obs-fd547990f67bd4ddce9d"
+      ],
+      "record_id": "cbx-b0f9cf5b3cd70eba",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -18239,6 +19104,32 @@
       "record_type": "dataset",
       "sources": [
         "bioproject"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Finite electric fields in SIESTA: reproducible molecular and ferroelectric benchmarks",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23315274"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23315274"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23315274"
+        ]
+      },
+      "observation_ids": [
+        "obs-4b7b8f371fd14e8fa6c9"
+      ],
+      "record_id": "cbx-b7c125c826c2fbba",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -19855,6 +20746,58 @@
     },
     {
       "aliases": [],
+      "canonical_name": "ConvWaveFormer: a hybrid wavelet and CNN-transformer framework for ECG biometric identification",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1038/s41598-026-72088-8"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1038/s41598-026-72088-8"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W7221327617"
+        ]
+      },
+      "observation_ids": [
+        "obs-dcc1e1ac579ed664a89f"
+      ],
+      "record_id": "cbx-ca3f00aab4ae68a0",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Revitalizing Nordic Ergonomics for the Future",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.22029557"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.22029557"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:22029557"
+        ]
+      },
+      "observation_ids": [
+        "obs-d8ad45f6121fac552160"
+      ],
+      "record_id": "cbx-ca987dda1cedd212",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "UniPET: a unified approach for whole-body CT to PET translation",
       "evidence_state": "observed",
       "identifiers": {
@@ -20483,6 +21426,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Ongoing classification of quadratic (8,8)-APN extensions of quadratic (8,4)-bent functions",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23314772"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23314772"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23314772"
+        ]
+      },
+      "observation_ids": [
+        "obs-89ddf79aaf68569806ee"
+      ],
+      "record_id": "cbx-d219cd1654260617",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Coxsackievirus B3 (CVB3)-activated macrophage-derived sEV Drives Cardiomyocyte Death in Fulminant Myocarditis",
       "evidence_state": "observed",
       "identifiers": {
@@ -20741,6 +21710,32 @@
       "record_type": "publication",
       "sources": [
         "biorxiv"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Numerical data for A Fixed-Direction Numerical Audit of Equal-DC and Observation-Domain Comparisons in Near-Field Microwave Wireless Power Transfer",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.22918885"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.22918885"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:22918885"
+        ]
+      },
+      "observation_ids": [
+        "obs-ccd1a81d1ce08ba9b2dc"
+      ],
+      "record_id": "cbx-d5d3387b2443c846",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -21661,6 +22656,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Benchmarking methods integrating GWAS and single-cell transcriptomic data for mapping trait-cell type associations",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1101/2025.05.24.25328275"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1101/2025.05.24.25328275"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "medrxiv:10.1101/2025.05.24.25328275:3"
+        ]
+      },
+      "observation_ids": [
+        "obs-dc81efcfa93fa179ab93"
+      ],
+      "record_id": "cbx-df09bb9a883ae304",
+      "record_type": "publication",
+      "sources": [
+        "medrxiv"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Pilot Testing of Vagus Nerve Stimulation for Early Spinal Cord Injury Recovery",
       "evidence_state": "observed",
       "identifiers": {
@@ -21995,6 +23016,32 @@
       "record_type": "dataset",
       "sources": [
         "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Clonal Haematopoiesis Tracks Alzheimer's-like Cortical Atrophy in Community-Dwelling Older Adults",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.09.10.26362681"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.64898/2026.09.10.26362681"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "medrxiv:10.64898/2026.09.10.26362681:1"
+        ]
+      },
+      "observation_ids": [
+        "obs-54a9fc8f4418ab770373"
+      ],
+      "record_id": "cbx-e22a49420e9dde01",
+      "record_type": "publication",
+      "sources": [
+        "medrxiv"
       ]
     },
     {
@@ -22966,6 +24013,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "HerdyHerlianto/passive-reflector-measurement: Passive Reflector Measurement Dataset v1.0.0",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23317731"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23317731"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23317731"
+        ]
+      },
+      "observation_ids": [
+        "obs-2d5fa6a1268d66329a80"
+      ],
+      "record_id": "cbx-ed3789ee7b542763",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Evaluation Metrics for Image Classification, Segmentation and Localization",
       "evidence_state": "observed",
       "identifiers": {
@@ -23538,6 +24611,54 @@
       ]
     },
     {
+      "aliases": [
+        "D3KIT-20-2 (CRX2694618)",
+        "D3KIT-20-3 (CRX2694619)",
+        "D3KIT-25-2 (CRX2694621)",
+        "D3KIT-25-3 (CRX2694622)"
+      ],
+      "canonical_name": "D3KIT-15-2 (CRX2694615)",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJCA061034"
+      },
+      "metadata": {
+        "identifier_conflicts": {
+          "sra_uid": [
+            "47334616",
+            "47334617",
+            "47334618",
+            "47334619",
+            "47334620"
+          ]
+        },
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJCA061034"
+        },
+        "observation_count": 5,
+        "source_record_ids": [
+          "sra:47334616",
+          "sra:47334617",
+          "sra:47334618",
+          "sra:47334619",
+          "sra:47334620"
+        ]
+      },
+      "observation_ids": [
+        "obs-1b422fd763caab40edc4",
+        "obs-2dae2751ec2a714db5c3",
+        "obs-70d656a0df1c43f7cfe1",
+        "obs-c4e833ada043415553e5",
+        "obs-c5364614ce547bad766b"
+      ],
+      "record_id": "cbx-f19680b5e802fd4c",
+      "record_type": "dataset",
+      "sources": [
+        "sra"
+      ]
+    },
+    {
       "aliases": [],
       "canonical_name": "SiGn: An Open-Source Signal-Generating fMRI Phantom for Dynamic Quality Assurance",
       "evidence_state": "observed",
@@ -23796,6 +24917,32 @@
       "record_type": "publication",
       "sources": [
         "openalex"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Set Covering Benchmark Dataset",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23312410"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23312410"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23312410"
+        ]
+      },
+      "observation_ids": [
+        "obs-4f0e127990860786621e"
+      ],
+      "record_id": "cbx-f687db2e5489fff4",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
