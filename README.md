@@ -2,6 +2,21 @@
 
 CardiBench is the benchmark and dataset-intelligence layer for cardiac machine-learning evaluation in the Virelion HeartTwin stack. It combines leakage-aware benchmark construction with conservative public-evidence discovery, search, and protocol-scoped result history. It defines benchmark manifests, biological grouping rules, leakage checks, and reproducible benchmark artifacts.
 
+
+<!-- VALIDATION_PRODUCT_STATUS:BEGIN -->
+## Validation and product completion status
+
+**Reviewed 2026-10-14; implementation base `b5a1983145bc`.** **Status: Manifest/leakage/admission infrastructure; dataset fitness remains cohort-specific.** This is an evidence-backed scope assessment, not a percentage-complete estimate or a declaration that the product is finished.
+
+| Area | Current evidence / remaining gate |
+|---|---|
+| Software / operational checks | Automated test sources and CI definitions are present; this documentation audit does not report a new algorithm/data-validation run. |
+| Scientific or domain evidence | Candidate discovery and fail-closed admission do not auto-admit data. Schema-valid grouping and materialization are software evidence; biological representativeness depends on reconciled source metadata. |
+| Remaining for the declared product scope | Complete cohort-specific subject/sample/condition/time/region reconciliation and raw-source hashes; freeze independent splits and metric policies; audit deduplication/study-family leakage and evidence fitness; qualify source refresh and result-history operations without bypassing manual admission. |
+
+Evidence and limits: [repository report](SCIENTIFIC_AUDIT_2026-10-09.md). The [organization status index](https://github.com/Virelion-Biotech/Virelion-HeartTwin/blob/main/docs/STACK_VALIDATION_STATUS.md) separates software, numerical, data-readiness and empirical qualification. Code/schema execution or a completed download is not a substitute for endpoint-specific validation.
+<!-- VALIDATION_PRODUCT_STATUS:END -->
+
 ## What it contains
 
 - Metadata-first dataset and sample registries.
