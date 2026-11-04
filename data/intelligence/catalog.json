@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T12:52:14.680345+00:00",
+  "generated_at": "2026-11-04T13:05:51.189195+00:00",
   "links": [],
   "records": [
     {
@@ -837,6 +837,32 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Training checkpoints for \"Improving Signals, Declining Encoder: A Known-Answer Test of Label-Free Monitoring in Self-Supervised Learning\"",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23666713"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23666713"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23666713"
+        ]
+      },
+      "observation_ids": [
+        "obs-3a6c861ad7733f765a73"
+      ],
+      "record_id": "cbx-02386f4636778ead",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -2356,6 +2382,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Predicting different dimensions of fatigue from speech data: a longitudinal study in shift workers",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1038/s41746-026-03437-0"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1038/s41746-026-03437-0"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W4399790184"
+        ]
+      },
+      "observation_ids": [
+        "obs-bbb39cb7dc3987c4ee78"
+      ],
+      "record_id": "cbx-0944f7eb2950d817",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "The \"VISION\" Trial: Ventavis Inhalation With Sildenafil to Improve and Optimize Pulmonary Arterial Hypertension",
       "evidence_state": "observed",
       "identifiers": {
@@ -3059,28 +3111,35 @@
       ]
     },
     {
-      "aliases": [],
+      "aliases": [
+        "AI-Enabled Animal Behavior Analysis for Translational Pharmacology and Therapeutic Discovery."
+      ],
       "canonical_name": "AI-Enabled Animal Behavior Analysis for Translational Pharmacology and Therapeutic Discovery",
       "evidence_state": "observed",
       "identifiers": {
-        "doi": "10.4062/biomolther.2026.157"
+        "doi": "10.4062/biomolther.2026.157",
+        "pmcid": "PMC13724995",
+        "pmid": "42952211"
       },
       "metadata": {
         "identity_basis": {
           "identifier_type": "doi",
           "identifier_value": "10.4062/biomolther.2026.157"
         },
-        "observation_count": 1,
+        "observation_count": 2,
         "source_record_ids": [
+          "europepmc:42952211",
           "openalex:W7224585120"
         ]
       },
       "observation_ids": [
-        "obs-6ccf7c350b826d1d917e"
+        "obs-6ccf7c350b826d1d917e",
+        "obs-8ad16298a23a0a97b3d2"
       ],
       "record_id": "cbx-0b87ee4756168bf3",
       "record_type": "publication",
       "sources": [
+        "europepmc",
         "openalex"
       ]
     },
@@ -4386,6 +4445,32 @@
       "record_type": "dataset",
       "sources": [
         "bioproject"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Evaluating GPT-5 as a generalist multimodal clinical model",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1117/1.jmi.14.s1.s12602"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1117/1.jmi.14.s1.s12602"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W7134057695"
+        ]
+      },
+      "observation_ids": [
+        "obs-ebdb561a439a4d238b73"
+      ],
+      "record_id": "cbx-0f36bcedf1447487",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
       ]
     },
     {
@@ -6131,6 +6216,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "ForEnt: A multimodal dataset for characterising quadruped robot entrapments in forest environments",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23802853"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23802853"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23802853"
+        ]
+      },
+      "observation_ids": [
+        "obs-fbe175dfee3f7942cc3b"
+      ],
+      "record_id": "cbx-148706efddfae110",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Hantavirus species detection from viral genome sequences using explainable artificial intelligence techniques",
       "evidence_state": "observed",
       "identifiers": {
@@ -7039,6 +7150,34 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "ADMET property prediction and toxicity profiling of CDK2 inhibitors: a practical cheminformatics tutorial using ADMET-AI 2.0 and RDKit.",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1186/s13321-026-01289-0",
+        "pmcid": "PMC13729302",
+        "pmid": "42972609"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1186/s13321-026-01289-0"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "europepmc:42972609"
+        ]
+      },
+      "observation_ids": [
+        "obs-3b3acb5557b74900851a"
+      ],
+      "record_id": "cbx-177aa840ca17afea",
+      "record_type": "publication",
+      "sources": [
+        "europepmc"
       ]
     },
     {
@@ -8551,6 +8690,32 @@
         "obs-a136c9d6850ba029ff92"
       ],
       "record_id": "cbx-1dd8aeb74eb3dc31",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Application of Dynamic Clustering Alogirthm in Medical Surveillance",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23948933"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23948933"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23948933"
+        ]
+      },
+      "observation_ids": [
+        "obs-7f5239a1dddbcd02ccfa"
+      ],
+      "record_id": "cbx-1de1aaaf902e6bf2",
       "record_type": "other",
       "sources": [
         "zenodo"
@@ -12760,6 +12925,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "FCStereo",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23949274"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23949274"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23949274"
+        ]
+      },
+      "observation_ids": [
+        "obs-8e8046d48d08d6181b80"
+      ],
+      "record_id": "cbx-2dbdf16fbb73e7ed",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Translink patronage by mode, rest of Queensland",
       "evidence_state": "observed",
       "identifiers": {
@@ -15136,6 +15327,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Interstitial Fluid Composition in Patients With Septic Versus Non-septic Shock: an Exploratory Pilot Study",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT05039151"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT05039151"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT05039151"
+        ]
+      },
+      "observation_ids": [
+        "obs-528d365065b66e97cb13"
+      ],
+      "record_id": "cbx-364fc32f11321cfc",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "SAVOD O'RGATISH JARAYONINING MAZMUNI, PEDAGOGIK XUSUSIYATLARI VA UNDA SUN'IY INTELLEKT VOSITALARIDAN FOYDALANISH IMKONIYATLARI",
       "evidence_state": "observed",
       "identifiers": {
@@ -16174,6 +16391,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "MIDAS Cluster Randomized Controlled Trial of Implementation Strategies to Optimize Use of Medications in VA Clinical Settings",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT05065502"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT05065502"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT05065502"
+        ]
+      },
+      "observation_ids": [
+        "obs-b1cda2d0c33ba3957bb1"
+      ],
+      "record_id": "cbx-394f647861d43c8a",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Adult and Non-Formal Education and E-Waste Policies and Management: A Framework for Lifelong Learning, Public Awareness and Sustainable Electronic Waste Governance in Nigeria",
       "evidence_state": "observed",
       "identifiers": {
@@ -17123,6 +17366,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "A Comparison of ESP Block to SSN Block for Analgesia in Shoulder Surgery",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT04669639"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT04669639"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT04669639"
+        ]
+      },
+      "observation_ids": [
+        "obs-58777055be6204904e10"
+      ],
+      "record_id": "cbx-3c4e461656b0b31c",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Dataset and source codes for Araki et al., (2026) \"Continental-scale prediction of hydrologic signatures and processes\"",
       "evidence_state": "observed",
       "identifiers": {
@@ -18012,6 +18281,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Enhancing soil creep index prediction accuracy using optimized XGBoost and LightGBM models with bio-inspired optimization algorithms: SHAP- and LIME-based explanation methods",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1038/s41598-026-78179-w"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1038/s41598-026-78179-w"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W7225081757"
+        ]
+      },
+      "observation_ids": [
+        "obs-5a6f2972833206e01cdb"
+      ],
+      "record_id": "cbx-4057d14131b3daeb",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "\"It Makes the Code Clearer\": Why Developers Adopt Modern Python Features in Open Source Projects",
       "evidence_state": "observed",
       "identifiers": {
@@ -18447,6 +18742,32 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "A comprehensive review of biosignal foundation models",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1088/1741-2552/aebd1d"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1088/1741-2552/aebd1d"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W4416445680"
+        ]
+      },
+      "observation_ids": [
+        "obs-c34833a7ba3d37780334"
+      ],
+      "record_id": "cbx-4290c29a62092bbe",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
       ]
     },
     {
@@ -19052,6 +19373,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Toxicity reporting that travels: a resource-adaptive framework for pediatric solid tumors",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.3389/fonc.2026.2004496"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.3389/fonc.2026.2004496"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W7225161759"
+        ]
+      },
+      "observation_ids": [
+        "obs-dcdf5a01befc2f80ea47"
+      ],
+      "record_id": "cbx-466eefffb1e6c583",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "scRNA-Seq and ST-Seq of anti-IgG antibody- and anti-CTLA-4 m2a antibody-treated EAM mouse hearts (PRJCA027500)",
       "evidence_state": "observed",
       "identifiers": {
@@ -19180,6 +19527,32 @@
       "record_type": "publication",
       "sources": [
         "openalex"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Beyond Architecture: Optimization and Hydrologic Regime Reveal Performance Headroom in Deep-Learning Rainfall\u2013Runoff Modelling",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23945464"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23945464"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23945464"
+        ]
+      },
+      "observation_ids": [
+        "obs-155d65507602303d1f49"
+      ],
+      "record_id": "cbx-46d4bf7c32936998",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -19599,6 +19972,32 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Chip Peace",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1201/9781003767091"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1201/9781003767091"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W7225093704"
+        ]
+      },
+      "observation_ids": [
+        "obs-f206da6632d7bd0ff96f"
+      ],
+      "record_id": "cbx-47c566ea979b6b50",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
       ]
     },
     {
@@ -22396,6 +22795,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Investigation of a New Diet for the Treatment of Obesity in the NHS",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT05249439"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT05249439"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT05249439"
+        ]
+      },
+      "observation_ids": [
+        "obs-74c06d048e7ff10063e6"
+      ],
+      "record_id": "cbx-53f9659737b9c989",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Data and code for: Arsenic-handling genes do not explain inorganic arsenic in three high-arsenic Sargassum species: a cross-species catalogue of seaweed proteomes",
       "evidence_state": "observed",
       "identifiers": {
@@ -22519,6 +22944,32 @@
         "obs-8af5e0dcd56e65e1afbe"
       ],
       "record_id": "cbx-54826bb9fbd48c96",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Prospective Multicenter Research on Donor and Recipient Management Strategies to Improve Lung Transplant Outcomes",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT06399302"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT06399302"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT06399302"
+        ]
+      },
+      "observation_ids": [
+        "obs-12cfac2366ed8dd04921"
+      ],
+      "record_id": "cbx-548d6d83ababb645",
       "record_type": "other",
       "sources": [
         "clinicaltrials"
@@ -22701,6 +23152,32 @@
         "obs-34c509de3674d35bcb82"
       ],
       "record_id": "cbx-54d183a747f02d22",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "ReabNet serious games versus conventional physiotherapy in Parkinson's disease: pilot study dataset and analysis code",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23949201"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23949201"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23949201"
+        ]
+      },
+      "observation_ids": [
+        "obs-fe1b1d787ad6ecb613ec"
+      ],
+      "record_id": "cbx-54d4a61ba5c17660",
       "record_type": "dataset",
       "sources": [
         "zenodo"
@@ -23138,6 +23615,33 @@
       ]
     },
     {
+      "aliases": [],
+      "canonical_name": "Generation of viable, structurally integrated human\u2013mouse chimaeras through enhanced hPSC proliferation",
+      "evidence_state": "observed",
+      "identifiers": {
+        "accession": "GSE352617",
+        "geo": "GSE352617"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "geo",
+          "identifier_value": "GSE352617"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "geo:GSE352617"
+        ]
+      },
+      "observation_ids": [
+        "obs-c4d3a97bbf0c4629f121"
+      ],
+      "record_id": "cbx-566d15bed2047a47",
+      "record_type": "dataset",
+      "sources": [
+        "geo"
+      ]
+    },
+    {
       "aliases": [
         "Targeted viral transcript sequencing of Mus musculus: AAV pool, multiple tissues"
       ],
@@ -23377,6 +23881,32 @@
       ],
       "record_id": "cbx-56ddec8f6ad50055",
       "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "European Mortality from Eurostat",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23949449"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23949449"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23949449"
+        ]
+      },
+      "observation_ids": [
+        "obs-07ebba3875dc69051d9f"
+      ],
+      "record_id": "cbx-56e1d9b7d0cd73da",
+      "record_type": "dataset",
       "sources": [
         "zenodo"
       ]
@@ -25059,6 +25589,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Replication Data for Eco-Friendly and Large-Scale Fabrication of Microelectronic Silk-Based Enzymatic Biosensors",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23948962"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23948962"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23948962"
+        ]
+      },
+      "observation_ids": [
+        "obs-e65a9d721bda8549313e"
+      ],
+      "record_id": "cbx-5d445464d9bfb47c",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "ODDEA Hungarian Dataset: Digital divide at organisational level",
       "evidence_state": "observed",
       "identifiers": {
@@ -26416,6 +26972,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "SimilCode Benchmark: A Dual-Language Source-Code Similarity Dataset for the Evaluation of AI-Based Detectors",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23949390"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23949390"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23949390"
+        ]
+      },
+      "observation_ids": [
+        "obs-bb4a8196d3c0a8ddfe4f"
+      ],
+      "record_id": "cbx-61f362292d160f16",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Determination of the Best Positive End-expiratory Pressure (PEEP)",
       "evidence_state": "observed",
       "identifiers": {
@@ -26650,6 +27232,32 @@
       "record_type": "dataset",
       "sources": [
         "geo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Recurrence entropy-based characterization of spatial patterns",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.21203/rs.3.rs-11295573/v1"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.21203/rs.3.rs-11295573/v1"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W7225167073"
+        ]
+      },
+      "observation_ids": [
+        "obs-8221cbf3934f6809068f"
+      ],
+      "record_id": "cbx-62c7a6fbc7d2b251",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
       ]
     },
     {
@@ -27149,6 +27757,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Homing in on Health: Study of a Home Delivered Chronic Disease Self Management Program",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT00263939"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT00263939"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT00263939"
+        ]
+      },
+      "observation_ids": [
+        "obs-8203ad71753e4c94fa4a"
+      ],
+      "record_id": "cbx-6427ec762b4f789c",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Dietary selenium deficiency drives sex-specific circadian disturbance through redox imbalance and causes early systolic dysfunction in mice",
       "evidence_state": "observed",
       "identifiers": {
@@ -27380,6 +28014,32 @@
       "record_type": "publication",
       "sources": [
         "crossref"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Autonomous Colorectal Surgery: Current Technologies, Clinical Applications, and Future Directions",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1016/j.jss.2026.10.024"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1016/j.jss.2026.10.024"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W7225084425"
+        ]
+      },
+      "observation_ids": [
+        "obs-af497393097aa5a9bebc"
+      ],
+      "record_id": "cbx-64d42e049ae02ee1",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
       ]
     },
     {
@@ -27802,6 +28462,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Perfusion Abnormalities in Hypertrophic Cardiomyopathy",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT06599229"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT06599229"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT06599229"
+        ]
+      },
+      "observation_ids": [
+        "obs-d70e896d879811704014"
+      ],
+      "record_id": "cbx-66bfea2a6e60bab1",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "D7.1 Effective instruments for mainstreaming",
       "evidence_state": "observed",
       "identifiers": {
@@ -28136,6 +28822,32 @@
       "record_type": "publication",
       "sources": [
         "europepmc"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Fluid Resuscitation Goal in Early Stage of Severe Acute Pancreatitis",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT01974466"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT01974466"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT01974466"
+        ]
+      },
+      "observation_ids": [
+        "obs-7357345d39c117038b91"
+      ],
+      "record_id": "cbx-6856a643fce03834",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
       ]
     },
     {
@@ -28607,6 +29319,32 @@
       "record_type": "publication",
       "sources": [
         "crossref"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Saigon300: A VRPTW Benchmark Dataset for Urban Delivery in Ho Chi Minh City",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23949217"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23949217"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23949217"
+        ]
+      },
+      "observation_ids": [
+        "obs-6bf4be01b51b5b9b2ce1"
+      ],
+      "record_id": "cbx-69c07edca4075716",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -29470,6 +30208,33 @@
       "record_type": "other",
       "sources": [
         "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Leveraging machine learning methods to predict post-transplant diabetes in solid organ transplant recipients.",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1210/jendso/bvag236",
+        "pmid": "42973838"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1210/jendso/bvag236"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "pubmed:42973838"
+        ]
+      },
+      "observation_ids": [
+        "obs-06a3e95223dda4aaf3ad"
+      ],
+      "record_id": "cbx-6d55c68bb3e0b0cf",
+      "record_type": "publication",
+      "sources": [
+        "pubmed"
       ]
     },
     {
@@ -32332,32 +33097,6 @@
     },
     {
       "aliases": [],
-      "canonical_name": "A Scoping Review of Deep Learning Methods for Photoplethysmography Data",
-      "evidence_state": "observed",
-      "identifiers": {
-        "pmcid": "PMC13724833"
-      },
-      "metadata": {
-        "identity_basis": {
-          "identifier_type": "pmcid",
-          "identifier_value": "PMC13724833"
-        },
-        "observation_count": 1,
-        "source_record_ids": [
-          "europepmc:PMC13724833"
-        ]
-      },
-      "observation_ids": [
-        "obs-f162e14ca1033f852601"
-      ],
-      "record_id": "cbx-79491c2489ba20e4",
-      "record_type": "publication",
-      "sources": [
-        "europepmc"
-      ]
-    },
-    {
-      "aliases": [],
       "canonical_name": "THEORETICAL AND PEDAGOGICAL FOUNDATIONS FOR DEVELOPING STUDENTS' AESTHETIC-CULTURAL COMPETENCE",
       "evidence_state": "observed",
       "identifiers": {
@@ -35215,6 +35954,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Blood Volume and Fluid Kinetics in Patients Undergoing Extracorporal Circulation",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT01115166"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT01115166"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT01115166"
+        ]
+      },
+      "observation_ids": [
+        "obs-e254f4b355a1b6086ea8"
+      ],
+      "record_id": "cbx-833fcb8b52d02f46",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "The weak-coupling twist free energy of SU(N) lattice gauge theory: exact mode counting and its parameter-free measurement",
       "evidence_state": "observed",
       "identifiers": {
@@ -36603,6 +37368,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "\u041f\u041e\u0414\u0413\u041e\u0422\u041e\u0412\u041a\u0410 \u0411\u0423\u0414\u0423\u0429\u0418\u0425 \u0421\u041f\u0415\u0426\u0418\u0410\u041b\u042c\u041d\u042b\u0425 \u041f\u0415\u0414\u0410\u0413\u041e\u0413\u041e\u0412 \u041a \u0410\u0414\u0410\u041f\u0422\u0410\u0426\u0418\u0418 \u0423\u0427\u0415\u0411\u041d\u042b\u0425 \u0417\u0410\u0414\u0410\u041d\u0418\u0419 \u0412 \u0418\u041d\u041a\u041b\u042e\u0417\u0418\u0412\u041d\u041e\u0419 \u0428\u041a\u041e\u041b\u0415",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23949636"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23949636"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23949636"
+        ]
+      },
+      "observation_ids": [
+        "obs-07c90f706c02f825cf6f"
+      ],
+      "record_id": "cbx-8777cca605ae7505",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Postnatal heart development is coordinated by multi-lineage Wnt and BMP signaling",
       "evidence_state": "observed",
       "identifiers": {
@@ -36677,6 +37468,32 @@
       "record_type": "other",
       "sources": [
         "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Treating Depression and Anxiety in the Cardiac Rehabilitation Pathway",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT02420431"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT02420431"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT02420431"
+        ]
+      },
+      "observation_ids": [
+        "obs-51d8707e04d654ef7ec6"
+      ],
+      "record_id": "cbx-87a86d5d61995341",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
       ]
     },
     {
@@ -36967,6 +37784,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Dataset kuisioner pakar dan perhitungan BWM untuk seleksi pemasok lokal proyek EPC di Riau",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23809259"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23809259"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23809259"
+        ]
+      },
+      "observation_ids": [
+        "obs-500180495dc1626446d3"
+      ],
+      "record_id": "cbx-88fdad534989af21",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "A GnRH Agonist IN Pre-menopausal Women STudy to Treat Severe Polycystic Liver Disease",
       "evidence_state": "observed",
       "identifiers": {
@@ -36989,6 +37832,32 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Artificial intelligence and machine learning-enabled smart nanodrug delivery systems for tissue regeneration and precision therapeutic release",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1186/s43094-026-01031-5"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1186/s43094-026-01031-5"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W7225103666"
+        ]
+      },
+      "observation_ids": [
+        "obs-4fa09ff066a2bd2d0052"
+      ],
+      "record_id": "cbx-8937ae1edce21a04",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
       ]
     },
     {
@@ -37791,6 +38660,38 @@
       "record_type": "publication",
       "sources": [
         "openalex"
+      ]
+    },
+    {
+      "aliases": [
+        "A Scoping Review of Deep Learning Methods for Photoplethysmography Data."
+      ],
+      "canonical_name": "A Scoping Review of Deep Learning Methods for Photoplethysmography Data",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.34133/hds.0474",
+        "pmcid": "PMC13724833",
+        "pmid": "42973931"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.34133/hds.0474"
+        },
+        "observation_count": 2,
+        "source_record_ids": [
+          "europepmc:42973931",
+          "europepmc:PMC13724833"
+        ]
+      },
+      "observation_ids": [
+        "obs-bdbfbe05ad38ee4f19e5",
+        "obs-f162e14ca1033f852601"
+      ],
+      "record_id": "cbx-8c7da7b2f41016af",
+      "record_type": "publication",
+      "sources": [
+        "europepmc"
       ]
     },
     {
@@ -39485,6 +40386,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Data for \"Global linear stability of a bubble rising in the\u00a0presence of a soluble surfactant\"",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23942104"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23942104"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23942104"
+        ]
+      },
+      "observation_ids": [
+        "obs-8360c649b8714450aa0e"
+      ],
+      "record_id": "cbx-92721de5dfd12d06",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Data Auditing and Quality Assurance in a Federated Learning Consortium; Getting the Best of Both Worlds from Cross-Institutional and In-House Data Quality Inspection",
       "evidence_state": "observed",
       "identifiers": {
@@ -40192,6 +41119,32 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Table 2: Dataset partitioning strategy. - https://doi.org/10.70594/brain/17.3/15",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23949522"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23949522"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23949522"
+        ]
+      },
+      "observation_ids": [
+        "obs-51d4cbc438d405d5ef9f"
+      ],
+      "record_id": "cbx-95945325687ed9b7",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -41144,6 +42097,32 @@
       "record_type": "publication",
       "sources": [
         "europepmc"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Magnesium Infusion for Pain Relief After Thoracotomy. A Randomized Controlled Trial.",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT01261702"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT01261702"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT01261702"
+        ]
+      },
+      "observation_ids": [
+        "obs-12e03a2d3baaf04b5546"
+      ],
+      "record_id": "cbx-980bb6a9efa1f3f5",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
       ]
     },
     {
@@ -42759,6 +43738,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "DINOv3\u2013SAM: Fusing Semantic and Anatomical Foundation Models for Robust Medical Image Classification",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1007/s10278-026-02405-0"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1007/s10278-026-02405-0"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W7225104730"
+        ]
+      },
+      "observation_ids": [
+        "obs-5d61abd46636d36184ba"
+      ],
+      "record_id": "cbx-9ec3cb33afc09947",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "PREreview of \"When Drift Detectors cry Wolf: False Alarm Rates in continuous ML Monitoring\"",
       "evidence_state": "observed",
       "identifiers": {
@@ -43300,6 +44305,32 @@
         "obs-aa2f90edd732c4ec9c70"
       ],
       "record_id": "cbx-a0cb423c67cbf2c4",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Safety Study of AMI MultiStem\u00ae to Treat Heart Attacks",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT00677222"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT00677222"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT00677222"
+        ]
+      },
+      "observation_ids": [
+        "obs-e4e560ec57ec3a15adb2"
+      ],
+      "record_id": "cbx-a0e0d795a3954f75",
       "record_type": "other",
       "sources": [
         "clinicaltrials"
@@ -44122,6 +45153,58 @@
     },
     {
       "aliases": [],
+      "canonical_name": "NASA ASRS CALLBACK 2021\u20132025: estructura editorial, secciones y estad\u00edsticas",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23948677"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23948677"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23948677"
+        ]
+      },
+      "observation_ids": [
+        "obs-373cc81ae36f51aff889"
+      ],
+      "record_id": "cbx-a3a2d76ad2859298",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Adiposity and Endothelin Receptor Function",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT03583866"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT03583866"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT03583866"
+        ]
+      },
+      "observation_ids": [
+        "obs-0f6a39e0e0c1e9023312"
+      ],
+      "record_id": "cbx-a3ad45e4813c8814",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Effect of Anesthetics on Microcirculation in Patients Undergoing Off-pump Coronary Artery Bypass Surgery",
       "evidence_state": "observed",
       "identifiers": {
@@ -44431,6 +45514,32 @@
       "record_type": "publication",
       "sources": [
         "pubmed"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Dataset & Code Training Thesis Hafizh Naufalino",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23942629"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23942629"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23942629"
+        ]
+      },
+      "observation_ids": [
+        "obs-3aa2e4850143cbf45c1b"
+      ],
+      "record_id": "cbx-a4fb3086be1b1cf3",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -45007,6 +46116,32 @@
       "record_type": "publication",
       "sources": [
         "biorxiv"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Multi-tissue segmentation of knee MRI based on U-Net and conditional generative adversarial networks",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.3389/fmolb.2026.1913664"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.3389/fmolb.2026.1913664"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W7225171014"
+        ]
+      },
+      "observation_ids": [
+        "obs-9acef91b940425831bc5"
+      ],
+      "record_id": "cbx-a64a330a9961098e",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
       ]
     },
     {
@@ -45699,6 +46834,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "An End-to-End Cardiac MRI Segmentation and Multi-Class Pathology Classification Pipeline Using Ensemble U-Net Models and Explainable Machine Learning",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.3390/fi18110600"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.3390/fi18110600"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W7225178232"
+        ]
+      },
+      "observation_ids": [
+        "obs-d928cbca6c9aa463ae59"
+      ],
+      "record_id": "cbx-a81f4f7915ace388",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Differential Effects of Aerobic and Circuit Training on Glycemic Regulation in Diabetic Children",
       "evidence_state": "observed",
       "identifiers": {
@@ -45903,6 +47064,32 @@
       "record_type": "dataset",
       "sources": [
         "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Multiscale temporal deep learning for ECG waveform estimation from contactless radar signals",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1088/2057-1976/aebc91"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1088/2057-1976/aebc91"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W7225100372"
+        ]
+      },
+      "observation_ids": [
+        "obs-65cdd06e50a58f8853c4"
+      ],
+      "record_id": "cbx-a934f20596e0d5be",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
       ]
     },
     {
@@ -46250,6 +47437,32 @@
       "record_type": "publication",
       "sources": [
         "crossref"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Mitigating Errors Caused by Polarization Drift in Point-to-Point Quantum Communication Using an Artificial Intelligence-Based Pre-Decoder",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23948497"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23948497"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23948497"
+        ]
+      },
+      "observation_ids": [
+        "obs-d36739a175bf7a5abbb4"
+      ],
+      "record_id": "cbx-aa451244e30e373c",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -46917,6 +48130,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Comparison of Two Exercise Training Modes on Left Myocardial Regional Function After Myocardial Infarction Evaluated by 2D Strain Ultrasound",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT04190394"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT04190394"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT04190394"
+        ]
+      },
+      "observation_ids": [
+        "obs-87aab6238c0702b36571"
+      ],
+      "record_id": "cbx-aca80938988c5c40",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "LLMsFold: Integrating Large Language Models and Biophysical Simulations for De Novo Drug Design",
       "evidence_state": "observed",
       "identifiers": {
@@ -47491,6 +48730,32 @@
       "record_type": "publication",
       "sources": [
         "europepmc"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "India ISIN Database, by Nemo",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23949391"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23949391"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23949391"
+        ]
+      },
+      "observation_ids": [
+        "obs-600c36f94af7e261376f"
+      ],
+      "record_id": "cbx-af6634fee7006cb9",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -48741,6 +50006,32 @@
       "record_type": "publication",
       "sources": [
         "openalex"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Electrical Coupling Information From The Rhythmia HDx System And DirectSense Technology In Subjects With Paroxysmal Atrial Fibrillation",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT03232645"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT03232645"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT03232645"
+        ]
+      },
+      "observation_ids": [
+        "obs-e878ea1d47d2df5aef45"
+      ],
+      "record_id": "cbx-b460949dbe526639",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
       ]
     },
     {
@@ -50187,6 +51478,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Data to support the paper: \"Toward Computing the Configurational Entropy of Molecular Mixtures\"",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23949346"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23949346"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23949346"
+        ]
+      },
+      "observation_ids": [
+        "obs-d1209a2f3956b296bdee"
+      ],
+      "record_id": "cbx-bbcd482fb6f4d7f4",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Specific Sensitivity to Rare and Extreme Events: Quasi-Complete Black Swan Avoidance vs Partial Jackpot Seeking in Rat Decision-Making",
       "evidence_state": "observed",
       "identifiers": {
@@ -50450,6 +51767,32 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "CardioJEPA: A Framework for Holistic Cardiac Representations Through Predictive Multimodal Alignment with ECG-Preservation",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.21203/rs.3.rs-11597188/v1"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.21203/rs.3.rs-11597188/v1"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W7225141992"
+        ]
+      },
+      "observation_ids": [
+        "obs-6471e3e08fba4acb6a7a"
+      ],
+      "record_id": "cbx-bd02d1d9fc57f4fe",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
       ]
     },
     {
@@ -51239,6 +52582,33 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Placental transcriptomes in severe fetal heart obstruction",
+      "evidence_state": "observed",
+      "identifiers": {
+        "accession": "GSE345721",
+        "geo": "GSE345721"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "geo",
+          "identifier_value": "GSE345721"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "geo:GSE345721"
+        ]
+      },
+      "observation_ids": [
+        "obs-69a8096a17813cd6506f"
+      ],
+      "record_id": "cbx-c00434e5fe27667d",
+      "record_type": "dataset",
+      "sources": [
+        "geo"
       ]
     },
     {
@@ -52326,6 +53696,32 @@
       "record_type": "dataset",
       "sources": [
         "geo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Data set and Scripts used for Integrating metabolic expenditure across ontogeny reveals the energetic costs of biomass production under thermal and nutritional stress.",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23948836"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23948836"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23948836"
+        ]
+      },
+      "observation_ids": [
+        "obs-d7f6cd3218f74c26039e"
+      ],
+      "record_id": "cbx-c3f237167d8029ff",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -53435,6 +54831,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "wintechis/wot-lab: WoT Lab 0.4.1 - virtual WoT devices and benchmark environments",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23949010"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23949010"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23949010"
+        ]
+      },
+      "observation_ids": [
+        "obs-68a406a2ca34694bca99"
+      ],
+      "record_id": "cbx-c7aca6b4dcee12bb",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Spatial genome and transcriptome co-mapping reveals clonal heterogeneity in tumor tissue",
       "evidence_state": "observed",
       "identifiers": {
@@ -53859,6 +55281,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Magnetic Resonance Imaging for Cerebral Embolization During Minimal Invasive Mitral Valve Surgery",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT02818166"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT02818166"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT02818166"
+        ]
+      },
+      "observation_ids": [
+        "obs-0f5ba68829336344613d"
+      ],
+      "record_id": "cbx-c95ca5725a7dfea4",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Effect of Ascorbic Acid on Postoperative Pulmonary Complications in Patients Undergoing Cardiac Surgery",
       "evidence_state": "observed",
       "identifiers": {
@@ -54275,6 +55723,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Study to Evaluate the Effects of Domperidone on Cardiac Repolarization in Chinese Healthy Participants",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT02816853"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT02816853"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT02816853"
+        ]
+      },
+      "observation_ids": [
+        "obs-006551f541d4a2871351"
+      ],
+      "record_id": "cbx-cb0a0ffadb8409a5",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Liver-heart crosstalk mediated by hepatocyte growth factor activator promotes heart failure",
       "evidence_state": "observed",
       "identifiers": {
@@ -54532,6 +56006,32 @@
       "record_type": "dataset",
       "sources": [
         "bioproject"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Labelled dataset of Flavescence dor\u00e9e vectors Scaphoideus titanus and Orientus ishidae collected from field-placed yellow sticky traps",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.20553173"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.20553173"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:20553173"
+        ]
+      },
+      "observation_ids": [
+        "obs-f306a5524383e98db628"
+      ],
+      "record_id": "cbx-cc1834416760e628",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -55553,6 +57053,32 @@
       ]
     },
     {
+      "aliases": [],
+      "canonical_name": "DARE: Diabetes in cArdiac REhabilitation",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT00354237"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT00354237"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT00354237"
+        ]
+      },
+      "observation_ids": [
+        "obs-50182f4638f3ad23e6f8"
+      ],
+      "record_id": "cbx-cfa23e0610ec7658",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
+      ]
+    },
+    {
       "aliases": [
         "E80-KN-1 (CRX2505445)",
         "PN0-KN-1 (CRX2505446)",
@@ -56386,6 +57912,33 @@
       "record_type": "dataset",
       "sources": [
         "sra"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Prenatal low-dose Bisphenol-A exposure disrupts fetal cardiac morphogenesis in a sex-specific manner",
+      "evidence_state": "observed",
+      "identifiers": {
+        "accession": "GSE341598",
+        "geo": "GSE341598"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "geo",
+          "identifier_value": "GSE341598"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "geo:GSE341598"
+        ]
+      },
+      "observation_ids": [
+        "obs-989afe209fa3e9c1d6e8"
+      ],
+      "record_id": "cbx-d34a1997a009a334",
+      "record_type": "dataset",
+      "sources": [
+        "geo"
       ]
     },
     {
@@ -58228,6 +59781,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Serum and Cellular Biomarkers for Aortic Valve Stenosis",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT04312139"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT04312139"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT04312139"
+        ]
+      },
+      "observation_ids": [
+        "obs-2fb95f4aa87aedfe9490"
+      ],
+      "record_id": "cbx-dadf96c229165dfd",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Catalog of Second Chances (CSC) - Digital Database and Corresponding Interfaces for ReUse of Architectural Components (v0.6.4.0)",
       "evidence_state": "observed",
       "identifiers": {
@@ -58649,6 +60228,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Code for: Machine Learning-Based Feature Selection Combined with Latent Profile Analysis for Diagnostic Classification and Grading Prediction of Fatty Pancreas",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23941767"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23941767"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23941767"
+        ]
+      },
+      "observation_ids": [
+        "obs-07c0a5d8cc8177c399a6"
+      ],
+      "record_id": "cbx-dcd88d86fab4ce9f",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Potassium binding at G:U motifs modulates RNA hairpin stability",
       "evidence_state": "observed",
       "identifiers": {
@@ -58961,6 +60566,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "DORAYA-HF Early Feasibility Study",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT05206422"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT05206422"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT05206422"
+        ]
+      },
+      "observation_ids": [
+        "obs-a8f4c3303b912284afb6"
+      ],
+      "record_id": "cbx-dd75f57b5cc6d829",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Cellular and Transcriptional Landscape of Human Hypoplastic Left Heart Syndrome",
       "evidence_state": "observed",
       "identifiers": {
@@ -59166,6 +60797,32 @@
       "record_type": "publication",
       "sources": [
         "openalex"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "FR-taVNS Tinnitus Tria",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT07711639"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT07711639"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT07711639"
+        ]
+      },
+      "observation_ids": [
+        "obs-e212db134b5eac6ab0aa"
+      ],
+      "record_id": "cbx-de1ac2f080b2d925",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
       ]
     },
     {
@@ -60271,6 +61928,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "DEVELOPING INTERCULTURAL COMMUNICATIVE COMPETENCE THROUGH LITERARY TEXTS IN FOREIGN LANGUAGE EDUCATION",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23949729"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23949729"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23949729"
+        ]
+      },
+      "observation_ids": [
+        "obs-e29f5f7f80162908f0ce"
+      ],
+      "record_id": "cbx-e115d06ff5b58ae3",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Monthly lake area changes (> 10 km2) on the Tibetan Plateau (2000\u20132024)",
       "evidence_state": "observed",
       "identifiers": {
@@ -60787,6 +62470,32 @@
       "record_type": "other",
       "sources": [
         "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Predicting protein-RNA binding signals with a hybrid deep neural network",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1186/s12859-026-06738-z"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1186/s12859-026-06738-z"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W4410716793"
+        ]
+      },
+      "observation_ids": [
+        "obs-9df84323306787305ec6"
+      ],
+      "record_id": "cbx-e30fe48dec2a5929",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
       ]
     },
     {
@@ -62599,6 +64308,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Developing Real Incentives and Volition for Exercise",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT03873051"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT03873051"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT03873051"
+        ]
+      },
+      "observation_ids": [
+        "obs-c709539fac51ecad376a"
+      ],
+      "record_id": "cbx-e9288ddb958a5e68",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Prevajanje iz \u010de\u0161\u010dine v sloven\u0161\u010dino s pomo\u010djo pametnih tehnologij \u2013 pomo\u010d ali nadloga?",
       "evidence_state": "observed",
       "identifiers": {
@@ -63228,6 +64963,34 @@
     },
     {
       "aliases": [],
+      "canonical_name": "What predicts postoperative opioid prescribing and consumption? A statewide analysis of surgical quality registry data.",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1093/pm/pnag101",
+        "pmcid": "PMC13584637",
+        "pmid": "42547970"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1093/pm/pnag101"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "europepmc:42547970"
+        ]
+      },
+      "observation_ids": [
+        "obs-86ff91a41bdf7bd0edc7"
+      ],
+      "record_id": "cbx-eb93a9eab9525d21",
+      "record_type": "publication",
+      "sources": [
+        "europepmc"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Analysis of the Response to High Temperature Stress in Hybrid Grouper(Epinephelus fuscoguttatus\u2640\u00d7E.lanceolatus\u2642)",
       "evidence_state": "observed",
       "identifiers": {
@@ -63381,6 +65144,32 @@
       "record_type": "publication",
       "sources": [
         "openalex"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Effectiveness of Video Monitoring and Care Transition for Heart Failure Patients (EVIT-HF): Randomized Clinical Trial",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT06731166"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT06731166"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT06731166"
+        ]
+      },
+      "observation_ids": [
+        "obs-efc66fa06223bfe89af5"
+      ],
+      "record_id": "cbx-ec7512fad6e6e3d5",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
       ]
     },
     {
@@ -64678,6 +66467,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Data for \"Bubble rising in the presence of a surfactant at very low concentrations\"",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23943131"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23943131"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23943131"
+        ]
+      },
+      "observation_ids": [
+        "obs-5cc5088316aeb94510f0"
+      ],
+      "record_id": "cbx-f0d61a7bf42937b2",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "A Systematic Evaluation of Backdoor Trigger Characteristics in Image Classification -- code and results",
       "evidence_state": "observed",
       "identifiers": {
@@ -64830,6 +66645,32 @@
       "record_type": "publication",
       "sources": [
         "openalex"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Precise Procedural and PCI Plan (P4)",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT05253677"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT05253677"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT05253677"
+        ]
+      },
+      "observation_ids": [
+        "obs-d6c675b5de48dcb76e9f"
+      ],
+      "record_id": "cbx-f16ccd0344f70e99",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
       ]
     },
     {
@@ -65483,6 +67324,33 @@
       "record_type": "dataset",
       "sources": [
         "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "RNA-seq of mus musculus: adule male left atrium",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJNA1555961",
+        "sra": "SRA2586291"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJNA1555961"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "sra:SRA2586291"
+        ]
+      },
+      "observation_ids": [
+        "obs-8de0cf9b3085e3b1f0af"
+      ],
+      "record_id": "cbx-f42093ca575989f1",
+      "record_type": "dataset",
+      "sources": [
+        "sra"
       ]
     },
     {
@@ -66325,6 +68193,32 @@
       "record_type": "dataset",
       "sources": [
         "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "The Effect of Lipoprotein (a) on Arterial Stiffness, Endothelial Function and Myocardial Deformation",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT07324902"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT07324902"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT07324902"
+        ]
+      },
+      "observation_ids": [
+        "obs-b52a96a97b8c80d0951b"
+      ],
+      "record_id": "cbx-f7691a3a49295977",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
       ]
     },
     {
@@ -67947,6 +69841,34 @@
       "record_type": "dataset",
       "sources": [
         "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Bioinformatics Across the Cutaneous Scar Spectrum: Molecular States, Digital Phenotypes and Clinical Translation.",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.2147/ccid.s648008",
+        "pmcid": "PMC13722046",
+        "pmid": "42964832"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.2147/ccid.s648008"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "europepmc:42964832"
+        ]
+      },
+      "observation_ids": [
+        "obs-adcd59578c2ac8254309"
+      ],
+      "record_id": "cbx-fdaf3c34b669f4c2",
+      "record_type": "publication",
+      "sources": [
+        "europepmc"
       ]
     },
     {
