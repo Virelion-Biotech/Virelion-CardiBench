@@ -1,43 +1,43 @@
 {
   "catalog_file": "catalog.json",
-  "catalog_generated_at": "2026-11-06T13:00:37.750590+00:00",
-  "catalog_sha256": "b260e5de9b646ed33182c732a50024689f1dcbfa99e45bae4c778c1585f57903",
-  "release_id": "cardibench-intelligence-52995a4396926683431c",
+  "catalog_generated_at": "2026-11-07T11:47:17.244171+00:00",
+  "catalog_sha256": "a32b598b45f9b8b1b9c5e0cd1f472e0916ff65b1dce7350542438fe00cdbe1ab",
+  "release_id": "cardibench-intelligence-ac3c0a6ebf6091441e06",
   "results_file": "results.json",
   "results_sha256": "45ee331622d074d492a5b67388cae4b05ed3fe9e71110ace66e220b28e5523ea",
   "schema_version": "1.0",
   "summary": {
     "catalog": {
       "by_evidence_state": {
-        "observed": 2775
+        "observed": 2860
       },
       "by_source": {
-        "bioproject": 86,
-        "biorxiv": 151,
-        "clinicaltrials": 571,
+        "bioproject": 88,
+        "biorxiv": 154,
+        "clinicaltrials": 596,
         "crossref": 29,
         "europepmc": 107,
-        "geo": 124,
+        "geo": 127,
         "github": 1,
-        "medrxiv": 175,
-        "openalex": 433,
-        "pubmed": 55,
-        "sra": 53,
-        "zenodo": 1013
+        "medrxiv": 182,
+        "openalex": 449,
+        "pubmed": 59,
+        "sra": 54,
+        "zenodo": 1038
       },
       "by_type": {
-        "dataset": 752,
-        "other": 1083,
-        "publication": 939,
+        "dataset": 772,
+        "other": 1118,
+        "publication": 969,
         "repository": 1
       },
       "links": 0,
-      "records": 2775,
+      "records": 2860,
       "records_with_cross_artifact_links": 0,
-      "records_with_strong_identifier": 2775,
+      "records_with_strong_identifier": 2860,
       "records_without_strong_identifier": 0
     },
-    "catalog_generated_at": "2026-11-06T13:00:37.750590+00:00",
+    "catalog_generated_at": "2026-11-07T11:47:17.244171+00:00",
     "results": {
       "benchmarks": 1,
       "comparability_groups": 1,
