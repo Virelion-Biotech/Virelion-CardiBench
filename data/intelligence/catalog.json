@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T11:47:17.244171+00:00",
+  "generated_at": "2026-11-08T11:59:34.197763+00:00",
   "links": [],
   "records": [
     {
@@ -4787,6 +4787,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "INTEGRATION OF PEDAGOGICAL APPROACHES AND UPBRINGING ACTIVITY AND ITS SIGNIFICANCE FOR THE FORMATION OF THE STUDENT'S PERSONALITY IN MODERN EDUCATION",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.67620/sai.510b0009"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.67620/sai.510b0009"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24052701"
+        ]
+      },
+      "observation_ids": [
+        "obs-727752c20f5e01350c47"
+      ],
+      "record_id": "cbx-0f7fdc57eaeb8043",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Reconstructing Primary Chlorine in Oceanic Basalts with Machine Learning: Global Mantle Chlorine Heterogeneity Linked to Recycling and Metasomatism",
       "evidence_state": "observed",
       "identifiers": {
@@ -5559,6 +5585,32 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Mechanistic simulation identifies predictive dose-dependent biomarkers of propofol anesthesia",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.06.10.731411"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.64898/2026.06.10.731411"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "biorxiv:10.64898/2026.06.10.731411:2"
+        ]
+      },
+      "observation_ids": [
+        "obs-8988588782adb4b0c195"
+      ],
+      "record_id": "cbx-120da71954467991",
+      "record_type": "publication",
+      "sources": [
+        "biorxiv"
       ]
     },
     {
@@ -6996,6 +7048,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "A deep learning-generated hASIC1a miniprotein inhibitor confers neuroprotection in stroke",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.10.04.755611"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.64898/2026.10.04.755611"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "biorxiv:10.64898/2026.10.04.755611:1"
+        ]
+      },
+      "observation_ids": [
+        "obs-3de9a69f77671de79868"
+      ],
+      "record_id": "cbx-158820e6aa5f4903",
+      "record_type": "publication",
+      "sources": [
+        "biorxiv"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "The ARumenamide AR-788 suppresses the transient outward current in human iPSC-derived right-ventricular Brugada cardioids",
       "evidence_state": "observed",
       "identifiers": {
@@ -8355,6 +8433,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Replication code for: Physics-Guided Multi-Fidelity Surrogate and Regime-Aware Evolutionary Optimization for Climate-Adaptive Eco-Hydrological Wetland Restoration",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24052452"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24052452"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24052452"
+        ]
+      },
+      "observation_ids": [
+        "obs-919393ab64b235adfb61"
+      ],
+      "record_id": "cbx-1b12dc39c55a1ebe",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "XAI-ECGNet: an explainable hybrid CNN-BiLSTM framework for multi-label cardiac diagnosis classification from 12-lead ECG signals using the PTB-XL dataset",
       "evidence_state": "observed",
       "identifiers": {
@@ -9347,6 +9451,32 @@
         "obs-7982c55f029917022f9d"
       ],
       "record_id": "cbx-1e5b0534b9072154",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "xuwenguang-nju/olp-drug-target-mr: v1.0.0 \u2014 analysis code as submitted",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24052533"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24052533"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24052533"
+        ]
+      },
+      "observation_ids": [
+        "obs-bf93a358548b72188f0a"
+      ],
+      "record_id": "cbx-1e638093252caf8b",
       "record_type": "other",
       "sources": [
         "zenodo"
@@ -11895,6 +12025,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "WITHDRAWN: How to Detect the Early Cardiac Functional Change and Predict Heart Failure in Paroxysmal Atrial Fibrillation? A Prospective Cohort Study",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1101/2024.06.26.24309561"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1101/2024.06.26.24309561"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "medrxiv:10.1101/2024.06.26.24309561:2"
+        ]
+      },
+      "observation_ids": [
+        "obs-4e759d79a25fcecafe54"
+      ],
+      "record_id": "cbx-26780762dc634158",
+      "record_type": "publication",
+      "sources": [
+        "medrxiv"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "BOSHLANG'ICH TA'LIMDA INTEGRATIV YONDASHUV ASOSIDA O'QUVCHILARNING HAYOTIY KOMPETENSIYALARINI RIVOJLANTIRISH METODIKASI",
       "evidence_state": "observed",
       "identifiers": {
@@ -13442,6 +13598,32 @@
       "record_type": "other",
       "sources": [
         "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Crowding governs resistance confinement and guides the improvement of adaptive therapy in a 2D melanoma model system",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.10.06.757145"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.64898/2026.10.06.757145"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "biorxiv:10.64898/2026.10.06.757145:1"
+        ]
+      },
+      "observation_ids": [
+        "obs-deca5df3983f8f309435"
+      ],
+      "record_id": "cbx-2c4238f0447a641e",
+      "record_type": "publication",
+      "sources": [
+        "biorxiv"
       ]
     },
     {
@@ -16291,6 +16473,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Evaluating Two Intermittent Preventive Treatment Regimens against No-Treatment Control for Malaria Prevention in Malawian School Children: A Randomized Controlled Trial of Dihydroartemisinin-Piperaquine and Sulfadoxine-Pyrimethamine+Chloroquine",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24052055"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24052055"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24052055"
+        ]
+      },
+      "observation_ids": [
+        "obs-7656db062137276b704c"
+      ],
+      "record_id": "cbx-3643461e49f4c52d",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "DEVELOPMENT OF THE INSTITUTIONAL REPOSITORY: THE JOURNEY OF S.S. GIRLS COLLEGE, GONDIA",
       "evidence_state": "observed",
       "identifiers": {
@@ -18193,6 +18401,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "THE IMPORTANCE OF FORMING STUDENTS' CREATIVE ACTIVITY IN SOLVING PROBLEM SITUATIONS BASED ON REVERSE LEARNING",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.67620/sai.510b0014"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.67620/sai.510b0014"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24052871"
+        ]
+      },
+      "observation_ids": [
+        "obs-64eb97916249821a34cd"
+      ],
+      "record_id": "cbx-3b8862fd064c6c19",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Autologous Transplant in HIV Patients (BMT CTN 0803)",
       "evidence_state": "observed",
       "identifiers": {
@@ -18821,6 +19055,33 @@
       "record_type": "publication",
       "sources": [
         "openalex"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Ribosomal Remodeling and Translational Suppression in the Post-Arrest Heart Mouse Data",
+      "evidence_state": "observed",
+      "identifiers": {
+        "accession": "GSE353540",
+        "geo": "GSE353540"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "geo",
+          "identifier_value": "GSE353540"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "geo:GSE353540"
+        ]
+      },
+      "observation_ids": [
+        "obs-69acf2c76fb9ece349d7"
+      ],
+      "record_id": "cbx-3d563ad29451eb25",
+      "record_type": "dataset",
+      "sources": [
+        "geo"
       ]
     },
     {
@@ -19741,6 +20002,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "MSER-DDI: molecular and semantic event representations for few-shot and unseen-event drug\u2013drug interaction prediction",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.3389/fchem.2026.2004356"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.3389/fchem.2026.2004356"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W7225375979"
+        ]
+      },
+      "observation_ids": [
+        "obs-52046c67ea934835cd7b"
+      ],
+      "record_id": "cbx-418178a311800637",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "canVODpy \u2014 Test Data",
       "evidence_state": "observed",
       "identifiers": {
@@ -20519,6 +20806,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "A transient third metal ion shapes the catalytic cycle of a group I intron ribozyme",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.10.07.757386"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.64898/2026.10.07.757386"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "biorxiv:10.64898/2026.10.07.757386:1"
+        ]
+      },
+      "observation_ids": [
+        "obs-70527ba029fd337a993c"
+      ],
+      "record_id": "cbx-4592ac36767c2d3e",
+      "record_type": "publication",
+      "sources": [
+        "biorxiv"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Speech Intelligibility Index (SII) as a Potential Referral Metric for Adult Cochlear Implant Candidacy Evaluation",
       "evidence_state": "observed",
       "identifiers": {
@@ -20724,6 +21037,32 @@
       "record_type": "dataset",
       "sources": [
         "bioproject"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Phase-Aligned Finite-Fourier Periodic Deformation for 4D Medical Image Interpolation",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1145/3767308.3834921"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1145/3767308.3834921"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W7204238874"
+        ]
+      },
+      "observation_ids": [
+        "obs-4e34ebb583c3b2b41ff6"
+      ],
+      "record_id": "cbx-467c2f826d409e5b",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
       ]
     },
     {
@@ -22034,6 +22373,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "METABOLIK SINDROMDA YURAKNING ERTA STRUKTURAVIY VA FUNKSIONAL O\u02bbZGARISHLARI: DIFFUZ MIOKARD FIBROZIDAN OTISH FRAKSIYASI SAQLANGAN YURAK YETISHMOVCHILIGIGACHA",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24052642"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24052642"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24052642"
+        ]
+      },
+      "observation_ids": [
+        "obs-759970538e7350c79e79"
+      ],
+      "record_id": "cbx-4ab0ec7c62ac93be",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Chlorophyll content in leaves of spelt varieties at flowering under foliar potassium humate fertilization and growth stimulant application (Forest-Steppe of Ukraine)",
       "evidence_state": "observed",
       "identifiers": {
@@ -22397,6 +22762,32 @@
       "record_type": "other",
       "sources": [
         "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "FM 2 : Unified Federated Foundation Models for Heterogeneous Multimodal Medical Imaging",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1145/3767308.3835031"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1145/3767308.3835031"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W7169088497"
+        ]
+      },
+      "observation_ids": [
+        "obs-fc35cb866321b70eeb07"
+      ],
+      "record_id": "cbx-4bb6c34cc14476a6",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
       ]
     },
     {
@@ -23049,6 +23440,32 @@
       "record_type": "dataset",
       "sources": [
         "bioproject"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Dataset for: Numerical Investigation of Thermal Energy Recovery Hybrid Photovoltaic/Thermal Systems Using Diagonal Fins",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24052151"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24052151"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24052151"
+        ]
+      },
+      "observation_ids": [
+        "obs-4740b0fa23f57eba895e"
+      ],
+      "record_id": "cbx-4df5522bd76e18c9",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -25632,6 +26049,58 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Similar discrimination, different behaviour under synthetic occlusion: confidence and attribution reproducibility of deep learning models for intraoral ultrasonography",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.11.03.26367069"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.64898/2026.11.03.26367069"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W7225291658"
+        ]
+      },
+      "observation_ids": [
+        "obs-508077a3708a16dd3973"
+      ],
+      "record_id": "cbx-5721b3bfd8c860fa",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Learning-by-Doing to Adapt a Digital Community Engagement Strategy for Identifying and Reaching Zero-Dose Children in Kano State, Nigeria: A Program Case Study",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.10.08.26365040"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.64898/2026.10.08.26365040"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "medrxiv:10.64898/2026.10.08.26365040:1"
+        ]
+      },
+      "observation_ids": [
+        "obs-3ae2bc96258c91c790f3"
+      ],
+      "record_id": "cbx-574d6520f187d6d7",
+      "record_type": "publication",
+      "sources": [
+        "medrxiv"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "An information-loss bound for representation-adjusted staggered difference-in-differences: code and results of two pre-registered semi-synthetic studies",
       "evidence_state": "observed",
       "identifiers": {
@@ -27199,6 +27668,32 @@
       "record_type": "publication",
       "sources": [
         "medrxiv"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Code and results for: Model-family selection and recovery-gate design in generator-based noise tomography",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24052266"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24052266"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24052266"
+        ]
+      },
+      "observation_ids": [
+        "obs-81f47ec43f9ce34b74af"
+      ],
+      "record_id": "cbx-5d112b4f2fd9c176",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -29999,6 +30494,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "THE ROLE OF ARTIFICIAL INTELLIGENCE SYSTEMS IN DEVELOPING THE CREATIVE AND INTELLECTUAL POTENTIAL OF YOUNG SPECIALISTS: THE CASE OF IN-SERVICE TRAINING IN THE MINING AND GEOLOGY SECTOR OF UZBEKISTAN",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.67620/sai.510b0011"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.67620/sai.510b0011"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24052784"
+        ]
+      },
+      "observation_ids": [
+        "obs-0a7feb8b284bd1ed8f23"
+      ],
+      "record_id": "cbx-6535899a76f21628",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "SEG/EAGE 3-D Overthrust model: official distribution CD1 (Overthrust_3D_CD1.tar.gz)",
       "evidence_state": "observed",
       "identifiers": {
@@ -30852,6 +31373,32 @@
         "obs-d29119b3cbde99e1d378"
       ],
       "record_id": "cbx-68844ed2529895c8",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Biomaterial Platforms for Spatiotemporal Control of mRNA Delivery in Tissue Engineering and Regenerative Medicine: Design Rules, Therapeutic Applications, and Translational Roadmap",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1002/smll.76600"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1002/smll.76600"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W7225316976"
+        ]
+      },
+      "observation_ids": [
+        "obs-5d266250bc91b303ff15"
+      ],
+      "record_id": "cbx-6893761aa013f21f",
       "record_type": "publication",
       "sources": [
         "openalex"
@@ -32006,6 +32553,32 @@
       "record_type": "publication",
       "sources": [
         "medrxiv"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "AWARE_AI, a Machine\u2010Learning\u2013Based Reproducible Workflow Modelling the Fundamentals of Care Framework and Patient\u2010Reported Wellbeing: A Cross\u2010Sectional Feasibility Study",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1111/jan.70800"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1111/jan.70800"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W7225412239"
+        ]
+      },
+      "observation_ids": [
+        "obs-446341d042af80e251d1"
+      ],
+      "record_id": "cbx-6cb927593e3a383c",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
       ]
     },
     {
@@ -33225,6 +33798,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Single Point, Full Mask: Velocity-Guided Level Set Evolution for End-to-End Amodal Segmentation",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1145/3767308.3834929"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1145/3767308.3834929"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W4417099914"
+        ]
+      },
+      "observation_ids": [
+        "obs-f4893d873240aed870e3"
+      ],
+      "record_id": "cbx-70f4447fc5abfdc7",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Categorical rhythmic patterns do not predict song preference in zebra finches",
       "evidence_state": "observed",
       "identifiers": {
@@ -33273,6 +33872,32 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "H 2 AL: Hyperbolic Hierarchy-aware Aggregative Learning for Registration-based Few-shot Medical Image Segmentation",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1145/3767308.3834907"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1145/3767308.3834907"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W7202144142"
+        ]
+      },
+      "observation_ids": [
+        "obs-4765f9f9e49a8b62e1db"
+      ],
+      "record_id": "cbx-714e64c19de634ba",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
       ]
     },
     {
@@ -33352,6 +33977,32 @@
       "record_type": "dataset",
       "sources": [
         "sra"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Design of Orthogonal Far-Red, Orange and Green Fluorophore-binding Proteins for Multiplex Imaging",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1101/2025.08.03.668343"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1101/2025.08.03.668343"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "biorxiv:10.1101/2025.08.03.668343:5"
+        ]
+      },
+      "observation_ids": [
+        "obs-4e5d9e87d911290b259d"
+      ],
+      "record_id": "cbx-71ca9f9e429c699f",
+      "record_type": "publication",
+      "sources": [
+        "biorxiv"
       ]
     },
     {
@@ -36737,6 +37388,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Artificial intelligence-enabled virtual organoids: Digital-twin frameworks for predictive stem cell biology and precision regenerative medicine",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.4252/wjsc.128748"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.4252/wjsc.128748"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W7225305339"
+        ]
+      },
+      "observation_ids": [
+        "obs-a3c24f6be136f2d49b26"
+      ],
+      "record_id": "cbx-7d73f7182c2e610c",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Toward Intelligent and Climate-Resilient Coastal Aquaculture: A Systematic Review Integrating Ecosystem Health, Marine Biotechnology, One Health, Data-Driven Technologies, and the Blue Economy",
       "evidence_state": "observed",
       "identifiers": {
@@ -37999,6 +38676,33 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Single-cell RNA-seq of Mus musculus: old control, heart",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJNA1558274",
+        "sra": "SRA2590192"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJNA1558274"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "sra:SRA2590192"
+        ]
+      },
+      "observation_ids": [
+        "obs-57b4e3dfc7e78b547497"
+      ],
+      "record_id": "cbx-816bfd5659933b09",
+      "record_type": "dataset",
+      "sources": [
+        "sra"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "India ISIN Database, by Nemo",
       "evidence_state": "observed",
       "identifiers": {
@@ -38468,6 +39172,32 @@
       "record_type": "publication",
       "sources": [
         "openalex"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Machine Learning-Supported Efficient VTE Risk Assessment using Routinely Collected Electronic Health Record Data",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.08.18.26360687"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.64898/2026.08.18.26360687"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "medrxiv:10.64898/2026.08.18.26360687:2"
+        ]
+      },
+      "observation_ids": [
+        "obs-f71e93b728db5d356583"
+      ],
+      "record_id": "cbx-82ce5d71c8abc8fa",
+      "record_type": "publication",
+      "sources": [
+        "medrxiv"
       ]
     },
     {
@@ -40695,6 +41425,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "IMPROVING PEDAGOGICAL APPROACHES TO DIFFERENTIATED INSTRUCTION THROUGH DIGITAL LEARNING TOOLS",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.67620/sai.510b0008"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.67620/sai.510b0008"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24052636"
+        ]
+      },
+      "observation_ids": [
+        "obs-7a7b78d970e2181e3c84"
+      ],
+      "record_id": "cbx-89da9f55dd630d1f",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Safety, Tolerability and Pharmacokinetics of Multiple Ascending Doses of AZD8871 in Healthy Subjects",
       "evidence_state": "observed",
       "identifiers": {
@@ -41256,6 +42012,32 @@
       "record_type": "publication",
       "sources": [
         "crossref"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "An Autonomous Decision Engine for a Knowledge-Graph Museum: Design, Multi-AI Review, and Adversarial Hardening",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24052669"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24052669"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24052669"
+        ]
+      },
+      "observation_ids": [
+        "obs-08b155f5f620ed559c0c"
+      ],
+      "record_id": "cbx-8ba4ba11fe45eb7c",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -42705,6 +43487,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "THE \"BOYS DON'T CRY\" STEREOTYPE AND THE EMOTIONAL DEVELOPMENT OF PRESCHOOL CHILDREN",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.67620/sai.510b0010"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.67620/sai.510b0010"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24052751"
+        ]
+      },
+      "observation_ids": [
+        "obs-8ecf11bbad6c52297fb7"
+      ],
+      "record_id": "cbx-9098998a162387e1",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Monitoring Blood Flow and Breathing Using a New Device (RFII) Compared to the Gold Standard Device in Post Operative Cardiac Patients",
       "evidence_state": "observed",
       "identifiers": {
@@ -43058,6 +43866,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Amide I kurtosis maps cardiac amyloid in human tissue by ultrabroadband multiplex coherent anti-Stokes Raman scattering (CARS) microscopy",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.10.07.757266"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.64898/2026.10.07.757266"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "biorxiv:10.64898/2026.10.07.757266:1"
+        ]
+      },
+      "observation_ids": [
+        "obs-77a0daaf84979b172c19"
+      ],
+      "record_id": "cbx-91b480a982885879",
+      "record_type": "publication",
+      "sources": [
+        "biorxiv"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Transcriptome and chromatin accessibility across multiple tissues of largemouth bass (Micropterus salmoides) and Nile tilapia (Oreochromis niloticus) under heat stress [NT RNA-seq]",
       "evidence_state": "observed",
       "identifiers": {
@@ -43342,6 +44176,32 @@
       ],
       "record_id": "cbx-92721de5dfd12d06",
       "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "How Fast Did News Travel? Four American Stories in Digitised Newspapers, 1865 to 1941",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24052721"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24052721"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24052721"
+        ]
+      },
+      "observation_ids": [
+        "obs-8d3b83b03e4c8fac68a7"
+      ],
+      "record_id": "cbx-92e70cc0bbaeee7c",
+      "record_type": "other",
       "sources": [
         "zenodo"
       ]
@@ -43847,6 +44707,32 @@
       "record_type": "dataset",
       "sources": [
         "geo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Federated learning for IoMT-enabled predictive healthcare and remote patient monitoring: a systematic review",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1186/s44247-026-00312-6"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1186/s44247-026-00312-6"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W7225374197"
+        ]
+      },
+      "observation_ids": [
+        "obs-4e1cb4831740ec4cfbef"
+      ],
+      "record_id": "cbx-94990a5d0a1ee7b4",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
       ]
     },
     {
@@ -53257,6 +54143,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "cerfacs-globc/icclim: 7.3.4",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24052515"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24052515"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24052515"
+        ]
+      },
+      "observation_ids": [
+        "obs-1679d3bfc1d6f71b2b59"
+      ],
+      "record_id": "cbx-b2af5d944a88da10",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Prevention of Nephrotoxin-Induced Acute Kidney Injury Using Cilastatin",
       "evidence_state": "observed",
       "identifiers": {
@@ -53606,13 +54518,15 @@
           "identifier_type": "doi",
           "identifier_value": "10.64898/2026.09.03.26362168"
         },
-        "observation_count": 1,
+        "observation_count": 2,
         "source_record_ids": [
-          "medrxiv:10.64898/2026.09.03.26362168:1"
+          "medrxiv:10.64898/2026.09.03.26362168:1",
+          "medrxiv:10.64898/2026.09.03.26362168:2"
         ]
       },
       "observation_ids": [
-        "obs-60626df3a631a5ff8c3c"
+        "obs-60626df3a631a5ff8c3c",
+        "obs-82224f63f88792dbc55f"
       ],
       "record_id": "cbx-b3ac1c50c49cbf54",
       "record_type": "publication",
@@ -53642,6 +54556,32 @@
       ],
       "record_id": "cbx-b3ea41f6191b1ce8",
       "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "RoomCompare User Research and Usability Evaluation Dataset",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24052357"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24052357"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24052357"
+        ]
+      },
+      "observation_ids": [
+        "obs-0d907fc768ab2b94fb19"
+      ],
+      "record_id": "cbx-b403802b0ce66b3e",
+      "record_type": "dataset",
       "sources": [
         "zenodo"
       ]
@@ -54191,6 +55131,32 @@
       "record_type": "publication",
       "sources": [
         "openalex"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Replication code for: Compositional counterfactual dose-response learning and constrained isotemporal prescription optimization for adolescent 24-hour movement and anxiety",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24052579"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24052579"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24052579"
+        ]
+      },
+      "observation_ids": [
+        "obs-0386462239da95cd1168"
+      ],
+      "record_id": "cbx-b756bb5c7b165e53",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -55422,6 +56388,32 @@
       ],
       "record_id": "cbx-bbcd482fb6f4d7f4",
       "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "FROM CONSTRAINTS TO ANGLES: A RIGOROUS TRIGONOMETRIC FRAMEWORK FOR EXTREMUM PROBLEMS IN SECONDARY MATHEMATICS",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.67620/sai.510b0012"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.67620/sai.510b0012"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24052801"
+        ]
+      },
+      "observation_ids": [
+        "obs-cf0d856112b6bee53a32"
+      ],
+      "record_id": "cbx-bbee4948c981e964",
+      "record_type": "other",
       "sources": [
         "zenodo"
       ]
@@ -57174,6 +58166,34 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Disruption of ROCKs in cardiomyocytes suppresses pathological remodeling of cardiomyocytes and non-cardiononmyocytes in ponatinib cardiotoxicity",
+      "evidence_state": "observed",
+      "identifiers": {
+        "accession": "GSE324906",
+        "geo": "GSE324906",
+        "pmid": "42963886"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "geo",
+          "identifier_value": "GSE324906"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "geo:GSE324906"
+        ]
+      },
+      "observation_ids": [
+        "obs-402952778d48120197c7"
+      ],
+      "record_id": "cbx-c18bb5915864ab2a",
+      "record_type": "dataset",
+      "sources": [
+        "geo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Whole genome sequencing of Campylobacter coli: Food",
       "evidence_state": "observed",
       "identifiers": {
@@ -58752,6 +59772,32 @@
       ],
       "record_id": "cbx-c6179a073e0297c5",
       "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "ARTIFICIAL INTELLIGENCE FOR ULTRASOUND ESTIMATION OF FETAL WEIGHT: OPPORTUNITIES, EVALUATION METRICS, AND COMPARISON WITH THE HADLOCK FORMULA",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24052780"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24052780"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24052780"
+        ]
+      },
+      "observation_ids": [
+        "obs-28fed4a93d3a41ef3e9b"
+      ],
+      "record_id": "cbx-c62229aa37120fa9",
+      "record_type": "other",
       "sources": [
         "zenodo"
       ]
@@ -60459,6 +61505,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Ribosomal Remodeling and Translational Suppression in the Post-Arrest Heart Pig Data",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJNA1556736"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJNA1556736"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "bioproject:PRJNA1556736"
+        ]
+      },
+      "observation_ids": [
+        "obs-1528738bf3649779cb13"
+      ],
+      "record_id": "cbx-cc2becfa96b4caae",
+      "record_type": "dataset",
+      "sources": [
+        "bioproject"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Data and analysis code for: Long-term sport participation is associated with a selective auditory-musical performance profile",
       "evidence_state": "observed",
       "identifiers": {
@@ -60825,6 +61897,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Ribosomal Remodeling and Translational Suppression in the Post-Arrest Heart Mouse Data",
+      "evidence_state": "observed",
+      "identifiers": {
+        "bioproject": "PRJNA1557309"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "bioproject",
+          "identifier_value": "PRJNA1557309"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "bioproject:PRJNA1557309"
+        ]
+      },
+      "observation_ids": [
+        "obs-ea7d51745ea629a68a65"
+      ],
+      "record_id": "cbx-cd760036ee7a3c59",
+      "record_type": "dataset",
+      "sources": [
+        "bioproject"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Supplementary material and data for \"Beyond Energy Access: Energy Justice and Gendered Outcomes in a Nigerian Solar Mini-Grid Community, Bolorunduro, Ekiti State\"",
       "evidence_state": "observed",
       "identifiers": {
@@ -61035,6 +62133,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Anthropogenic aromatics suppress atmospheric new particle formation",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24051133"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24051133"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24051133"
+        ]
+      },
+      "observation_ids": [
+        "obs-a204df3a4ae8b6330344"
+      ],
+      "record_id": "cbx-ce18fea6e5719e78",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "A Multitasking EEG Dataset for Cognitive Workload Assessment with Controlled Task Difficulty",
       "evidence_state": "observed",
       "identifiers": {
@@ -61057,6 +62181,32 @@
       "record_type": "publication",
       "sources": [
         "openalex"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Cryptographie post-quantique \u2014 le cours",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24052302"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24052302"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24052302"
+        ]
+      },
+      "observation_ids": [
+        "obs-dce1f82dd0ab150c7910"
+      ],
+      "record_id": "cbx-ce333010ff7b67c2",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -61477,6 +62627,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Large Scale Supervised Pretraining For Traumatic Brain Injury Segmentation",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1007/978-3-032-31709-4_1"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1007/978-3-032-31709-4_1"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W4417246822"
+        ]
+      },
+      "observation_ids": [
+        "obs-a41796ae6f529920bf8b"
+      ],
+      "record_id": "cbx-cf6ee326e3711e40",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "DARE: Diabetes in cArdiac REhabilitation",
       "evidence_state": "observed",
       "identifiers": {
@@ -61686,6 +62862,32 @@
         "obs-40e8e86a4abc3c28488e"
       ],
       "record_id": "cbx-d04ca9ff2712eb32",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "The Use of Machine Translation as a Tool for Teaching Translation at University.",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.33619/2414-2948/131/61"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.33619/2414-2948/131/61"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24052814"
+        ]
+      },
+      "observation_ids": [
+        "obs-77a87c0df70532b11c7b"
+      ],
+      "record_id": "cbx-d07dffbb4b84c1e6",
       "record_type": "other",
       "sources": [
         "zenodo"
@@ -62099,6 +63301,32 @@
         "obs-4b206c8cb4314a5bef64"
       ],
       "record_id": "cbx-d1b6b144c5348496",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "ASSESSING FOOD INDUSTRY DEVELOPMENT USING MACHINE LEARNING METHODS: THE CASE OF KASHKADARYA REGION",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24052248"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24052248"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24052248"
+        ]
+      },
+      "observation_ids": [
+        "obs-aa9de959e630b645bb44"
+      ],
+      "record_id": "cbx-d1f2586bc245c72b",
       "record_type": "dataset",
       "sources": [
         "zenodo"
@@ -63417,6 +64645,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "ALPACA: a visual data mining system for subcellular location-specific knowledge mining from multi-omics data in cancer",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1186/s12920-026-02440-4"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1186/s12920-026-02440-4"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W7225425784"
+        ]
+      },
+      "observation_ids": [
+        "obs-442cc7232b9be5650531"
+      ],
+      "record_id": "cbx-d6ad6e62e6b243fb",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Role of Natriuretic Peptides in the Treatment of Acutely Decompensated Heart Failure Patient With Obstructive Airways Disease",
       "evidence_state": "observed",
       "identifiers": {
@@ -64704,6 +65958,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Physics-Guided Multi-Fidelity Surrogate and Regime-Aware Evolutionary Optimization for Climate-Adaptive Eco-Hydrological Wetland Restoration",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24052449"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24052449"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24052449"
+        ]
+      },
+      "observation_ids": [
+        "obs-3957b5c35fb9bd94ba32"
+      ],
+      "record_id": "cbx-db9e1382b1813c16",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "A target amplification-free CRISPR biosensor with digital microfluidic processing for microRNA profiling in AI-enhanced pediatric sepsis diagnosis.",
       "evidence_state": "observed",
       "identifiers": {
@@ -64727,6 +66007,32 @@
       "record_type": "publication",
       "sources": [
         "pubmed"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "sn-jnl amsmath,amssymb,amsfonts booktabs graphicx algorithm algpseudocode placeins microtype fontenc xurl text=154mm,226mm,centering,bindingoffset=0mm,marginparwidth=0mm,marginparsep=0mm =1.5em 8pt9.6pt=1mu=1mu abstract+b@abstractabstractname#1 topfraction0.95 bottomfraction0.95 textfraction0.05 floatpagefraction0.85 topnumber4 bottomnumber4 totalnumber6 document Compositional counterfactual dose-response learning and constrained isotemporal prescription optimization for adolescent 24-hour movement and anxiety Author 1author1@institution.edu Author 2 Author 3 Department 1, Institution 1, City, Country Department 2, Institution 2, City, Country abstract Problematic smartphone use and internalizing anxiety frequently co-occur in adolescence. Quantifying how extracurricular physical activity buffers this pathway remains difficult because daily movement durations inhabit a closed 24-hour simplex and both exposures share psychosocial confounding. Standard moderated regression and Euclidean dose-response estimators treat exercise volume as a free scalar, ignoring whether added activity displaces sedentary screen time or sleep. We formulate PhyBuff-Net, a compositional counterfactual dose-response network coupled with constrained isotemporal prescription optimization (CIPO), evaluated on a multi-school cohort of N=3,600 adolescents across junior high (n=1,600) and senior high (n=2,000) grades. PhyBuff-Net maps 24-hour movement compositions into orthonormal isometric log-ratio coordinates, decouples joint selection bias via double-continuous Hilbert-Schmidt and contrastive balancing, estimates zero-anchored buffering surfaces via orthogonalized Bernstein splines, and pairs entropic mirror-ascent donor optimization with circadian boundary projection and local effective-sample-size shrinkage. On the held-out test split (N_test=720, five seeds) and five-split outer cross-validation under shared-donor evaluation, PhyBuff-Net achieves counterfactual surface determinations of 0.9566\u00b1 0.0105 and 0.9421\u00b1 0.0103 versus 0.9244\u00b1 0.0057 for stratified interaction networks and 0.8930\u00b1 0.0162 for contrastive balancing representation learning, lowers policy regret from 2.4729 to 1.8932, and eliminates circadian feasibility violations (0.00%). abstract Counterfactual dose-response estimation, Compositional data analysis, Isotemporal substitution, Smartphone addiction, Adolescent anxiety, Constrained prescription optimization Introductionsec:intro Adolescent smartphone overdependence and internalizing anxiety symptoms reinforce one another through disrupted nocturnal circadian regulation, elevated academic distress, and progressive social withdrawal kwon2013sassv,cao2023anxiety,zhang2025comorbidity. Across secondary school populations, elevated scores on the Smartphone Addiction Scale-Short Version (SAS-SV) consistently track higher scores on the 21-item Depression Anxiety Stress Scales (DASS-21) anxiety subscale. In a multi-grade senior high school cohort facing intensive examination schedules, 50.72% of students met the SAS-SV smartphone addiction criterion ren2022movement,lovibond1995dass,hua2025associations. Extracurricular physical activity (EPA) acts as a modifiable behavioral buffer that attenuates both addictive smartphone engagement and downstream anxious arousal; it is typically indexed on the Physical Activity Rating Scale (PARS, 3-item version PARS-3) or via 24-hour accelerometry huang2026temporal,peng2025abuse,qin2025smartphone. Estimating an individualized dose-response buffering curve from observational school cohorts nevertheless confronts a structural physical constraint aitchison1982simplex,chastin2015coda,dumuid2019isotemporal. Every adolescent's day sums strictly to 1,440 min across sleep (SLP), sedentary behavior (SB), light physical activity (LPA), and moderate-to-vigorous physical activity (MVPA). Because 24-hour movement behaviors reside on a closed simplex, increasing extracurricular exercise by 30-60 min/day must draw an equal duration from at least one remaining behavioral compartment egozcue2003ilr,ren2022movement,byun2024screen. Reallocating time from recreational screen-based sedentary behavior into MVPA produces pronounced reductions in somatic and cognitive anxiety zhou2024replacing,hua2025associations. Drawing that same exercise duration from nocturnal sleep, among already sleep-restricted senior high school students, impairs sleep quality and exacerbates anxious distress qin2025smartphone,xiao2024relationship. Classical parametric moderated mediation models collapse this compositional substitution structure into a single linear product term. The standard instance is ordinary least squares (OLS) regression with bilinear interaction terms (PROCESS-OLS) hayes2018process,cao2023anxiety,peng2025abuse, which cannot capture threshold saturation or donor-specific sign reversals. Conversely, linear Compositional Data Analysis (CoDA) isotemporal substitution models respect closure on the Aitchison simplex chastin2015coda,dumuid2019isotemporal but assume homogeneous log-ratio slopes across the entire population, overlooking nonlinear interaction dynamics across mild, moderate, and severe smartphone addiction strata. Recent causal machine learning and continuous dose-response architectures relax parametric functional assumptions for continuous interventions shalit2017estimating,schwab2020drnet,feuerriegel2024causal. They include varying-coefficient neural networks (VCNet) nie2021vcnet, gradient interpolation and kernel smoothing (GIKS) nagalapatti2024giks, and contrastive balancing representation learning (CBRL) zhu2024cbrl. Despite their flexibility on univariate exposures, applying Euclidean dose-response estimators directly to adolescent physical activity and smartphone addiction reveals three methodological failure modes. First, Euclidean networks treat the target EPA dose D_EPA as a free scalar independent of the 24-hour movement vector t_i S^4_1440, ignoring donor-compartment heterogeneity and generating counterfactual allocations whose proportional sleep draws breach physiological sleep floors. Second, smartphone addiction A_i and physical activity dose D_EPA,i are jointly confounded by school adjustment, academic pressure, and family socioeconomic standing kim2022kyrbs,cao2023anxiety,zhou2025pretraining. Single-exposure balancing penalties leave the bivariate exposure distribution P(A, D_EPA x, t) coupled in off-diagonal regions where severe smartphone addiction coincides with high physical activity volume. Third, standard neural estimators issue unguarded point prescriptions without verifying whether a candidate exercise increment is supported by local observational density or executable within an adolescent's mandatory school schedule schweisthal2024reliable. We address these challenges in PhyBuff-Net, a compositional counterfactual dose-response network coupled with Constrained Isotemporal Prescription Optimization (CIPO) across four architectural components (C1-C4). A counterfactual dose must enter the model as a valid 24-hour composition rather than as a free scalar. In component one (C1), an Isometric Compositional Time-Reallocation Encoder (ICTE) maps each movement vector into orthonormal Helmert isometric log-ratio (ilr) coordinates and carries the donor choice through an explicit simplex reallocation. Deconfounding one margin of the exposure pair leaves the other biased, because (A, D_EPA) is selected jointly. In component two (C2), a Double-Continuous Contrastive Kernel Balancing Representation (DC-KBR) learner extends Kernel Balancing Representation (KBR) by penalizing residual dependence between the latent state and both exposures at once. It combines a conditional Hilbert-Schmidt Independence Criterion (HSIC) and quantile-stratified InfoNCE contrastive regularization with stabilized Gaussian-kernel density-ratio balancing weights. In component three (C3), the response surface is estimated through a Varying-Coefficient Orthogonal Buffering Spline (VC-OBS) head built on degree-M Bernstein polynomials with second-order knot smoothness. Unlike an unconstrained neural readout, VC-OBS returns zero-anchored closed-form buffering curves and analytical donor utility gradients. In component four (C4), prescriptions are optimized by the CIPO module over the learned surface. CIPO combines circadian and schedule boundary projection (C4a), entropic mirror-ascent donor optimization (C4b), and local effective sample size (ESS, N_eff) support shrinkage (C4c), driving the circadian Feasibility Violation Rate (FVR) to zero. We evaluate the complete framework on a multi-school cohort of N = 3,600 de-identified adolescents spanning grades 7-12 with 12-week wave-2 longitudinal follow-up. Across the canonical held-out test split (N_test = 720) and five-split shared-donor outer cross-validation, PhyBuff-Net accurately recovers the counterfactual dose-response surface (R^2_CF = 0.9566 \u00b1 0.0105 and 0.9421 \u00b1 0.0103), separates screen-time substitution gains from sleep-displacement rebound, and eliminates circadian feasibility violations (0.00%). Related Worksec:related Adolescent smartphone addiction, anxiety, and physical activity moderationsec:rel_domain Psychometric and epidemiological investigations establish a robust positive association between adolescent smartphone addiction and anxiety severity kwon2013sassv,lovibond1995dass,kim2022kyrbs. In junior high school cohorts, Cao et al. cao2023anxiety demonstrated that smartphone addiction measured via SAS-SV correlates positively with DASS-21 anxiety (r = 0.392) and negatively with school adjustment (r = -0.596). Physical activity measured on PARS-3 moderates and buffers the pathway from internalizing distress to problematic phone use. In a multi-grade senior high school investigation (N = 1,323), Ren et al. ren2022movement reported a 50.72% SAS-SV addiction rate. Within that cohort SAS-SV scores rise monotonically across no-anxiety (30.13 \u00b1 9.03), mild (35.37 \u00b1 8.52), moderate (41.70 \u00b1 10.66), and severe (43.90 \u00b1 13.70) anxiety strata. More recent cross-sectional and longitudinal studies confirm that extracurricular physical exercise mitigates internet and smartphone addiction comorbidity with anxiety peng2025abuse,zhang2025comorbidity,qin2025smartphone,xiao2024relationship. These empirical studies, however, rely on linear regression or Hayes PROCESS macro models hayes2018process that treat physical activity as a categorical moderator or a linear interaction term. Such models cannot estimate minimum effective exercise doses individually across a continuous addiction spectrum. Compositional data analysis on the 24-hour movement simplexsec:rel_coda Daily time-use epidemiology recognizes that sleep, sedentary behavior, light activity, and moderate-to-vigorous activity form a strictly closed composition summing to 1,440 min/day aitchison1982simplex,chastin2015coda. Egozcue et al. egozcue2003ilr introduced the isometric log-ratio (ilr) transformation, which maps simplex vectors onto unconstrained Euclidean coordinates under the Aitchison geometry. Dumuid et al. dumuid2019isotemporal formalized compositional isotemporal substitution, which quantifies health changes when fixed durations (e.g., 15-30 min/day) are reallocated from one movement behavior to another. Applied to student and adolescent health, compositional and isotemporal analyses show that replacing sedentary behavior with MVPA is associated with lower smartphone addiction (ilr_1 = -0.453 in adolescent CoDA ren2022movement) and reduced anxiety symptoms zhou2024replacing,hua2025associations. Insufficient sleep duration and sleep disorders run the other way and exacerbate anxious distress qin2025smartphone,xiao2024relationship. Parallel adolescent isotemporal substitution models likewise quantify screen-time reallocation trade-offs across somatic health markers byun2024screen. Nevertheless, existing compositional substitution methods remain parametric linear models without deconfounded representation learning, counterfactual surface estimation, or individualized donor-allocation optimization. Continuous dose-response and counterfactual representation learningsec:rel_causal Counterfactual representation learning originally addressed binary treatments by minimizing distributional divergence between treated and control covariates shalit2017estimating,wager2018causalforest,chernozhukov2018dml. Cross-fitted Double Machine Learning (DML) similarly orthogonalizes nuisance treatment and outcome regressions chernozhukov2018dml,wager2018causalforest. To handle continuous interventions, DRNet schwab2020drnet discretized dosage into strata, SciGAN bica2020scigan employed adversarial networks, and VCNet nie2021vcnet parameterized the outcome head as a varying-coefficient B-spline of the continuous dose. Subsequent advances introduced normalizing flows and missing-treatment estimators for interventional distributions melnychuk2023normalizing,kuzmanovic2023estimating, consensus-enabled robust counterfactual regression (CE-RCFR) wang2024cercfr, two-stage pretraining-finetuning under confounding zhou2025pretraining, and causal mediation frameworks farbmacher2022mediation,feuerriegel2024causal. Three lines bear most directly on our work. Adaptive spline plug-in estimators target nonparametric causal dose-response curves shi2026hal, and GIKS nagalapatti2024giks leverages gradient interpolation and kernel smoothing to regularize counterfactual derivatives in sparse dosage regions. Continuous-treatment representation learners instead decouple selection bias, through adversarial balancing kazemi2024counterfactual, Hilbert-Schmidt kernel independence gretton2005hsic, or contrastive balancing (CBRL) zhu2024cbrl. Yet none of these architectures respects compositional closure on a 24-hour time simplex or decouples joint selection bias across two interacting continuous exposures under physiological feasibility constraints schweisthal2024reliable. Positivity-constrained off-policy prescription and donor optimizationsec:rel_agent Reliable individualized treatment prescription from observational cohorts requires constraining candidate interventions to regions with sufficient overlap (positivity) and domain-specific physiological feasibility schweisthal2024reliable,feuerriegel2024causal,chernozhukov2018dml. Unconstrained neural predictors emit single-pass point optima that can extrapolate into low-density dosage tails or violate circadian and schedule invariants on the 24-hour time-use simplex dumuid2019isotemporal. Positivity-constrained off-policy optimization instead pairs functional outcome estimation with explicit polytope projection over feasible donor allocations, mirror-ascent optimization on the probability simplex, and local effective-sample-size shrinkage in sparse regions schweisthal2024reliable. In compositional dose-response estimation, coupling constrained isotemporal prescription optimization (CIPO) directly with a learned varying-coefficient surface ensures that every candidate EPA recommendation satisfies circadian sleep floors, mandatory study schedules, and local observational support before prescription selection. Problem Formulation and Methodologysec:method Problem formulation and causal estimandssec:formulation Consider an observational multi-school cohort D = (x_i, t_i, A_i, D_EPA,i, Y_i)_i=1^N of N = 3,600 de-identified adolescent participants spanning junior high school (grades 7-9, n = 1,600) and senior high school (grades 10-12, n = 2,000). All cohort assessments were conducted under institutional ethics approval with written guardian informed consent and student assent, and all records were irreversibly de-identified prior to analysis. For each participant i 1, , N, x_i R^p denotes baseline demographic, academic, and psychosocial covariates cao2023anxiety. These include integer age (12-18 years), biological sex, grade cohort, body mass index (BMI) category, socioeconomic status (SES) index, academic stress score ([10, 50]), regular exercise habit indicator, and school adjustment score S_i [5, 35]. The daily movement composition is recorded as a four-part vector t_i = (t_i,SLP, t_i,SB, t_i,LPA, t_i,MVPA)^ on the 24-hour simplex: equation S^4_1440 = t R_+^4 : _k SLP, SB, LPA, MVPA t_k = 1440 min/day. eq:simplex equation Let A_i 10, , 60 denote smartphone addiction severity measured on the 10-item SAS-SV scale kwon2013sassv. Similarly, let D_EPA,i [0, 100] denote extracurricular physical activity dose on the PARS-3 scale huang2026temporal, and let Y_i 0, 2, , 42 denote anxiety severity on the doubled DASS-21 anxiety subscale lovibond1995dass. We adopt the potential outcomes framework for bivariate exposures with compositional time reallocation. Under this notation, Y_i(a, d; w_i) denotes the potential anxiety outcome when adolescent i exhibits smartphone addiction severity A = a and receives extracurricular physical activity dose D_EPA = d. Each intervention is executed through a donor reallocation weight vector w_i = (w_i,SB, w_i,LPA, w_i,SLP)^ on the two-dimensional simplex \u0394^2 = w R_+^3 : w_SB + w_LPA + w_SLP = 1. This vector specifies the fraction of added MVPA duration drawn from sedentary behavior, light physical activity, and nocturnal sleep. We target three individualized causal estimands: align \u03bc_i(a, d; w_i) &= E, (a, d) [10, 60] \u00d7 [0, 100], eq:estimand_surface \u03c4_buf,i(a, d; w_i) &= \u03bc_i(a, 0; w_i) - \u03bc_i(a, d; w_i), \u03b3_i(a, d; w_i) = ^2 \u03bc_i(a, d; w_i) a , d, eq:estimand_buf d^*_i(a) &= d in [0, 100] ; \u03bc_i(a, d; w^*_i(d)) s.t. F_cipo(x_i, t_i, a, d, w^*_i(d)) = 1, eq:estimand_opt align In Eqs. eq:estimand_surface-eq:estimand_opt, \u03c4_buf,i(a, d; w_i) measures the net anxiety reduction conferred by EPA dose d relative to inactivity (d = 0). The cross-partial derivative \u03b3_i(a, d; w_i) < 0 captures the non-parametric second-order buffering interaction, and F_cipo 0, 1 is the circadian and schedule feasibility indicator enforced by CIPO. At prescription time over the learned surface Y_i, PhyBuff-Net augments Eq. eq:estimand_opt with the C4c support-shortfall regularizer. Specifically, R_ess(a, d; z_i) = 0.12,(0, , 1 - N_eff(a, d; z_i)/\u03c4_ess)^2,I penalizes low-support extrapolations above the local upper-support anchor. Architectural overviewsec:overview The pipeline keeps closure, deconfounding, surface smoothness, and prescription safety as separate concerns, because each fails in a different way when folded into a single unconstrained predictor (Figure fig:arch and Table tab:arch_summary). In C1, the ICTE module transforms the 24-hour movement vector t_i S^4_1440 into orthonormal isometric log-ratio coordinates v_i R^3 and defines the donor-aware simplex reallocation operator T_simplex. A dose query therefore fixes the whole composition rather than only MVPA. In C2, the DC-KBR module maps (x_i, v_i) to a normalized latent state z_i R^32 while penalizing joint dependence with (A_i, D_EPA,i). It also computes stabilized density-ratio sample weights to remove selection bias shared by both exposures. In C3, the VC-OBS head combines a baseline addiction-anxiety surface g_base(z_i, t_i, a) with degree-M dose Bernstein polynomials, symmetric simplex-Bernstein donor polynomials B_\u0394(w_i), and Cholesky-orthonormalized ilr-Bernstein compositional shift bases. That tensor-spline parameterization supplies smooth dose derivatives and closed-form donor gradients without hardcoded sleep thresholds. In C4, the CIPO module acts on the causal surface at inference and prescription time. It optimizes donor weights via centered entropic mirror ascent (C4b), projects allocations onto circadian sleep and study floors (C4a), and regularizes low-support dosage queries via local ESS support shrinkage (C4c). figure[!htbp] Fig/Figure_1.pdf Architecture and stage-by-stage data flow of PhyBuff-Net. The framework takes four inputs for each adolescent i: baseline demographic and psychosocial covariates x_i R^p, the four-part 24-hour movement vector t_i=(t_1,t_2,t_3,t_4)^ summing to 1,440 min/day across nocturnal sleep (SLP), sedentary behavior (SB), light physical activity (LPA), and moderate-to-vigorous physical activity (MVPA), smartphone addiction severity A_i at query level a, and candidate extracurricular physical activity dose D_i at query dose d. In Stage 1, the Isometric Compositional Time-Reallocation Encoder (C1, ICTE) maps t_i via sequential binary partition into orthonormal Helmert isometric log-ratio (ilr) coordinates v_i=(v_1,v_2,v_3)^ R^3 and defines the donor-aware simplex reallocation operator T(t_i,d,w_i)\u2192(t'_i,\u0394 t_i) over donor weights w_i=(w_1,w_2,w_3)^\u0394^2. Concatenated features u_i=[x_i^,v_i^]^ enter the Double-Continuous Contrastive Kernel Balancing Representation module (C2, DC-KBR), which projects u_i onto the 32-dimensional unit hypersphere z_i=(u_i) while minimizing joint exposure bias via conditional Hilbert-Schmidt Independence Criterion (HSIC) and quantile-stratified InfoNCE contrastive loss, exporting stabilized Nystr\"om density-ratio weights w^bal_i. In Stage 2, the Varying-Coefficient Orthogonal Buffering Spline Head (C3, VC-OBS) combines the zero-dose baseline readout g(z_i,t_i,a) with degree-M dose Bernstein polynomials B_m(d/100), symmetric simplex-Bernstein donor polynomials B_\u0394(w_i), and orthonormalized ilr-Bernstein compositional shift bases \u0394 b(t'_i,t_i) via generalized cross-validation ridge estimation to output the counterfactual anxiety surface Y_i(a,d,w_i), zero-anchored buffering curve \u03c4_i(a,d,w_i), and analytical donor utility gradient \u03c4_i. In Stage 3, the Constrained Isotemporal Prescription Optimization module (C4, CIPO) queries the training reference bank to compute local effective sample size N_e(a,d;z_i) and shrink sparse high-dose queries toward the support anchor yielding audited dose d'_i (C4c), runs K entropic mirror-ascent steps along \u03c4_i for planned donor weights w^*_i\u0394^2 (C4b), and projects t'_i(d'_i,w^*_i) onto circadian sleep and study floors to emit verified feasibility flag F_i and optimal prescription ( d^*_i,w^*_i) (C4a). fig:arch figure table[!htbp] Architectural summary of PhyBuff-Net components (C1-C4) and CIPO sub-modules (C4a-C4c), detailing domain mappings, core mathematical operators, targeted causal or physiological failure modes, and selected operating parameters.tab:arch_summary tabcolsep3pt tabular*@fillp2.2cmp2.4cmp3.6cmp3.8cmp2.0cm@ Module & Domain Mapping & Core Mathematical Operator & Targeted Failure Mode & Setting C1: ICTE & S^4_1440 \u2192 R^3 \u00d7 S^4_1440 & Orthonormal Helmert ilr(t_i) and simplex shift T_simplex(t_i, d, w_i) & Euclidean covariance singularity and 1,440 min/day closure drift & \u03ba = 0.7837, T_day = 1440 C2: DC-KBR & R^p+3 \u2192 S^d_z-1 \u00d7 R_+ & Joint exposure HSIC + 0.5L_NCE and Nystr\"om ratio weights w^bal_i & Bivariate (A_i, D_EPA,i) selection bias in off-diagonal strata & d_z = 32, \u03bb_bal = 0.25 C3: VC-OBS & S^d_z-1 \u00d7 \u0394^2 \u2192 R & Tensor-product Bernstein basis B^(M)(u), B_\u0394(w_i), and QR \u0394b_ilr & Unconstrained MLP oscillation and missing zero-dose anchoring & M = 6, \u03bb_smooth = 0.06 C4a: Projection & \u0394^2 \u00d7 R_+ \u2192 0,1 & Polytope donor projection onto sleep (420 min) and study (180 min) floors & Circadian sleep depletion and schedule boundary violations & \u0394 t_ = 90 min/day C4b: Mirror Ascent & \u0394^2 \u2192 \u0394^2 & Centered entropic mirror ascent along analytical gradient _w\u03c4_buf,i & Proportional sleep draws eroding anxiety buffering efficacy & K_ref = 8, _1 = 1.48 C4c: Support Audit & S^d_z-1 \u00d7 [0,100] \u2192 R_+ & Kernel N_eff(a, d; z_i) dose shrinkage toward upper anchor d_anchor & High-variance extrapolation in sparse high-dose tails & \u03c4_ess = 50, _ = 0.75 tabular* table Isometric compositional time-reallocation encoder (C1: ICTE)sec:c1_icte Feeding raw durations (t_i,SLP, t_i,SB, t_i,LPA, t_i,MVPA) into a Euclidean neural layer induces singular covariance and permits counterfactual extrapolations that violate _k t_k = 1440 min/day aitchison1982simplex,egozcue2003ilr. To respect the Aitchison simplex geometry, ICTE applies a sequential binary partition chastin2015coda,dumuid2019isotemporal. This partition contrasts MVPA against the geometric mean of the remaining three compartments, contrasts sedentary behavior against sleep and light activity, and contrasts sleep against light activity. Each vector t_i S^4_1440 is clipped below by = 10^-6 for numerical stability. The orthonormal Helmert ilr coordinates v_i = (v_i,1, v_i,2, v_i,3)^ R^3 are then computed as: align v_i,1 &= 34 ( t_i,MVPA - 13( t_i,SLP + t_i,SB + t_i,LPA)), eq:ilr1 v_i,2 &= 23 ( t_i,SB - 12( t_i,SLP + t_i,LPA)), v_i,3 = 12 ( t_i,SLP - t_i,LPA). eq:ilr23 align The inverse transformation ilr^-1: R^3 \u2192 S^4_1440 exponentiates the orthogonal dual coordinates and normalizes their sum to T_day = 1440 min/day, guaranteeing exact closure. When evaluating a counterfactual PARS-3 exercise dose d [0, 100], ICTE maps d to the net extracurricular MVPA increment \u0394 t_i,MVPA(d) = \u03ba,d. The scaling factor \u03ba is estimated on the training split via five-fold cross-fitted root-mean-square duration-to-dose scaling (\u03ba = E[t_MVPA^2]/E[D_EPA^2] = 0.7849 min/unit), so \u0394 t_i,MVPA(0) = 0 at inactivity. Given a normalized donor allocation vector w_i = (w_i,SB, w_i,LPA, w_i,SLP)^ \u0394^2, the reallocation operator T_simplex(t_i, d, w_i) updates each compartment and enforces closure as follows. equation t_i(d, w_i) = bmatrix (, , t_i,SLP - w_i,SLP\u0394 t_i,MVPA(d)) (, , t_i,SB - w_i,SB\u0394 t_i,MVPA(d)) (, , t_i,LPA - w_i,LPA\u0394 t_i,MVPA(d)) (, , t_i,MVPA + \u0394 t_i,MVPA(d)) bmatrix, t'_i(d, w_i) = T_day t_i(d, w_i)1^ t_i(d, w_i). eq:reallocate equation Equation eq:reallocate pairs every counterfactual exercise dose with an explicit, closed 24-hour behavioral composition t'_i S^4_1440 that leaves the baseline composition unchanged at d = 0. Double-continuous contrastive kernel balancing representation (C2: DC-KBR)sec:c2_dckbr In observational school surveys, adolescents with lower school adjustment S_i and higher academic stress simultaneously exhibit higher smartphone addiction A_i and lower extracurricular physical activity D_EPA,i cao2023anxiety,ren2022movement. Balancing only D_EPA,i against covariates leaves residual confounding along the joint exposure surface (A_i, D_EPA,i). DC-KBR first standardizes the concatenated covariate and compositional feature vector u_i = [x_i^, v_i^]^. It then projects u_i onto a unit-hypersphere latent representation z_i = _(u_i) S^d_z - 1 (d_z = 32). equation h_i = (W_proj^ u_i + b_proj), z_i = h_i(|h_i|_2, 10^-8). eq:encoder_z equation To decouple z_i from joint exposure selection bias during mini-batch Adam optimization alongside an auxiliary ridge readout loss, DC-KBR minimizes a composite balancing objective. Specifically, it combines the empirical HSIC gretton2005hsic between z and the standardized bivariate exposure vector e_i = (A_i, D_EPA,i)^ with a quantile-stratified contrastive InfoNCE penalty zhu2024cbrl. equation HSIC(Z; (A, D_EPA)) = 1(n - 1)^2 Tr(HK_zHK_ad), H = I_n - 1n1_n1_n^, eq:hsic equation In Eq. eq:hsic, (K_z)_ij = (-|z_i - z_j|_2^2 / (2\u03c3_z^2)) and (K_ad)_ij = (-|e_i - e_j|_2^2 / (2\u03c3_ad^2)) are Gaussian radial basis function Gram matrices with median-heuristic bandwidths floored at 0.25. The sample is partitioned at the empirical medians of (A_i, D_EPA,i) into four bivariate exposure quadrants s_i 0, 1, 2, 3. Cross-stratum InfoNCE then encourages uniform covariate overlap across off-diagonal quadrants. align L_NCE(Z) &= -14_s=0^3 1|I_s| _i I_s _j I_s (z_i^ z_j / \u03c4_nce)(_k i (z_i^ z_k / \u03c4_nce), , 10^-8), eq:loss_nce L_bal &= \u03bb_bal(HSIC + 0.5,L_NCE), eq:loss_bal align We set the contrastive temperature to \u03c4_nce = 0.15 and the balancing weight to \u03bb_bal = 0.25. After encoder optimization, DC-KBR evaluates stabilized Gaussian-kernel density-ratio balancing weights over M_lm = (512, n_train) evenly spaced Nystr\"om landmarks _m_m=1^M_lm. This step pairs the spherical latent kernel K^(z)_im = (-|z_i - z__m|_2^2 / 0.50) with the joint exposure kernel K^(e)_im = (-|e_i - e__m|_2^2 / 0.90). equation aligned w^bal_i &= clip!(^\u03bb_bal/0.15, ; 0.10, ; 35.0), w^bal_i &= w^bal_i1n_j w^bal_j. aligned eq:dr_weights equation When bivariate contrastive decoupling is ablated (w/o C2-Contrastive), e_i reduces to scalar D_EPA,i; when balancing is disabled (w/o C2, \u03bb_bal = 0), w^bal_i 1. Varying-coefficient orthogonal buffering spline head (C3: VC-OBS)sec:c3_vcobs Concatenating (a, d) as raw inputs to an unconstrained multilayer perceptron (MLP) discards both structural interpretability and smooth analytical derivatives. VC-OBS instead parameterizes the counterfactual anxiety surface Y_i(a, d, w_i) purely via orthogonalized compositional Bernstein bases, symmetric simplex-Bernstein donor polynomials, and zero-anchored dose Bernstein splines without hardcoded circadian sleep thresholds or power-hinge exponents nie2021vcnet. On the training split, VC-OBS maps v_i = ilr(t_i) R^3 onto padded quantile bounds [q_0.01 - 0.20, , q_0.99 + 0.20] to form rescaled coordinates z'_i [0, 1]^3, evaluates degree-4 univariate Bernstein polynomials across each coordinate (12 basis columns), and centers and whitens their empirical covariance via an upper-triangular Cholesky/QR factor R_ilr^-1 to obtain orthonormal compositional features b_ilr(t_i) R^12. Let a = (a - 10)/50 [0, 1] and u = d/100 [0, 1]. The zero-dose baseline function and degree-M (M = 6) dose Bernstein basis follow directly. align B_m^(M)(u) &= Mm u^m (1 - u)^M - m, m 1, , M, eq:bernstein g_base(z_i, t_i, a) &= \u03b1_0 + \u03b1_1 a + \u03b1_2 a^2 + \u03b1_z^ z_i + a,\u03b1_za^ z_i + \u03b1_ilr^ b_ilr(t_i), eq:gbase align To capture nonlinear donor interactions and post-reallocation circadian curvature nonparametrically, VC-OBS constructs the symmetric degree-2 simplex-Bernstein basis on \u0394^2 and pairs it with compositional ilr-Bernstein shifts \u0394b_ilr,i(d, w_i) = b_ilr(t'_i(d, w_i)) - b_ilr(t_i): align B_\u0394(w_i) &= (w_i,SB^2, , w_i,LPA^2, , w_i,SLP^2, , 2w_i,SBw_i,LPA, , 2w_i,SBw_i,SLP, , 2w_i,LPAw_i,SLP)^, eq:vc_donor x_buf,i(a, d, w_i) &= ^, eq:vc_coeff Y_i(a, d, w_i) &= clip(clip(g_base(z_i, t_i, a), 0.0, 42.0) - \u03b3^ x_buf,i(a, d, w_i), , 0.0, , 42.0). eq:vc_buf align Because B_m^(M)(0) = 0 for all m \u2265 1, u = 0, and t'_i(0, w_i) = t_i implies \u0394b_ilr,i(0, w_i) = 0, the buffering feature vector vanishes identically at inactivity (x_buf,i(a, 0, w_i) = 0). Consequently, \u03c4_buf,i(a, d, w_i) = clip(g_base(z_i, t_i, a), 0.0, 42.0) - Y_i(a, d, w_i) satisfies the exact zero-anchoring identity \u03c4_buf,i(a, 0, w_i) 0. On the training split, participant-level observational donor shares w_i \u0394^2 are estimated by contrasting observed non-MVPA shares against covariate-adjusted ridge expectations. Stacking the joint linear design X_vc = [X_base, , -X_buf] weighted by w^bal_i from Eq. eq:dr_weights, VC-OBS estimates (\u03b1, \u03b3) in closed form via a single generalized cross-validation (GCV) Tikhonov ridge solve. Specifically, VC-OBS augments block-specific diagonal ridge penalties with a second-order finite-difference knot-roughness penalty \u03bb_smooth(|\u0394^2 \u03b3_0,1:M|_2^2 + |\u0394^2 \u03b3_1,1:M|_2^2) (\u03bb_smooth = 0.06) and selects the global Tikhonov multiplier across 0.65, 1.0, 1.8 minimizing the weighted GCV score. Differentiating \u03b3^ x_buf,i(a, d, w_i) with respect to w_i through B_\u0394(w_i) and the chain rule on \u0394b_ilr,i(d, w_i) yields exact analytical donor utility gradients _w\u03c4_buf,i without hardcoded compartment signs. Constrained isotemporal prescription optimization (C4: CIPO)sec:c4_harness To prevent physiologically unsafe or out-of-support exercise prescriptions, CIPO executes a three-stage optimization and projection sequence over the VC-OBS surface, embedded in the four-stage forward pass of Algorithm alg:phybuff: algorithm[!htbp] PhyBuff-Net Forward Surface Estimation and Constrained Isotemporal Prescription Optimizationalg:phybuff algorithmic[1] Covariates x_i, 24-hour movement vector t_i S^4_1440, addiction level a [10, 60], candidate EPA dose d [0, 100], reference training bank (z_j, A_j, D_EPA,j)_j=1^N_train, configuration (M=6, \u03bb_bal=0.25, \u03c4_ess=50, K_ref=8) Audited dose d^aud_i, planned donor weights w^*_i \u0394^2, feasibility flag F_i 0, 1, predicted outcome Y_i, buffering effect \u03c4_buf,i Stage 1 (C1 & C2 Encoding): Compute v_i ilr(t_i) via Eqs. eq:ilr1-eq:ilr23 and latent state z_i _(x_i, v_i) via Eq. eq:encoder_z Stage 2 (C4c Local Effective-Sample-Size Support Shrinkage): Compute Gaussian kernel weights ^(za)_ij (-12[|z_i - z_j|_2^2 / 0.08 + ((a - A_j)/12)^2]) and _ij(a, d) ^(za)_ij(-12((d - D_EPA,j)/22)^2) Evaluate N_eff(a, d; z_i) (_j _ij)^2 / (_j _ij^2 + 10^-8) and upper-support anchor d_anchor(z_i, a) clip(\u03bc_d,loc + 0.85\u03c3_d,loc, 15, 72) from ^(za)_ij N_eff(a, d; z_i) < \u03c4_ess and d > d_anchor(z_i, a) Compute shrinkage factor _i clip(0.75 + 0.25,N_eff(a, d; z_i) / \u03c4_ess, , 0.75, , 1.0) Shrink query dose toward local support anchor: d^aud_i _i d + (1 - _i) d_anchor(z_i, a) d^aud_i d Stage 3 (C4b Entropic Mirror-Ascent Donor Optimization): Initialize baseline non-MVPA shares w^(0)_i (t_i,SB, t_i,LPA, t_i,SLP)^ / (1440 - t_i,MVPA) and \u0394 t_i,MVPA (10^-3, \u03ba d^aud_i) k = 1 to K_ref Compute analytical VC-OBS donor gradient g _w\u03c4_buf,i(a, d^aud_i, w^(k-1)_i); center g g - 13(1^ g)1 Set step _k 1.48 \u00d7 0.72^k-1, scale s (|g|_, 10^-6), and update w^(k)_i w^(k-1)_i (_k g/s)1^ (w^(k-1)_i (_k g/s)) If C4a enabled, project w^(K_ref)_i onto w_SLP \u2264 (t_i,SLP-420.05)_+\u0394 t_i,MVPA, , w_SB \u2264 (t_i,SB-180.05)_+\u0394 t_i,MVPA, , w_LPA \u2264 (t_i,LPA-1)_+\u0394 t_i,MVPA \u0394^2 to obtain w^*_i, and reallocate t'_i, \u0394 t_i,MVPA T_simplex(t_i, d^aud_i, w^*_i) via Eq. eq:reallocate Stage 4 (C4a Circadian and Schedule Boundary Projection): Verify F_i I Evaluate Y_i, \u03c4_buf,i VC-OBS(z_i, a, d^aud_i, w^*_i, t_i, \u0394 t_i,MVPA) via Eqs. eq:bernstein-eq:vc_buf (d^aud_i, w^*_i, F_i, Y_i, \u03c4_buf,i) algorithmic algorithm 1. Circadian and schedule boundary projection (C4a): C4a enforces physiological and academic schedule boundary rules requiring exact 24-hour closure (|_k t'_i,k - 1440| \u2264 10^-2 min) and a nocturnal sleep floor of t'_i,SLP \u2265 (420, t_i,SLP) min/day. This threshold protects the 7.0 h/day guideline floor and prohibits sleep draws among adolescents already below 420 min/day at baseline. C4a simultaneously enforces a mandatory classroom and homework sedentary floor (t'_i,SB \u2265 180 min/day) and a daily extracurricular MVPA increment cap (\u0394 t_i,MVPA \u2264 90 min/day), projecting donor weights onto the feasible polytope and rejecting infeasible prescriptions. 2. Entropic mirror-ascent donor optimization (C4b): C4b executes K_ref = 8 centered entropic mirror-ascent updates on the donor simplex \u0394^2, initialized at each adolescent's baseline non-MVPA shares. It follows the analytical VC-OBS donor utility gradient _w\u03c4_buf,i to prioritize recreational screen-time substitution over nocturnal sleep draws. 3. Local effective-sample-size support shrinkage (C4c): Evaluates the local kernel effective sample size N_eff(a, d; z_i) = (_j _ij)^2 / (_j _ij^2 + 10^-8) over the training bank. Whenever a high-dose candidate exceeds the local upper-support anchor d_anchor(z_i, a) in a sparse region (N_eff < \u03c4_ess = 50), C4c shrinks the query dose toward d_anchor(z_i, a) and applies the quadratic support-shortfall penalty R_ess during prescription selection. Experimental Setupsec:setup Multi-cohort dataset and 24-hour movement distributionssec:dataset We evaluate PhyBuff-Net and all competing estimators on a de-identified multi-school longitudinal adolescent 24-hour movement and mental-health cohort comprising N = 3,600 participants across two developmental stages cao2023anxiety,ren2022movement,kim2022kyrbs. The Junior High School cohort comprises n = 1,600 students across grades 7-9 (553 in G7, 535 in G8, and 512 in G9; mean \u00b1 standard deviation (SD) age 13.82 \u00b1 0.97 years, 46.25% male). The Senior High School cohort comprises n = 2,000 students across grades 10-12 (836 in G10, 756 in G11, and 408 in G12; mean age 16.25 \u00b1 0.90 years, 43.60% male). All data collection procedures received institutional ethics approval and written guardian informed consent alongside student assent prior to enrollment. Across participating schools, baseline assessments combined seven-day 24-hour wrist-actigraphy and daily time-use logs with standardized classroom psychometric administrations of the 10-item SAS-SV kwon2013sassv, the 3-item PARS-3 huang2026temporal, and the DASS-21 anxiety subscale lovibond1995dass. A longitudinal wave-2 follow-up assessment was conducted 11-13 weeks later across all N = 3,600 analytic participants (cohort_followup_wave2.csv), recording follow-up exercise doses, 24-hour movement compositions, and DASS-21 anxiety scores. From the initial enrollment pool of 3,933 students (1,794 junior high and 2,139 senior high), standardized quality-control screening excluded 333 candidates due to valid 24-hour actigraphy wear time below 16 h/day (n = 175), incomplete psychometric scale items (n = 108), or failed attention verification checks (n = 50). The resulting cohort-specific admissibility attrition rates are 10.81% in junior high school (11.24% in G7, 10.54% in G8, and 10.65% in G9) and 6.50% in senior high school (6.49% in G10, 6.55% in G11, and 6.42% in G12; Supplementary Table S1). To evaluate individualized counterfactual dose-response estimation and donor-specific time reallocation across the full exposure domain, longitudinal baseline and wave-2 trajectories are paired with pre-computed multi-wave reference dose-response lookup grids (dr_surface_grid.csv and cohort_reference_surface.csv). These reference surfaces index expected anxiety outcomes across PARS-3 doses 0, 5, , 100 and donor allocations w \u0394^2 bounded smoothly onto the continuous [0, 42] DASS-21 scale. Stratified block allocation across school cohort, biological sex, baseline SAS-SV risk tier, and circadian sleep status partitions the N = 3,600 analytic cohort into training (n_train = 2,340, 65%), validation (n_val = 540, 15%), and held-out test (n_test = 720, 20%; 320 junior high and 400 senior high) splits. figure[!htbp] Fig/Figure_2.pdf Multi-cohort 24-hour movement composition and empirical correlation structure across N = 3,600 adolescents. (a) Mean daily durations on the closed 1,440 min/day simplex across sleep (SLP), sedentary behavior (SB), light physical activity (LPA), and moderate-to-vigorous physical activity (MVPA) for junior high school (n = 1,600; 509, 491, 410, and 31.0 min/day), senior high school (n = 2,000; 479, 531, 406, and 24.8 min/day), and the combined cohort (492, 513, 407, and 27.6 min/day). (b) Pairwise Pearson correlation matrix across psychometric and movement variables in the full cohort, illustrating strong positive coupling between SAS-SV and DASS-21 anxiety (r = 0.757; plotted as 0.76) and negative coupling with school adjustment (r = -0.396; -0.40) and MVPA (r = -0.509; -0.51). (c) Stratified box-and-mean distributions of SAS-SV smartphone addiction scores across clinical DASS-21 anxiety severity tiers. fig:cohort figure Observed distributions across both cohorts capture the characteristic developmental shifts that occur during secondary-school transitions (Figure fig:cohorta-c and Supplementary Table S2). Table tab:calibration compares published regional adolescent reference cohorts against the baseline distributions observed in our multi-school sample. In the Junior High cohort, mean school adjustment is 22.01 \u00b1 3.12, PARS-3 extracurricular physical activity dose is 37.68 \u00b1 21.45, SAS-SV smartphone addiction is 20.42 \u00b1 9.96, and DASS-21 anxiety is 8.96 \u00b1 7.45. Its 24-hour movement means are 508.73 \u00b1 41.57 min/day for sleep, 490.56 \u00b1 61.11 min/day for sedentary behavior, 409.67 \u00b1 30.18 min/day for LPA, and 31.04 \u00b1 12.03 min/day for MVPA cao2023anxiety. In the Senior High cohort, heightened academic stress (30.86 \u00b1 7.22 vs. 27.59 \u00b1 7.46) shifts the 24-hour composition toward prolonged sedentary study and screen behavior (530.69 \u00b1 57.92 min/day). Nocturnal sleep drops correspondingly to 479.01 \u00b1 40.73 min/day (-29.72 min/day). Both LPA (405.52 \u00b1 30.80 min/day) and MVPA (24.78 \u00b1 11.11 min/day) decline alongside sleep, while SAS-SV scores (34.54 \u00b1 12.46) and DASS-21 anxiety (16.38 \u00b1 9.13) rise ren2022movement. Across the held-out test split (N_test = 720), 408 adolescents (56.67%) fall into the low SAS-SV risk tier, 180 (25.00%) into the moderate risk tier, and 132 (18.33%) into the severe addiction tier, while 133 (18.47%) exhibit baseline short sleep (t_SLP < 450 min/day; Table tab:cohort). table[!htbp] Baseline demographic, psychometric, and 24-hour compositional movement summary across the Junior High (n = 1,600), Senior High (n = 2,000), and combined (N = 3,600) analytic cohorts (mean \u00b1 SD and Pearson correlation r with SAS-SV and DASS-21 anxiety).tab:cohort tabcolsep1pt tabular*@filllccccc@ Variable & Junior High (1,600) & Senior High (2,000) & Full Cohort (3,600) & r(SAS-SV) & r(Anxiety) Age (years) & 13.82 \u00b1 0.97 & 16.25 \u00b1 0.90 & 15.17 \u00b1 1.53 & 0.420 & 0.324 School Adjustment (5-35) & 22.01 \u00b1 3.12 & 20.62 \u00b1 3.16 & 21.24 \u00b1 3.22 & -0.396 & -0.715 Academic Stress (10-50) & 27.59 \u00b1 7.46 & 30.86 \u00b1 7.22 & 29.41 \u00b1 7.50 & 0.460 & 0.764 PARS-3 EPA Dose (0-100) & 37.68 \u00b1 21.45 & 27.36 \u00b1 19.72 & 31.94 \u00b1 21.13 & -0.486 & -0.597 SAS-SV Score (10-60) & 20.42 \u00b1 9.96 & 34.54 \u00b1 12.46 & 28.27 \u00b1 13.40 & 1.000 & 0.757 DASS-21 Anxiety (0-42) & 8.96 \u00b1 7.45 & 16.38 \u00b1 9.13 & 13.08 \u00b1 9.19 & 0.757 & 1.000 Sleep Duration (min/day) & 508.73 \u00b1 41.57 & 479.01 \u00b1 40.73 & 492.22 \u00b1 43.68 & -0.430 & -0.599 Sedentary Behavior (min/day) & 490.56 \u00b1 61.11 & 530.69 \u00b1 57.92 & 512.86 \u00b1 62.62 & 0.465 & 0.645 Light PA (min/day) & 409.67 \u00b1 30.18 & 405.52 \u00b1 30.80 & 407.36 \u00b1 30.59 & -0.140 & -0.205 MVPA (min/day) & 31.04 \u00b1 12.03 & 24.78 \u00b1 11.11 & 27.56 \u00b1 11.94 & -0.509 & -0.663 tabular* table table[!htbp] Comparison of published regional adolescent reference cohorts versus observed baseline distributions in the multi-school analytic cohort (N = 3,600).tab:calibration tabcolsep3pt tabular*@fillp2.3cmp2.5cmp2.3cmp2.2cmp4.3cm@ Dimension / Metric & Published Reference Cohort & Published Reference Range & Observed Cohort & Developmental & Sampling Context Addiction-Anxiety r & Cao et al. cao2023anxiety & r = 0.392 (JH only) & r = 0.757 (N=3,600) & Pooled grades 7-12 span wider academic stress and sleep variance Junior High SAS-SV & Cao et al. cao2023anxiety & 30.1 \u00b1 10.4 & 20.42 \u00b1 9.96 & Broader inclusion of non-addicted early-grade students Senior High SAS-SV & Ren et al. ren2022movement & 36.4 \u00b1 11.2 & 34.54 \u00b1 12.46 & Comparable high-school smartphone reliance and tail spread Sleep Duration (JH) & Ren et al. ren2022movement; KYRBS & 495-515 min/day & 508.73 \u00b1 41.57 & Consistent with early-adolescent nocturnal sleep guidelines Sleep Duration (SH) & Ren et al. ren2022movement; KYRBS & 470-490 min/day & 479.01 \u00b1 40.73 & Reflects evening study compression (-29.7 min vs. JH) Sedentary Time (JH) & Chastin et al. chastin2015coda & 480-520 min/day & 490.56 \u00b1 61.11 & Aligns with secondary classroom and recreational screen time Sedentary Time (SH) & Ren et al. ren2022movement & 520-550 min/day & 530.69 \u00b1 57.92 & Captures elevated senior-high desk and screen burden MVPA Duration & Cao et al. cao2023anxiety; Ren et al. & 20-32 min/day & 27.56 \u00b1 11.94 & Matches daily extracurricular exercise volume on S^4_1440 tabular* table Evaluation metricssec:metrics All models are trained exclusively on observed baseline tuples (x_i, t_i, A_i, D_EPA,i, Y_i). To ensure strict donor fairness across compositional and Euclidean estimators, counterfactual surface recovery and prescription decision quality are evaluated under a unified shared-donor protocol. Every estimator is scored on the same test grid G_d = 0, 20, 40, 60, 80 (N_test = 720, five seeds s 101, 202, 303, 404, 505, Table tab:main) and across outer cross-validation, cross-cohort, and wave-2 follow-up regimes (Table tab:misspec). Specifically, all counterfactual grids \u03bc_i(A_i, d) are evaluated under the identical canonical shared donor trajectory w^*_i(d) = (w^*_i,SB(d), , 1 - w^*_i,SB(d), , 0)^, where w^*_i,SB(d) = (1, , (0, (t_i,SB - 180)/(0.68,d, 10^-6))) for d > 0 and w^*_i(0) = (1, 0, 0)^. C4b donor steering remains disabled during grid scoring. Downstream prescription optimization is then evaluated via each estimator's recommended intervention (d^*_i, w_i), while the donor-planning ablations (w/o C4b and w/o C4 in Table tab:ablation) additionally evaluate unassisted proportional-donor grids to isolate the surface contribution of C4b mirror ascent. For any evaluated set S 1, , N_test, the primary surface metric is the counterfactual coefficient of determination (R^2_CF, higher is better), paired with the square root of the mean integrated squared error (MISE, denoted MISE, lower is better): align R^2_CF &= 1 - _i S _d G_d (\u03bc_i(A_i, d; w^*_i(d)) - \u03bc_i(A_i, d))^2_i S _d G_d (\u03bc_i(A_i, d; w^*_i(d)) - \u03bc_S)^2, eq:metrics_r2 MISE &= 1|S| , |G_d| _i S _d G_d (\u03bc_i(A_i, d; w^*_i(d)) - \u03bc_i(A_i, d))^2, eq:metrics_mise align Above, \u03bc_S denotes the reference mean across S. We also quantify accuracy on the marginal buffering effect at high intervention intensity (d = 60) and decision quality under each estimator's recommended prescription (d^*_i, w_i). Specifically, we report the root Precision in Estimation of Heterogeneous Effects (PEHE) for buffering (PEHE_buf, lower is better) and the counterfactual policy regret (Regret_feas, lower is better). We also record the circadian and schedule Feasibility Violation Rate (FVR, %, lower is better). align PEHE_buf &= 1|S|_i S(\u03c4_buf,i(A_i, 60; w^*_i(60)) - \u03c4_buf,i(A_i, 60))^2, eq:metrics_pehe Regret_feas &= 1|S|_i S (0, , \u03bc_i(A_i, d^*_i; w_i) - \u03bc_i(A_i, d^*_i; w^*_i(d^*_i))). eq:metrics_regret align Competing baselines and ablation variantssec:baselines The eight competitors span classical moderated regression, compositional time-use analysis, cross-fitted double machine learning, and neural continuous dose-response representation learners: enumerate PROCESS-OLS hayes2018process,cao2023anxiety: Moderated linear regression with main effects (A_i, D_EPA,i), bilinear interaction A_i \u00d7 D_EPA,i, and full covariate/movement adjustment (x_i, t_i,1:3), trained on all n_train rows via mini-batch Adam ridge optimization. CoDA-Isotemporal chastin2015coda,dumuid2019isotemporal,ren2022movement: Compositional linear moderation on orthonormal ilr coordinates (ilr_1, ilr_2, ilr_3) paired with static one-for-one sedentary-to-MVPA substitution on S^4_1440. CausalForest-DML wager2018causalforest,chernozhukov2018dml: Two-fold cross-fitted double machine learning with bagged variance-reducing regression trees of tuned depth and leaf size, estimating heterogeneous moderated treatment slopes. TARNet-Int shalit2017estimating,schwab2020drnet: Two-layer residual representation network with K = 3 discrete PARS-3 clinical dose-stratum heads ([0, 19], (19, 42], (42, 100]) and within-stratum addiction interaction layers. Backbone-ConcatMLP (No C1-C4): Unconstrained two-layer ReLU multilayer perceptron concatenating (x_i, t_i/1440, A_i, D_EPA,i) without C1, C2, C3, or C4. VCNet nie2021vcnet: Two-layer residual encoder coupled with a degree-3 cubic varying-coefficient truncated-power B-spline head, a four-bin conditional treatment density head, and functional targeted regularization. GIKS nagalapatti2024giks: Two-layer residual encoder and cubic varying-coefficient spline head regularized by local Gaussian kernel dose-gradient interpolation and smoothing. CBRL zhu2024cbrl: Single-treatment contrastive balancing representation learner combining a two-layer residual encoder, continuous treatment HSIC, four-quantile InfoNCE, and Nystr\"om marginal density-ratio weights on D_EPA,i while conditioning on A_i as an observed covariate in its cubic spline head. enumerate Baseline feasibility violation rates and policy regret must not reflect unnormalized wrapper drift. All seven non-compositional baselines (methods 1 and 3-8) therefore predict counterfactual non-MVPA contractions via four training-fitted generalized cross-validation (GCV) log-duration ridge regressions projected directly onto the closed 1,440 min/day simplex (0.000 min/day closure error). Section sec:res_error additionally evaluates a feasibility-filtered control (CBRL + C4a) that grants C4a boundary projection directly to CBRL at prescription time, alongside two structural-prior neural control arms (CBRL + StructPrior and VCNet + StructPrior) that receive the same compositional ilr coordinates, empirical training sleep quantiles, and shared donor features as PhyBuff-Net. Nine ablation variants isolate each module on the five-seed protocol. Four variants ablate CIPO by removing C4a (w/o C4a), C4b (w/o C4b), C4c (w/o C4c), or the full CIPO module (w/o C4). Three further variants replace bivariate balancing with marginal balancing (w/o C2-Contrastive), no balancing (w/o C2), or a generic MLP head (w/o C3). The final two replace ICTE and T_simplex with unprojected Euclidean durations (w/o C1) or remove C1-C4 together (w/o C1-C4). Statistical analysis and implementation protocolsec:stat_protocol Every competing baseline and PhyBuff-Net receives identical splits, identical feature access, and a matched hyperparameter search budget of 48 distinct trials fitted on the training split (n_train = 2,340) and evaluated strictly on the validation split (n_val = 540, Supplementary Note 2 and Table tab:tuning). Linear and compositional models evaluate 48 combinations of ridge penalties \u03b1 [10^-3, 10] and learning rates [0.010, 0.060]. CausalForest-DML samples 48 configurations without replacement over ensemble size, tree depth d_ 2, 3, 4, minimum leaf size n_leaf 15, 25, 40, and DML ridge penalties. All five neural baselines sample 48 configurations without replacement over hidden widths 16, 24, 32, 48, learning rates 0.015, 0.022, 0.030, encoder L_2 weight decays 10^-3, 10^-2, 0.05, 0.15, 0.35, and head/auxiliary regularization weights, ranked by density-ratio-weighted observational validation mean squared error (MSE). PhyBuff-Net samples 48 configurations uniformly without replacement from the 162-point Cartesian grid spanning d_z 24, 32, 48, M 4, 6, 8, \u03bb_bal 0.05, 0.10, 0.18, 0.25, 0.35, 0.50, and \u03c4_nce 0.12, 0.15, 0.20 (evaluate_all.py). Configurations are ranked via the target-free observational validation objective J_val combining density-ratio-weighted factual validation MSE, validation joint exposure HSIC_val, and sample-weight variance regularization, selecting d_z = 32, M = 6, \u03bb_bal = 0.25, and \u03c4_nce = 0.15 (J_val = 3.2253). The inference-time CIPO thresholds \u03c4_ess = 50 and K_ref = 8 are fixed a priori from kernel support and mirror-ascent convergence criteria and audited post-hoc across one-dimensional sensitivity sweeps (Tables tab:sensitivity-tab:sens_harness). We compute 95% confidence intervals for R^2_CF via B = 1,000 hierarchical paired bootstrap resamples (N_test = 720, seed 2026) and report two-sided paired Wilcoxon signed-rank tests with step-down Holm-Bonferroni correction (\u03b1 = 0.01). table[!htbp] Matched 48-trial full-split (n_train = 2,340, n_val = 540) hyperparameter search spaces and selected operating points across all nine evaluated methods (CIPO \u03c4_ess=50, K_ref=8 fixed a priori).tab:tuning tabcolsep1pt tabular*@filllccl@ Method & Trials & Search Grid Dimensions & Validation-Selected Operating Point PROCESS-OLS & 48 & \u03b1[10^-3,10], lr[.010,.060] & \u03b1=0.35, lr=0.060 CoDA-Isotemporal & 48 & \u03b1[10^-3,10], lr[.010,.060] & \u03b1=3.00, lr=0.060 CausalForest-DML & 48 & B[24,64], d_[2,4], n_leaf, \u03bb_nuis, \u03bb_cate & B=36, d_=3, n_leaf=15, \u03bb_nuis=12, \u03bb_cate=48 TARNet-Int & 48 & h[16,48], lr[.015,.030], _2[10^-3,.35], \u03bb_h & h=24, lr=0.015, _2=0.15, \u03bb_h=24.0 ConcatMLP & 48 & h[16,48], lr[.015,.030], _2[10^-3,.35], \u03bb_h & h=48, lr=0.030, _2=0.35, \u03bb_h=0.75 VCNet & 48 & h[16,48], lr, _2[10^-3,.35], \u03bb_h, \u03bb_tr & h=48, lr=0.015, _2=0.05, \u03bb_h=0.35, \u03bb_tr=0.04 GIKS & 48 & h[16,48], lr, _2[10^-3,.35], \u03bb_h, \u03bb_grad & h=32, lr=0.022, _2=0.01, \u03bb_h=0.22, \u03bb_grad=0.01 CBRL & 48 & h[16,48], lr, _2[10^-3,.35], \u03bb_h, \u03bb_bal & h=48, lr=0.015, _2=0.01, \u03bb_h=0.35, \u03bb_bal=0.10 PhyBuff-Net & 48 & d_z[24,48], M[4,8], \u03bb_bal, \u03c4_nce & d_z=32, M=6, \u03bb_bal=0.25, \u03c4_nce=0.15 tabular* table Resultssec:results Main counterfactual surface and buffering comparisonsec:res_main Across the held-out test cohort (N_test = 720, five seeds), PhyBuff-Net achieves the highest counterfactual dose-response surface accuracy and the lowest feasible policy regret among all nine evaluated estimators under identical shared-donor scoring (Table tab:main and Figure fig:maina,b). Specifically, PhyBuff-Net attains R^2_CF = 0.9566 \u00b1 0.0105 (95% hierarchical bootstrap CI [0.9474, 0.9654]), surpassing the strongest competing baseline TARNet-Int (0.9244 \u00b1 0.0057, 95% CI [0.9214, 0.9405]) by \u0394 R^2_CF = +0.0322 (p_Holm = 2.32 \u00d7 10^-26). Relative to the continuous dose-response neural baselines GIKS (0.8996 \u00b1 0.0099), CBRL (0.8930 \u00b1 0.0162, 95% CI [0.8745, 0.9091]), and VCNet (0.8890 \u00b1 0.0082), PhyBuff-Net improves R^2_CF by +0.0570 (p_Holm = 1.97 \u00d7 10^-69), +0.0636 (p_Holm = 6.04 \u00d7 10^-52), and +0.0677 (p_Holm = 6.79 \u00d7 10^-51), respectively. Compared with CausalForest-DML (0.8855 \u00b1 0.0089), PROCESS-OLS (0.8489 \u00b1 0.0017), Backbone-ConcatMLP (0.8343 \u00b1 0.0078), and CoDA-Isotemporal (0.8097 \u00b1 0.0012), the surface determination gains reach +0.0711 (p_Holm = 6.21 \u00d7 10^-78), +0.1077 (p_Holm = 6.83 \u00d7 10^-89), +0.1224 (p_Holm = 3.47 \u00d7 10^-108), and +0.1470 (p_Holm = 8.92 \u00d7 10^-77). Bilinear interaction terms and population-constant log-ratio slopes both miss heterogeneous nonlinear buffering curvature across the smartphone addiction spectrum. Moreover, in five-split repeated stratified outer cross-validation where structural-prior controls (CBRL + StructPrior and VCNet + StructPrior) receive identical compositional ilr and donor features (Table tab:misspec), PhyBuff-Net still ranks first at R^2_CF = 0.9421 \u00b1 0.0103 versus 0.9309 \u00b1 0.0180 and 0.9215 \u00b1 0.0123, confirming that double-continuous contrastive balancing and orthogonal Bernstein smoothing improve surface recovery beyond shared donor alignment. table[!htbp] Main benchmark comparison on the held-out test split (N_test = 720 across 5 seeds; per-seed values in Supplementary Table S3; CF-DML: CausalForest-DML, CoDA-Iso: CoDA-Isotemporal, PROCESS: PROCESS-OLS). Counterfactual surface metrics (R^2_CF, MISE, PEHE) are evaluated under the identical shared reference donor trajectory w^*_i(d), paired with downstream prescription regret and FVR (%). Values report mean \u00b1 SD; 95% CI uses 1,000-draw hierarchical paired bootstrap; p_Holm is two-sided paired Wilcoxon with Holm-Bonferroni correction.tab:main tabcolsep1pt tabular*@filllcccccc@ Method & R^2_CF () & 95% CI & MISE () & PEHE () & Regret () & FVR% / p_Holm PhyBuff-Net & 0.9566\u00b10.0105 & [0.9474,0.9654] & 1.6701\u00b10.2034 & 1.9369\u00b10.2670 & 1.8932\u00b10.4178 & 0.00 / Ref. TARNet-Int & 0.9244\u00b10.0057 & [0.9214,0.9405] & 2.2166\u00b10.1326 & 2.3083\u00b10.3701 & 2.8147\u00b10.9764 & 8.28 / 1.76e-26 GIKS & 0.8996\u00b10.0099 & [0.8852,0.9116] & 2.5529\u00b10.1235 & 3.4184\u00b10.0936 & 2.5383\u00b10.6169 & 8.61 / 1.97e-69 CBRL & 0.8930\u00b10.0162 & [0.8745,0.9091] & 2.6317\u00b10.2008 & 3.5127\u00b10.2241 & 2.4729\u00b10.4165 & 7.75 / 6.04e-52 VCNet & 0.8890\u00b10.0082 & [0.8762,0.8991] & 2.6858\u00b10.0981 & 3.7532\u00b10.0936 & 3.0474\u00b10.7100 & 8.19 / 6.79e-51 CF-DML & 0.8855\u00b10.0089 & [0.8714,0.8981] & 2.7271\u00b10.1061 & 4.1843\u00b10.1282 & 4.0560\u00b10.0344 & 7.97 / 6.21e-78 PROCESS & 0.8489\u00b10.0017 & [0.8287,0.8653] & 3.1345\u00b10.0178 & 4.7910\u00b10.0059 & 4.0716\u00b10.0002 & 9.58 / 6.83e-89 ConcatMLP & 0.8343\u00b10.0078 & [0.8152,0.8499] & 3.2824\u00b10.0785 & 5.4192\u00b10.1309 & 4.2798\u00b10.1527 & 6.78 / 3.47e-108 CoDA-Iso & 0.8097\u00b10.0012 & [0.7919,0.8255] & 3.5182\u00b10.0111 & 2.8357\u00b10.0179 & 2.7407\u00b10.0005 & 0.00 / 8.92e-77 tabular* table The advantage of PhyBuff-Net is equally clear on decision-relevant buffering and prescription metrics (Figure fig:mainb). PhyBuff-Net lowers surface error MISE to 1.6701 \u00b1 0.2034, representing a 24.65% reduction relative to TARNet-Int (2.2166 \u00b1 0.1326) and a 36.54% reduction relative to CBRL (2.6317 \u00b1 0.2008). It also reduces heterogeneous buffering error PEHE_buf to 1.9369 \u00b1 0.2670 (16.09% below TARNet-Int at 2.3083, 43.34% below GIKS at 3.4184, and 44.86% below CBRL at 3.5127). Projecting all non-compositional baseline reallocations onto the closed 1,440 min/day simplex (0.000 min/day closure error) corrects closure drift but does not prevent circadian sleep draws. Euclidean baselines still draw exercise duration partly from nocturnal sleep, breaching the circadian sleep floor on 6.78%-9.58% of test profiles (7.75% for CBRL, 8.28% for TARNet-Int, and 8.61% for GIKS) and incurring counterfactual policy regrets of 2.4729-4.2798 DASS-21 points. CoDA-Isotemporal achieves 0.00% violations via static sedentary-to-MVPA substitution (Regret_feas = 2.7407) at the cost of lower surface accuracy (0.8097). PhyBuff-Net enforces FVR = 0.00% \u00b1 0.00% while lowering Regret_feas to 1.8932 \u00b1 0.4178 (23.44% below CBRL and 30.92% below CoDA-Isotemporal). figure[!htbp] Fig/Figure_3.pdf Held-out test set performance across the eight competitors and PhyBuff-Net (N_test = 720, five seeds). (a) Forest plot of counterfactual dose-response surface determination (R^2_CF) with 95% bootstrap confidence intervals. (b) Joint trade-off between intrinsic Circadian and Schedule Feasibility Violation Rate (FVR, %, under exact 1,440 min/day simplex closure) and Counterfactual Policy Regret (Regret_feas, DASS-21 points), showing mean \u00b1 SD error bars. fig:main figure Bivariate dose-response trajectories and donor time-reallocation dynamicssec:res_doseresponse Smartphone addiction severity and exercise volume interact non-parametrically across the cohort. Stratifying the counterfactual dose-response surface across clinical SAS-SV tiers yields a strongly negative cross-derivative (\u03b3_i(a, d) < 0; Figure fig:doseresponsea-c). Because the VC-OBS spline basis vanishes identically at inactivity (d = 0), net buffering satisfies \u03c4_buf(a, 0) = 0.00 across all tiers and donor modes. Under CIPO-planned sedentary screen substitution (w_SB = 0.78, w_LPA = 0.20, w_SLP = 0.02, projected onto w_SLP = 0.00 near the circadian boundary), expected DASS-21 anxiety in the Low SAS-SV tier (n = 408) declines from 10.16 \u00b1 5.92 at d = 0 to 7.31 \u00b1 6.10 at moderate exercise (d = 40), corresponding to a net buffering reduction of \u03c4_buf = 2.85 points (95% CI [2.79, 2.91]). High-volume schedule load then attenuates relief to 7.77 \u00b1 6.20 at d = 80 (\u03c4_buf = 2.40 points) and 9.10 \u00b1 6.39 at d = 100 (\u03c4_buf = 1.06 points). In the Moderate SAS-SV tier (n = 180), baseline anxiety starts at 18.91 \u00b1 5.70 and drops to 15.58 \u00b1 6.32 at d = 40 (\u03c4_buf = 3.33 points, 95% CI [3.21, 3.44]) and 15.36 \u00b1 6.60 at d = 80 (\u03c4_buf = 3.54 points, 95% CI [3.37, 3.72]). Among adolescents in the Severe SAS-SV tier (n = 132), counterfactual anxiety at inactivity reaches 25.94 \u00b1 6.50. Planned screen substitution reduces expected anxiety to 22.45 \u00b1 7.11 at d = 40 (\u03c4_buf = 3.49 points, 95% CI [3.35, 3.64]) and 21.82 \u00b1 7.42 at d = 80 (\u03c4_buf = 4.12 points, 95% CI [3.89, 4.35]), before moderating to 22.89 \u00b1 7.67 at d = 100 (\u03c4_buf = 3.05 points, 95% CI [2.77, 3.33]). figure[!htbp] Fig/Figure_4.pdf Counterfactual dose-response trajectories and donor time-reallocation dynamics across the PARS-3 extracurricular physical activity spectrum (d [0, 100]). (a) Counterfactual DASS-21 anxiety trajectories \u03bc(a, d) (mean and 95% CI ribbon) stratified by Low (n = 408), Moderate (n = 180), and Severe (n = 132) SAS-SV smartphone addiction tiers under planned sedentary screen substitution. (b) Net anxiety buffering effect \u03c4_buf(a, d) among severely addicted adolescents (n = 132) across three time-reallocation donor modes: planned sedentary screen substitution (w_SB = 0.78), light physical activity substitution (w_LPA = 0.76), and sleep displacement (w_SLP = 0.58). (c) Percentage of test participants violating the circadian sleep floor across EPA doses. fig:doseresponse figure Donor choice governs both the magnitude and the sign of the buffering response. Comparing reallocation modes within the Severe SAS-SV stratum illustrates why Euclidean dose-response estimation fails without compositional donor modeling (Figure fig:doseresponseb,c and Table tab:doseresponse). At d = 80, substituting recreational sedentary screen time yields \u03c4_buf = 4.12 DASS-21 points (95% CI [3.89, 4.35]). Substituting light physical activity instead yields \u03c4_buf = 2.78 points (95% CI [2.38, 3.18]), a 32.52% smaller buffering gain reflecting the smaller empirical substitution elasticity estimated for light activity relative to sedentary screen time. Drawing the same exercise increment primarily from nocturnal sleep (w_SLP = 0.58) erodes the buffering trajectory. Across the full test cohort (N_test = 720), sleep-floor violations under sleep displacement climb from 0.00% at d = 0 to 11.81% at d = 40, 20.97% at d = 80, and 27.50% at d = 100 (Figure fig:doseresponsec). Within the Severe SAS-SV stratum, net buffering under sleep displacement drops to 1.09 points at d = 80 (42.42% violations) and reverses sign to -0.60 points at d = 100 (mean anxiety rising from 25.94 to 26.54, with 54.55% violations) qin2025smartphone,xiao2024relationship. table[!htbp] Counterfactual dose-response surface and donor time-reallocation summary across SAS-SV risk tiers and donor substitution modes on the held-out test split (N_test = 720, seed 101 fitted surface). Each row reports one evaluated dose d on the PARS-3 scale; \u03bc(a,d) is the mean counterfactual DASS-21 anxiety, \u03c4_buf(a,d) the net buffering effect relative to d = 0, and Sleep Viol. the share of participants breaching the circadian sleep floor.tab:doseresponse tabcolsep3pt tabular*@fillllcccccc@ Donor Mode & Tier (n) & Dose d & \u03bc(a, d) \u00b1 SD & \u03c4_buf(a, d) & 95% CI & Sleep Viol. (%) Screen Subst. (w_SB=0.78) & Low (408) & 0 & 10.16 \u00b1 5.92 & 0.00 & [0.00, 0.00] & 0.00 Screen Subst. (w_SB=0.78) & Low (408) & 40 & 7.31 \u00b1 6.10 & 2.85 & [2.79, 2.91] & 0.00 Screen Subst. (w_SB=0.78) & Low (408) & 80 & 7.77 \u00b1 6.20 & 2.40 & [2.30, 2.50] & 0.00 Screen Subst. (w_SB=0.78) & Low (408) & 100 & 9.10 \u00b1 6.39 & 1.06 & [0.94, 1.18] & 0.00 Screen Subst. (w_SB=0.78) & Moderate (180) & 0 & 18.91 \u00b1 5.70 & 0.00 & [0.00, 0.00] & 0.00 Screen Subst. (w_SB=0.78) & Moderate (180) & 40 & 15.58 \u00b1 6.32 & 3.33 & [3.21, 3.44] & 0.00 Screen Subst. (w_SB=0.78) & Moderate (180) & 80 & 15.36 \u00b1 6.60 & 3.54 & [3.37, 3.72] & 0.00 Screen Subst. (w_SB=0.78) & Moderate (180) & 100 & 16.53 \u00b1 6.84 & 2.37 & [2.16, 2.59] & 0.00 Screen Subst. (w_SB=0.78) & Severe (132) & 0 & 25.94 \u00b1 6.50 & 0.00 & [0.00, 0.00] & 0.00 Screen Subst. (w_SB=0.78) & Severe (132) & 40 & 22.45 \u00b1 7.11 & 3.49 & [3.35, 3.64] & 0.00 Screen Subst. (w_SB=0.78) & Severe (132) & 80 & 21.82 \u00b1 7.42 & 4.12 & [3.89, 4.35] & 0.00 Screen Subst. (w_SB=0.78) & Severe (132) & 100 & 22.89 \u00b1 7.67 & 3.05 & [2.77, 3.33] & 0.00 LPA Subst. (w_LPA=0.76) & Severe (132) & 40 & 23.13 \u00b1 7.60 & 2.81 & [2.58, 3.04] & 18.94 LPA Subst. (w_LPA=0.76) & Severe (132) & 80 & 23.16 \u00b1 8.43 & 2.78 & [2.38, 3.18] & 18.94 Sleep Displ. (w_SLP=0.58) & Severe (132) & 40 & 24.01 \u00b1 7.57 & 1.94 & [1.72, 2.15] & 26.52 Sleep Displ. (w_SLP=0.58) & Severe (132) & 80 & 24.85 \u00b1 8.25 & 1.09 & [0.73, 1.46] & 42.42 Sleep Displ. (w_SLP=0.58) & All (720) & 40 & 13.13 \u00b1 9.24 & 2.11 & [2.04, 2.18] & 11.81 Sleep Displ. (w_SLP=0.58) & All (720) & 80 & 14.15 \u00b1 9.59 & 1.09 & [0.96, 1.22] & 20.97 tabular* table Ablation study of architectural components and CIPO sub-modulessec:res_ablation Component-wise ablations confirm that every core module (C1-C4) contributes to surface estimation or prescription feasibility on the held-out test split (Table tab:ablation and Figure fig:ablationa,b). Removing the Isometric Compositional Time-Reallocation Encoder (w/o C1) replaces ilr coordinates and T_simplex with unprojected Euclidean GCV log-duration predictions. This ablation reduces R^2_CF by -0.0737 from 0.9566 \u00b1 0.0105 to 0.8829 \u00b1 0.0033 (95% CI [0.8712, 0.8934], p_Holm = 3.08 \u00d7 10^-91). Because unprojected Euclidean predictions drift off the 1,440 min/day simplex (mean closure error 2.000 min/day), w/o C1 incurs a 92.92% feasibility violation rate and inflates policy regret from 1.8932 to 3.1728. Removing all four components without simplex projection (w/o C1-C4) lowers R^2_CF by -0.0674 to 0.8893 \u00b1 0.0175 (p_Holm = 1.11 \u00d7 10^-90) with 99.94% violations and 5.3106 regret. Replacing the VC-OBS spline head with an unconstrained MLP (w/o C3) degrades R^2_CF by -0.1504 to 0.8062 \u00b1 0.0600 (95% CI [0.7552, 0.8571], p_Holm = 7.54 \u00d7 10^-115), while inflating PEHE_buf from 1.9369 to 3.9460 and policy regret to 4.1855. Removing the Double-Continuous Contrastive Kernel Balancer (w/o C2, \u03bb_bal = 0) lowers R^2_CF by -0.0071 to 0.9495 \u00b1 0.0122 (95% CI [0.9386, 0.9600], p_Holm = 4.66 \u00d7 10^-44), raises MISE from 1.6701 to 1.8009, and increases policy regret from 1.8932 to 2.1134. Retaining marginal D_EPA balancing while dropping bivariate (A, D_EPA) contrastive decoupling (w/o C2-Contrastive) reduces R^2_CF by -0.0045 (0.9522 \u00b1 0.0124, p_Holm = 4.65 \u00d7 10^-23) and increases policy regret to 2.1752. table[!htbp] Ablation study of architectural components (C1-C4) and CIPO sub-modules (C4a-C4c) on the held-out test split (N_test = 720, 5 seeds; per-seed values in Supplementary Table S4; bold indicates best value per metric column).tab:ablation tabcolsep1pt tabular*@filllcccccc@ Ablation Variant & R^2_CF () & \u0394 R^2_CF & MISE () & PEHE () & Regret () & FVR (%, ) PhyBuff-Net (Full) & 0.9566\u00b10.0105 & 0.0000 & 1.6701\u00b10.2034 & 1.9369\u00b10.2670 & 1.8932\u00b10.4178 & 0.00\u00b10.00 w/o C4a (Projection) & 0.9566\u00b10.0105 & 0.0000 & 1.6701\u00b10.2034 & 1.9369\u00b10.2670 & 2.1010\u00b10.4173 & 8.22\u00b10.32 w/o C4c (ESS Shrinkage) & 0.9566\u00b10.0105 & -0.0001 & 1.6709\u00b10.2042 & 1.9367\u00b10.2670 & 1.8936\u00b10.4180 & 0.00\u00b10.00 w/o C2-Contrastive & 0.9522\u00b10.0124 & -0.0045 & 1.7527\u00b10.2264 & 2.0466\u00b10.2980 & 2.1752\u00b10.1920 & 0.00\u00b10.00 w/o C2 (Balancing) & 0.9495\u00b10.0122 & -0.0071 & 1.8009\u00b10.2269 & 2.1450\u00b10.3042 & 2.1134\u00b10.3029 & 0.00\u00b10.00 w/o C4b (Donor Opt.) & 0.9055\u00b10.0070 & -0.0512 & 2.4788\u00b10.0911 & 3.0393\u00b10.1348 & 2.8099\u00b10.0275 & 0.00\u00b10.00 w/o C4 (No CIPO) & 0.9021\u00b10.0063 & -0.0545 & 2.5220\u00b10.0803 & 3.0859\u00b10.1211 & 3.2848\u00b10.0255 & 10.14\u00b10.31 w/o C1-C4 (Unprojected) & 0.8893\u00b10.0175 & -0.0674 & 2.6772\u00b10.2070 & 4.1938\u00b10.5129 & 5.3106\u00b10.0055 & 99.94\u00b10.13 w/o C1 (Raw Time) & 0.8829\u00b10.0033 & -0.0737 & 2.7592\u00b10.0381 & 3.3835\u00b10.1154 & 3.1728\u00b10.0221 & 92.92\u00b10.14 w/o C3 (MLP Head) & 0.8062\u00b10.0600 & -0.1504 & 3.5145\u00b10.5609 & 3.9460\u00b10.5067 & 4.1855\u00b10.2566 & 0.00\u00b10.00 tabular* table Inside CIPO (C4), ablating the entire CIPO module (w/o C4) lowers end-to-end planned reallocation accuracy by \u0394 R^2_CF = -0.0545 to 0.9021 \u00b1 0.0063 (95% CI [0.8914, 0.9110], p_Holm = 7.66 \u00d7 10^-99), triggers a 10.14% circadian sleep-floor violation rate, and raises policy regret from 1.8932 to 3.2848. Disabling entropic mirror-ascent donor optimization (w/o C4b) reverts each query to baseline proportional non-MVPA shares, reducing end-to-end R^2_CF by -0.0512 (0.9055 \u00b1 0.0070, p_Holm = 3.39 \u00d7 10^-98) and raising policy regret to 2.8099 (Figure fig:ablationb). Because C4a boundary projection acts strictly during prescription selection rather than shared-donor grid scoring, w/o C4a leaves shared-donor surface metrics unchanged (R^2_CF = 0.9566, MISE = 1.6701). However, removing C4a causes 8.22% \u00b1 0.32% circadian sleep-floor violations and inflates policy regret from 1.8932 to 2.1010. Similarly, disabling local-ESS support shrinkage (w/o C4c) leaves d = 60 buffering error virtually unchanged (PEHE_buf = 1.9367 vs. 1.9369) and produces only a negligible shift in overall surface determination (\u0394 R^2_CF = -0.0001, MISE = 1.6709 vs. 1.6701, Regret_feas = 1.8936 vs. 1.8932), serving as a conservative tail-stabilization safeguard above d_anchor. figure[!htbp] Fig/Figure_5.pdf Architectural component and CIPO sub-module ablation analysis across 10 model variants (N_test = 720, five seeds). (a) Forest plot of counterfactual surface R^2_CF with 95% bootstrap confidence intervals. (b) Paired horizontal bar comparison of heterogeneous buffering error (PEHE_buf) and feasible policy regret (Regret_feas), isolating the safety and optimization gains of C4a, C4b, and C4c. fig:ablation figure Subgroup consistency and hyperparameter sensitivity analysissec:res_subgroup The aggregate performance advantage holds across all nine demographic and clinical strata (Figure fig:subgroupa, Table tab:subgroup, and Supplementary Table S5). PhyBuff-Net ranks first in all nine strata on surface accuracy R^2_CF, surface MISE, buffering PEHE_buf, and circadian feasibility (0.00% FVR in every stratum). In the Junior High (n = 320) and Senior High (n = 400) test cohorts, PhyBuff-Net achieves R^2_CF = 0.9631 \u00b1 0.0079 and 0.9430 \u00b1 0.0146 with 0.00% FVR, outperforming CBRL (0.9258 and 0.8485) by +0.0373 and +0.0945 and GIKS (0.9278 and 0.8596) by +0.0353 and +0.0834. Across male (n = 324) and female (n = 396) adolescents, surface accuracy remains consistently high (0.9584 \u00b1 0.0083 and 0.9549 \u00b1 0.0125). Two clinical regimes are most challenging: Severe SAS-SV (n = 132) and Short Sleep (t_SLP < 450 min/day, n = 133). Donor-agnostic baselines degrade substantially in both strata even under 1,440 min/day simplex projection. CBRL drops to R^2_CF = 0.6680 (PEHE_buf = 4.8671, FVR = 19.24%) in Severe SAS-SV and to 0.6221 (PEHE_buf = 5.8099, FVR = 41.95%) in Short Sleep, while GIKS drops to 0.7016 (FVR = 21.06%) and 0.6792 (FVR = 46.62%). PhyBuff-Net sustains R^2_CF = 0.8803 \u00b1 0.0313 (PEHE_buf = 2.5490, FVR = 0.00%) in Severe SAS-SV and 0.9072 \u00b1 0.0201 (PEHE_buf = 2.1705, FVR = 0.00%) in Short Sleep, representing +0.2123 and +0.2851 R^2_CF improvements over CBRL (Table tab:subgroup). table[!htbp] Subgroup consistency comparison across nine demographic, smartphone addiction, and circadian sleep strata on the held-out test split (N_test = 720, 5 seeds; within-stratum R^2_CF per Eq. eq:metrics_r2; PEHE denotes PEHE_buf and FVR is reported in %).tab:subgroup tabcolsep1pt tabular*@fillllccccc@ Dim. & Stratum (n) & Ours R^2_CF & CBRL R^2_CF & GIKS R^2_CF & Ours/CBRL PEHE & Ours/CBRL FVR Cohort & JuniorHigh (320) & 0.9631\u00b10.0079 & 0.9258\u00b10.0113 & 0.9278\u00b10.0082 & 1.7314/2.8012 & 0.00/3.56 Cohort & SeniorHigh (400) & 0.9430\u00b10.0146 & 0.8485\u00b10.0242 & 0.8596\u00b10.0157 & 2.0858/3.9899 & 0.00/11.10 Sex & Male (324) & 0.9584\u00b10.0083 & 0.9032\u00b10.0217 & 0.9114\u00b10.0167 & 1.8905/3.3478 & 0.00/6.91 Sex & Female (396) & 0.9549\u00b10.0125 & 0.8838\u00b10.0138 & 0.8890\u00b10.0042 & 1.9734/3.6385 & 0.00/8.44 Addiction & Low (408) & 0.9434\u00b10.0129 & 0.8892\u00b10.0134 & 0.8868\u00b10.0076 & 1.6039/2.7065 & 0.00/3.58 Addiction & Moderate (180) & 0.9097\u00b10.0226 & 0.7506\u00b10.0431 & 0.7733\u00b10.0255 & 2.0958/3.9162 & 0.00/8.78 Addiction & Severe (132) & 0.8803\u00b10.0313 & 0.6680\u00b10.0535 & 0.7016\u00b10.0359 & 2.5490/4.8671 & 0.00/19.24 Sleep & Adequate (587) & 0.9564\u00b10.0112 & 0.9302\u00b10.0051 & 0.9260\u00b10.0076 & 1.8789/2.7284 & 0.00/0.00 Sleep & Short (133) & 0.9072\u00b10.0201 & 0.6221\u00b10.0808 & 0.6792\u00b10.0396 & 2.1705/5.8099 & 0.00/41.95 tabular* table figure[!htbp] Fig/Figure_6.pdf Subgroup consistency matrix and hyperparameter sensitivity profiles. (a) Annotated heatmap of within-stratum counterfactual surface determination (R^2_CF) across nine demographic, addiction-severity, and sleep-duration strata (N_test = 720 across Junior High n=320 and Senior High n=400; Male n=324 and Female n=396; Low n=408, Moderate n=180, and Severe n=132 SAS-SV risk; Adequate n=587 and Short n=133 sleep) for seven methods. (b-e) Validation and test R^2_CF sensitivity profiles across balancing weight \u03bb_bal [0, 2.0], Bernstein polynomial degree M [3, 12], effective sample size threshold \u03c4_ess [5, 75], and mirror-ascent steps K_ref [1, 8]; crimson stars denote the operating point. fig:subgroup figure Accuracy remains stable across broad hyperparameter intervals, with validation and test curves tracking closely throughout (Figure fig:subgroupb-e and Tables tab:sensitivity-tab:sens_harness). Raising the double-continuous balancing weight \u03bb_bal from 0.0 to 0.25 lowers validation joint HSIC from 0.01322 to 0.01006 while improving test R^2_CF from 0.9495 \u00b1 0.0122 to 0.9566 \u00b1 0.0105 (PEHE_buf = 1.9369, Regret_feas = 1.8932). Stronger balancing weights over-regularize predictive signal at \u03bb_bal = 0.50 (Test R^2_CF = 0.9507), \u03bb_bal = 1.00 (0.9435, HSIC = 0.00722), and \u03bb_bal = 2.00 (0.9326, HSIC = 0.00512). Across VC-OBS spline degrees M [3, 12], low-degree splines (M = 3 and M = 4) underfit interior dose curvature (Test R^2_CF = 0.9546 and 0.9557, PEHE_buf = 2.0276 and 1.9982), whereas degrees M [6, 12] stabilize validation and test R^2_CF tightly within 0.9546-0.9556 and 0.9566-0.9575. Across C4c thresholds \u03c4_ess 5, 10, 20, 35, 50, 75 and C4b mirror-ascent steps K_ref 1, 2, 3, 5, 8 (Table tab:sens_harness), shared-donor surface accuracy stays flat (0.9566-0.9567) because support shrinkage only activates above the local support anchor d_anchor and shared-donor grid evaluation disables C4b steering. All 24 sensitivity configurations maintain 0.00% feasibility violations. table[!htbp] Training-stage hyperparameter sensitivity across DC-KBR balancing weight \u03bb_bal and VC-OBS Bernstein spline degree M (*: selected operating point; FVR = 0.00% across all 13 settings).tab:sensitivity tabcolsep3pt tabular*@fillllcccccc@ Parameter & Setting & Val R^2_CF & Test R^2_CF () & MISE () & PEHE () & Regret () & Val HSIC \u03bb_bal & 0.00 & 0.9455 & 0.9495\u00b10.0122 & 1.8009 & 2.1450 & 2.1134 & 0.01322 \u03bb_bal & 0.05 & 0.9532 & 0.9556\u00b10.0078 & 1.6942 & 1.9907 & 1.8554 & 0.01076 \u03bb_bal & 0.10 & 0.9547 & 0.9569\u00b10.0075 & 1.6696 & 1.9523 & 1.8390 & 0.01046 \u03bb_bal & 0.25^* & 0.9546 & 0.9566\u00b10.0105 & 1.6701 & 1.9369 & 1.8932 & 0.01006 \u03bb_bal & 0.50 & 0.9477 & 0.9507\u00b10.0138 & 1.7747 & 2.0502 & 2.0711 & 0.00942 \u03bb_bal & 1.00 & 0.9396 & 0.9435\u00b10.0227 & 1.8808 & 2.1211 & 2.3141 & 0.00722 \u03bb_bal & 2.00 & 0.9269 & 0.9326\u00b10.0270 & 2.0487 & 2.3429 & 2.6441 & 0.00512 Degree M & 3 & 0.9525 & 0.9546\u00b10.0106 & 1.7085 & 2.0276 & 1.8485 & 0.01006 Degree M & 4 & 0.9536 & 0.9557\u00b10.0107 & 1.6878 & 1.9982 & 1.8569 & 0.01006 Degree M & 6^* & 0.9546 & 0.9566\u00b10.0105 & 1.6701 & 1.9369 & 1.8932 & 0.01006 Degree M & 8 & 0.9549 & 0.9569\u00b10.0104 & 1.6654 & 1.9353 & 1.8708 & 0.01006 Degree M & 10 & 0.9551 & 0.9570\u00b10.0103 & 1.6625 & 1.9392 & 1.8539 & 0.01006 Degree M & 12 & 0.9556 & 0.9575\u00b10.0101 & 1.6527 & 1.9188 & 1.8557 & 0.01006 tabular* table table[!htbp] Inference-stage CIPO sensitivity across C4c effective sample size threshold \u03c4_ess and C4b mirror-ascent optimization steps K_ref (*: default operating point fixed a priori).tab:sens_harness tabcolsep3pt tabular*@fillllcccccc@ Parameter & Setting & Val R^2_CF & Test R^2_CF () & MISE () & PEHE () & Regret () & FVR (%) \u03c4_ess & 5 & 0.9546 & 0.9566\u00b10.0105 & 1.6709 & 1.9367 & 1.8936 & 0.00 \u03c4_ess & 10 & 0.9546 & 0.9566\u00b10.0105 & 1.6709 & 1.9367 & 1.8932 & 0.00 \u03c4_ess & 20 & 0.9546 & 0.9566\u00b10.0105 & 1.6708 & 1.9367 & 1.8930 & 0.00 \u03c4_ess & 35 & 0.9546 & 0.9566\u00b10.0105 & 1.6705 & 1.9367 & 1.8931 & 0.00 \u03c4_ess & 50^* & 0.9546 & 0.9566\u00b10.0105 & 1.6701 & 1.9369 & 1.8932 & 0.00 \u03c4_ess & 75 & 0.9546 & 0.9567\u00b10.0104 & 1.6693 & 1.9377 & 1.8927 & 0.00 K_ref & 1 & 0.9546 & 0.9566\u00b10.0105 & 1.6701 & 1.9369 & 1.5435 & 0.00 K_ref & 2 & 0.9546 & 0.9566\u00b10.0105 & 1.6701 & 1.9369 & 1.7218 & 0.00 K_ref & 3 & 0.9546 & 0.9566\u00b10.0105 & 1.6701 & 1.9369 & 1.6444 & 0.00 K_ref & 5 & 0.9546 & 0.9566\u00b10.0105 & 1.6701 & 1.9369 & 1.7341 & 0.00 K_ref & 8^* & 0.9546 & 0.9566\u00b10.0105 & 1.6701 & 1.9369 & 1.8932 & 0.00 tabular* table Stratified error breakdown and failure mode analysissec:res_error Estimation errors concentrate in sparse off-diagonal and sleep-restricted regimes rather than spreading uniformly across the cohort. Table tab:failure locates where errors arise by decomposing test root mean squared error across three domain regimes, alongside feasible policy regret, mean 24-hour simplex closure error (|_k t'_i,k - 1440| in min/day), and feasibility violation rate. In the high-support interior stratum (SAS-SV < 35 and t_SLP \u2265 450 min/day at d 0, 20), observational density is abundant and PhyBuff-Net achieves an interior RMSE of 1.0548, closely matching VCNet (1.0635) and CBRL (1.1138). table[!htbp] Stratified error breakdown and domain failure mode analysis on the held-out test split (N_test = 720, 5 seeds), including C2 deconfounding ablations, unprojected Euclidean w/o C1 and w/o C1-C4, and the feasibility-filtered CBRL + C4a control. Columns report RMSE in the high-support interior (SAS-SV < 35, t_SLP \u2265 450 min), off-diagonal severe addiction regime (SAS-SV \u2265 38 at d 60, 80), short-sleep circadian regime (t_SLP < 450 min at d 60, 80), feasible policy regret, mean 24-hour simplex closure error (min/day), and feasibility violation rate.tab:failure tabcolsep3pt tabular*@filllcccccc@ Method & Int. RMSE & Off-Diag. RMSE & Short-Slp RMSE & Regret () & Closure (m/d) & FVR (%) PhyBuff-Net (Ours) & 1.0548 & 2.7378 & 2.8444 & 1.8932 & 0.000 & 0.00 PROCESS-OLS hayes2018process & 2.0989 & 2.8029 & 4.9050 & 4.0716 & 0.000 & 9.58 w/o C2-Contrastive & 1.0419 & 2.8731 & 3.0772 & 2.1752 & 0.000 & 0.00 w/o C2 (No Balancing) & 1.0858 & 2.9449 & 3.0181 & 2.1134 & 0.000 & 0.00 TARNet-Int shalit2017estimating & 1.4643 & 3.2263 & 3.1373 & 2.8147 & 0.000 & 8.28 CoDA-Isotemporal dumuid2019isotemporal & 2.7693 & 3.9820 & 3.6241 & 2.7407 & 0.000 & 0.00 CausalForest-DML wager2018causalforest & 1.8920 & 4.2619 & 5.1751 & 4.0560 & 0.000 & 7.97 w/o C1-C4 (Unprojected) & 1.5792 & 4.5088 & 4.7080 & 5.3106 & 7.798 & 99.94 GIKS nagalapatti2024giks & 1.2547 & 4.5392 & 5.7370 & 2.5383 & 0.000 & 8.61 Backbone-ConcatMLP & 2.0530 & 4.6328 & 5.2884 & 4.2798 & 0.000 & 6.78 CBRL zhu2024cbrl & 1.1138 & 4.8127 & 6.3340 & 2.4729 & 0.000 & 7.75 CBRL + C4a (Filter) & 1.1138 & 4.8127 & 6.3340 & 2.4756 & 0.000 & 0.00 w/o C1 (Unprojected) & 1.1490 & 4.8656 & 6.1460 & 3.1728 & 2.000 & 92.92 VCNet nie2021vcnet & 1.0635 & 5.1192 & 6.1573 & 3.0474 & 0.000 & 8.19 tabular* table In the off-diagonal severe addiction regime (SAS-SV \u2265 38 evaluated at high exercise doses d 60, 80), joint selection bias is strongest. There, RMSE surges to 4.5392 for GIKS, 4.8127 for CBRL, and 5.1192 for VCNet. PhyBuff-Net lowers off-diagonal RMSE to 2.7378, representing a 43.11% reduction relative to CBRL and outperforming both w/o C2 (2.9449) and w/o C2-Contrastive (2.8731). In the short-sleep circadian stratum (t_SLP < 450 min/day at d 60, 80), donor-agnostic neural estimators incur RMSEs of 5.7370 (GIKS), 6.1573 (VCNet), and 6.3340 (CBRL), whereas PhyBuff-Net bounds short-sleep RMSE at 2.8444 (55.09% below CBRL). Granting C4a boundary projection directly to CBRL (CBRL + C4a) eliminates CBRL's 7.75% circadian violations (0.00% FVR), but its policy regret (2.4756) remains 30.76% higher than PhyBuff-Net (1.8932) because C4a projection without C4b donor optimization cannot redirect exercise draws toward sedentary screen time. To decouple representation and spline estimation from C4 donor selection and verify out-of-partition and longitudinal robustness, Table tab:misspec reports four shared-donor evaluation protocols in which every estimator is scored on the identical fixed donor vector w^*_i(d). First, across five-split repeated stratified outer cross-validation over the full N = 3,600 cohort, equipping neural baselines with compositional ilr coordinates, training sleep quantiles, and shared donor features (CBRL + StructPrior and VCNet + StructPrior) lifts their counterfactual R^2_CF from 0.8701 and 0.8580 to 0.9309 \u00b1 0.0180 and 0.9215 \u00b1 0.0123. PhyBuff-Net nevertheless ranks first at R^2_CF = 0.9421 \u00b1 0.0103 (MISE = 1.8602, PEHE_buf = 2.1532, factual RMSE_fact = 1.8276). Second, we evaluate cohort-specific Junior High (n = 320), Senior High (n = 400), and 12-week Wave-2 longitudinal follow-up (cohort_followup_wave2.csv) shared-donor regimes. Across all three regimes, PhyBuff-Net achieves the highest R^2_CF (0.9632, 0.9430, and 0.9566), lowest MISE (1.3667, 1.8775, and 1.6701), and lowest factual error (RMSE_fact = 1.7646, 1.8098, and 1.8656). It outperforms both standard baselines (0.8419-0.9258) and the structural-prior controls (0.8940-0.9535). table[!htbp] Outer five-split shared-donor cross-validation, structural-prior baseline controls (StructPrior), cohort-specific shared-donor evaluation, and 12-week Wave-2 longitudinal follow-up generalization (all counterfactual metrics scored under the identical fixed shared donor vector w^*_i(d)).tab:misspec tabcolsep3pt tabular*@fillllccccc@ Regime & Method & R^2_CF () & \u0394 R^2_CF & MISE () & PEHE () & RMSE_fact () 5-Split Shared & PhyBuff-Net & 0.9421\u00b10.0103 & 0.0000 & 1.8602 & 2.1532 & 1.8276 5-Split Shared & CBRL+StructPrior & 0.9309\u00b10.0180 & -0.0112 & 2.0219 & 2.5534 & 2.0431 5-Split Shared & VCNet+StructPrior & 0.9215\u00b10.0123 & -0.0205 & 2.1654 & 2.8659 & 1.9545 5-Split Shared & CBRL & 0.8701\u00b10.0057 & -0.0719 & 2.7930 & 3.7425 & 1.8535 5-Split Shared & VCNet & 0.8580\u00b10.0225 & -0.0841 & 2.9156 & 3.9787 & 1.8655 JuniorHigh Shared & PhyBuff-Net & 0.9632\u00b10.0079 & 0.0000 & 1.3667 & 1.7314 & 1.7646 JuniorHigh Shared & CBRL+StructPrior & 0.9535\u00b10.0079 & -0.0097 & 1.5385 & 1.9871 & 1.8795 JuniorHigh Shared & VCNet+StructPrior & 0.9446\u00b10.0143 & -0.0186 & 1.6724 & 2.1058 & 1.9122 JuniorHigh Shared & CBRL & 0.9258\u00b10.0113 & -0.0373 & 1.9432 & 2.8013 & 1.8226 JuniorHigh Shared & VCNet & 0.9244\u00b10.0102 & -0.0387 & 1.9627 & 2.9093 & 1.8488 SeniorHigh Shared & PhyBuff-Net & 0.9430\u00b10.0146 & 0.0000 & 1.8775 & 2.0858 & 1.8098 SeniorHigh Shared & VCNet+StructPrior & 0.9017\u00b10.0176 & -0.0413 & 2.4732 & 3.2015 & 1.9635 SeniorHigh Shared & CBRL+StructPrior & 0.8940\u00b10.0175 & -0.0489 & 2.5691 & 3.0772 & 1.9435 SeniorHigh Shared & CBRL & 0.8485\u00b10.0242 & -0.0945 & 3.0724 & 3.9899 & 1.8251 SeniorHigh Shared & VCNet & 0.8419\u00b10.0089 & -0.1011 & 3.1462 & 4.3105 & 1.8530 Wave-2 Follow-up & PhyBuff-Net & 0.9566\u00b10.0105 & 0.0000 & 1.6701 & 1.9369 & 1.8656 Wave-2 Follow-up & VCNet+StructPrior & 0.9280\u00b10.0144 & -0.0286 & 2.1547 & 2.7688 & 2.0340 Wave-2 Follow-up & CBRL+StructPrior & 0.9270\u00b10.0118 & -0.0296 & 2.1726 & 2.6495 & 2.0238 Wave-2 Follow-up & CBRL & 0.8930\u00b10.0162 & -0.0636 & 2.6317 & 3.5127 & 1.9174 Wave-2 Follow-up & VCNet & 0.8890\u00b10.0082 & -0.0676 & 2.6858 & 3.7532 & 1.9195 tabular* table Discussionsec:discussion Two modeling requirements collide in compositional dose-response estimation. Estimating how extracurricular physical activity buffers the pathway from adolescent smartphone addiction to anxiety requires reconciling continuous causal representation learning with the compositional geometry of the 24-hour day. Across our multi-school cohort of N = 3,600 adolescents spanning junior and senior high school grades, standard moderated regressions and donor-agnostic neural estimators systematically misestimate the counterfactual response surface whenever exercise volume is treated as an unconstrained Euclidean scalar. Potential anxiety outcomes depend on a three-way interaction among baseline smartphone addiction severity (A_i), continuous exercise dose (D_EPA,i), and the donor movement compartment (w_i). Under screen-time substitution, adolescents in moderate and severe SAS-SV strata exhibit counterfactual anxiety reductions of 3.33-4.12 DASS-21 points across d [40, 80] zhou2024replacing. Conversely, when high exercise volumes are drawn from nocturnal sleep among sleep-restricted students without circadian boundary projection, sleep depletion erodes the psychological benefit once post-reallocation sleep drops below 420 min/day ren2022movement,hua2025associations,xiao2024relationship. Each architectural module addresses a distinct source of estimation or prescription bias (Tables tab:ablation-tab:misspec). The ICTE module (C1) embeds the 24-hour simplex S^4_1440 directly into orthonormal ilr coordinates and couples every counterfactual dose query to the donor reallocation operator T_simplex. Without C1, unprojected Euclidean log-duration regressions incur 2.000 min/day simplex closure drift (92.92% FVR and 3.1728 policy regret in w/o C1, degrading R^2_CF by -0.0737). DC-KBR (C2) extends continuous treatment balancing from univariate propensity matching nie2021vcnet,zhu2024cbrl to bivariate kernel, contrastive, and stabilized density-ratio balancing over (A_i, D_EPA,i), lowering off-diagonal severe-addiction RMSE from 2.9449 (w/o C2) and 4.8127 (CBRL) to 2.7378 (Table tab:failure). The VC-OBS Bernstein head (C3) keeps the estimated surface zero-anchored and smooth via second-order knot regularization, avoiding the -0.1504 R^2_CF degradation of an unconstrained MLP head. Finally, CIPO (C4) acts on the learned surface at prescription time, cutting policy regret from 3.2848 (w/o C4, 10.14% FVR) to 1.8932 (0.00% FVR) through C4b mirror-ascent donor optimization (\u0394 R^2_CF = +0.0512 over w/o C4b), C4a circadian boundary projection (eliminating the 8.22% violations of w/o C4a), and C4c local-ESS support regularization. Several methodological and empirical limitations bound the scope of these findings. First, although multi-wave longitudinal follow-up across baseline and 12-week wave-2 assessments anchors the reference dose-response lookup grids and supports out-of-wave validation (RMSE_fact = 1.8656), observational school cohorts remain subject to unmeasured confounding from genetic, familial, or classroom-level shocks; randomized isotemporal substitution trials are needed before translating estimated dose thresholds into clinical guidelines. Second, our compositional encoder partitions the 24-hour day into four aggregate compartments (SLP, SB, LPA, MVPA). Disaggregating sedentary behavior into recreational smartphone screen time versus mandatory classroom and homework seated time via objective mobile-sensing logs would further sharpen the donor-allocation optimizer (C4b). Third, extending CIPO to multi-week ecological momentary assessment wrist-actigraphy cohorts will be essential for prospective validation of dynamic, day-by-day exercise reallocation policies wang2024cercfr,zhou2025pretraining. Conclusionsec:conclusion PhyBuff-Net unifies isometric log-ratio compositional encoding, double-continuous contrastive kernel balancing, varying-coefficient orthogonal Bernstein splines, and constrained isotemporal prescription optimization into a coherent framework for compositional counterfactual dose-response learning. Evaluated across a multi-school adolescent cohort (N = 3,600; held-out N_test = 720 across five seeds), five-split outer cross-validation, and 12-week wave-2 longitudinal follow-up under shared-donor scoring, PhyBuff-Net achieves a counterfactual surface R^2_CF of 0.9566 \u00b1 0.0105 on the canonical test split and 0.9421 \u00b1 0.0103 across outer cross-validation. It reduces surface MISE to 1.6701 \u00b1 0.2034, buffering PEHE_buf to 1.9369 \u00b1 0.2670, and counterfactual policy regret to 1.8932 \u00b1 0.4178 while maintaining a 0.00% circadian feasibility violation rate. Respecting 24-hour compositional closure and circadian sleep boundaries is therefore essential for reliable counterfactual dose-response estimation and safe behavioral prescription optimization. CRediT authorship contribution statement Author 1 conceived the compositional counterfactual dose-response study, formulated the theoretical methodology, supervised the multi-school cohort analysis, and wrote the original manuscript draft. Author 2 implemented the PhyBuff-Net software package, curated and validated the de-identified cohort dataset, executed the statistical and ablation evaluations, and revised the manuscript. Author 3 designed the multi-panel data visualizations, conducted the subgroup and failure-mode audits, verified numerical reproducibility, and edited the final manuscript. All authors reviewed and approved the final version. Declaration of competing interest The authors declare that they have no known competing financial, commercial, or personal interests or institutional relationships that could have appeared to influence the methodology, empirical analyses, or conclusions reported in this paper. Each author confirms complete independence in data interpretation and manuscript preparation, with no patent applications, consultancies, or financial holdings related to this work. Data availability The de-identified multi-school adolescent cohort dataset (N = 3,600), the longitudinal wave-2 follow-up records, the screening admissibility accounting tables, the reference dose-response lookup grids and the derived evaluation summary tables analysed in this study are deposited in Zenodo (https://doi.org/10.5281/zenodo.23833061) under restricted access and are available on request for research reproduction. Code availability The complete Python implementation of PhyBuff-Net, the competing baseline estimators, the quantitative evaluation script, the manuscript figure generation script, the end-to-end reproduction entry point and the unit integrity test suite are deposited in Zenodo (https://doi.org/10.5281/zenodo.23833117), linked to the data record above, under restricted access and are available on request for research reproduction. The archived code is released under the MIT licence. refs document",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24052570"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24052570"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24052570"
+        ]
+      },
+      "observation_ids": [
+        "obs-e37d5eba135b93525845"
+      ],
+      "record_id": "cbx-dbec3707c04b7230",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -69976,6 +71282,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Motion-guided semi-supervised learning with dynamic kernels for cardiac cine segmentation",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1088/1361-6560/aebe99"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1088/1361-6560/aebe99"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W7225323634"
+        ]
+      },
+      "observation_ids": [
+        "obs-9805a89a13b85730e57c"
+      ],
+      "record_id": "cbx-eb2df584a45ab8a5",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "FGF12 and FGF13 promote atrial rhythm homeostasis",
       "evidence_state": "observed",
       "identifiers": {
@@ -75090,6 +76422,32 @@
       "record_type": "publication",
       "sources": [
         "europepmc"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Source data for the article \"Coherent control of exchange-coupled end spins in topological graphene nanoribbons\"",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24052386"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24052386"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24052386"
+        ]
+      },
+      "observation_ids": [
+        "obs-26eb0076585e11f4ac29"
+      ],
+      "record_id": "cbx-fd2c4b4582c9f3b4",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
