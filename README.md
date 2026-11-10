@@ -17,6 +17,10 @@ CardiBench is the benchmark and dataset-intelligence layer for cardiac machine-l
 Evidence and limits: [repository report](SCIENTIFIC_AUDIT_2026-10-09.md). The [organization status index](https://github.com/Virelion-Biotech/Virelion-HeartTwin/blob/main/docs/STACK_VALIDATION_STATUS.md) separates software, numerical, data-readiness and empirical qualification. Code/schema execution or a completed download is not a substitute for endpoint-specific validation.
 <!-- VALIDATION_PRODUCT_STATUS:END -->
 
+## Therapeutic-product evidence casebook
+
+A new curation-first specification is available at [`benchmarks/therapeutic_products/cardiac_regeneration_casebook.v1.json`](benchmarks/therapeutic_products/cardiac_regeneration_casebook.v1.json). It defines evidence questions and interpretation safeguards for CardiAMP, ProtheraCytes and SGT-501. It intentionally contains no unadjudicated clinical efficacy values. Curators must attach primary sources, analysis populations, endpoint definitions and provenance before scoring.
+
 ## What it contains
 
 - Metadata-first dataset and sample registries.

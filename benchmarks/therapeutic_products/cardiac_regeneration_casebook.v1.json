@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "benchmark_id": "cardiac-regeneration-therapeutic-product-casebook",
+  "version": "1.0.0",
+  "status": "curation_required",
+  "purpose": "Compare the completeness and interpretation of product-centred evidence across cardiac regenerative and genetic therapies.",
+  "cases": [
+    {
+      "case_id": "cardiamp",
+      "product_name": "CardiAMP Cell Therapy System",
+      "modality": "autologous_cell",
+      "indication_context": "ischemic heart failure",
+      "evidence_questions": [
+        "Was the prespecified primary endpoint met in the intention-to-treat population?",
+        "Which endpoints were secondary or exploratory?",
+        "Were biomarker-defined subgroup analyses prespecified?",
+        "Are subgroup effects supported by interaction tests and multiplicity control?",
+        "What are the delivery, cell identity, manufacturing and potency data?",
+        "What is the exact regulatory status in each jurisdiction?"
+      ],
+      "mandatory_strata": ["intention_to_treat", "per_protocol_if_reported", "prespecified_subgroups", "post_hoc_subgroups"],
+      "interpretation_guardrails": [
+        "Do not describe subgroup benefit as primary-trial success.",
+        "Do not infer causality from within-subgroup significance without a treatment-by-subgroup interaction.",
+        "A regulator consultation is not marketing authorization."
+      ],
+      "source_adjudication": "required"
+    },
+    {
+      "case_id": "protheracytes",
+      "product_name": "ProtheraCytes",
+      "modality": "autologous_cell",
+      "indication_context": "post-myocardial-infarction repair",
+      "evidence_questions": [
+        "What is the CD34-positive cell definition and release phenotype?",
+        "What expansion, purification and GMP controls are disclosed?",
+        "What functional potency assay is used and what acceptance criterion applies?",
+        "What are the Phase I/II findings and Phase III design status?",
+        "Is Japan participation a feasibility consideration or an enrolled trial site?"
+      ],
+      "mandatory_strata": ["cell_product_identity", "manufacturing", "potency", "clinical_design", "regulatory_by_jurisdiction"],
+      "interpretation_guardrails": [
+        "A market-entry support programme is not regulatory approval.",
+        "A planned Phase III trial is not evidence of Phase III efficacy."
+      ],
+      "source_adjudication": "required"
+    },
+    {
+      "case_id": "sgt501",
+      "product_name": "SGT-501",
+      "modality": "gene_therapy",
+      "indication_context": "CASQ2-associated catecholaminergic polymorphic ventricular tachycardia",
+      "evidence_questions": [
+        "What CASQ2 construct and AAV capsid are used?",
+        "What preclinical functional evidence supports calcium-handling correction?",
+        "What electrophysiological and arrhythmia endpoints are measured?",
+        "What is the clinical trial stage and actual first-participant dosing status?",
+        "What are the jurisdiction-specific regulatory milestones?"
+      ],
+      "mandatory_strata": ["genetic_target", "vector_and_construct", "preclinical_function", "electrophysiology", "clinical_safety", "regulatory_by_jurisdiction"],
+      "interpretation_guardrails": [
+        "A planned first-patient dose is not a dosed participant.",
+        "Preclinical correction does not establish human clinical benefit.",
+        "Regulatory classification is not marketing authorization."
+      ],
+      "source_adjudication": "required"
+    }
+  ],
+  "scoring_dimensions": [
+    "product_identity_completeness",
+    "manufacturing_traceability",
+    "potency_assay_quality",
+    "release_and_stability_reporting",
+    "clinical_design_integrity",
+    "endpoint_hierarchy_preservation",
+    "subgroup_inference_quality",
+    "regulatory_status_precision",
+    "source_provenance"
+  ],
+  "scoring_policy": {
+    "unknown_is_not_zero": true,
+    "not_reported_is_distinct_from_negative": true,
+    "company_reported_is_distinct_from_independently_verified": true,
+    "no_clinical_readiness_score_without_adjudicated_primary_sources": true
+  },
+  "data_policy": "No clinical values or efficacy conclusions are pre-populated. Curators must attach primary sources, extract exact denominators and endpoint definitions, record analysis populations, and independently adjudicate claims before scoring."
+}
