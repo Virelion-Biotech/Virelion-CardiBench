@@ -18,13 +18,26 @@
         "What are the delivery, cell identity, manufacturing and potency data?",
         "What is the exact regulatory status in each jurisdiction?"
       ],
-      "mandatory_strata": ["intention_to_treat", "per_protocol_if_reported", "prespecified_subgroups", "post_hoc_subgroups"],
+      "mandatory_strata": [
+        "intention_to_treat",
+        "per_protocol_if_reported",
+        "prespecified_subgroups",
+        "post_hoc_subgroups"
+      ],
       "interpretation_guardrails": [
         "Do not describe subgroup benefit as primary-trial success.",
         "Do not infer causality from within-subgroup significance without a treatment-by-subgroup interaction.",
         "A regulator consultation is not marketing authorization."
       ],
-      "source_adjudication": "required"
+      "source_adjudication": "required",
+      "curated_record_refs": {
+        "product_record_id": "product-cardiamp",
+        "evidence_record_ids": [
+          "ev-cardiamp-design-pmid-29803986",
+          "ev-cardiamp-outcome-company-2025"
+        ]
+      },
+      "curated_record_repository": "Virelion-Biotech/Virelion-CardiAtlas"
     },
     {
       "case_id": "protheracytes",
@@ -38,12 +51,27 @@
         "What are the Phase I/II findings and Phase III design status?",
         "Is Japan participation a feasibility consideration or an enrolled trial site?"
       ],
-      "mandatory_strata": ["cell_product_identity", "manufacturing", "potency", "clinical_design", "regulatory_by_jurisdiction"],
+      "mandatory_strata": [
+        "cell_product_identity",
+        "manufacturing",
+        "potency",
+        "clinical_design",
+        "regulatory_by_jurisdiction"
+      ],
       "interpretation_guardrails": [
         "A market-entry support programme is not regulatory approval.",
         "A planned Phase III trial is not evidence of Phase III efficacy."
       ],
-      "source_adjudication": "required"
+      "source_adjudication": "required",
+      "curated_record_refs": {
+        "product_record_id": "product-protheracytes",
+        "evidence_record_ids": [
+          "ev-protheracytes-potency-pmid-37952030",
+          "ev-protheracytes-excellent-design-pmc11911568",
+          "ev-protheracytes-hrqol-pmid-41774093"
+        ]
+      },
+      "curated_record_repository": "Virelion-Biotech/Virelion-CardiAtlas"
     },
     {
       "case_id": "sgt501",
@@ -57,13 +85,28 @@
         "What is the clinical trial stage and actual first-participant dosing status?",
         "What are the jurisdiction-specific regulatory milestones?"
       ],
-      "mandatory_strata": ["genetic_target", "vector_and_construct", "preclinical_function", "electrophysiology", "clinical_safety", "regulatory_by_jurisdiction"],
+      "mandatory_strata": [
+        "genetic_target",
+        "vector_and_construct",
+        "preclinical_function",
+        "electrophysiology",
+        "clinical_safety",
+        "regulatory_by_jurisdiction"
+      ],
       "interpretation_guardrails": [
         "A planned first-patient dose is not a dosed participant.",
         "Preclinical correction does not establish human clinical benefit.",
         "Regulatory classification is not marketing authorization."
       ],
-      "source_adjudication": "required"
+      "source_adjudication": "required",
+      "curated_record_refs": {
+        "product_record_id": "product-sgt501",
+        "evidence_record_ids": [
+          "ev-sgt501-registry-nct07148089",
+          "ev-sgt501-sec-10q-2026q3"
+        ]
+      },
+      "curated_record_repository": "Virelion-Biotech/Virelion-CardiAtlas"
     }
   ],
   "scoring_dimensions": [
@@ -83,5 +126,5 @@
     "company_reported_is_distinct_from_independently_verified": true,
     "no_clinical_readiness_score_without_adjudicated_primary_sources": true
   },
-  "data_policy": "No clinical values or efficacy conclusions are pre-populated. Curators must attach primary sources, extract exact denominators and endpoint definitions, record analysis populations, and independently adjudicate claims before scoring."
+  "data_policy": "No clinical values or efficacy conclusions are pre-populated. Curators must attach primary sources, extract exact denominators and endpoint definitions, record analysis populations, and independently adjudicate claims before scoring. Source-adjudicated record IDs are linked to the CardiAtlas therapeutic-product evidence bundle; retrieve the corresponding JSONL records before scoring."
 }
