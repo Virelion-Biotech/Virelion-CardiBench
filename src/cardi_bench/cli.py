@@ -14,6 +14,7 @@ from .release import audit_repository_paths
 from .release_bundle import build_release_bundle,save_release_bundle
 from .result_history import BenchmarkResultObservation,append_result,filter_results,load_result_history
 from .search import search_catalog
+from .therapeutic_evidence import write_ingested_casebook
 
 def _load_json(path:Path):
     try:return json.loads(path.read_text(encoding="utf-8"))
@@ -42,6 +43,7 @@ def main(argv:list[str]|None=None)->int:
     x=sub.add_parser("intelligence-report"); x.add_argument("--catalog",type=Path,default=Path("data/intelligence/catalog.json")); x.add_argument("--results",type=Path,default=Path("data/intelligence/results.json")); x.add_argument("--json",action="store_true",dest="as_json")
     x=sub.add_parser("release-intelligence"); x.add_argument("--catalog",type=Path,default=Path("data/intelligence/catalog.json")); x.add_argument("--results",type=Path,default=Path("data/intelligence/results.json")); x.add_argument("--output",type=Path,default=Path("data/intelligence/release.json"))
     x=sub.add_parser("build-dashboard"); x.add_argument("--catalog",type=Path,default=Path("data/intelligence/catalog.json")); x.add_argument("--results",type=Path,default=Path("data/intelligence/results.json")); x.add_argument("--release",type=Path,default=Path("data/intelligence/release.json")); x.add_argument("--output",type=Path,default=Path("site/intelligence/index.html"))
+    x=sub.add_parser("ingest-therapeutic-evidence"); x.add_argument("--casebook",type=Path,required=True); x.add_argument("--atlas-bundle",type=Path,required=True); x.add_argument("--output",type=Path,required=True)
     a=p.parse_args(argv)
     if a.command=="validate-manifest":return 0 if _validate_manifest(a.path) else 1
     if a.command=="validate-all-manifests":
