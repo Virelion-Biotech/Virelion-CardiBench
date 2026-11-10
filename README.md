@@ -102,3 +102,20 @@ The repository also includes `skills/cardibench-intelligence/SKILL.md` for Heart
 ## CardiEval software-reference history
 
 The repository maintains one evaluator-generated software-reference result to continuously verify the CardiBench → CardiEval → result-history path. It uses evaluator-controlled synthetic labels and a label-independent deterministic hash baseline. It is explicitly **not biological, preclinical, or clinical performance** and must not be used to compare scientific models.
+
+## CardiAtlas therapeutic-product evidence ingestion
+
+Export or use the curated CardiAtlas JSONL bundle containing the product records and
+their linked evidence records. Then resolve the casebook's references offline:
+
+```bash
+cardibench ingest-therapeutic-evidence \
+  --casebook benchmarks/therapeutic_products/cardiac_regeneration_casebook.v1.json \
+  --atlas-bundle ../Virelion-CardiAtlas/data/therapeutic_products/curated_evidence.v1.jsonl \
+  --output build/therapeutic_products/ingested_casebook.v1.json
+```
+
+The importer fails closed on missing product/evidence IDs, duplicate record IDs,
+product-name mismatches, unlinked evidence, or missing source identifiers/citations/URLs.
+It preserves the original source records and casebook interpretation guardrails. It
+does not fetch remote data or infer clinical outcomes from free text.
