@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T03:59:19.334477+00:00",
+  "generated_at": "2026-11-15T12:49:09.043731+00:00",
   "links": [],
   "records": [
     {
@@ -2171,6 +2171,32 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Pose-Free Multi-Scale Behavioral Operator Verification Across Five Robotic and VR Platforms: Executable Evaluation Playbooks",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24227949"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24227949"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24227949"
+        ]
+      },
+      "observation_ids": [
+        "obs-07e3c18bc4af1c8bcae7"
+      ],
+      "record_id": "cbx-06f18ef4262e0938",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -11059,6 +11085,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "kairos: Kernel Active-time and Interval Robot Operator Signatures (v0.4.0)",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24224367"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24224367"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24224367"
+        ]
+      },
+      "observation_ids": [
+        "obs-2a97704ccfe18db4b1ae"
+      ],
+      "record_id": "cbx-1fcf6a24e2233908",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Increasing Exercise and Decreasing Sedentary Behavior Among Patients in a Cardiac Rehabilitation Clinic",
       "evidence_state": "observed",
       "identifiers": {
@@ -14735,6 +14787,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "MAKTABGACHA YOSHDAGI BOLALARDA REFLEKSIYA VA O'ZINI O'ZI BAHOLASHNI RIVOJLANTIRISHNING PEDAGOGIK SHART-SHAROITLARI",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24245817"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24245817"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24245817"
+        ]
+      },
+      "observation_ids": [
+        "obs-f0a1d9eb057509a8937a"
+      ],
+      "record_id": "cbx-2a3a051c4e26a2c5",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Analysis code for \"Documentation of children's development in eight countries: professional learning, efficacy beliefs, and cross-national heterogeneity in an everyday practice\"",
       "evidence_state": "observed",
       "identifiers": {
@@ -14835,6 +14913,33 @@
       "record_type": "other",
       "sources": [
         "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "MultiCardioFusionNet: A multimodal fusion model for predicting coronary heart disease integrating time-domain, frequency-domain, and clinical information.",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1016/j.compbiolchem.2026.109398",
+        "pmid": "42743799"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1016/j.compbiolchem.2026.109398"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "pubmed:42743799"
+        ]
+      },
+      "observation_ids": [
+        "obs-9cf2171b7ed71b7ee9b8"
+      ],
+      "record_id": "cbx-2a72f1afb03a78b9",
+      "record_type": "publication",
+      "sources": [
+        "pubmed"
       ]
     },
     {
@@ -15668,6 +15773,33 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Beyond random splits: A hierarchical benchmark of transferability and reliability in PROTAC activity prediction.",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1016/j.compbiolchem.2026.109358",
+        "pmid": "42691622"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1016/j.compbiolchem.2026.109358"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "pubmed:42691622"
+        ]
+      },
+      "observation_ids": [
+        "obs-868b7f5c8a3b9ded0ab4"
+      ],
+      "record_id": "cbx-2d35950da5a07ffc",
+      "record_type": "publication",
+      "sources": [
+        "pubmed"
       ]
     },
     {
@@ -16897,6 +17029,32 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Tracing tumor clones in space: assessing copy number inference in silico and in situ across resolutions and platforms",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.21843551"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.21843551"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:21843551"
+        ]
+      },
+      "observation_ids": [
+        "obs-8b8cb3d0127f22ea545f"
+      ],
+      "record_id": "cbx-30f6f29a23e8d4cd",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -26472,6 +26630,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Research Data for: Effects of Robot Errors in Human-Robot Collaboration: Error Type and System Acknowledgement",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24245472"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24245472"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24245472"
+        ]
+      },
+      "observation_ids": [
+        "obs-8772fa02c9ecd82b4dcf"
+      ],
+      "record_id": "cbx-4c24cdfa03ea0752",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Entropy stable high-order schemes for the compressible Navier\u2013Stokes equations with isothermal no-slip wall boundary conditions",
       "evidence_state": "observed",
       "identifiers": {
@@ -29595,6 +29779,32 @@
       ],
       "record_id": "cbx-556ae67ae078951b",
       "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Error Analysis of Deep Learning",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24238271"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24238271"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24238271"
+        ]
+      },
+      "observation_ids": [
+        "obs-3c866ce6d90c6180cc97"
+      ],
+      "record_id": "cbx-556ffff76ca8948c",
+      "record_type": "other",
       "sources": [
         "zenodo"
       ]
@@ -34411,6 +34621,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "\u0425\u0423\u0414\u041e\u0416\u0415\u0421\u0422\u0412\u0415\u041d\u041d\u0410\u042f \u041b\u0418\u0422\u0415\u0420\u0410\u0422\u0423\u0420\u0410 \u2013 \u041f\u0423\u0422\u042c  \u041a  \u0424\u041e\u0420\u041c\u0418\u0420\u041e\u0412\u0410\u041d\u0418\u042e \u041b\u0418\u0427\u041d\u041e\u0421\u0422\u0418 \u0411\u0423\u0414\u0423\u0429\u0415\u0413\u041e \u0424\u0418\u041b\u041e\u041b\u041e\u0413\u0410",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24246201"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24246201"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24246201"
+        ]
+      },
+      "observation_ids": [
+        "obs-10ae7478a9dbba9713b7"
+      ],
+      "record_id": "cbx-62b3da0c28f764e3",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "DETERMINISTIC JOB-SHOP OPTIMIZATION WITH CP-SAT AND MONTE CARLO  ROBUSTNESS ASSESSMENT",
       "evidence_state": "observed",
       "identifiers": {
@@ -35612,6 +35848,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Stabilo Optimize: A Framework for Comprehensive Evaluation and Analysis for the Stabilo Library",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24246316"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24246316"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24246316"
+        ]
+      },
+      "observation_ids": [
+        "obs-c03d3573c7c6b0099865"
+      ],
+      "record_id": "cbx-65b6cfdbcc5371e8",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "The Effect of Gluten on Gut Microbiome and Metabolic Health.",
       "evidence_state": "observed",
       "identifiers": {
@@ -36000,6 +36262,32 @@
       "record_type": "publication",
       "sources": [
         "openalex"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Predictive Maintenance of ECG Machine Using Machine Learning",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24246428"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24246428"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24246428"
+        ]
+      },
+      "observation_ids": [
+        "obs-1344ff0b135a215c0da9"
+      ],
+      "record_id": "cbx-67794bd86b81a228",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -37671,6 +37959,32 @@
       "record_type": "dataset",
       "sources": [
         "bioproject"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "oversampling-vs-threshold-tuning: code, protocol and results for 'Do we still need SMOTE when the decision threshold is tuned?'",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24246510"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24246510"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24246510"
+        ]
+      },
+      "observation_ids": [
+        "obs-0099e345da9ba1719c97"
+      ],
+      "record_id": "cbx-6cb702c7004331be",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -41200,6 +41514,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Teaching physics at the secondary school level using analogy, problem-solving and concept-mapping strategies: Implications for performance",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24211720"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24211720"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24211720"
+        ]
+      },
+      "observation_ids": [
+        "obs-fd3d54acc2eb278e66a8"
+      ],
+      "record_id": "cbx-76c88b39642a09c2",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "CIRCULATORY STABILITY DURING AIRWAY SECUREMENT IN PATIENTS WITH BURN INJURIES: A COMPARATIVE OBSERVATIONAL STUDY",
       "evidence_state": "observed",
       "identifiers": {
@@ -42237,6 +42577,32 @@
       ],
       "record_id": "cbx-7a9e7a4f52a19464",
       "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "THE VALUE OF INDEPENDENT THINKING IN THE AGE OF READY-MADE ANSWERS",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24246578"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24246578"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24246578"
+        ]
+      },
+      "observation_ids": [
+        "obs-ae46da32163fedab5cc6"
+      ],
+      "record_id": "cbx-7ab251e906bb5035",
+      "record_type": "dataset",
       "sources": [
         "zenodo"
       ]
@@ -44964,6 +45330,32 @@
         "obs-dbcbd1ed0be8a913d7ce"
       ],
       "record_id": "cbx-81d90d878272e8bc",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Dataset and analysis code: A Constraint-Guided Machine-Learning Framework for the Design of Fly-Ash-Blended Polycarboxylate-Ether Systems",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24245903"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24245903"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24245903"
+        ]
+      },
+      "observation_ids": [
+        "obs-0c35f1c7b61d6f2c22fd"
+      ],
+      "record_id": "cbx-81e5ee4de17fc22b",
       "record_type": "dataset",
       "sources": [
         "zenodo"
@@ -49128,6 +49520,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Daten der Notaufnahmesurveillance",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24246376"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24246376"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24246376"
+        ]
+      },
+      "observation_ids": [
+        "obs-d3a0df4aa784edae49e1"
+      ],
+      "record_id": "cbx-8d63ed0c1bb6b650",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "The Photoswitch Dataset: A Molecular Machine Learning Benchmark for the Advancement of Synthetic Chemistry",
       "evidence_state": "observed",
       "identifiers": {
@@ -51971,6 +52389,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "\u041a\u041e\u0413\u041d\u0418\u0422\u0418\u0412\u041d\u042b\u0415 \u0418 \u041f\u0421\u0418\u0425\u041e\u041b\u0418\u041d\u0413\u0412\u0418\u0421\u0422\u0418\u0427\u0415\u0421\u041a\u0418\u0415 \u041f\u041e\u0414\u0425\u041e\u0414\u042b \u0412 \u0421\u041e\u0412\u0420\u0415\u041c\u0415\u041d\u041d\u041e\u041c \u042f\u0417\u042b\u041a\u041e\u0417\u041d\u0410\u041d\u0418\u0418: \u0412\u0417\u0410\u0418\u041c\u041e\u0421\u0412\u042f\u0417\u042c \u042f\u0417\u042b\u041a\u0410 \u0418 \u041c\u042b\u0428\u041b\u0415\u041d\u0418\u042f",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24246126"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24246126"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24246126"
+        ]
+      },
+      "observation_ids": [
+        "obs-28f4dacb34a3840b050d"
+      ],
+      "record_id": "cbx-94e0ce967c99bbee",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Federated, Explainable Artificial Intelligence for Heart Disease Prediction: A Literature Synthesis and a Proposed SHAP-Based Framework",
       "evidence_state": "observed",
       "identifiers": {
@@ -52945,6 +53389,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "FINAL SHIFT D1 exploratory prediction benchmarks and qualification position",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24246506"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24246506"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24246506"
+        ]
+      },
+      "observation_ids": [
+        "obs-b5db72732690c8fd8454"
+      ],
+      "record_id": "cbx-96b2be629cfcca80",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "ANGIOTENSIN II-INDUCED HYPERTENSION INDUCES INNATE IMMUNE MEMORY AND PROMOTES ATHEROSCLEROSIS PROGRESSION [RNA-seq]",
       "evidence_state": "observed",
       "identifiers": {
@@ -53749,6 +54219,32 @@
         "obs-ba221b386e85f0cd1468"
       ],
       "record_id": "cbx-992f0bc5779b58e4",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Sanger sequencing and de-identified clinical and behavioral dataset: ADHD in Consanguineous Families in Pakistan",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24245488"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24245488"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24245488"
+        ]
+      },
+      "observation_ids": [
+        "obs-bd0a6f6eae9fb6835458"
+      ],
+      "record_id": "cbx-993994cf234a3cb8",
       "record_type": "dataset",
       "sources": [
         "zenodo"
@@ -61764,6 +62260,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "FlowMLLab: An Open-Source Framework for Reproducible CFD-to-Scientific-Machine-Learning Experiments",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24246302"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24246302"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24246302"
+        ]
+      },
+      "observation_ids": [
+        "obs-510f9846a799ebf3775f"
+      ],
+      "record_id": "cbx-aedc47a111caded4",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Dual SGLT1 and 2 inhibition with sotagliflozin decreases oxidative stress in mice with hypertrophic cardiomyopathy due to tropomyosin E180G mutation",
       "evidence_state": "observed",
       "identifiers": {
@@ -61816,6 +62338,32 @@
       "record_type": "publication",
       "sources": [
         "europepmc"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Teleoperated Hello Robot Stretch 3: Operator Dataset with Robot and Gamepad Telemetry",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24244973"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24244973"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24244973"
+        ]
+      },
+      "observation_ids": [
+        "obs-184daa1a5fe4b0075d46"
+      ],
+      "record_id": "cbx-af31cb926e546ff6",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -68203,6 +68751,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Intelligent Brain Tumor Identification Using Deep Learning",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24246130"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24246130"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24246130"
+        ]
+      },
+      "observation_ids": [
+        "obs-d6c1ca6671f0bcd30cca"
+      ],
+      "record_id": "cbx-c4006f9ab1266afa",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "jerlov: inherent optical properties of the Jerlov optical water types, with provenance",
       "evidence_state": "observed",
       "identifiers": {
@@ -69965,6 +70539,32 @@
       "sources": [
         "europepmc",
         "openalex"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Sustainable Federated Fine-Tuning with LoRA: Environmental Impact and Performance Footprint",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24245206"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24245206"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24245206"
+        ]
+      },
+      "observation_ids": [
+        "obs-197dfc97ef174c42bff9"
+      ],
+      "record_id": "cbx-c8a129f6f0235c23",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -76466,6 +77066,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "IWCS v2: A Simulator-Traceable Run-Level Dataset of Normal Operation and Four Attack Conditions in Simulated Low-Power Wireless Sensor Networks",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24224309"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24224309"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24224309"
+        ]
+      },
+      "observation_ids": [
+        "obs-a0b459aeb8766d2870b6"
+      ],
+      "record_id": "cbx-dc59a3c997fe6f5f",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Systematic Literature Review Protocol - Use of Generative Artificial Intelligence in Secondary Science Education and Teacher Training",
       "evidence_state": "observed",
       "identifiers": {
@@ -81684,6 +82310,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "THE INTEGRATION OF ARTIFICIAL INTELLIGENCE INTO MODERN ROBOTICS: THEORETICAL FOUNDATIONS, ADAPTIVE INTELLIGENCE, AND AUTONOMOUS SYSTEM DEVELOPMENT",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24246195"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24246195"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24246195"
+        ]
+      },
+      "observation_ids": [
+        "obs-b6aad137c49611e1d2b0"
+      ],
+      "record_id": "cbx-e95102cabd3625bf",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Prevajanje iz \u010de\u0161\u010dine v sloven\u0161\u010dino s pomo\u010djo pametnih tehnologij \u2013 pomo\u010d ali nadloga?",
       "evidence_state": "observed",
       "identifiers": {
@@ -85590,6 +86242,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "B3LYP solvation calculations logfiles",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24156652"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24156652"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24156652"
+        ]
+      },
+      "observation_ids": [
+        "obs-9fe02434013b3c32cb4b"
+      ],
+      "record_id": "cbx-f3fa4cfcd3468c4b",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Supplementary Material and Reproducibility Artifact for \"Task Separation Is Not Enough: Auditing Program-Level Test-Suite Forecasts\"",
       "evidence_state": "observed",
       "identifiers": {
@@ -86274,6 +86952,32 @@
       ],
       "record_id": "cbx-f687db2e5489fff4",
       "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "fsantibanezleal/CAOS_ChancaDEM: 0.13.000",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24245812"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24245812"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24245812"
+        ]
+      },
+      "observation_ids": [
+        "obs-66cded47707e6abffe18"
+      ],
+      "record_id": "cbx-f6912bcbe62d5618",
+      "record_type": "other",
       "sources": [
         "zenodo"
       ]
