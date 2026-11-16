@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://virelionbiotech.org/schemas/therapeutic_benchmark_manifest.v1.schema.json",
+  "title": "CardiBench therapeutic evidence benchmark manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "benchmark_id", "version", "purpose", "records", "pooling_policy"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "benchmark_id": {"type": "string", "minLength": 1},
+    "version": {"type": "string", "minLength": 1},
+    "purpose": {"type": "string", "minLength": 1},
+    "records": {"type": "array", "items": {"$ref": "#/$defs/evidence_record"}},
+    "pooling_policy": {
+      "type": "object",
+      "required": ["cross_stratum_pooling", "cross_species_pooling", "cross_model_pooling"],
+      "properties": {
+        "cross_stratum_pooling": {"const": false},
+        "cross_species_pooling": {"const": false},
+        "cross_model_pooling": {"const": false}
+      },
+      "additionalProperties": true
+    }
+  },
+  "$defs": {
+    "evidence_record": {
+      "type": "object",
+      "required": ["record_id", "stratum", "modality", "intervention", "comparator", "species", "model", "study_id", "study_family_id", "biological_unit", "sample_size", "dose_route_timing", "endpoint", "endpoint_definition", "assay", "timepoint", "effect_estimate", "uncertainty", "adverse_events", "risk_of_bias", "primary_source", "source_identifier", "source_url", "source_sha256", "curation_status", "analysis_population", "randomization", "blinding", "multiplicity", "follow_up"],
+      "properties": {
+        "record_id": {"type": "string", "minLength": 1},
+        "stratum": {"enum": ["myocardial_regeneration", "myocardial_repair_preservation", "genetic_disease_modification", "vascular_tissue_engineering"]},
+        "modality": {"type": "string", "minLength": 1},
+        "intervention": {"type": "string", "minLength": 1},
+        "comparator": {"type": "string", "minLength": 1},
+        "species": {"type": "string", "minLength": 1},
+        "model": {"type": "string", "minLength": 1},
+        "study_id": {"type": "string", "minLength": 1},
+        "study_family_id": {"type": "string", "minLength": 1},
+        "biological_unit": {"type": "string", "minLength": 1},
+        "sample_size": {"type": "object", "required": ["n_total", "unit"], "properties": {"n_total": {"type": "integer", "minimum": 1}, "unit": {"type": "string", "minLength": 1}}, "additionalProperties": true},
+        "dose_route_timing": {"type": "string", "minLength": 1},
+        "endpoint": {"type": "string", "minLength": 1},
+        "endpoint_definition": {"type": "string", "minLength": 20},
+        "assay": {"type": "string", "minLength": 1},
+        "timepoint": {"type": "string", "minLength": 1},
+        "effect_estimate": {"type": "object"},
+        "uncertainty": {"type": "object"},
+        "adverse_events": {"type": "object"},
+        "risk_of_bias": {"type": "object"},
+        "primary_source": {"type": "string", "minLength": 1},
+        "source_identifier": {"type": "string", "minLength": 1},
+        "source_url": {"type": "string", "format": "uri"},
+        "source_sha256": {"type": "string", "pattern": "^[a-fA-F0-9]{64}$"},
+        "curation_status": {"const": "primary_source_adjudicated"},
+        "analysis_population": {},
+        "randomization": {},
+        "blinding": {},
+        "multiplicity": {},
+        "follow_up": {}
+      },
+      "additionalProperties": true
+    }
+  }
+}
