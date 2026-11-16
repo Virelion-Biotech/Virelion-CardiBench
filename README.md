@@ -119,3 +119,17 @@ The importer fails closed on missing product/evidence IDs, duplicate record IDs,
 product-name mismatches, unlinked evidence, or missing source identifiers/citations/URLs.
 It preserves the original source records and casebook interpretation guardrails. It
 does not fetch remote data or infer clinical outcomes from free text.
+
+
+## Cardiac therapeutics evidence benchmark v1
+
+A separate study-level, curation-first registry is available at `benchmarks/therapeutic_evidence/cardiac_therapeutics.v1.json`. It keeps myocardial regeneration, myocardial repair/preservation, genetic disease modification, and vascular tissue engineering in separate strata. Candidate arms are leads only and are not admitted evidence.
+
+Validate and inspect the descriptive stratum counts:
+
+```bash
+cardibench validate-therapeutic-benchmark benchmarks/therapeutic_evidence/cardiac_therapeutics.v1.json
+cardibench therapeutic-benchmark-summary benchmarks/therapeutic_evidence/cardiac_therapeutics.v1.json
+```
+
+Admission requires manual primary-source adjudication, source identifier/URL and a curator-supplied SHA-256 of the captured source artifact, explicit denominator, comparator, endpoint definition, study-family identity, uncertainty, adverse-event ascertainment and risk-of-bias/design fields. No cross-stratum/species/model pooling or modality winner is produced. See [the benchmark protocol](docs/THERAPEUTIC_EVIDENCE_BENCHMARK.md).
