@@ -72,3 +72,8 @@ def test_strata_summary_does_not_pool_effects():
     summary=compare_strata_summary(manifest([a,b]))
     assert set(summary)=={"myocardial_regeneration","vascular_tissue_engineering"}
     assert "pooled_effect" not in str(summary)
+
+
+def test_boolean_sample_size_is_not_accepted_as_an_integer():
+    errors = validate_evidence_record(record(sample_size={"n_total": True, "unit": "animals"}))
+    assert any("positive integer" in error for error in errors)
