@@ -40,7 +40,7 @@ def validate_evidence_record(record: dict[str, Any]) -> list[str]:
         if not _nonempty(record.get(key)):
             errors.append(f"{key} must be a non-empty string")
     n = record.get("sample_size")
-    if not isinstance(n, dict) or not isinstance(n.get("n_total"), int) or n["n_total"] <= 0:
+    if not isinstance(n, dict) or not isinstance(n.get("n_total"), int) or isinstance(n.get("n_total"), bool) or n["n_total"] <= 0:
         errors.append("sample_size.n_total must be a positive integer")
     if not isinstance(n, dict) or not _nonempty(n.get("unit")):
         errors.append("sample_size.unit must identify the denominator unit")
