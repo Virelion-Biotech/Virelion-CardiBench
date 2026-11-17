@@ -15,6 +15,7 @@ from .release_bundle import build_release_bundle,save_release_bundle
 from .result_history import BenchmarkResultObservation,append_result,filter_results,load_result_history
 from .search import search_catalog
 from .therapeutic_evidence import write_ingested_casebook
+from .therapeutic_benchmark import load_manifest as load_therapeutic_manifest, validate_manifest as validate_therapeutic_manifest, compare_strata_summary
 
 def _load_json(path:Path):
     try:return json.loads(path.read_text(encoding="utf-8"))
@@ -44,6 +45,8 @@ def main(argv:list[str]|None=None)->int:
     x=sub.add_parser("release-intelligence"); x.add_argument("--catalog",type=Path,default=Path("data/intelligence/catalog.json")); x.add_argument("--results",type=Path,default=Path("data/intelligence/results.json")); x.add_argument("--output",type=Path,default=Path("data/intelligence/release.json"))
     x=sub.add_parser("build-dashboard"); x.add_argument("--catalog",type=Path,default=Path("data/intelligence/catalog.json")); x.add_argument("--results",type=Path,default=Path("data/intelligence/results.json")); x.add_argument("--release",type=Path,default=Path("data/intelligence/release.json")); x.add_argument("--output",type=Path,default=Path("site/intelligence/index.html"))
     x=sub.add_parser("ingest-therapeutic-evidence"); x.add_argument("--casebook",type=Path,required=True); x.add_argument("--atlas-bundle",type=Path,required=True); x.add_argument("--output",type=Path,required=True)
+    x=sub.add_parser("validate-therapeutic-benchmark"); x.add_argument("path",type=Path)
+    x=sub.add_parser("therapeutic-benchmark-summary"); x.add_argument("path",type=Path)
     a=p.parse_args(argv)
     if a.command=="validate-manifest":return 0 if _validate_manifest(a.path) else 1
     if a.command=="validate-all-manifests":
@@ -78,6 +81,12 @@ def main(argv:list[str]|None=None)->int:
         bundle=build_release_bundle(a.catalog,results_path=a.results); save_release_bundle(a.output,bundle); print(json.dumps({"output":str(a.output),"release_id":bundle["release_id"]},indent=2)); return 0
     if a.command=="build-dashboard":
         catalog=load_catalog(a.catalog); results=load_result_history(a.results) if a.results.is_file() else []; release=_load_json(a.release) if a.release.is_file() else None; write_dashboard(a.output,render_dashboard(catalog,results,release=release)); print(json.dumps({"output":str(a.output),"records":len(catalog.records),"results":len(results)},indent=2)); return 0
+    if a.command=="validate-therapeutic-benchmark":
+        try: print(json.dumps(validate_therapeutic_manifest(load_therapeutic_manifest(a.path)),indent=2)); return 0
+        except ValueError as exc: print(f"INVALID: {exc}"); return 1
+    if a.command=="therapeutic-benchmark-summary":
+        try: print(json.dumps(compare_strata_summary(load_therapeutic_manifest(a.path)),indent=2)); return 0
+        except ValueError as exc: print(f"INVALID: {exc}"); return 1
     if a.command=="ingest-therapeutic-evidence":
         try:
             result=write_ingested_casebook(a.casebook,a.atlas_bundle,a.output)

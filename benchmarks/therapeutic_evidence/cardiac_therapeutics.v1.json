@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "benchmark_id": "cardiac-therapeutics-evidence",
+  "version": "1.0.0",
+  "purpose": "Curation-first evidence organization for cardiac therapeutic modalities. This is not a clinical ranking or pooled treatment-effect benchmark.",
+  "records": [],
+  "pooling_policy": {
+    "cross_stratum_pooling": false,
+    "cross_species_pooling": false,
+    "cross_model_pooling": false,
+    "cross_endpoint_pooling": false,
+    "cross_timepoint_pooling": false,
+    "note": "Summaries are descriptive and stratum-specific. Species, disease models, biological units, endpoints, assays and follow-up windows remain separately inspectable."
+  },
+  "candidate_arms_not_admitted": [
+    {"candidate_id": "modrna-myc-cyclint1-mi", "stratum": "myocardial_regeneration", "status": "candidate_requires_primary_source_adjudication"},
+    {"candidate_id": "pln-r14del-rna-silencing", "stratum": "genetic_disease_modification", "status": "candidate_requires_primary_source_adjudication"},
+    {"candidate_id": "polaris101-circvec", "stratum": "genetic_disease_modification", "status": "candidate_requires_primary_source_adjudication"},
+    {"candidate_id": "deramiocel-cap1002", "stratum": "myocardial_repair_preservation", "status": "candidate_requires_primary_source_adjudication"},
+    {"candidate_id": "humacyte-ctev", "stratum": "vascular_tissue_engineering", "status": "candidate_requires_primary_source_adjudication"},
+    {"candidate_id": "3d-peg-cardiac-reprogramming", "stratum": "myocardial_regeneration", "status": "candidate_requires_primary_source_adjudication"},
+    {"candidate_id": "ifng-macrophage-zebrafish", "stratum": "myocardial_regeneration", "status": "candidate_requires_primary_source_adjudication"}
+  ]
+}
