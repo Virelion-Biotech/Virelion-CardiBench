@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T13:25:50.808767+00:00",
+  "generated_at": "2026-11-23T16:07:52.769329+00:00",
   "links": [],
   "records": [
     {
@@ -185,6 +185,32 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Dataset: Mind the Accessibility Gap: A Systematic Literature Review, Classification, and Tool Analysis on GenAI in Computing Education",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24471139"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24471139"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24471139"
+        ]
+      },
+      "observation_ids": [
+        "obs-c47cc488bced8102608c"
+      ],
+      "record_id": "cbx-00977fb841e56ce7",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -838,6 +864,32 @@
       "record_type": "publication",
       "sources": [
         "medrxiv"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Effect of Renal Denervation on Bood Pressure in Patients on Hemodialysis",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT06556407"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT06556407"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT06556407"
+        ]
+      },
+      "observation_ids": [
+        "obs-868572742d06775038a6"
+      ],
+      "record_id": "cbx-02086abc8e54383d",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
       ]
     },
     {
@@ -3988,6 +4040,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Ultrasound Guided Rhomboid Intercostal Subserratus Plane Block vs Erector Spinae Plane Block in Open Nephrectomy",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT05822011"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT05822011"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT05822011"
+        ]
+      },
+      "observation_ids": [
+        "obs-58ae68324b8b266096be"
+      ],
+      "record_id": "cbx-0b0d205059abbf2c",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "CCSBase2: A\nUnified Benchmark Dataset and Machine\nLearning Framework for Robust CCS Prediction",
       "evidence_state": "observed",
       "identifiers": {
@@ -4856,6 +4934,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "NAD+ Precursor Supplementation in Friedreich's Ataxia",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT04817111"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT04817111"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT04817111"
+        ]
+      },
+      "observation_ids": [
+        "obs-b71766229baac66e8a45"
+      ],
+      "record_id": "cbx-0c52e57df019b45a",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Impact of Congenital Heart Disease on the Prognosis of Childhood Hematological Neoplasms: A Multicenter Cohort Study",
       "evidence_state": "observed",
       "identifiers": {
@@ -5404,6 +5508,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "ECG foundation models for cardiovascular screening in a cohort of young competitive athletes",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1038/s41746-026-03474-9"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1038/s41746-026-03474-9"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W7237333974"
+        ]
+      },
+      "observation_ids": [
+        "obs-466323bf8a51d6fee726"
+      ],
+      "record_id": "cbx-0da8f16d5843292a",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Data and code for \"Mineral-associated soil carbon increases slowly with stand age after forest restoration: a global meta-analysis\"",
       "evidence_state": "observed",
       "identifiers": {
@@ -5843,6 +5973,32 @@
       "record_type": "publication",
       "sources": [
         "openalex"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "VIOLIN: A modular framework for scalable reconciliation of heterogeneous interaction graphs",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1101/2024.07.21.604448"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1101/2024.07.21.604448"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "biorxiv:10.1101/2024.07.21.604448:4"
+        ]
+      },
+      "observation_ids": [
+        "obs-d2739bf8f5e6d675bf49"
+      ],
+      "record_id": "cbx-0eba457acbf1cf0b",
+      "record_type": "publication",
+      "sources": [
+        "biorxiv"
       ]
     },
     {
@@ -7247,6 +7403,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Cerebral Oximetry in Management of Post Cardiac Arrest",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT07829887"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT07829887"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT07829887"
+        ]
+      },
+      "observation_ids": [
+        "obs-10f09f2f204cae6d9c74"
+      ],
+      "record_id": "cbx-118f51957aacc0e5",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Event-level flow-cytometry measurements from eight patients with acute myeloid leukemia for incomplete-panel frequency estimation",
       "evidence_state": "observed",
       "identifiers": {
@@ -7711,6 +7893,32 @@
       "record_type": "dataset",
       "sources": [
         "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Feasibility study on using the diffusion-weighted imaging liver pulsation artifact as marker of liver fibrosis",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.10.23.26358292"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.64898/2026.10.23.26358292"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "medrxiv:10.64898/2026.10.23.26358292:1"
+        ]
+      },
+      "observation_ids": [
+        "obs-cef991e4b49d41c3b58d"
+      ],
+      "record_id": "cbx-12be485c3d5cc3c1",
+      "record_type": "publication",
+      "sources": [
+        "medrxiv"
       ]
     },
     {
@@ -10013,6 +10221,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "INTEGRATING UZBEK NATIONAL HOLIDAYS INTO EFL TEACHING: A LINGUOCULTURAL APPROACH TO LANGUAGE AND CULTURAL AWARENESS",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24470853"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24470853"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24470853"
+        ]
+      },
+      "observation_ids": [
+        "obs-7ffbaa121564a190b3ff"
+      ],
+      "record_id": "cbx-17863ea600a82c93",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "The algorithmic athlete: Forecasting socio-technical transformations and human symbiosis with artificial intelligence in elite sports",
       "evidence_state": "observed",
       "identifiers": {
@@ -10482,6 +10716,32 @@
       "record_type": "dataset",
       "sources": [
         "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "The 36-month Extension to Follow up Sub Study",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT01615692"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT01615692"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT01615692"
+        ]
+      },
+      "observation_ids": [
+        "obs-f21eb8e98062af64d2ee"
+      ],
+      "record_id": "cbx-191f4126c09b143a",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
       ]
     },
     {
@@ -15355,6 +15615,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "GeCIC-IoT23",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24342276"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24342276"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24342276"
+        ]
+      },
+      "observation_ids": [
+        "obs-9354e7a2c6459b136866"
+      ],
+      "record_id": "cbx-25e665e4cf95e0b1",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Artificial intelligence in Acute Care Surgery: integrating new capabilities into a complex adaptive system",
       "evidence_state": "observed",
       "identifiers": {
@@ -16754,6 +17040,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Predicting alcohol consumption from resting-state functional connectivity: Feature relevance and the potential of meta-matching.",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.10.19.759632"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.64898/2026.10.19.759632"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "biorxiv:10.64898/2026.10.19.759632:1"
+        ]
+      },
+      "observation_ids": [
+        "obs-db7f3d73be74430d4856"
+      ],
+      "record_id": "cbx-298d23395ce948ac",
+      "record_type": "publication",
+      "sources": [
+        "biorxiv"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Crnic Institute - Trisomy 21 Model Atlas: PolyA RNA-seq from Dp(16)1Yey mice [1mo Heart]",
       "evidence_state": "observed",
       "identifiers": {
@@ -17428,6 +17740,32 @@
       "record_type": "publication",
       "sources": [
         "openalex"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Additional data for AD framework paper",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24286063"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24286063"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24286063"
+        ]
+      },
+      "observation_ids": [
+        "obs-19b44f744245f456c33e"
+      ],
+      "record_id": "cbx-2b25b8c02f5a44a9",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -18185,6 +18523,32 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "MS17 Legislative species in Catalogue of Life",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24470542"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24470542"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24470542"
+        ]
+      },
+      "observation_ids": [
+        "obs-0a35284b9845f32acd7b"
+      ],
+      "record_id": "cbx-2d3cc90413ce3b9c",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -19107,6 +19471,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Code and data for \"Penalizing Turns, Not Speed: A Scale-Invariant Directional Reward Regularizer for Goal-Directed Reinforcement Learning\"",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24471297"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24471297"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24471297"
+        ]
+      },
+      "observation_ids": [
+        "obs-5a5ff6db067e2c6d168d"
+      ],
+      "record_id": "cbx-2f88a501250c0c61",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Refined Nursing in Rehabilitation Training",
       "evidence_state": "observed",
       "identifiers": {
@@ -19369,6 +19759,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "End-to-End Machine-Learning Potentials in AutoMeKin: Reliable Exploration of Reactive Potential Energy Surfaces",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24471415"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24471415"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24471415"
+        ]
+      },
+      "observation_ids": [
+        "obs-9c3667e3384f83983aa2"
+      ],
+      "record_id": "cbx-2ffc06e8b6406a12",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Integrative Multimodal Analysis of Rheumatic Mitral Valve Disease Identifies Insulin\u2011Like Growth Factor Binding Proteins as Profibrotic Drivers",
       "evidence_state": "observed",
       "identifiers": {
@@ -19573,6 +19989,32 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "YANGI BAHOLASH TIZIMI SHAROITIDA O'QUVCHILAR BILIM DARAJASINI ANIQLASHNING STATISTIK VA METODIK ASOSLARI",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24471037"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24471037"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24471037"
+        ]
+      },
+      "observation_ids": [
+        "obs-b5ee644455984733ef59"
+      ],
+      "record_id": "cbx-30dd79db8da5f643",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -21240,6 +21682,32 @@
         "obs-b08c3d2cde90fc62407f"
       ],
       "record_id": "cbx-34ffd9d37be956b8",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "A dynamic proteomic HECT E3 ligase screen reveals substrate exclusivity and redundancies",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23885440"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.23885440"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:23885440"
+        ]
+      },
+      "observation_ids": [
+        "obs-804c30936b829925ba72"
+      ],
+      "record_id": "cbx-35199872a2539768",
       "record_type": "dataset",
       "sources": [
         "zenodo"
@@ -24732,6 +25200,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "SILS\u2122 Port Laparoscopic Cholecystectomy Post Market Study",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT00832767"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT00832767"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT00832767"
+        ]
+      },
+      "observation_ids": [
+        "obs-28168fce4fb76d1c53ff"
+      ],
+      "record_id": "cbx-3c2c7b819b23c55e",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "GIS-Based Dataset for Floating Photovoltaic Assessment of Hydropower Reservoirs in T\u00fcrkiye",
       "evidence_state": "observed",
       "identifiers": {
@@ -27059,6 +27553,58 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Resistance on Antithrombotic Drugs in Ischemic Heart Disease",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT00742430"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT00742430"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT00742430"
+        ]
+      },
+      "observation_ids": [
+        "obs-a37c56a8c4023259f498"
+      ],
+      "record_id": "cbx-42520700029a4bf2",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Comparison of PEEP in Acute Decompensated Heart Failure",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT04853563"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT04853563"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT04853563"
+        ]
+      },
+      "observation_ids": [
+        "obs-c9687aa20840ca05e168"
+      ],
+      "record_id": "cbx-4260c848f63783ab",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Perturbation of genes linked to common schizophrenia risk variants identifies cilia programs",
       "evidence_state": "observed",
       "identifiers": {
@@ -27157,6 +27703,32 @@
         "obs-2866a17d2ea0ba0f843f"
       ],
       "record_id": "cbx-42922d6b5ad420c0",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Study to Evaluate the Safety and Efficacy of Humacyte's Coronary Tissue Engineered Vessel (CTEV) in Patients With Coronary Artery Disease Requiring Coronary Artery Bypass Grafting (CABG)",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT07730528"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT07730528"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT07730528"
+        ]
+      },
+      "observation_ids": [
+        "obs-f2155853a6e792ccbd84"
+      ],
+      "record_id": "cbx-42d9a9987796e760",
       "record_type": "other",
       "sources": [
         "clinicaltrials"
@@ -27919,6 +28491,32 @@
       "record_type": "dataset",
       "sources": [
         "geo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Maternal Left Lateral Position in Fetal Growth Restriction",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT06919692"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT06919692"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT06919692"
+        ]
+      },
+      "observation_ids": [
+        "obs-e83a6935611263805ce5"
+      ],
+      "record_id": "cbx-451fa17048d34e36",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
       ]
     },
     {
@@ -29151,6 +29749,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "The FLARE (Flurpiridaz vs. Rubidium Evaluation) Trial",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT07761728"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT07761728"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT07761728"
+        ]
+      },
+      "observation_ids": [
+        "obs-aa56f5e553fe50eecec7"
+      ],
+      "record_id": "cbx-47b7a23fa777c45f",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Chip Peace",
       "evidence_state": "observed",
       "identifiers": {
@@ -30006,6 +30630,32 @@
       "record_type": "publication",
       "sources": [
         "openalex"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Gut Microbiota Modulation With Synbiotics After Acute Coronary Syndrome",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT07411287"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT07411287"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT07411287"
+        ]
+      },
+      "observation_ids": [
+        "obs-5fd257198f403ce97d25"
+      ],
+      "record_id": "cbx-49d95df9903ecd80",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
       ]
     },
     {
@@ -32857,6 +33507,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "A proteomic polygenic score to identify IL-18 driven inflammatory bowel disease",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.05.18.26353508"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.64898/2026.05.18.26353508"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "medrxiv:10.64898/2026.05.18.26353508:2"
+        ]
+      },
+      "observation_ids": [
+        "obs-17c0c3c7b2a71935b965"
+      ],
+      "record_id": "cbx-518cbb94eaca88e6",
+      "record_type": "publication",
+      "sources": [
+        "medrxiv"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Optimization of Commissural Alignment During Transcatheter Aortic Valve Implantation With Evolut FX+",
       "evidence_state": "observed",
       "identifiers": {
@@ -34245,6 +34921,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "VARC-TAVI VALVE IMPLANTATION)",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT06177392"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT06177392"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT06177392"
+        ]
+      },
+      "observation_ids": [
+        "obs-29cd9286d802e1ca4732"
+      ],
+      "record_id": "cbx-551d25a1ad27822d",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Vascular Response to Isoproterenol and \u03b22 Adrenergic Receptor Polymorphisms",
       "evidence_state": "observed",
       "identifiers": {
@@ -35204,6 +35906,32 @@
       "record_type": "dataset",
       "sources": [
         "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Portable medical imaging in modern healthcare: Fundamentals, AI-based taxonomy, image quality, and open challenges",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1016/j.bspc.2026.111876"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1016/j.bspc.2026.111876"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W7154993027"
+        ]
+      },
+      "observation_ids": [
+        "obs-f32dec048c62f8dbdc2b"
+      ],
+      "record_id": "cbx-56f23e2f2172f9dd",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
       ]
     },
     {
@@ -38266,6 +38994,32 @@
         "obs-2f5a6b98c65e013fd950"
       ],
       "record_id": "cbx-5f35a92ed635738a",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Evaluation of the HekaHeart Platform in Medication Management for Heart Failure Patients",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT06433687"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT06433687"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT06433687"
+        ]
+      },
+      "observation_ids": [
+        "obs-e1804a85afb8135a9558"
+      ],
+      "record_id": "cbx-5f3a8e493907fa19",
       "record_type": "other",
       "sources": [
         "clinicaltrials"
@@ -41484,6 +42238,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "A genome-wide catalog of sites where peripheral DNA methylation reflects the brain",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.10.23.761276"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.64898/2026.10.23.761276"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "biorxiv:10.64898/2026.10.23.761276:1"
+        ]
+      },
+      "observation_ids": [
+        "obs-de6aa318370620b8e281"
+      ],
+      "record_id": "cbx-6730df2aba5d8df7",
+      "record_type": "publication",
+      "sources": [
+        "biorxiv"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Deep Learning for Automated Electrocardiogram Analysis: Real-Time Arrhythmia Classification Using 1D-CNN",
       "evidence_state": "observed",
       "identifiers": {
@@ -41584,6 +42364,32 @@
       "record_type": "publication",
       "sources": [
         "medrxiv"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "A Prospective, Randomized Multicenter Clinical Trial of the TricValve\u00ae Transcatheter Bicaval Valve System in Subjects With Severe Tricuspid Regurgitation.",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT06458907"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT06458907"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT06458907"
+        ]
+      },
+      "observation_ids": [
+        "obs-b8d1d6fe34048f574106"
+      ],
+      "record_id": "cbx-678362af00e6699f",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
       ]
     },
     {
@@ -43153,6 +43959,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "\u041f\u0415\u0414\u0410\u0413\u041e\u0413\u0418\u0427\u0415\u0421\u041a\u0410\u042f \u041c\u041e\u0414\u0415\u041b\u042c \u0420\u0410\u0417\u0412\u0418\u0422\u0418\u042f \u041d\u0410\u0412\u042b\u041a\u041e\u0412 \u0423\u0421\u0422\u041d\u041e\u0419 \u0410\u041d\u0413\u041b\u0418\u0419\u0421\u041a\u041e\u0419 \u0420\u0415\u0427\u0418 \u0421\u0422\u0423\u0414\u0415\u041d\u0422\u041e\u0412 \u0412\u0423\u0417\u0410 \u0421\u0420\u0415\u0414\u0421\u0422\u0412\u0410\u041c\u0418 \u0413\u0415\u0419\u041c\u0418\u0424\u0418\u041a\u0410\u0426\u0418\u0418 \u0418 \u0418\u041d\u0422\u0415\u0420\u0410\u041a\u0422\u0418\u0412\u041d\u042b\u0425 \u0426\u0418\u0424\u0420\u041e\u0412\u042b\u0425 \u041f\u041b\u0410\u0422\u0424\u041e\u0420\u041c",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24471471"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24471471"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24471471"
+        ]
+      },
+      "observation_ids": [
+        "obs-00eacf14bdf0c3ee19f2"
+      ],
+      "record_id": "cbx-6bb0e6b8097ac6eb",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Cerebral and Spinal Protection of Xenon Post-conditioning in Patients Undergoing Aortic Dissection Repair",
       "evidence_state": "observed",
       "identifiers": {
@@ -44190,6 +45022,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Cardiac Rehabilitation and Ongoing Physical Activity During COVID-19",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT04501432"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT04501432"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT04501432"
+        ]
+      },
+      "observation_ids": [
+        "obs-001a534062c7a6e79d7d"
+      ],
+      "record_id": "cbx-6e391366fd2d0eae",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Hybrid stacking and logistic regression meta-model for credit card fraud detection using SMOTE and multiple machine learning algorithms",
       "evidence_state": "observed",
       "identifiers": {
@@ -44577,6 +45435,32 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Python Code and Dataset for Environmental Signatures of Compound Drought\u2013Flood Ex-posure A SHAP-Guided Spatial Typology at the Village Scale in Northeast Thailand .txt",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24470953"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24470953"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24470953"
+        ]
+      },
+      "observation_ids": [
+        "obs-c37eecc5d3e486d25030"
+      ],
+      "record_id": "cbx-6f76feb8fe0f165c",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -46133,6 +47017,32 @@
       "record_type": "dataset",
       "sources": [
         "bioproject"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "\u0418\u041d\u041d\u041e\u0412\u0410\u0426\u0418\u041e\u041d\u041d\u042b\u0415 \u041c\u0415\u0422\u041e\u0414\u042b \u0420\u0410\u0417\u0412\u0418\u0422\u0418\u042f \u041d\u0410\u0412\u042b\u041a\u041e\u0412 \u041f\u0420\u041e\u0424\u0415\u0421\u0421\u0418\u041e\u041d\u0410\u041b\u042c\u041d\u041e\u0413\u041e \u041e\u0411\u0429\u0415\u041d\u0418\u042f \u041d\u0410 \u0418\u041d\u041e\u0421\u0422\u0420\u0410\u041d\u041d\u041e\u041c \u042f\u0417\u042b\u041a\u0415 \u0423 \u0421\u0422\u0423\u0414\u0415\u041d\u0422\u041e\u0412 \u0412\u0423\u0417\u041e\u0412",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24470959"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24470959"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24470959"
+        ]
+      },
+      "observation_ids": [
+        "obs-9f24d3015a75e232e1c6"
+      ],
+      "record_id": "cbx-73c4ecc300020fba",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -48098,6 +49008,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Fog in Ukrainian and Estonian Oral Traditions",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24471492"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24471492"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24471492"
+        ]
+      },
+      "observation_ids": [
+        "obs-17065eab67463c83e58b"
+      ],
+      "record_id": "cbx-78a9595e9bf4d162",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Numerical model code and datasets for \"Tectonic pump closes the evolutionary loop for long-buried subseafloor microbes\"",
       "evidence_state": "observed",
       "identifiers": {
@@ -49194,6 +50130,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "A Study In Patients With Type 2 Diabetes Mellitus",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT00256867"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT00256867"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT00256867"
+        ]
+      },
+      "observation_ids": [
+        "obs-3d0ccff6f6a4db451456"
+      ],
+      "record_id": "cbx-7b6165ab840875d0",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Mechanistic insights into a heart-brain-liver-gut microbiota axis of Shengdihuang-Yimucao herb pair on controlling cardiac remodeling to ischemic stress",
       "evidence_state": "observed",
       "identifiers": {
@@ -49291,6 +50253,32 @@
         "obs-d5da8f1874a89c797f9d"
       ],
       "record_id": "cbx-7bba01cac87df8a9",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Implementation of IkasLab in Primary Education: A Mixed-Methods Study of Learning Spaces, Teaching Practice and Metacognition",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.3390/soc16070203"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.3390/soc16070203"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24471641"
+        ]
+      },
+      "observation_ids": [
+        "obs-abe79d8c999656fc198f"
+      ],
+      "record_id": "cbx-7bd0fce363f092c9",
       "record_type": "other",
       "sources": [
         "zenodo"
@@ -51784,6 +52772,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Bidirectional intensity transport model of Amplified Spontaneous Emission in stripe-pumped active semiconductor thin films",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24471203"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24471203"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24471203"
+        ]
+      },
+      "observation_ids": [
+        "obs-c3c76dc51d88935d34db"
+      ],
+      "record_id": "cbx-80f923cb22cf4a26",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Nutritional enhancement and physiological responses to papaya (&lt;i&gt;Carica papaya&lt;/i&gt; L.), turmeric (&lt;i&gt;Curcuma longa&lt;/i&gt; L.), moringa (&lt;i&gt;Moringa oleifera&lt;/i&gt; Lam.) - enriched biscuits and coconut (&lt;i&gt;Cocos nucifera&lt;/i&gt; L.) in Wistar rats: artificial neural network modeling.",
       "evidence_state": "observed",
       "identifiers": {
@@ -52310,6 +53324,32 @@
       "record_type": "dataset",
       "sources": [
         "geo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Deep learning for empirical observational constraints in seasonal forecasting: Extending the utility of GRACE data",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24285339"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24285339"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24285339"
+        ]
+      },
+      "observation_ids": [
+        "obs-0116e2b32bdd54a199d4"
+      ],
+      "record_id": "cbx-82116087a6845e23",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -55056,6 +56096,32 @@
         "obs-37ce130fb57eccab90f6"
       ],
       "record_id": "cbx-88739a5f70466330",
+      "record_type": "publication",
+      "sources": [
+        "medrxiv"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Fine-tuned Medical Vision-Language Model (MedGemma 1.5 4B) with and without Structured Radiologist Descriptors versus EU-TIRADS for Malignancy Risk Stratification of Thyroid Nodules at Ultrasound: A Tunisian Multicenter Diagnostic Accuracy Study",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.10.21.26366156"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.64898/2026.10.21.26366156"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "medrxiv:10.64898/2026.10.21.26366156:1"
+        ]
+      },
+      "observation_ids": [
+        "obs-56966280b9ae9e37cf8e"
+      ],
+      "record_id": "cbx-88772e4cdeb47468",
       "record_type": "publication",
       "sources": [
         "medrxiv"
@@ -58510,6 +59576,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Unified mobile framework for electrocardiogram-based myocardial infarction detection and arrhythmia classification",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.11591/eei.v15i6.11689"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.11591/eei.v15i6.11689"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W7236834475"
+        ]
+      },
+      "observation_ids": [
+        "obs-3c96954bd9ba8fa5a6ff"
+      ],
+      "record_id": "cbx-90951f219971dd7d",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Artificial Intelligence and Quantum Technology A Dual Frontier Strategy for the Next Era of Computational and Scientific Leadership",
       "evidence_state": "observed",
       "identifiers": {
@@ -58818,6 +59910,32 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Delphi Validation of a Rubric for IkasLab Spaces for Active and Global Learning",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.3390/educsci15121610"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.3390/educsci15121610"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24471527"
+        ]
+      },
+      "observation_ids": [
+        "obs-9407b86421288cbf2e1e"
+      ],
+      "record_id": "cbx-90f8c92eb7c9d4b1",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -60719,6 +61837,32 @@
       "record_type": "publication",
       "sources": [
         "medrxiv"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Experimental Private 5G Network Traffic Statistics",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24471374"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24471374"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24471374"
+        ]
+      },
+      "observation_ids": [
+        "obs-426fed3fe443f76ef0ab"
+      ],
+      "record_id": "cbx-95b17876d22be0bc",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -64724,6 +65868,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Perioperative Intra-Aortic Balloon Pump (IABP) in Coronary Artery Bypass Grafting (CABG) Operations in Patients With Severely Depressed Left Ventricular Function",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT00881192"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT00881192"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT00881192"
+        ]
+      },
+      "observation_ids": [
+        "obs-804633523194df3d68b5"
+      ],
+      "record_id": "cbx-9f6678115bb90780",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Oral Decitabine and Tetrahydrouridine as Epigenetic Priming for Pembrolizumab-Mediated Immune Checkpoint Blockade in Patients With Inoperable, or Unresectable Locally Advanced or Metastatic Non-Small Cell Lung Cancers and Esophageal Carcinomas",
       "evidence_state": "observed",
       "identifiers": {
@@ -65093,6 +66263,58 @@
       "record_type": "publication",
       "sources": [
         "openalex"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "From AI assistance to pedagogical reflection: a rubric-mediated model for generative AI in teacher education",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.3389/feduc.2026.1859688"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.3389/feduc.2026.1859688"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24471376"
+        ]
+      },
+      "observation_ids": [
+        "obs-ce7f3c5944e4d51e0eee"
+      ],
+      "record_id": "cbx-a07eac466cbeb6d6",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "TriCyP \u2014 tri-state cysteine classification for ECOD domains",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24328342"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24328342"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24328342"
+        ]
+      },
+      "observation_ids": [
+        "obs-56fa3877d7c97cf84729"
+      ],
+      "record_id": "cbx-a098495a1e5f449b",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
       ]
     },
     {
@@ -74820,6 +76042,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "A Phase Ib Study of AZD5462 on Top of Dapagliflozin in Participants With Heart Failure and Moderate Renal Impairment",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT06639087"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT06639087"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT06639087"
+        ]
+      },
+      "observation_ids": [
+        "obs-ed9eb79a0d6f043beb0f"
+      ],
+      "record_id": "cbx-b8946af09844ceef",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Single-nucleus RNA-sequencing of human iPSC-derived cardiac organoids under a fibrotic cocktail with dronedarone or calcifediol",
       "evidence_state": "observed",
       "identifiers": {
@@ -76109,6 +77357,32 @@
       "record_type": "other",
       "sources": [
         "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Plasma Proteomic Correlates of Cognitive Function in Older Adults From Central Africa",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.64898/2026.10.22.26366214"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.64898/2026.10.22.26366214"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "medrxiv:10.64898/2026.10.22.26366214:1"
+        ]
+      },
+      "observation_ids": [
+        "obs-f4cacf3e79fbe8c2af61"
+      ],
+      "record_id": "cbx-bc8ad95de895c48d",
+      "record_type": "publication",
+      "sources": [
+        "medrxiv"
       ]
     },
     {
@@ -81172,6 +82446,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Efficacy of Diluted Betadine vs Antibiotic Installation Before Surgical Wound Closure in Prevention of Post Cardiac Surgery Wound Infection",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT05276687"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT05276687"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT05276687"
+        ]
+      },
+      "observation_ids": [
+        "obs-f94dec22b5fadb27bcf5"
+      ],
+      "record_id": "cbx-c89ccaa0a59aaad2",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Sustainable Federated Fine-Tuning with LoRA: Environmental Impact and Performance Footprint",
       "evidence_state": "observed",
       "identifiers": {
@@ -84333,6 +85633,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "The Effect of Aerobic Exercise in Overweight and Obese Women",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT04205981"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT04205981"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT04205981"
+        ]
+      },
+      "observation_ids": [
+        "obs-14c0c91ecc86e6c628ca"
+      ],
+      "record_id": "cbx-d08d9cb19c6132a8",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Prospective Observational Study of Trimetazidine Influence on Mitochondrial Metabolism in Human Heart Ventricle",
       "evidence_state": "observed",
       "identifiers": {
@@ -85070,12 +86396,14 @@
           "identifier_type": "doi",
           "identifier_value": "10.64898/2026.10.01.26364102"
         },
-        "observation_count": 1,
+        "observation_count": 2,
         "source_record_ids": [
-          "medrxiv:10.64898/2026.10.01.26364102:1"
+          "medrxiv:10.64898/2026.10.01.26364102:1",
+          "medrxiv:10.64898/2026.10.01.26364102:2"
         ]
       },
       "observation_ids": [
+        "obs-2dd4426eb556fb4a914c",
         "obs-4ef5c5c4443b6a980a72"
       ],
       "record_id": "cbx-d29e4386c71b10df",
@@ -85979,6 +87307,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "SimilCode Benchmark: A Dual-Language Source-Code Similarity Dataset for the Evaluation of AI-Based Detectors",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24471467"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24471467"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24471467"
+        ]
+      },
+      "observation_ids": [
+        "obs-f71094114a9dabfe1cca"
+      ],
+      "record_id": "cbx-d5c8d0f7942d7b25",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Numerical data for A Fixed-Direction Numerical Audit of Equal-DC and Observation-Domain Comparisons in Near-Field Microwave Wireless Power Transfer",
       "evidence_state": "observed",
       "identifiers": {
@@ -86764,6 +88118,32 @@
       "record_type": "other",
       "sources": [
         "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Risk Factors for Stroke or Systemic Embolism in Chinese Patients with Non-Valvular Atrial Fibrillation Registry",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT05598632"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT05598632"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT05598632"
+        ]
+      },
+      "observation_ids": [
+        "obs-4800d1d36b55d0fa4739"
+      ],
+      "record_id": "cbx-d7624269a1ac2174",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
       ]
     },
     {
@@ -88031,6 +89411,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "CardioAI: A Multi-Modal Stacking Ensemble Platform for Cardiovascular Disease Prediction and 12-Lead ECG Classification with Explainable AI",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.55041/ijcope.v2i11.096"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.55041/ijcope.v2i11.096"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W7237332725"
+        ]
+      },
+      "observation_ids": [
+        "obs-c655891bce697fa38641"
+      ],
+      "record_id": "cbx-da951146eee88c78",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Pemanfaatan Media Pembelajaran Interaktif dalam Mendukung Pembelajaran Siswa Sekolah Dasar: Kajian Literatur",
       "evidence_state": "observed",
       "identifiers": {
@@ -88496,6 +89902,32 @@
       ],
       "record_id": "cbx-dc59a3c997fe6f5f",
       "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Code, protocol and lesion-free control benchmark for: Would a Brain Tumor Classifier Recognise a Stroke? Near-Perfect OOD Detection on MRI Is Mostly Source Detection",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24471020"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24471020"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24471020"
+        ]
+      },
+      "observation_ids": [
+        "obs-0587f41230bfb897ae85"
+      ],
+      "record_id": "cbx-dc670a8cd1d3b0ae",
+      "record_type": "other",
       "sources": [
         "zenodo"
       ]
@@ -91223,6 +92655,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "STARLI \u00b7 WHITE RAINBOW ERA FAMILY 01 \u00b7 F001-F005 BIOLOGICAL BARRIER ARCHITECTURE AND SELECTIVITY  5,000-WORD RESEARCH ESSENCE | PROSPECTIVE WORKING EDITION v1.0 BIOMIMETIC BARRIERS \u00d7 SELF-HEALING MATERIALS \u00d7 INTELLIGENT SENSING \u00d7 4D AUTONOMOUS REGENERATIVE ENGINEERING AT THE LIMIT  This independent research digest condenses a hypothetical, nonclinical and falsifiable design program. It does not describe completed biological or material experiments. The five flagship titles and their order follow the author's canonical 40-family, 200-flagship master blueprint. The graphical and chapter architecture follows the independently published STARLI F171-F175 819-page mother document, not its experimental conclusions.  The central scientific idea is a distinction between an attractive structure and a demonstrable barrier function. An epithelial layer may look continuous while a tracer finds a single edge leak. A high electrical resistance may be produced by electrode geometry while neutral-molecule permeability remains high. A smooth lipid film may retain a chemical reservoir that fakes a favorable diffusion curve. A three-dimensional defect network may expand locally while the average thickness remains reassuring. Two sensors may agree because they inherit the same calibration error. Each mechanism deserves its own experimental contract and external right of refusal.  The family coordinates six research modules: physical barriers, reversible material interfaces, orthogonal sensing, spatial and 4D geometry, uncertainty-aware modeling, and independent evidence. Five conceptual stages organize each line of inquiry: physical origin, mathematical evolution, counterfactual branching, bounded extreme extrapolation, and evidence convergence. These are scientific-reasoning stages and do not claim control over real-time experimental duration.  Five flagship studies, independently bounded:  F001 \u2014 Multilayer Skin Barrier Architecture and Molecular Selectivity Chinese official title: \u76ae\u819a\u591a\u5c64\u5c4f\u969c\u7d50\u69cb\u8207\u5206\u5b50\u9078\u64c7\u6027\u6975\u9650 Main endpoint: permeance selectivity S_AB [dimensionless]. Prototype: calibrated two-solute membrane cell with independently mapped layered phantom. Comparator: matched reconstructed epidermis and inert supported membrane.  F002 \u2014 Tight Junctions and Dynamic Permeability Regulation Chinese official title: \u7d30\u80de\u7dca\u5bc6\u9023\u7d50\u8207\u52d5\u614b\u901a\u900f\u8abf\u7bc0\u6975\u9650 Main endpoint: blank-corrected TEER [ohm cm2]. Prototype: bounded epithelial barrier chip with swap-in electrode geometry. Comparator: conventional Transwell TEER and matched acellular impedance blank.  F003 \u2014 Lipid Bilayers and Molecular Transport Across Biomimetic Interfaces Chinese official title: \u8102\u8cea\u96d9\u5c64\u8207\u4eff\u751f\u754c\u9762\u5206\u5b50\u50b3\u8f38\u6975\u9650 Main endpoint: molar solute flux J_s [mol m-2 s-1]. Prototype: acellular lamellar membrane with two chemically dissimilar traceable solutes. Comparator: uniform supported lipid film with directly measured partition coefficient.  F004 \u2014 3D Heterogeneity and Defect Propagation in Biological Barriers Chinese official title: \u751f\u7269\u5c4f\u969c\u4e09\u7dad\u7570\u8cea\u6027\u8207\u7f3a\u9677\u50b3\u64ad\u6975\u9650 Main endpoint: defect-front speed v_d [um h-1]. Prototype: patterned composite barrier coupon with blinded subsurface defects. Comparator: homogeneous elastomer membrane and phase-field blind benchmark.  F005 \u2014 Multiscale Functional Validation of Biological Barrier Integrity Chinese official title: \u751f\u7269\u5c4f\u969c\u5b8c\u6574\u6027\u8207\u591a\u5c3a\u5ea6\u529f\u80fd\u9a57\u8b49\u6975\u9650 Main endpoint: preregistered cross-assay concordance C [percent]. Prototype: blinded multi-instrument barrier coupon challenge with hidden artificial defects. Comparator: calibrated standard reference material plus blinded single-assay evaluation.  RESEARCH ARGUMENT AND FALSIFIABLE STUDY DESIGN   F001 | MULTILAYER SKIN BARRIER ARCHITECTURE AND MOLECULAR SELECTIVITY Research question. How can molecular selectivity and stratified skin-layer continuity be distinguished causally from edge leakage or selective image sampling that imitates a transport advantage? The measured objective is permeance selectivity S_AB [dimensionless]; a physically external blinded dual-tracer flux with geometrically calibrated exposed area must retain authority over the model. This objective is not a claim that the intervention has worked.  The exposed-area paradox | Physical origin MECHANISM. The physical origin of the exposed-area paradox is a problem of serial resistance of layered routes, solute partitioning, and tortuous diffusion, not a statement that a visually attractive layer functions. Begin with the conserved quantity or force balance, select the spatial boundary, and identify which internal state is physically observable. In F001, the admissible target is permeance selectivity S_AB [dimensionless], distinguished from all secondary optical and algorithmic proxies. The source of each state variable must be recorded separately; no synthetic 3D surface establishes an observed effect in living skin. Chapter 01 treats \"The exposed-area paradox\" as a discrete boundary case for F001, rather than borrowing endpoint claims from the neighboring flagships.  MEASUREMENT. The measurement contract for the exposed-area paradox starts with blinded dual-tracer flux with geometrically calibrated exposed area and an explicit unit for permeance selectivity S_AB. Record exposed area, specimen thickness, tracer or electrode source, time stamps and every attempted run before classifying successful devices. Use an externally imposed physical stop circuit to separate the target from orthogonal section thickness; a single high-resolution image is insufficient even if its geometry seems convincing. An acellular or geometry-only comparator is retained whenever it can reproduce transport or sensor artifacts. Chapter 01 treats \"The exposed-area paradox\" as a discrete boundary case for F001, rather than borrowing endpoint claims from the neighboring flagships.  REFUTATION. An immediate refutation test for the exposed-area paradox is whether edge leakage or selective image sampling that imitates a transport advantage can produce a seemingly favorable permeance selectivity S_AB. Deliberately create an operator intervention absent from the event log, without removing the physical reference, and allow a blinded investigator to choose between the proposed and rival accounts. If the candidate only changes the display while dual tracer flux plus orthogonal histology does not corroborate it, the functional claim fails at inception. Keep the full error bar and the strongest unfavorable local case beside every apparent gain. Chapter 01 treats \"The exposed-area paradox\" as a discrete boundary case for F001, rather than borrowing endpoint claims from the neighboring flagships.   Independent reconstruction of selectivity | Convergence and inheritance MECHANISM. The narrowest inheritable proposition about independent reconstruction of selectivity is conditional: serial resistance of layered routes, solute partitioning, and tortuous diffusion may control permeance selectivity S_AB within the measured domain, provided independently recorded dual tracer flux plus orthogonal histology remains consistent. Preserve mechanisms that survive rival interventions and retire those that fail. The next research generation should inherit the question, not an obligation to agree with the first model. This conclusion cannot establish clinical efficacy, material certification or authorization to use an active system. The independent challenge is indexed as F001-C17-P6; raw and derived signals retain separate provenance.  MEASUREMENT. The evidence packet for independent reconstruction of selectivity should allow a stranger to regenerate the numerical surface and the physical pass/fail summary from separate inputs. Include units [dimensionless], uncertainty by component, randomization seed, raw mass spectrometric tracer assay signals, and a traceable failure ledger. Predeclare an output file schema that links every datum to the originating specimen and to the independent stop decision. Reproducibility requires code, assumptions and calibration provenance; a figure without raw data is not a reusable result. The independent challenge is indexed as F001-C17-P6; raw and derived signals retain separate provenance.  REFUTATION. The long-term refutation obligation for independent reconstruction of selectivity is to ask what evidence would force retirement of the favorite explanation. At minimum, stop if a tracer mass-balance deficit above the preregistered tolerance or independent functional deterioration; abandon mechanistic uniqueness if edge leakage or selective image sampling that imitates a transport advantage survives the strongest available challenge. The resulting gate should remain open to a later laboratory that improves measurement rather than merely increases the simulated effect size. The research remains prospective, nonclinical and unable to support claims of therapeutic benefit. The independent challenge is indexed as F001-C17-P6; raw and derived signals retain separate provenance.  Gate for future research. The next independent laboratory should challenge the most generous apparent result under a matched specimen and analysis budget, preserving the full set of failed samples. The experiment must suspend interpretation if a tracer mass-balance deficit above the preregistered tolerance or independent functional deterioration. An external observer can conclude that the main theory is wrong while still producing a useful publishable negative result.   F002 | TIGHT JUNCTIONS AND DYNAMIC PERMEABILITY REGULATION Research question. How can dynamic tight-junction closure and epithelial ion conductance be distinguished causally from electrode polarization or frequency drift misclassified as junction sealing? The measured objective is blank-corrected TEER [ohm cm2]; a physically external four-terminal impedance and independent neutral-tracer assay must retain authority over the model. This objective is not a claim that the intervention has worked.  Electrical resistance versus permeability | Physical origin MECHANISM. The physical origin of electrical resistance versus permeability is a problem of frequency-dependent ionic impedance, calcium-dependent junction state, and paracellular resistance, not a statement that a visually attractive layer functions. Begin with the conserved quantity or force balance, select the spatial boundary, and identify which internal state is physically observable. In F002, the admissible target is blank-corrected TEER [ohm cm2], distinguished from all secondary optical and algorithmic proxies. The source of each state variable must be recorded separately; no synthetic 3D surface establishes an observed effect in living skin. Chapter 18 treats \"Electrical resistance versus permeability\" as a discrete boundary case for F002, rather than borrowing endpoint claims from the neighboring flagships.  MEASUREMENT. The measurement contract for electrical resistance versus permeability starts with four-terminal impedance and independent neutral-tracer assay and an explicit unit for blank-corrected TEER. Record exposed area, specimen thickness, tracer or electrode source, time stamps and every attempted run before classifying successful devices. Use time-lag analysis after a frozen perturbation to separate the target from confocal junction continuity; a single high-resolution image is insufficient even if its geometry seems convincing. An acellular or geometry-only comparator is retained whenever it can reproduce transport or sensor artifacts. Chapter 18 treats \"Electrical resistance versus permeability\" as a discrete boundary case for F002, rather than borrowing endpoint claims from the neighboring flagships.  REFUTATION. An immediate refutation test for electrical resistance versus permeability is whether electrode polarization or frequency drift misclassified as junction sealing can produce a seemingly favorable blank-corrected TEER. Deliberately create a boundary case that exposes extrapolation beyond calibrated units, without removing the physical reference, and allow a blinded investigator to choose between the proposed and rival accounts. If the candidate only changes the display while frequency-resolved electrical readout plus neutral tracer does not corroborate it, the functional claim fails at inception. Keep the full error bar and the strongest unfavorable local case beside every apparent gain. Chapter 18 treats \"Electrical resistance versus permeability\" as a discrete boundary case for F002, rather than borrowing endpoint claims from the neighboring flagships.   Junction-state model refusal | Convergence and inheritance MECHANISM. The narrowest inheritable proposition about junction-state model refusal is conditional: frequency-dependent ionic impedance, calcium-dependent junction state, and paracellular resistance may control blank-corrected TEER within the measured domain, provided independently recorded frequency-resolved electrical readout plus neutral tracer remains consistent. Preserve mechanisms that survive rival interventions and retire those that fail. The next research generation should inherit the question, not an obligation to agree with the first model. This conclusion cannot establish clinical efficacy, material certification or authorization to use an active system. The independent challenge is indexed as F002-C34-P6; raw and derived signals retain separate provenance.  MEASUREMENT. The evidence packet for junction-state model refusal should allow a stranger to regenerate the numerical surface and the physical pass/fail summary from separate inputs. Include units [ohm cm2], uncertainty by component, randomization seed, raw independent four-electrode impedance spectroscopy signals, and a traceable failure ledger. Predeclare an output file schema that links every datum to the originating specimen and to the independent stop decision. Reproducibility requires code, assumptions and calibration provenance; a figure without raw data is not a reusable result. The independent challenge is indexed as F002-C34-P6; raw and derived signals retain separate provenance.  REFUTATION. The long-term refutation obligation for junction-state model refusal is to ask what evidence would force retirement of the favorite explanation. At minimum, stop if TEER gains that disagree with blinded neutral-tracer transport, or a broken blank circuit; abandon mechanistic uniqueness if electrode polarization or frequency drift misclassified as junction sealing survives the strongest available challenge. The resulting gate should remain open to a later laboratory that improves measurement rather than merely increases the simulated effect size. The research remains prospective, nonclinical and unable to support claims of therapeutic benefit. The independent challenge is indexed as F002-C34-P6; raw and derived signals retain separate provenance.  Gate for future research. The next independent laboratory should challenge the most generous apparent result under a matched specimen and analysis budget, preserving the full set of failed samples. The experiment must suspend interpretation if TEER gains that disagree with blinded neutral-tracer transport, or a broken blank circuit. An external observer can conclude that the main theory is wrong while still producing a useful publishable negative result.   F003 | LIPID BILAYERS AND MOLECULAR TRANSPORT ACROSS BIOMIMETIC INTERFACES Research question. How can anisotropic molecular movement through lipid lamellae and aqueous interfaces be distinguished causally from compound absorption into chip polymer or nominal-area errors? The measured objective is molar solute flux J_s [mol m-2 s-1]; a physically external sorption-corrected concentration-versus-time transport balance must retain authority over the model. This objective is not a claim that the intervention has worked.  Lamellar orientation and anisotropic flux | Physical origin MECHANISM. The physical origin of lamellar orientation and anisotropic flux is a problem of anisotropic effective diffusion, chemical potential partitioning, and lamellar disorder, not a statement that a visually attractive layer functions. Begin with the conserved quantity or force balance, select the spatial boundary, and identify which internal state is physically observable. In F003, the admissible target is molar solute flux J_s [mol m-2 s-1], distinguished from all secondary optical and algorithmic proxies. The source of each state variable must be recorded separately; no synthetic 3D surface establishes an observed effect in living skin. Chapter 35 treats \"Lamellar orientation and anisotropic flux\" as a discrete boundary case for F003, rather than borrowing endpoint claims from the neighboring flagships.  MEASUREMENT. The measurement contract for lamellar orientation and anisotropic flux starts with sorption-corrected concentration-versus-time transport balance and an explicit unit for molar solute flux J_s. Record exposed area, specimen thickness, tracer or electrode source, time stamps and every attempted run before classifying successful devices. Use instrument-independent raw-signal reconstruction to separate the target from structural lipid order scattering; a single high-resolution image is insufficient even if its geometry seems convincing. An acellular or geometry-only comparator is retained whenever it can reproduce transport or sensor artifacts. Chapter 35 treats \"Lamellar orientation and anisotropic flux\" as a discrete boundary case for F003, rather than borrowing endpoint claims from the neighboring flagships.  REFUTATION. An immediate refutation test for lamellar orientation and anisotropic flux is whether compound absorption into chip polymer or nominal-area errors can produce a seemingly favorable molar solute flux J_s. Deliberately create a high-curvature field confined to one physical edge, without removing the physical reference, and allow a blinded investigator to choose between the proposed and rival accounts. If the candidate only changes the display while mass balance and directional diffusivity does not corroborate it, the functional claim fails at inception. Keep the full error bar and the strongest unfavorable local case beside every apparent gain. Chapter 35 treats \"Lamellar orientation and anisotropic flux\" as a discrete boundary case for F003, rather than borrowing endpoint claims from the neighboring flagships.   Interlaboratory lamellar reconstruction | Convergence and inheritance MECHANISM. The narrowest inheritable proposition about interlaboratory lamellar reconstruction is conditional: anisotropic effective diffusion, chemical potential partitioning, and lamellar disorder may control molar solute flux J_s within the measured domain, provided independently recorded mass balance and directional diffusivity remains consistent. Preserve mechanisms that survive rival interventions and retire those that fail. The next research generation should inherit the question, not an obligation to agree with the first model. This conclusion cannot establish clinical efficacy, material certification or authorization to use an active system. The independent challenge is indexed as F003-C50-P6; raw and derived signals retain separate provenance.  MEASUREMENT. The evidence packet for interlaboratory lamellar reconstruction should allow a stranger to regenerate the numerical surface and the physical pass/fail summary from separate inputs. Include units [mol m-2 s-1], uncertainty by component, randomization seed, raw two-chamber calibrated tracer mass spectrometry signals, and a traceable failure ledger. Predeclare an output file schema that links every datum to the originating specimen and to the independent stop decision. Reproducibility requires code, assumptions and calibration provenance; a figure without raw data is not a reusable result. The independent challenge is indexed as F003-C50-P6; raw and derived signals retain separate provenance.  REFUTATION. The long-term refutation obligation for interlaboratory lamellar reconstruction is to ask what evidence would force retirement of the favorite explanation. At minimum, stop if nonclosure of incoming and outgoing tracer inventories or exposure outside the declared material domain; abandon mechanistic uniqueness if compound absorption into chip polymer or nominal-area errors survives the strongest available challenge. The resulting gate should remain open to a later laboratory that improves measurement rather than merely increases the simulated effect size. The research remains prospective, nonclinical and unable to support claims of therapeutic benefit. The independent challenge is indexed as F003-C50-P6; raw and derived signals retain separate provenance.  Gate for future research. The next independent laboratory should challenge the most generous apparent result under a matched specimen and analysis budget, preserving the full set of failed samples. The experiment must suspend interpretation if nonclosure of incoming and outgoing tracer inventories or exposure outside the declared material domain. An external observer can conclude that the main theory is wrong while still producing a useful publishable negative result.   F004 | 3D HETEROGENEITY AND DEFECT PROPAGATION IN BIOLOGICAL BARRIERS Research question. How can three-dimensional barrier defects, percolation, and crack-front migration be distinguished causally from optical segmentation drift, swelling, or stage registration mistaken for crack advance? The measured objective is defect-front speed v_d [um h-1]; a physically external registered volumetric imaging and independent leak-front map must retain authority over the model. This objective is not a claim that the intervention has worked.  Subsurface void nucleation | Physical origin MECHANISM. The physical origin of subsurface void nucleation is a problem of spatial pore connectivity, fracture-energy heterogeneity, and local crack growth, not a statement that a visually attractive layer functions. Begin with the conserved quantity or force balance, select the spatial boundary, and identify which internal state is physically observable. In F004, the admissible target is defect-front speed v_d [um h-1], distinguished from all secondary optical and algorithmic proxies. The source of each state variable must be recorded separately; no synthetic 3D surface establishes an observed effect in living skin. Chapter 51 treats \"Subsurface void nucleation\" as a discrete boundary case for F004, rather than borrowing endpoint claims from the neighboring flagships.  MEASUREMENT. The measurement contract for subsurface void nucleation starts with registered volumetric imaging and independent leak-front map and an explicit unit for defect-front speed v_d. Record exposed area, specimen thickness, tracer or electrode source, time stamps and every attempted run before classifying successful devices. Use reference swapping between instruments to separate the target from gravimetric leak throughput; a single high-resolution image is insufficient even if its geometry seems convincing. An acellular or geometry-only comparator is retained whenever it can reproduce transport or sensor artifacts. Chapter 51 treats \"Subsurface void nucleation\" as a discrete boundary case for F004, rather than borrowing endpoint claims from the neighboring flagships.  REFUTATION. An immediate refutation test for subsurface void nucleation is whether optical segmentation drift, swelling, or stage registration mistaken for crack advance can produce a seemingly favorable defect-front speed v_d. Deliberately create a boundary case near the lower thickness specification, without removing the physical reference, and allow a blinded investigator to choose between the proposed and rival accounts. If the candidate only changes the display while front displacement and three-dimensional leak continuity does not corroborate it, the functional claim fails at inception. Keep the full error bar and the strongest unfavorable local case beside every apparent gain. Chapter 51 treats \"Subsurface void nucleation\" as a discrete boundary case for F004, rather than borrowing endpoint claims from the neighboring flagships.   Anisotropic fracture driving forces | Counterfactual branching MECHANISM. The counterfactual branch of anisotropic fracture driving forces deliberately supposes that optical segmentation drift, swelling, or stage registration mistaken for crack advance. Under that rival, the observed defect-front speed v_d can improve while the intended defect network topology and fatigue-assisted fracture remains unchanged. A strong scientific mechanism must therefore make at least one additional prediction that differs from the rival after aperture, batch, dose and instrument baselines are matched. The rival is testable only if it predicts an observable difference using a witness independent of the design pipeline. The independent challenge is indexed as F004-C59-P3; raw and derived signals retain separate provenance.  MEASUREMENT. Build an identifiability challenge around anisotropic fracture driving forces by holding the physical specimen fixed while introducing a thick specimen whose geometry compresses during mounting. Observe whether blinded volumetric optical coherence imaging and gravimetric leak throughput disagree, and estimate timing jitter, cross-channel covariance and batch spread separately. A model can only claim identification if the candidate mechanism is distinguishable from an independently parameterized optical segmentation drift, swelling, or stage registration mistaken for crack advance countermodel. Correlated outputs from one acquisition stream count as one witness, not several independent confirmations. The independent challenge is indexed as F004-C59-P3; raw and derived signals retain separate provenance.  REFUTATION. The principal counterexample for anisotropic fracture driving forces is a rig where optical segmentation drift, swelling, or stage registration mistaken for crack advance predicts the same observation despite absence of the intended mechanism. Separate that possibility by a third-party parameter-frozen transfer, and insist on a genuinely external witness. If both models remain observationally equivalent within uncertainty, the outcome is nonidentifiability, not proof that the hidden mechanism has been discovered. Null findings are publishable when the independent reference is intact and the stop rule is honored. The independent challenge is indexed as F004-C59-P3; raw and derived signals retain separate provenance.   Phase-field model blind transfer | Convergence and inheritance MECHANISM. The narrowest inheritable proposition about phase-field model blind transfer is conditional: spatial pore connectivity, fracture-energy heterogeneity, and local crack growth may control defect-front speed v_d within the measured domain, provided independently recorded front displacement and three-dimensional leak continuity remains consistent. Preserve mechanisms that survive rival interventions and retire those that fail. The next research generation should inherit the question, not an obligation to agree with the first model. This conclusion cannot establish clinical efficacy, material certification or authorization to use an active system. The independent challenge is indexed as F004-C66-P6; raw and derived signals retain separate provenance.  MEASUREMENT. The evidence packet for phase-field model blind transfer should allow a stranger to regenerate the numerical surface and the physical pass/fail summary from separate inputs. Include units [um h-1], uncertainty by component, randomization seed, raw blinded volumetric optical coherence imaging signals, and a traceable failure ledger. Predeclare an output file schema that links every datum to the originating specimen and to the independent stop decision. Reproducibility requires code, assumptions and calibration provenance; a figure without raw data is not a reusable result. The independent challenge is indexed as F004-C66-P6; raw and derived signals retain separate provenance.  REFUTATION. The long-term refutation obligation for phase-field model blind transfer is to ask what evidence would force retirement of the favorite explanation. At minimum, stop if an unbounded fracture, concealed specimen rupture, or strain beyond the independent containment threshold; abandon mechanistic uniqueness if optical segmentation drift, swelling, or stage registration mistaken for crack advance survives the strongest available challenge. The resulting gate should remain open to a later laboratory that improves measurement rather than merely increases the simulated effect size. The research remains prospective, nonclinical and unable to support claims of therapeutic benefit. The independent challenge is indexed as F004-C66-P6; raw and derived signals retain separate provenance.  Gate for future research. The next independent laboratory should challenge the most generous apparent result under a matched specimen and analysis budget, preserving the full set of failed samples. The experiment must suspend interpretation if an unbounded fracture, concealed specimen rupture, or strain beyond the independent containment threshold. An external observer can conclude that the main theory is wrong while still producing a useful publishable negative result.   F005 | MULTISCALE FUNCTIONAL VALIDATION OF BIOLOGICAL BARRIER INTEGRITY Research question. How can independent reconstruction of biological barrier integrity across spatial and temporal scales be distinguished causally from correlated sensor errors or exclusion rules that manufacture agreement? The measured objective is preregistered cross-assay concordance C [percent]; a physically external independent tracer, TEER and imaging reconciliation must retain authority over the model. This objective is not a claim that the intervention has worked.  What counts as an independent witness | Physical origin MECHANISM. The physical origin of what counts as an independent witness is a problem of reference-chain covariance, multiscale inverse problems, and witness discordance, not a statement that a visually attractive layer functions. Begin with the conserved quantity or force balance, select the spatial boundary, and identify which internal state is physically observable. In F005, the admissible target is preregistered cross-assay concordance C [percent], distinguished from all secondary optical and algorithmic proxies. The source of each state variable must be recorded separately; no synthetic 3D surface establishes an observed effect in living skin. Chapter 67 treats \"What counts as an independent witness\" as a discrete boundary case for F005, rather than borrowing endpoint claims from the neighboring flagships.  MEASUREMENT. The measurement contract for what counts as an independent witness starts with independent tracer, TEER and imaging reconciliation and an explicit unit for preregistered cross-assay concordance C. Record exposed area, specimen thickness, tracer or electrode source, time stamps and every attempted run before classifying successful devices. Use repeat measurements at the convex hull of the design space to separate the target from full attempt denominator; a single high-resolution image is insufficient even if its geometry seems convincing. An acellular or geometry-only comparator is retained whenever it can reproduce transport or sensor artifacts. Chapter 67 treats \"What counts as an independent witness\" as a discrete boundary case for F005, rather than borrowing endpoint claims from the neighboring flagships.  REFUTATION. An immediate refutation test for what counts as an independent witness is whether correlated sensor errors or exclusion rules that manufacture agreement can produce a seemingly favorable preregistered cross-assay concordance C. Deliberately create a delayed response due entirely to a sampling clock mismatch, without removing the physical reference, and allow a blinded investigator to choose between the proposed and rival accounts. If the candidate only changes the display while separately calibrated permeability, resistance, and structure does not corroborate it, the functional claim fails at inception. Keep the full error bar and the strongest unfavorable local case beside every apparent gain. Chapter 67 treats \"What counts as an independent witness\" as a discrete boundary case for F005, rather than borrowing endpoint claims from the neighboring flagships.   Evidence convergence without overclaim | Convergence and inheritance MECHANISM. The narrowest inheritable proposition about evidence convergence without overclaim is conditional: reference-chain covariance, multiscale inverse problems, and witness discordance may control preregistered cross-assay concordance C within the measured domain, provided independently recorded separately calibrated permeability, resistance, and structure remains consistent. Preserve mechanisms that survive rival interventions and retire those that fail. The next research generation should inherit the question, not an obligation to agree with the first model. This conclusion cannot establish clinical efficacy, material certification or authorization to use an active system. The independent challenge is indexed as F005-C82-P6; raw and derived signals retain separate provenance.  MEASUREMENT. The evidence packet for evidence convergence without overclaim should allow a stranger to regenerate the numerical surface and the physical pass/fail summary from separate inputs. Include units [percent], uncertainty by component, randomization seed, raw blinded independent metrology laboratory signals, and a traceable failure ledger. Predeclare an output file schema that links every datum to the originating specimen and to the independent stop decision. Reproducibility requires code, assumptions and calibration provenance; a figure without raw data is not a reusable result. The independent challenge is indexed as F005-C82-P6; raw and derived signals retain separate provenance.  REFUTATION. The long-term refutation obligation for evidence convergence without overclaim is to ask what evidence would force retirement of the favorite explanation. At minimum, stop if reference discordance beyond the frozen tolerance or an unreported failed specimen; abandon mechanistic uniqueness if correlated sensor errors or exclusion rules that manufacture agreement survives the strongest available challenge. The resulting gate should remain open to a later laboratory that improves measurement rather than merely increases the simulated effect size. The research remains prospective, nonclinical and unable to support claims of therapeutic benefit. The independent challenge is indexed as F005-C82-P6; raw and derived signals retain separate provenance.  Gate for future research. The next independent laboratory should challenge the most generous apparent result under a matched specimen and analysis budget, preserving the full set of failed samples. The experiment must suspend interpretation if reference discordance beyond the frozen tolerance or an unreported failed specimen. An external observer can conclude that the main theory is wrong while still producing a useful publishable negative result.   INTERFACES AND FINAL INHERITANCE  F001 transmits physically normalized selective-permeability references to F002, without equating chemical permeance with ionic resistance. F002 returns frequency-resolved electrical information to F003, but lipid transport remains governed by measured solute partitions and anisotropic diffusion. F003 supplies layer-specific transport hypotheses to F004, whose three-dimensional defects are to be independently mapped with structural imaging and leak throughput. F004 sends failure topology and denominator records to F005, which compares methods without forcing unlike units into one performance score. The family therefore forms a scientific chain of possible contradictions, not a circular chain of self-confirming figures.  Forty-two synthetic three-dimensional surfaces are attached to the research PDF as individually reconstructable 19-by-19 numerical grids. Their explicit coordinate bounds and generator script support computational repeatability; no biological outcome is established by plotting them. Thirty candidate formulas are dimensioned mathematical proposals, ranging from transport and impedance to geometry, fracture mechanics and uncertainty. The proposed 200 Research Gates offer origin questions, hostile counterfactual worlds, and future externally stopped experiments; 33 Phoenix sketches imagine devices that must first earn the right to operate through bench-level tests and independent oversight.  Literature and mother-source roles: https://doi.org/10.5281/zenodo.24431394 and https://doi.org/10.5281/zenodo.24431393 identify the author-provided source record and version family. Independent method context includes https://doi.org/10.1039/D3LC01027A, https://doi.org/10.1016/j.jid.2024.01.031, https://doi.org/10.1080/21688370.2024.2315702, https://doi.org/10.1039/D3LC00901G, https://doi.org/10.1063/5.0064529, and https://doi.org/10.1111/0272-4332.00024. None of these sources establishes a new STARLI experimental outcome.  CONCLUSION  The reason to keep a research gate open is not that the answer is waiting to be asserted. It is that a later scientist may be able to see through a false positive that the first investigators could not distinguish. Every instrument, model and prototype should remain accountable to physical reality and to a strong rival. When a barrier cannot be shown to recover a function, the right research outcome is a precise negative record and an explicit new question for the future. Let beauty have the ability to continue happening through research that remains open to correction.  Support STARLI Research Gates \u2615  If you find value in our open research, scientific explorations, and technological blueprints for the future, you are warmly invited to support our continued creative journey.  All our research publications remain freely accessible. Your voluntary contribution helps us open more research gates and cultivate new possibilities for future generations.  https://ko-fi.com/starli33  Let beauty have the ability to continue happening.  33 | STARLI \u00b7 White Rainbow Era",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24471579"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24471579"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24471579"
+        ]
+      },
+      "observation_ids": [
+        "obs-5acf60c434cdde6a602e"
+      ],
+      "record_id": "cbx-e148ea4fa6eb84ca",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "TPA-Flow: Physiological Tensor Interactions and Rectified-Flow Decoding for Remote Photoplethysmography",
       "evidence_state": "observed",
       "identifiers": {
@@ -92236,6 +93694,32 @@
       "record_type": "other",
       "sources": [
         "clinicaltrials"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Targeting protein degradation strategies in drug discovery: integrating PROTACs, ubiquitination biology, and AI-driven design",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1186/s43556-026-00649-4"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1186/s43556-026-00649-4"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W7237338820"
+        ]
+      },
+      "observation_ids": [
+        "obs-61a4ebb49b0bb2ed8b01"
+      ],
+      "record_id": "cbx-e4535e57ef339338",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
       ]
     },
     {
@@ -98232,6 +99716,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "Spectral bounds for Jacobi-preconditioned path Laplacians with applications to graph-based semi-supervised learning",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24471256"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24471256"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24471256"
+        ]
+      },
+      "observation_ids": [
+        "obs-a4755fda65b6e9034284"
+      ],
+      "record_id": "cbx-f2ed73f4e0cc1ac9",
+      "record_type": "other",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Field measurements and energy efficiency data of a Michell-Banki micro-hydropower prototype in an irrigation canal (La Parrilla, Colombia)",
       "evidence_state": "observed",
       "identifiers": {
@@ -99258,6 +100768,32 @@
       "record_type": "publication",
       "sources": [
         "openalex"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "The HEART Study (Healthy Eating and Recovery Together)",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT04552587"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT04552587"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT04552587"
+        ]
+      },
+      "observation_ids": [
+        "obs-3b605523f2acf7b8fe61"
+      ],
+      "record_id": "cbx-f64073ba45a6829b",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
       ]
     },
     {
@@ -100926,6 +102462,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "An N-of-1 longitudinal and multimodal physiological dataset from para-handcycling training and endurance competition",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.1038/s41597-026-08691-1"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.1038/s41597-026-08691-1"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "openalex:W7237662131"
+        ]
+      },
+      "observation_ids": [
+        "obs-cf5e6b5c804f606aff0b"
+      ],
+      "record_id": "cbx-f9f206e02039d361",
+      "record_type": "publication",
+      "sources": [
+        "openalex"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Trends in incidence and antimicrobial resistance for five major causes of bacteraemia in a Canadian metropolitan area, 2006-22: a genomic and antimicrobial use cohort study",
       "evidence_state": "observed",
       "identifiers": {
@@ -102238,6 +103800,32 @@
     },
     {
       "aliases": [],
+      "canonical_name": "5G-GOVSATCOM Field Trials dataset",
+      "evidence_state": "observed",
+      "identifiers": {
+        "doi": "10.5281/zenodo.24276922"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "doi",
+          "identifier_value": "10.5281/zenodo.24276922"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "zenodo:24276922"
+        ]
+      },
+      "observation_ids": [
+        "obs-083114feb44bff8f41f7"
+      ],
+      "record_id": "cbx-fd678c8014cd92ae",
+      "record_type": "dataset",
+      "sources": [
+        "zenodo"
+      ]
+    },
+    {
+      "aliases": [],
       "canonical_name": "Efficacy and Safety of Dapagliflozin in Preventing Atrial Fibrillation Recurrence After Catheter Ablation",
       "evidence_state": "observed",
       "identifiers": {
@@ -102707,6 +104295,32 @@
       "record_type": "publication",
       "sources": [
         "openalex"
+      ]
+    },
+    {
+      "aliases": [],
+      "canonical_name": "Pilot-Tart Cherry, Mitral Transcriptome, and POAF Incidence",
+      "evidence_state": "observed",
+      "identifiers": {
+        "nct": "NCT03793465"
+      },
+      "metadata": {
+        "identity_basis": {
+          "identifier_type": "nct",
+          "identifier_value": "NCT03793465"
+        },
+        "observation_count": 1,
+        "source_record_ids": [
+          "clinicaltrials:NCT03793465"
+        ]
+      },
+      "observation_ids": [
+        "obs-b94b255ee1dfad9b0582"
+      ],
+      "record_id": "cbx-fe8da6898b2b613c",
+      "record_type": "other",
+      "sources": [
+        "clinicaltrials"
       ]
     },
     {
