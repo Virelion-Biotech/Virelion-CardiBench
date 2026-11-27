@@ -1,43 +1,43 @@
 {
   "catalog_file": "catalog.json",
-  "catalog_generated_at": "2026-11-26T15:25:57.070247+00:00",
-  "catalog_sha256": "a54b6a8fbcabd45e9a1ef451c5c32c4d3d74b8eced0dad3e135c7272867523b9",
-  "release_id": "cardibench-intelligence-ab65b14175997a41c631",
+  "catalog_generated_at": "2026-11-27T15:13:12.569404+00:00",
+  "catalog_sha256": "b7f382ab0246ab183211514b1c410f900ad91e865d695994886991b264d3aae9",
+  "release_id": "cardibench-intelligence-d54e474da42c2a332bdc",
   "results_file": "results.json",
   "results_sha256": "45ee331622d074d492a5b67388cae4b05ed3fe9e71110ace66e220b28e5523ea",
   "schema_version": "1.0",
   "summary": {
     "catalog": {
       "by_evidence_state": {
-        "observed": 4156
+        "observed": 4220
       },
       "by_source": {
         "bioproject": 109,
-        "biorxiv": 242,
-        "clinicaltrials": 893,
+        "biorxiv": 244,
+        "clinicaltrials": 918,
         "crossref": 32,
-        "europepmc": 157,
-        "geo": 168,
+        "europepmc": 158,
+        "geo": 171,
         "github": 1,
-        "medrxiv": 266,
-        "openalex": 641,
-        "pubmed": 77,
-        "sra": 80,
-        "zenodo": 1538
+        "medrxiv": 270,
+        "openalex": 643,
+        "pubmed": 78,
+        "sra": 81,
+        "zenodo": 1563
       },
       "by_type": {
-        "dataset": 1098,
-        "other": 1671,
-        "publication": 1386,
+        "dataset": 1109,
+        "other": 1714,
+        "publication": 1396,
         "repository": 1
       },
       "links": 0,
-      "records": 4156,
+      "records": 4220,
       "records_with_cross_artifact_links": 0,
-      "records_with_strong_identifier": 4155,
-      "records_without_strong_identifier": 1
+      "records_with_strong_identifier": 4218,
+      "records_without_strong_identifier": 2
     },
-    "catalog_generated_at": "2026-11-26T15:25:57.070247+00:00",
+    "catalog_generated_at": "2026-11-27T15:13:12.569404+00:00",
     "results": {
       "benchmarks": 1,
       "comparability_groups": 1,
